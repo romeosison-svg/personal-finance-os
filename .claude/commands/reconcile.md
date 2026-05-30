@@ -5,9 +5,11 @@ Begin or continue Phase 2 (Reconcile) of the active monthly finance review.
 3. Read `reconcile.md` from that folder.
 4. Check the phase status. If it is already `Complete`, tell the user reconcile is locked and suggest running `/assumptions`.
 5. Set the phase status to `In Progress` if it was `Not Started`.
-6. Work through the reconcile file with the user:
-   - For each account identified in collect, ask for the statement closing balance.
-   - Ask for any payments made since the statement date.
+6. Check for statement files in `reviews/YYYY-MM/statements/`. If files are present, read them to extract balances and transactions directly rather than asking the user to type figures in. Supported formats: PDF statements, CSV exports, screenshots.
+7. Work through the reconcile file with the user:
+   - For each account identified in collect: if a statement file exists, read it and extract the closing balance, statement date, and any payments. Present what you found and ask the user to confirm or correct.
+   - If no statement file exists for an account, ask the user to provide the figures manually.
+   - Ask for any payments made since the statement date (not captured in the file).
    - Calculate the current outstanding balance (statement balance minus payments since statement).
    - Ask about any pending reimbursements and match them to statement periods.
    - Ask the user to confirm all scheduled direct debits.
