@@ -1,0 +1,411 @@
+# Monthly Review Template
+
+Copy this structure into a new folder under `/reviews/YYYY-MM/` when starting a new monthly review.
+
+Create six files from the phase templates below:
+- `collect.md`
+- `reconcile.md`
+- `assumptions.md`
+- `position.md`
+- `plan.md`
+- `strategy.md`
+
+---
+
+## Phase Status Dashboard
+
+Copy this table into each phase file header and update as phases complete.
+
+| Phase       | Status      | Completed  |
+| ----------- | ----------- | ---------- |
+| Collect     | Not Started |            |
+| Reconcile   | Not Started |            |
+| Assumptions | Not Started |            |
+| Position    | Not Started |            |
+| Plan        | Not Started |            |
+| Strategy    | Not Started |            |
+
+---
+
+---
+
+## collect.md Template
+
+```markdown
+# Collect — [Month] [Year]
+
+## Phase Status
+
+| Phase       | Status      | Completed  |
+| ----------- | ----------- | ---------- |
+| Collect     | In Progress |            |
+| Reconcile   | Not Started |            |
+| Assumptions | Not Started |            |
+| Position    | Not Started |            |
+| Plan        | Not Started |            |
+| Strategy    | Not Started |            |
+
+---
+
+## Input Checklist
+
+### Bank Accounts
+
+- [ ] Current account statement — [Bank Name]
+- [ ] Savings account statement — [Bank Name]
+- [ ] Joint account statement — [Bank Name]
+- [ ] Any other accounts
+
+### Credit Cards
+
+- [ ] Credit card statement — [Card Name]
+- [ ] Credit card statement — [Card Name]
+- [ ] Balance transfer card statement — [Card Name]
+
+### Other Inputs
+
+- [ ] Reimbursement spreadsheet (if applicable)
+- [ ] Upcoming direct debits list confirmed
+- [ ] Any known one-off payments this month
+- [ ] Any expected income beyond regular salary
+
+---
+
+## Notes
+
+<!-- Document anything unusual about inputs this month:
+     missing statements, delays, anomalies, items to chase -->
+
+---
+
+## Phase Lock
+
+Status: <!-- Not Started / In Progress / Complete / Blocked -->
+Completed: <!-- YYYY-MM-DD -->
+Locked by: <!-- Your name -->
+
+All inputs confirmed present. Proceeding to Reconcile.
+```
+
+---
+
+---
+
+## reconcile.md Template
+
+```markdown
+# Reconcile — [Month] [Year]
+
+> Requires: Collect complete
+
+## Phase Status
+
+| Phase       | Status      | Completed  |
+| ----------- | ----------- | ---------- |
+| Collect     | Complete    | YYYY-MM-DD |
+| Reconcile   | In Progress |            |
+| Assumptions | Not Started |            |
+| Position    | Not Started |            |
+| Plan        | Not Started |            |
+| Strategy    | Not Started |            |
+
+---
+
+## Account Balances (Statement Date: YYYY-MM-DD)
+
+| Account         | Statement Balance | Payments Since | Outstanding | Confirmed Balance |
+| --------------- | ----------------- | -------------- | ----------- | ----------------- |
+| Current Account | £                 | £              | £           | £                 |
+| Savings Account | £                 | £              | £           | £                 |
+| Credit Card 1   | £                 | £              | £           | £                 |
+| BT Card         | £                 | £              | £           | £                 |
+
+---
+
+## Reimbursements
+
+| Description | Amount | Statement Period | Status   |
+| ----------- | ------ | ---------------- | -------- |
+|             | £      |                  | Pending  |
+
+---
+
+## Scheduled Payments Confirmed
+
+| Payment         | Amount | Date       | Account  | Confirmed |
+| --------------- | ------ | ---------- | -------- | --------- |
+| Mortgage        | £      | YYYY-MM-DD |          | [ ]       |
+| Council Tax     | £      | YYYY-MM-DD |          | [ ]       |
+
+---
+
+## Discrepancies
+
+<!-- Note any amounts that don't reconcile, items to investigate, or unresolved items -->
+
+---
+
+## Phase Lock
+
+Status: <!-- Not Started / In Progress / Complete / Blocked -->
+Completed: <!-- YYYY-MM-DD -->
+
+Financial facts locked. No further changes to balances without documented reason.
+```
+
+---
+
+---
+
+## assumptions.md Template
+
+```markdown
+# Assumptions — [Month] [Year]
+
+> Requires: Reconcile complete
+
+## Phase Status
+
+| Phase       | Status      | Completed  |
+| ----------- | ----------- | ---------- |
+| Collect     | Complete    | YYYY-MM-DD |
+| Reconcile   | Complete    | YYYY-MM-DD |
+| Assumptions | In Progress |            |
+| Position    | Not Started |            |
+| Plan        | Not Started |            |
+| Strategy    | Not Started |            |
+
+---
+
+## Planning Assumptions — This Month
+
+Review each assumption against [finance-profile.md](/docs/finance-profile.md).
+Confirm or override for this month.
+
+| Assumption              | Profile Value | This Month Value | Override? | Reason      |
+| ----------------------- | ------------- | ---------------- | --------- | ----------- |
+| Minimum cash buffer     | £             | £                | No        |             |
+| Preferred cash buffer   | £             | £                | No        |             |
+| Mortgage split method   |               |                  | No        |             |
+| Bill split method       |               |                  | No        |             |
+| BT monthly target       | £             | £                | No        |             |
+| Emergency fund contrib. | £             | £                | No        |             |
+
+---
+
+## One-Time Overrides
+
+<!-- Document any assumptions changed for this month only -->
+
+---
+
+## Phase Lock
+
+Status: <!-- Not Started / In Progress / Complete / Blocked -->
+Completed: <!-- YYYY-MM-DD -->
+
+Planning assumptions locked for this review.
+```
+
+---
+
+---
+
+## position.md Template
+
+```markdown
+# Position — [Month] [Year]
+
+> Requires: Reconcile + Assumptions complete
+
+## Phase Status
+
+| Phase       | Status      | Completed  |
+| ----------- | ----------- | ---------- |
+| Collect     | Complete    | YYYY-MM-DD |
+| Reconcile   | Complete    | YYYY-MM-DD |
+| Assumptions | Complete    | YYYY-MM-DD |
+| Position    | In Progress |            |
+| Plan        | Not Started |            |
+| Strategy    | Not Started |            |
+
+---
+
+## Current Financial Position (as of YYYY-MM-DD)
+
+### Cash
+
+| Account         | Balance |
+| --------------- | ------- |
+| Current Account | £       |
+| Savings Account | £       |
+| **Total Cash**  | **£**   |
+
+### Credit
+
+| Account       | Balance Owed | Limit | Available |
+| ------------- | ------------ | ----- | --------- |
+| Credit Card 1 | £            | £     | £         |
+| BT Card       | £            | £     | £         |
+| **Total Owed**| **£**        |       |           |
+
+### Net Position
+
+| Item                      | Amount |
+| ------------------------- | ------ |
+| Total cash                | £      |
+| Less: minimum buffer      | £      |
+| Less: known liabilities   | £      |
+| **Available for planning**| **£**  |
+
+---
+
+## Known Upcoming Liabilities
+
+| Item          | Amount | Due Date   | Account  |
+| ------------- | ------ | ---------- | -------- |
+|               | £      | YYYY-MM-DD |          |
+
+---
+
+## Phase Lock
+
+Status: <!-- Not Started / In Progress / Complete / Blocked -->
+Completed: <!-- YYYY-MM-DD -->
+
+Financial position locked. Available for planning: £[amount]
+```
+
+---
+
+---
+
+## plan.md Template
+
+```markdown
+# Plan — [Month] [Year]
+
+> Requires: Position complete
+
+## Phase Status
+
+| Phase       | Status      | Completed  |
+| ----------- | ----------- | ---------- |
+| Collect     | Complete    | YYYY-MM-DD |
+| Reconcile   | Complete    | YYYY-MM-DD |
+| Assumptions | Complete    | YYYY-MM-DD |
+| Position    | Complete    | YYYY-MM-DD |
+| Plan        | In Progress |            |
+| Strategy    | Not Started |            |
+
+---
+
+## Available Funds
+
+Available for planning (from position.md): £
+
+---
+
+## Payment Allocations
+
+| Allocation                  | Amount | Account From | Due Date   | Priority |
+| --------------------------- | ------ | ------------ | ---------- | -------- |
+| Mortgage                    | £      |              | YYYY-MM-DD | 1        |
+| Bills (split per assumptions)| £     |              |            | 1        |
+| Credit card minimum         | £      |              | YYYY-MM-DD | 1        |
+| BT repayment                | £      |              | YYYY-MM-DD | 2        |
+| Emergency fund contribution | £      |              |            | 3        |
+| Credit card full balance    | £      |              |            | 4        |
+| **Total Allocated**         | **£**  |              |            |          |
+
+---
+
+## Reconciliation
+
+| Item                    | Amount |
+| ----------------------- | ------ |
+| Available for planning  | £      |
+| Less: total allocated   | £      |
+| **Remaining surplus**   | **£**  |
+
+---
+
+## Surplus Allocation
+
+<!-- How is any surplus allocated? Savings? Additional BT payment? Reserve? -->
+
+---
+
+## Phase Lock
+
+Status: <!-- Not Started / In Progress / Complete / Blocked -->
+Completed: <!-- YYYY-MM-DD -->
+Approved: <!-- Yes / No — confirm plan is approved before locking -->
+```
+
+---
+
+---
+
+## strategy.md Template
+
+```markdown
+# Strategy — [Month] [Year]
+
+> Requires: Plan complete
+
+## Phase Status
+
+| Phase       | Status      | Completed  |
+| ----------- | ----------- | ---------- |
+| Collect     | Complete    | YYYY-MM-DD |
+| Reconcile   | Complete    | YYYY-MM-DD |
+| Assumptions | Complete    | YYYY-MM-DD |
+| Position    | Complete    | YYYY-MM-DD |
+| Plan        | Complete    | YYYY-MM-DD |
+| Strategy    | In Progress |            |
+
+---
+
+## Open Strategic Items
+
+<!-- List any ongoing strategic questions under review -->
+
+### [Item Title]
+
+Status: Open / Decided / Deferred  
+Decision: <!-- if decided -->  
+Reasoning: <!-- why this decision was made -->  
+Next review: <!-- when to revisit -->
+
+---
+
+## Decisions Made This Month
+
+| Decision    | Outcome     | Reasoning   | Effective Date |
+| ----------- | ----------- | ----------- | -------------- |
+|             |             |             |                |
+
+---
+
+## Items Deferred
+
+| Item        | Reason Deferred | Next Review |
+| ----------- | --------------- | ----------- |
+|             |                 |             |
+
+---
+
+## Finance Profile Updates
+
+<!-- Note any changes to finance-profile.md made as a result of this review -->
+
+---
+
+## Phase Lock
+
+Status: <!-- Not Started / In Progress / Complete / Blocked -->
+Completed: <!-- YYYY-MM-DD -->
+
+Monthly review complete.
+```

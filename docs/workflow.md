@@ -1,0 +1,208 @@
+# Workflow Reference
+
+Process commands for the Personal Finance Assembly Line.
+
+These are conceptual commands — process instructions, not executable scripts. They describe what to do at each stage of a monthly review.
+
+---
+
+## Command Reference
+
+---
+
+### `finance start`
+
+**What it means:**  
+Begin a new monthly review.
+
+**Process:**
+1. Create a new folder under `/reviews/` named `YYYY-MM` (e.g. `reviews/2026-07`)
+2. Create the six phase files: `collect.md`, `reconcile.md`, `assumptions.md`, `position.md`, `plan.md`, `strategy.md`
+3. Copy the templates from `/docs/monthly-review-template.md`
+4. Set all phase statuses to `Not Started`
+5. Record the review start date
+
+**You are ready when:** The folder exists with six empty template files.
+
+---
+
+### `collect`
+
+**What it means:**  
+Begin Phase 1. Gather all financial inputs before any analysis.
+
+**Process:**
+1. Open `collect.md`
+2. Work through the input checklist
+3. Obtain or locate each item: bank statements, credit card statements, reimbursement records, current balances, known upcoming payments
+4. Mark each checklist item as obtained or note why it is unavailable
+5. Record any anomalies or items to chase
+6. When all available inputs are confirmed, set phase status to `Complete` and record the date
+7. Commit: `git commit -m "collect: phase 1 complete — YYYY-MM"`
+
+**Gate:** Do not open `reconcile.md` until collect is marked `Complete`.
+
+---
+
+### `reconcile`
+
+**What it means:**  
+Begin Phase 2. Establish verified financial facts from the collected inputs.
+
+**Requires:** `collect` complete.
+
+**Process:**
+1. Open `reconcile.md`
+2. For each account: record the statement closing balance
+3. Confirm any payments made since the statement date
+4. Calculate the current outstanding balance for each account
+5. Match reimbursements to their statement periods
+6. Confirm all direct debits already scheduled
+7. Document any discrepancies
+8. When all accounts are reconciled, set phase status to `Complete` and record the date
+9. Commit: `git commit -m "reconcile: phase 2 complete — YYYY-MM"`
+
+**Gate:** Do not open `assumptions.md` until reconcile is marked `Complete`.
+
+---
+
+### `assumptions`
+
+**What it means:**  
+Begin Phase 3. Confirm the planning rules for this month.
+
+**Requires:** `reconcile` complete.
+
+**Process:**
+1. Open `assumptions.md`
+2. Open `/docs/finance-profile.md`
+3. Review each persistent assumption
+4. Confirm it still applies this month, or document an override with reason
+5. Ensure all planning rules are explicitly stated for this review
+6. When all assumptions are confirmed or overridden, set phase status to `Complete` and record the date
+7. Commit: `git commit -m "assumptions: phase 3 complete — YYYY-MM"`
+
+**Gate:** Do not open `position.md` until assumptions is marked `Complete`.
+
+---
+
+### `position`
+
+**What it means:**  
+Begin Phase 4. Calculate and record the current financial position.
+
+**Requires:** `reconcile` and `assumptions` both complete.
+
+**Process:**
+1. Open `position.md`
+2. Using locked facts from `reconcile.md`, calculate:
+   - Total cash across all accounts
+   - Total credit card balances owed
+   - Total balance transfer balances owed
+   - Known upcoming liabilities
+   - Available funds (total cash minus required buffer minus known liabilities)
+3. Record the current financial position clearly
+4. When the position is fully calculated, set phase status to `Complete` and record the date
+5. Commit: `git commit -m "position: phase 4 complete — YYYY-MM"`
+
+**Gate:** Do not open `plan.md` until position is marked `Complete`.
+
+---
+
+### `plan`
+
+**What it means:**  
+Begin Phase 5. Generate the monthly payment plan.
+
+**Requires:** `position` complete.
+
+**Process:**
+1. Open `plan.md`
+2. Using the available funds figure from `position.md` and the locked assumptions from `assumptions.md`:
+   - Allocate mortgage payment (with split as defined in assumptions)
+   - Allocate bill payments (with split as defined in assumptions)
+   - Allocate minimum credit card payments
+   - Allocate BT repayments to hit monthly targets
+   - Allocate emergency fund contribution
+   - Allocate remaining credit card balance if funds allow
+3. Total all allocations
+4. Compare total allocations against available funds
+5. Confirm surplus or note shortfall and resolution
+6. Review and approve the plan
+7. Set phase status to `Complete` and record the date
+8. Commit: `git commit -m "plan: phase 5 complete — YYYY-MM"`
+
+**Gate:** Do not open `strategy.md` until plan is marked `Complete`.
+
+---
+
+### `strategy`
+
+**What it means:**  
+Begin Phase 6. Review long-term financial decisions.
+
+**Requires:** `plan` complete.
+
+**Process:**
+1. Open `strategy.md`
+2. Review any open strategic questions (vehicles, pensions, investments, business decisions)
+3. Assess alignment with long-term financial goals
+4. Record decisions made and reasoning
+5. Note items deferred and when to revisit them
+6. If any persistent assumptions should change, update `finance-profile.md` and commit the change separately
+7. Set phase status to `Complete` and record the date
+8. Commit: `git commit -m "strategy: phase 6 complete — YYYY-MM"`
+
+**The monthly review is now complete.**
+
+---
+
+### `status`
+
+**What it means:**  
+Check the current state of the active monthly review.
+
+**Process:**
+1. Open the current month's folder under `/reviews/`
+2. Check the phase status table in each phase file
+3. Identify the last completed phase
+4. Identify the current active phase
+5. Note any blocked phases and their blocking reasons
+
+**Quick check:** The phase status dashboard at the top of each phase file shows the current state of the entire review.
+
+---
+
+## Review Commit Convention
+
+Each phase completion should be committed with a consistent message format:
+
+```
+collect: phase 1 complete — 2026-07
+reconcile: phase 2 complete — 2026-07
+assumptions: phase 3 complete — 2026-07
+position: phase 4 complete — 2026-07
+plan: phase 5 complete — 2026-07
+strategy: phase 6 complete — 2026-07
+```
+
+This creates a clean, readable git history that serves as the audit trail for every monthly review.
+
+---
+
+## Blocking and Resuming
+
+If a phase is blocked (e.g., a bank statement has not arrived), set the phase status to `Blocked` and document the reason.
+
+Do not advance to the next phase while a phase is blocked.
+
+When the blocker is resolved, update the phase status and continue.
+
+---
+
+## Phase File Discipline
+
+- Open only the phase file for the active phase.
+- Do not write in future phase files until the preceding phase is locked.
+- The phase lock section at the bottom of each file must be completed before moving on.
+- Once a phase is locked, its facts and decisions are not revised without a documented reason.
