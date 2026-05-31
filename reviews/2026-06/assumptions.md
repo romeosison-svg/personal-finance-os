@@ -59,12 +59,12 @@ Total mortgage: £3,069.53 (added to Finance Profile this review)
 | Romeo contribution  | Calculate from income %              | **£1,752.70**    |           | Romeo's share — paid from Romeo's Halifax |
 | Kelly contribution  | Calculate from income %              | **£1,316.83**    |           | Kelly transfers to Romeo's Halifax before DD |
 
-**Override: Kelly mortgage contribution — cashflow timing**
-Reason: Kelly's Halifax has only £24.48. She cannot transfer her share (£1,316.83) to Romeo's Halifax before the mortgage DD, as her salary does not arrive until 24 June.
-Action required: Romeo covers the full mortgage (£3,069.53) from his own accounts this month. Kelly reimburses Romeo her share (£1,316.83) from her salary when it lands on 24 June.
-Normal value: Kelly transfers her proportional share to Romeo's Halifax before the DD date.
-Override value: Romeo covers full mortgage; Kelly reimburses on 24 June.
-Review: July 2026 — Kelly's salary in place; revert to normal mechanism.
+**Override: Kelly mortgage contribution — paid from savings**
+Reason: Kelly's Halifax has only £24.48 and her salary does not arrive until 24 June. Kelly will pay her share (£1,316.83) from personal savings rather than waiting for salary. Savings will be replenished from proceeds of Zoe (electric car) sale.
+Action: Kelly transfers £1,316.83 from savings to Romeo's Halifax before mortgage DD. Romeo transfers only his share (£1,752.70) from Lloyds to Halifax.
+Normal value: Kelly transfers proportional share from salary to Romeo's Halifax before DD date.
+Override value: Kelly pays from savings; replenishes from Zoe car sale proceeds.
+Review: July 2026 — Kelly's salary in place; revert to normal mechanism. Zoe sale proceeds to strategy phase.
 
 ---
 
@@ -135,8 +135,8 @@ Review: July 2026 — reassess once Kelly's salary is in place.
 | Override                              | Normal Value                      | June Value                        | Review Date |
 | ------------------------------------- | --------------------------------- | --------------------------------- | ----------- |
 | Kelly income — estimated              | Confirmed from payslip            | ~£3,500 est.                      | Jul 2026    |
-| Kelly mortgage contribution           | Kelly transfers share to Romeo's Halifax | Romeo covers full £3,069.53; Kelly reimburses £1,316.83 on 24 Jun | Jul 2026 |
-| Kelly bill DDs — cashflow timing      | Kelly self-funds from Halifax     | Romeo covers Kelly's pre-24 Jun DDs | Jul 2026 |
+| Kelly mortgage contribution           | Kelly transfers share from salary | Kelly pays £1,316.83 from savings; replenishes from Zoe car sale | Jul 2026 |
+| Kelly bill DDs                        | Kelly self-funds from Halifax     | Kelly self-funds from savings     | Jul 2026    |
 | Emergency fund contribution           | Variable                          | £0                                | Jul 2026    |
 
 ---
