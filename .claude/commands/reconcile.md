@@ -5,7 +5,10 @@ Begin or continue Phase 2 (Reconcile) of the active monthly finance review.
 3. Read `reconcile.md` from that folder.
 4. Check the phase status. If it is already `Complete`, tell the user reconcile is locked and suggest running `/assumptions`.
 5. Set the phase status to `In Progress` if it was `Not Started`.
-6. Check for statement files in `reviews/YYYY-MM/statements/`. If files are present, read them to extract balances and transactions directly rather than asking the user to type figures in. Supported formats: PDF statements, CSV exports, screenshots.
+6. Locate statement files using this priority order:
+   a. Local: check `reviews/YYYY-MM/statements/` for files.
+   b. Google Drive: if local is empty, use the Google Drive MCP to list and read files from folder ID `1D_U5sNk52firQcWsD6K1QBfmcsTCJxP0` (Finance OS / Statements).
+   If files are found in either location, read them to extract balances and transactions directly. Supported formats: PDF statements, CSV exports, screenshots.
 7. Work through the reconcile file with the user:
    - For each account identified in collect: if a statement file exists, read it and extract the closing balance, statement date, and any payments. Present what you found and ask the user to confirm or correct.
    - If no statement file exists for an account, ask the user to provide the figures manually.
