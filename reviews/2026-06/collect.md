@@ -4,7 +4,7 @@
 
 | Phase       | Status      | Completed  |
 | ----------- | ----------- | ---------- |
-| Collect     | Not Started |            |
+| Collect     | Complete    | 2026-05-31 |
 | Reconcile   | Not Started |            |
 | Assumptions | Not Started |            |
 | Position    | Not Started |            |
@@ -17,47 +17,65 @@
 
 ### Bank Accounts
 
-- [ ] Current account statement — [Bank Name]
-- [ ] Savings account statement — [Bank Name]
-- [ ] Joint account statement — [Bank Name]
-- [ ] Any other accounts
+- [x] Starling current account — obtained (Google Drive)
+- [x] Halifax current account — obtained (Google Drive)
+- [x] Romeo — Lloyds current account — obtained (Google Drive)
+- [x] Savings account — not applicable
 
 ### Credit Cards — Romeo
 
-- [ ] Amex statement — Romeo
-- [ ] Barclaycard statement — Romeo
-- [ ] Halifax statement — Romeo
+- [x] Amex — obtained (Google Drive: `2026-05-15.pdf`)
+- [x] Barclaycard — obtained (Google Drive)
+- [x] Halifax CC — obtained (Google Drive: `preview.pdf`)
 
 ### Credit Cards — Kelly
 
-- [ ] Amex statement — Kelly
-- [ ] Halifax statement — Kelly
+- [x] Amex — obtained (Google Drive)
+- [x] Halifax CC — obtained (Google Drive)
 
 ### Balance Transfer Cards
 
-- [ ] MBNA statement (BT card 1) — verify promotional expiry date and current balance
-- [ ] M&S Bank statement (BT card 2) — verify promotional expiry date and current balance
+- [x] MBNA — obtained (Google Drive: `Mbna May 2026.pdf`)
+- [x] M&S Bank — obtained (Google Drive: `2026-05-15_Statement.pdf`)
 
 ### Other Inputs
 
-- [ ] Reimbursement spreadsheet (if applicable)
-- [ ] Upcoming direct debits list confirmed
-- [ ] Any known one-off payments this month
-- [ ] Any expected income beyond regular salary
+- [x] Reimbursement spreadsheet — not applicable this month
+- [x] Upcoming direct debits — confirmed via statements
+- [x] Known one-off payments — none this month
 
 ---
 
 ## Notes
 
-<!-- Document anything unusual about inputs this month:
-     missing statements, delays, anomalies, items to chase -->
+### Kelly credit cards — June 2026
+
+Kelly will fund both her credit cards (Amex and Halifax CC) from her personal savings this month.
+
+These cards are **excluded from household cashflow planning** for June 2026. Romeo does not need to cover them.
+
+---
+
+### Kelly salary timing — June 2026
+
+Kelly will not receive her salary at the normal time this month due to a recent job change.
+
+Next salary payment: **24 June 2026**
+
+Implications flagged for downstream phases:
+
+- **Assumptions:** Proportional income split should still use Kelly's full monthly income figure, but note the timing delay.
+- **Position:** Available cash before 24 June is limited to Romeo's income and existing balances only.
+- **Plan:** All payments due before 24 June must be funded from Romeo's income and existing cash. Cashflow sequencing must be checked against payment due dates.
+
+This is a temporary one-month timing issue, not an income reduction. Document as an override in the Assumptions phase.
 
 ---
 
 ## Phase Lock
 
-Status: Not Started
-Completed: <!-- YYYY-MM-DD -->
-Locked by: <!-- Your name -->
+Status: Complete
+Completed: 2026-05-31
+Locked by: Romeo
 
 All inputs confirmed present. Proceeding to Reconcile.
