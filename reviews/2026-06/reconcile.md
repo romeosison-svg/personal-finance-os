@@ -36,12 +36,12 @@ Statement date: 31 May 2026 (all accounts)
 | -------------- | -------------- | ----------------------- | ------------------------ | ----------------- | ----------- | ----------- |
 | Amex           | 15 May 2026    | £730.79 + £537.01 Plan It = £1,267.80 | £0         | £1,267.80         | £138.10     | 9 Jun 2026  |
 | Barclaycard    | 18 May 2026    | £2,215.04               | £0                       | £2,215.04         | £105.52     | 12 Jun 2026 |
-| Halifax CC     | 03 May 2026    | £253.60                 | £14.36 paid 31 May       | ~£239.24          | Cleared     | —           |
+| Halifax CC     | 03 May 2026    | £253.60                 | £253.60 paid 05 May (from Romeo's Halifax current) + £14.36 paid 31 May | ~£0 | N/A | — |
 
 **Notes:**
 - Romeo Amex is a shared card. Kelly holds a supplementary card. Balance includes Kelly's spend (£270.68) and Romeo's spend (£637.31) for the statement period.
 - Barclaycard is accruing interest at 28% APR compound plus a £20/month membership fee. Flag for strategy phase.
-- Halifax CC minimum payment was overdue. £14.36 paid 31 May — minimum obligation cleared.
+- Halifax CC: full statement balance (£253.60) was paid on 5 May via Romeo's Halifax current account (HALIFAX CLARITY CR). £14.36 paid 31 May covers only post-statement spend. Balance is effectively ~£0.
 
 ---
 
@@ -76,6 +76,28 @@ Excluded from household cashflow planning per collect phase notes. Recorded here
 | Virgin Money | £65.00    | Kelly Halifax  | Unknown  | Unknown      | Not in Finance Profile — needs adding |
 
 **Flag:** Kelly has a Virgin Money BT card paying £65/month DD from her Halifax. Balance and promotional expiry date are not available from the statements reviewed. Finance Profile should be updated to include this card.
+
+---
+
+## Romeo's Halifax Current Account (Mortgage Passthrough)
+
+Sort Code 11-00-01, Account Number 39283769. Statement: 01–31 May 2026.
+
+This is a dedicated passthrough account used solely to receive mortgage contributions and pay the mortgage DD plus Romeo's Halifax CC. It opens and closes near-zero each month.
+
+| Date   | Transaction              | In        | Out        | Balance    |
+| ------ | ------------------------ | --------- | ---------- | ---------- |
+| 01 May | Opening balance          |           |            | £2.95      |
+| 05 May | K SISON (Kelly transfer) | £1,372.00 |            | £1,374.95  |
+| 05 May | R SISON TFR (from Lloyds)| £1,950.60 |            | £3,325.55  |
+| 05 May | HALIFAX CLARITY CR (CC)  |           | £253.60    | £3,071.95  |
+| 11 May | HALIFAX DD (mortgage)    |           | £3,069.53  | £2.42      |
+| 31 May | Closing balance          |           |            | £2.42      |
+
+**May mortgage split (actuals):**
+- Kelly: £1,372.00 (44.7%)
+- Romeo: £1,697.53 (£1,950.60 transfer − £253.60 CC payment = 55.3%)
+- Total: £3,069.53 ✓
 
 ---
 
@@ -132,6 +154,7 @@ None this month.
 | 4 | Romeo Amex — Plan It | £537.01 instalment balance on top of £730.79 statement balance | Full obligation is £1,267.80, plan accordingly |
 | 5 | Barclaycard — interest + fee | 28% APR compound + £20/month membership fee | Strategic concern — flag for strategy phase |
 | 6 | Kelly salary timing | Not received until 24 June | All pre-24 June payments from Romeo's Lloyds and existing cash only |
+| 7 | SANTANDERCARDS LTD DD £1,372 (Kelly Halifax) | Identified as Kelly's mortgage contribution in collect/assumptions — but this was an FPI to Romeo's Halifax, not a Santander DD. The £1,372 Santander-labeled DD on Kelly's statement is unidentified. | Clarify in next review — possible Santander credit card not in Finance Profile |
 
 ---
 
@@ -143,8 +166,9 @@ Completed: 2026-05-31
 Financial facts locked. No further changes to balances without documented reason.
 
 **Confirmed position:**
-- Total cash: £4,800.11 (Romeo Lloyds £5,064.89 + Kelly Halifax £24.48 − Starling −£289.26)
-- Total credit card debt (Romeo, household): £3,722.08
+- Total cash: £4,802.53 (Romeo Lloyds £5,064.89 + Romeo Halifax current £2.42 + Kelly Halifax £24.48 − Starling −£289.26)
+- Total credit card debt (Romeo, household): £3,482.84 (Amex £1,267.80 + Barclaycard £2,215.04 + Halifax CC ~£0)
 - Total BT debt (Romeo): £13,489.53
 - Kelly's cards: excluded from household planning, self-funded
 - Romeo's net salary confirmed: £4,654.89
+- Romeo's Halifax CC: effectively cleared (full balance paid 5 May, ~£0 remaining)
