@@ -18,8 +18,9 @@
 ### Bank Accounts
 
 - [x] Starling current account — obtained (Google Drive)
-- [x] Halifax current account — obtained (Google Drive)
+- [x] Halifax current account (Kelly) — obtained (Google Drive)
 - [x] Romeo — Lloyds current account — obtained (Google Drive)
+- [ ] Romeo — Halifax current account — **missing** (identified during assumptions phase; mortgage DD paid from this account — add to future reviews)
 - [x] Savings account — not applicable
 
 ### Credit Cards — Romeo

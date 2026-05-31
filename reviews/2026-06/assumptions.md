@@ -50,19 +50,21 @@ Review: Confirm actual net from June payslip and recalculate proportions if mate
 
 Total mortgage: £3,069.53 (added to Finance Profile this review)
 
+**Mechanism:** The full mortgage DD is paid from Romeo's Halifax current account. Kelly transfers her proportional share to Romeo's Halifax each month to fund it. This account was not collected as a statement this review — add to collect checklist for future reviews.
+
 | Assumption          | Profile Value                        | This Month Value | Override? | Reason |
 | ------------------- | ------------------------------------ | ---------------- | --------- | ------ |
 | Total mortgage      | £3,069.53                            | £3,069.53        | No        |        |
 | Split methodology   | Proportional to net household income | 57.1% / 42.9%   | No        |        |
-| Romeo contribution  | Calculate from income %              | **£1,752.70**    |           | Paid from Lloyds current account |
-| Kelly contribution  | Calculate from income %              | **£1,316.83**    |           | Paid via Santander DD from Halifax |
+| Romeo contribution  | Calculate from income %              | **£1,752.70**    |           | Romeo's share — paid from Romeo's Halifax |
+| Kelly contribution  | Calculate from income %              | **£1,316.83**    |           | Kelly transfers to Romeo's Halifax before DD |
 
-**Override: Kelly mortgage funding — cashflow timing**
-Reason: Kelly's Halifax has only £24.48. Mortgage DD (~£1,317) falls around 1 June, before Kelly's salary on 24 June.
-Action required: Romeo to transfer £1,316.83 to Kelly's Halifax before mortgage DD date to prevent failed payment.
-Normal value: Kelly funds her share from her own salary.
-Override value: Romeo pre-funds Kelly's mortgage share this month only.
-Review: July 2026 — Kelly's salary should be in place; revert to normal.
+**Override: Kelly mortgage contribution — cashflow timing**
+Reason: Kelly's Halifax has only £24.48. She cannot transfer her share (£1,316.83) to Romeo's Halifax before the mortgage DD, as her salary does not arrive until 24 June.
+Action required: Romeo covers the full mortgage (£3,069.53) from his own accounts this month. Kelly reimburses Romeo her share (£1,316.83) from her salary when it lands on 24 June.
+Normal value: Kelly transfers her proportional share to Romeo's Halifax before the DD date.
+Override value: Romeo covers full mortgage; Kelly reimburses on 24 June.
+Review: July 2026 — Kelly's salary in place; revert to normal mechanism.
 
 ---
 
@@ -130,12 +132,12 @@ Review: July 2026 — reassess once Kelly's salary is in place.
 
 ## One-Time Overrides Summary
 
-| Override                            | Normal Value              | June Value   | Review Date |
-| ----------------------------------- | ------------------------- | ------------ | ----------- |
-| Kelly income — estimated            | Confirmed from payslip    | ~£3,500 est. | Jul 2026    |
-| Kelly mortgage funding — Romeo covers | Kelly self-funds        | Romeo pre-funds £1,316.83 | Jul 2026 |
-| Kelly bill DDs — Romeo pre-funds    | Kelly self-funds          | Romeo covers pre-24 Jun DDs | Jul 2026 |
-| Emergency fund contribution         | Variable                  | £0           | Jul 2026    |
+| Override                              | Normal Value                      | June Value                        | Review Date |
+| ------------------------------------- | --------------------------------- | --------------------------------- | ----------- |
+| Kelly income — estimated              | Confirmed from payslip            | ~£3,500 est.                      | Jul 2026    |
+| Kelly mortgage contribution           | Kelly transfers share to Romeo's Halifax | Romeo covers full £3,069.53; Kelly reimburses £1,316.83 on 24 Jun | Jul 2026 |
+| Kelly bill DDs — cashflow timing      | Kelly self-funds from Halifax     | Romeo covers Kelly's pre-24 Jun DDs | Jul 2026 |
+| Emergency fund contribution           | Variable                          | £0                                | Jul 2026    |
 
 ---
 
@@ -148,8 +150,9 @@ Planning assumptions locked for June 2026.
 
 Key points:
 - Income proportions: Romeo 57.1% / Kelly 42.9% (Kelly income estimated)
-- Mortgage: £3,069.53 total — Romeo £1,752.70 / Kelly £1,316.83
-- Romeo to pre-fund Kelly's Halifax: £1,316.83 (mortgage) + pre-24 June bill DDs (~£140) = ~£1,457 transfer required urgently
+- Mortgage: £3,069.53 total — Romeo covers full amount this month; Kelly reimburses £1,316.83 on 24 June
+- Mortgage paid from Romeo's Halifax current account (not collected this review — add to future collect checklists)
+- Romeo also covers Kelly's pre-24 June bill DDs (~£140: Vitality Life ~£74.68, Virgin Money BT ~£65)
 - MBNA top-up: £123.73 | M&S top-up: £5.00
-- Kelly tithe: ~£350 (estimated)
+- Kelly tithe: ~£350 (estimated, confirm from payslip)
 - Emergency fund: £0 this month
