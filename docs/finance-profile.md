@@ -483,27 +483,24 @@ Where a known large expenditure is expected within the next 6 months:
 
 ## Tithe
 
-| Assumption        | Value             | Notes                                                  |
-| ----------------- | ----------------- | ------------------------------------------------------ |
-| Tithe methodology | 10% of net income | Calculated monthly using current net income            |
-| Allocation timing | Monthly           | Included as part of the monthly planning process       |
-| Override policy   | Permitted         | Must be documented using the standard override process |
+| Assumption        | Value                    | Notes                                                  |
+| ----------------- | ------------------------ | ------------------------------------------------------ |
+| Tithe contributor | Kelly only               | Romeo does not tithe                                   |
+| Tithe methodology | 10% of Kelly's net income | Calculated monthly using Kelly's current net income   |
+| Allocation timing | Monthly                  | Included as part of the monthly planning process       |
+| Override policy   | Permitted                | Must be documented using the standard override process |
 
 ### Tithe Methodology
 
-Tithe is calculated as 10% of net income received during the planning month.
+Tithe is calculated as 10% of Kelly's net income received during the planning month.
 
-Examples:
+Example:
 
-If net income = £5,118.56:
-
-* Tithe = £511.86
-
-If net income = £2,766.10:
+If Kelly net income = £2,766.10:
 
 * Tithe = £276.61
 
-Actual amounts should be recalculated during each monthly review using current income figures.
+Actual amounts should be recalculated during each monthly review using Kelly's current income figures.
 
 ### Priority
 

@@ -68,10 +68,9 @@ Confirm or override for this month.
 
 ### Tithe
 
-| Assumption         | Profile Value      | This Month Value | Override? | Reason |
-| ------------------ | ------------------ | ---------------- | --------- | ------ |
-| Romeo tithe (10%)  | 10% of net income  | £                | No        |        |
-| Kelly tithe (10%)  | 10% of net income  | £                | No        |        |
+| Assumption         | Profile Value             | This Month Value | Override? | Reason |
+| ------------------ | ------------------------- | ---------------- | --------- | ------ |
+| Kelly tithe (10%)  | 10% of Kelly's net income | £                | No        |        |
 
 ### Emergency Fund
 

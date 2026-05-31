@@ -43,7 +43,6 @@ Available for planning (from position.md): £
 | M&S top-up (above DD)         | £      |              |            |
 | Romeo Amex — full balance     | £      |              |            |
 | Kelly Amex — full balance     | £      |              |            |
-| Romeo tithe                   | £      |              |            |
 | Kelly tithe                   | £      |              |            |
 | **Tier 2 subtotal**           | **£**  |              |            |
 
