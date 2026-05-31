@@ -2,10 +2,10 @@
 
 The Finance Assembly Line is the core operating model of Personal Finance OS.
 
-Monthly reviews move through six sequential, gated phases. No phase may be skipped. Each phase produces a locked output that the next phase depends on.
+Monthly reviews move through seven sequential, gated phases. No phase may be skipped. Each phase produces a locked output that the next phase depends on.
 
 ```
-collect → reconcile → assumptions → position → plan → strategy
+collect → reconcile → assumptions → position → analyse → plan → strategy
 ```
 
 ---
@@ -17,7 +17,8 @@ Financial decisions made without verified facts are plans made from memory. Memo
 The Assembly Line enforces a discipline:
 
 - **Facts before analysis**
-- **Position before planning**
+- **Position before spending review**
+- **Spending review before planning**
 - **Planning before strategy**
 
 Each phase gate is a quality checkpoint.
@@ -149,7 +150,37 @@ The position describes the current state — it does not prescribe actions.
 
 ---
 
-### Phase 5 — Plan
+### Phase 5 — Analyse
+
+**Alias:** `analyse`
+
+**Purpose:**  
+Review credit card spending patterns from the current month's statements.
+
+**Inputs:**
+- Credit card statements from Phase 1 (collect)
+- Current Financial Position from Phase 4 (position) for context
+
+**Process:**
+- Read all credit card statement transactions (Romeo and Kelly's cards)
+- Categorise each transaction (groceries, dining, transport, subscriptions, health, entertainment, retail, etc.)
+- Total spend per category per card and combined household view
+- Flag notable items: high-spend categories, recurring subscriptions, one-off large items, anomalies
+- Note any patterns worth carrying into the plan or strategy phases
+
+**Output:**  
+Spending analysis report. Categorised transaction breakdown with household totals and flagged observations.
+
+**Gate condition:**  
+All credit card transactions categorised and totalled. Observations recorded. Phase status set to `Complete`.
+
+**What does NOT belong here:**  
+No payment allocations. No recommendations on what to spend less on.  
+This phase surfaces patterns and facts only — judgements and actions belong in plan and strategy.
+
+---
+
+### Phase 6 — Plan
 
 **Alias:** `plan`
 
@@ -158,6 +189,7 @@ Generate the next month's payment plan from the locked position and confirmed as
 
 **Inputs:**
 - Current Financial Position from Phase 4 (position)
+- Spending analysis from Phase 5 (analyse)
 - Locked assumptions from Phase 3 (assumptions)
 
 **Process:**
@@ -177,11 +209,11 @@ All allocations made. Total reconciled against available funds. Plan approved. P
 
 **What does NOT belong here:**  
 No vehicle finance decisions. No investment decisions.  
-Tactical month-to-month payments only. Strategic decisions belong in Phase 6.
+Tactical month-to-month payments only. Strategic decisions belong in Phase 7.
 
 ---
 
-### Phase 6 — Strategy
+### Phase 7 — Strategy
 
 **Alias:** `strategy`
 
@@ -190,7 +222,8 @@ Review and record long-term financial decisions.
 
 **Inputs:**
 - Current Financial Position from Phase 4 (position)
-- Approved Monthly Plan from Phase 5 (plan)
+- Spending analysis from Phase 5 (analyse)
+- Approved Monthly Plan from Phase 6 (plan)
 - Historical reviews (for trend context)
 
 **Process:**
@@ -233,7 +266,9 @@ Phase 3 (assumptions)   ← requires: Phase 2 complete
     ↓
 Phase 4 (position)      ← requires: Phases 2 + 3 complete
     ↓
-Phase 5 (plan)          ← requires: Phases 3 + 4 complete
+Phase 5 (analyse)       ← requires: Phase 4 complete
     ↓
-Phase 6 (strategy)      ← requires: Phases 4 + 5 complete
+Phase 6 (plan)          ← requires: Phases 3, 4 + 5 complete
+    ↓
+Phase 7 (strategy)      ← requires: Phases 4, 5 + 6 complete
 ```

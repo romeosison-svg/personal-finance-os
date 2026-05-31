@@ -2,11 +2,12 @@ Start a new monthly finance review.
 
 1. Ask the user: "Which month is this review for? (e.g. 2026-07)"
 2. Create the folder `reviews/YYYY-MM/` using the month they provide.
-3. Create six files in that folder by copying the phase templates from `docs/monthly-review-template.md`:
+3. Create seven files in that folder by copying the phase templates from `docs/monthly-review-template.md`:
    - `collect.md`
    - `reconcile.md`
    - `assumptions.md`
    - `position.md`
+   - `analyse.md`
    - `plan.md`
    - `strategy.md`
 4. Also create an empty `reviews/YYYY-MM/statements/` subfolder (create a `.gitkeep` file inside it so the folder exists but remains empty in git — the folder itself is gitignored so statement files dropped here will never be committed).

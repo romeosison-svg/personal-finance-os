@@ -280,12 +280,124 @@ Financial position locked. Available for planning: £[amount]
 
 ---
 
+## analyse.md Template
+
+```markdown
+# Analyse — [Month] [Year]
+
+> Requires: Position complete
+
+## Phase Status
+
+| Phase       | Status      | Completed  |
+| ----------- | ----------- | ---------- |
+| Collect     | Complete    | YYYY-MM-DD |
+| Reconcile   | Complete    | YYYY-MM-DD |
+| Assumptions | Complete    | YYYY-MM-DD |
+| Position    | Complete    | YYYY-MM-DD |
+| Analyse     | In Progress |            |
+| Plan        | Not Started |            |
+| Strategy    | Not Started |            |
+
+---
+
+## Credit Card Spending — [Month] [Year]
+
+### Romeo — Amex (statement period: DD MMM – DD MMM YYYY)
+
+| Category | Amount |
+| --- | --- |
+| Groceries | £ |
+| Dining & Restaurants | £ |
+| Coffee & Cafes | £ |
+| Takeaway & Fast Food | £ |
+| Transport & Travel | £ |
+| EV Charging | £ |
+| Entertainment & Events | £ |
+| Subscriptions & Streaming | £ |
+| Health & Medical | £ |
+| Sport & Fitness | £ |
+| Clothing & Retail | £ |
+| Household & Home | £ |
+| Business & Professional | £ |
+| Charity & Giving | £ |
+| Other | £ |
+| **Total** | **£** |
+
+### Romeo — Barclaycard
+
+<!-- same category table -->
+
+### Romeo — Halifax CC
+
+<!-- same category table -->
+
+### Kelly — Amex
+
+<!-- same category table -->
+
+### Kelly — Halifax CC
+
+<!-- same category table -->
+
+---
+
+## Household Combined
+
+| Category | Romeo Total | Kelly Total | Household Total |
+| --- | --- | --- | --- |
+| Groceries | £ | £ | £ |
+| Dining & Restaurants | £ | £ | £ |
+| Coffee & Cafes | £ | £ | £ |
+| Takeaway & Fast Food | £ | £ | £ |
+| Transport & Travel | £ | £ | £ |
+| EV Charging | £ | £ | £ |
+| Entertainment & Events | £ | £ | £ |
+| Subscriptions & Streaming | £ | £ | £ |
+| Health & Medical | £ | £ | £ |
+| Sport & Fitness | £ | £ | £ |
+| Clothing & Retail | £ | £ | £ |
+| Household & Home | £ | £ | £ |
+| Business & Professional | £ | £ | £ |
+| Charity & Giving | £ | £ | £ |
+| Other | £ | £ | £ |
+| **Total** | **£** | **£** | **£** |
+
+---
+
+## Subscriptions Identified
+
+| Subscription | Card | Monthly Cost |
+| --- | --- | --- |
+| | | £ |
+
+---
+
+## Notable Observations
+
+<!-- Highest spend categories, large single transactions, patterns worth noting.
+     Facts and patterns only — no recommendations. -->
+
+---
+
+## Phase Lock
+
+Status: <!-- Not Started / In Progress / Complete / Blocked -->
+Completed: <!-- YYYY-MM-DD -->
+
+Spending analysis locked.
+```
+
+---
+
+---
+
 ## plan.md Template
 
 ```markdown
 # Plan — [Month] [Year]
 
-> Requires: Position complete
+> Requires: Analyse complete
 
 ## Phase Status
 

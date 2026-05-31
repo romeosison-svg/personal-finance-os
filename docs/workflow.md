@@ -105,16 +105,37 @@ Begin Phase 4. Calculate and record the current financial position.
 4. When the position is fully calculated, set phase status to `Complete` and record the date
 5. Commit: `git commit -m "position: phase 4 complete — YYYY-MM"`
 
-**Gate:** Do not open `plan.md` until position is marked `Complete`.
+**Gate:** Do not open `analyse.md` until position is marked `Complete`.
+
+---
+
+### `analyse`
+
+**What it means:**  
+Begin Phase 5. Review credit card spending patterns from the month's statements.
+
+**Requires:** `position` complete.
+
+**Process:**
+1. Open `analyse.md`
+2. Read all credit card statements (Romeo and Kelly's cards) from the statements folder or Google Drive
+3. Categorise every transaction by type (groceries, dining, transport, subscriptions, health, entertainment, retail, etc.)
+4. Total spend per card and across the household combined
+5. Flag notable items: highest categories, recurring subscriptions, large one-off transactions
+6. Record observations only — no recommendations, no judgements
+7. Set phase status to `Complete` and record the date
+8. Commit: `git commit -m "analyse: phase 5 complete — YYYY-MM"`
+
+**Gate:** Do not open `plan.md` until analyse is marked `Complete`.
 
 ---
 
 ### `plan`
 
 **What it means:**  
-Begin Phase 5. Generate the monthly payment plan.
+Begin Phase 6. Generate the monthly payment plan.
 
-**Requires:** `position` complete.
+**Requires:** `analyse` complete.
 
 **Process:**
 1. Open `plan.md`
@@ -130,7 +151,7 @@ Begin Phase 5. Generate the monthly payment plan.
 5. Confirm surplus or note shortfall and resolution
 6. Review and approve the plan
 7. Set phase status to `Complete` and record the date
-8. Commit: `git commit -m "plan: phase 5 complete — YYYY-MM"`
+8. Commit: `git commit -m "plan: phase 6 complete — YYYY-MM"`
 
 **Gate:** Do not open `strategy.md` until plan is marked `Complete`.
 
@@ -139,7 +160,7 @@ Begin Phase 5. Generate the monthly payment plan.
 ### `strategy`
 
 **What it means:**  
-Begin Phase 6. Review long-term financial decisions.
+Begin Phase 7. Review long-term financial decisions.
 
 **Requires:** `plan` complete.
 
@@ -151,7 +172,7 @@ Begin Phase 6. Review long-term financial decisions.
 5. Note items deferred and when to revisit them
 6. If any persistent assumptions should change, update `finance-profile.md` and commit the change separately
 7. Set phase status to `Complete` and record the date
-8. Commit: `git commit -m "strategy: phase 6 complete — YYYY-MM"`
+8. Commit: `git commit -m "strategy: phase 7 complete — YYYY-MM"`
 
 **The monthly review is now complete.**
 
@@ -182,8 +203,9 @@ collect: phase 1 complete — 2026-07
 reconcile: phase 2 complete — 2026-07
 assumptions: phase 3 complete — 2026-07
 position: phase 4 complete — 2026-07
-plan: phase 5 complete — 2026-07
-strategy: phase 6 complete — 2026-07
+analyse: phase 5 complete — 2026-07
+plan: phase 6 complete — 2026-07
+strategy: phase 7 complete — 2026-07
 ```
 
 This creates a clean, readable git history that serves as the audit trail for every monthly review.
