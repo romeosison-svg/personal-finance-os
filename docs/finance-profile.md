@@ -168,9 +168,9 @@ a temporary override may be applied and documented in the monthly review.
 | BT card 1 balance                           | (update monthly)  | Update monthly during review                                        |
 | BT card 1 promotional end                   |(verify from latest statement)    | Based on 34-month promotional period from July 2025 account opening |
 | BT card 1 required payment to clear on time | (calculate monthly)  | Calculated monthly based on current balance and months remaining    |
-| BT card 1 operational target                | £349/month  | Current agreed repayment target                                     |
-| BT card 1 direct debit                      | ~£240/month | Automatically collected                                             |
-| BT card 1 top-up target                     | ~£109/month | Additional payment required to meet operational target              |
+| BT card 1 operational target                | £376/month  | Increased from £349 — required to clear balance by May 2028 expiry  |
+| BT card 1 direct debit                      | £225.27/month | Confirmed actual from May 2026 statement                          |
+| BT card 1 top-up target                     | ~£151/month | Additional payment required to meet operational target              |
 
 | Assumption                                  | Value                          | Notes                                                  |
 | ------------------------------------------- | ------------------------------ | ------------------------------------------------------ |
@@ -229,12 +229,41 @@ During each monthly review:
 
 ---
 
+## Vehicle Finance
+
+| Assumption | Value | Notes |
+| --- | --- | --- |
+| Vehicle | MG Urban Comfort | Kelly's vehicle |
+| Finance type | PCP | |
+| Monthly PCP payment | £300/month | Kelly's allocation |
+| Insurance | ~£50/month | Kelly's allocation |
+| **Total monthly commitment** | **£350/month** | From Kelly's salary |
+| PCP end date | (confirm when signed) | Add balloon payment when known |
+| Balloon payment | (confirm when signed) | |
+
+### Vehicle Finance Methodology
+
+Vehicle finance is Kelly's individual committed expense, funded from her salary.
+
+PCP end date and balloon payment must be reviewed 12 months before expiry to assess:
+- Voluntary termination eligibility
+- Part-exchange value vs balloon payment
+- PCP renewal vs PCH vs outright purchase
+
+### Monthly Review Checks
+
+- Confirm PCP payment collected
+- Confirm insurance collected
+- Flag if within 12 months of PCP end date
+
+---
+
 ## Credit Card Policy
 
 | Card Holder | Card Type   | Default Policy             | Notes                                                            |
 | ----------- | ----------- | -------------------------- | ---------------------------------------------------------------- |
 | Romeo       | Amex        | Pay in full                | Highest repayment priority after essential household obligations |
-| Romeo       | Barclaycard | Flexible                   | Payment determined during monthly planning phase                 |
+| Romeo       | Barclaycard | Clear and downgrade        | No new spend from June 2026. Clear aggressively. Downgrade to free card when balance reaches £0. |
 | Romeo       | Halifax     | Flexible                   | Payment determined during monthly planning phase                 |
 | Kelly       | Amex        | Pay in full where possible | Review monthly based on available cashflow                       |
 | Kelly       | Halifax     | Flexible                   | Payment determined during monthly planning phase                 |
