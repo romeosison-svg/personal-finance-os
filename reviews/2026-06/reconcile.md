@@ -154,7 +154,6 @@ None this month.
 | 4 | Romeo Amex — Plan It | £537.01 instalment balance on top of £730.79 statement balance | Full obligation is £1,267.80, plan accordingly |
 | 5 | Barclaycard — interest + fee | 28% APR compound + £20/month membership fee | Strategic concern — flag for strategy phase |
 | 6 | Kelly salary timing | Not received until 24 June | All pre-24 June payments from Romeo's Lloyds and existing cash only |
-| 7 | SANTANDERCARDS LTD DD £1,372 (Kelly Halifax) | Identified as Kelly's mortgage contribution in collect/assumptions — but this was an FPI to Romeo's Halifax, not a Santander DD. The £1,372 Santander-labeled DD on Kelly's statement is unidentified. | Clarify in next review — possible Santander credit card not in Finance Profile |
 
 ---
 
