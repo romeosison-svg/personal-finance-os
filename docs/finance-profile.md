@@ -73,6 +73,7 @@ During each monthly review:
 
 | Assumption           | Value                                | Notes                                                                     |
 | -------------------- | ------------------------------------ | ------------------------------------------------------------------------- |
+| Total mortgage       | £3,069.53                            | Full monthly mortgage payment                                             |
 | Split methodology    | Proportional to net household income | Recalculated each monthly review using current net monthly income figures |
 | Overpayment target   | £0                                   | Set if making regular overpayments                                        |
 | Fallback methodology | Manual override                      | Used only if proportional allocation is temporarily unsuitable            |

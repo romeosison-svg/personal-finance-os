@@ -1,95 +1,155 @@
 # Assumptions — June 2026
 
-> Requires: Reconcile complete
+> Requires: Reconcile complete ✓
 
 ## Phase Status
 
 | Phase       | Status      | Completed  |
 | ----------- | ----------- | ---------- |
-| Collect     | Not Started |            |
-| Reconcile   | Not Started |            |
-| Assumptions | Not Started |            |
+| Collect     | Complete    | 2026-05-31 |
+| Reconcile   | Complete    | 2026-05-31 |
+| Assumptions | Complete    | 2026-05-31 |
 | Position    | Not Started |            |
 | Plan        | Not Started |            |
 | Strategy    | Not Started |            |
 
 ---
 
-## Planning Assumptions — This Month
-
-Review each assumption against [finance-profile.md](/docs/finance-profile.md).
-Confirm or override for this month.
+## Planning Assumptions — June 2026
 
 ### Cash Buffers
 
 | Assumption             | Profile Value | This Month Value | Override? | Reason |
 | ---------------------- | ------------- | ---------------- | --------- | ------ |
-| Minimum cash buffer    | £500          | £                | No        |        |
-| Preferred cash buffer  | £1,000        | £                | No        |        |
-
-### Income (required for proportional calculations)
-
-| Person | Net Monthly Income | Source / Notes |
-| ------ | ------------------ | -------------- |
-| Romeo  | £                  |                |
-| Kelly  | £                  |                |
-| **Total household** | **£**  |                |
-| Romeo % | %                 | Romeo ÷ total  |
-| Kelly % | %                 | Kelly ÷ total  |
-
-### Mortgage
-
-| Assumption          | Profile Value                        | This Month Value | Override? | Reason |
-| ------------------- | ------------------------------------ | ---------------- | --------- | ------ |
-| Mortgage amount     | (confirm from statement)             | £                | No        |        |
-| Split methodology   | Proportional to net household income |                  | No        |        |
-| Romeo contribution  | (calculate from income %)            | £                |           |        |
-| Kelly contribution  | (calculate from income %)            | £                |           |        |
-
-### Bills
-
-| Assumption          | Profile Value                        | This Month Value | Override? | Reason |
-| ------------------- | ------------------------------------ | ---------------- | --------- | ------ |
-| Total household bills | (confirm from collect)             | £                | No        |        |
-| Split methodology   | Proportional to net household income |                  | No        |        |
-| Romeo contribution  | (calculate from income %)            | £                |           |        |
-| Kelly contribution  | (calculate from income %)            | £                |           |        |
-
-### Balance Transfers
-
-| Assumption                 | Profile Value | This Month Value | Override? | Reason |
-| -------------------------- | ------------- | ---------------- | --------- | ------ |
-| MBNA operational target    | £349/month    | £                | No        |        |
-| MBNA direct debit          | ~£240/month   | £                | No        |        |
-| MBNA manual top-up         | ~£109/month   | £                |           |        |
-| M&S operational target     | £195/month    | £                | No        |        |
-| M&S direct debit           | ~£190/month   | £                | No        |        |
-| M&S manual top-up          | ~£5/month     | £                |           |        |
-
-### Tithe
-
-| Assumption         | Profile Value             | This Month Value | Override? | Reason |
-| ------------------ | ------------------------- | ---------------- | --------- | ------ |
-| Kelly tithe (10%)  | 10% of Kelly's net income | £                | No        |        |
-
-### Emergency Fund
-
-| Assumption                   | Profile Value   | This Month Value | Override? | Reason |
-| ---------------------------- | --------------- | ---------------- | --------- | ------ |
-| Emergency fund contribution  | Variable        | £                |           |        |
-| Minimum operating level      | £5,000          | £5,000           | No        |        |
+| Minimum cash buffer    | £500          | £500             | No        |        |
+| Preferred cash buffer  | £1,000        | £1,000           | No        |        |
 
 ---
 
-## One-Time Overrides
+### Income
 
-<!-- Document any assumptions changed for this month only -->
+Kelly's income is estimated this month. Exact figure unconfirmed until 24 June payslip.
+
+| Person              | Net Monthly Income | Basis                  |
+| ------------------- | ------------------ | ---------------------- |
+| Romeo               | £4,654.89          | Confirmed — Lloyds statement 29 May |
+| Kelly               | ~£3,500.00         | Estimated — £56K gross annual, unconfirmed |
+| **Total household** | **~£8,154.89**     |                        |
+| Romeo %             | **57.1%**          | £4,654.89 ÷ £8,154.89  |
+| Kelly %             | **42.9%**          | £3,500.00 ÷ £8,154.89  |
+
+**Override: Kelly income is an estimate**
+Reason: Kelly started new job 18 May. First payslip due 24 June. Gross salary confirmed at £56K; net estimated at ~£3,500/month pending actual payslip.
+Normal value: Confirmed from payslip each month.
+Override value: ~£3,500 estimated.
+Review: Confirm actual net from June payslip and recalculate proportions if materially different.
+
+---
+
+### Mortgage
+
+Total mortgage: £3,069.53 (added to Finance Profile this review)
+
+| Assumption          | Profile Value                        | This Month Value | Override? | Reason |
+| ------------------- | ------------------------------------ | ---------------- | --------- | ------ |
+| Total mortgage      | £3,069.53                            | £3,069.53        | No        |        |
+| Split methodology   | Proportional to net household income | 57.1% / 42.9%   | No        |        |
+| Romeo contribution  | Calculate from income %              | **£1,752.70**    |           | Paid from Lloyds current account |
+| Kelly contribution  | Calculate from income %              | **£1,316.83**    |           | Paid via Santander DD from Halifax |
+
+**Override: Kelly mortgage funding — cashflow timing**
+Reason: Kelly's Halifax has only £24.48. Mortgage DD (~£1,317) falls around 1 June, before Kelly's salary on 24 June.
+Action required: Romeo to transfer £1,316.83 to Kelly's Halifax before mortgage DD date to prevent failed payment.
+Normal value: Kelly funds her share from her own salary.
+Override value: Romeo pre-funds Kelly's mortgage share this month only.
+Review: July 2026 — Kelly's salary should be in place; revert to normal.
+
+---
+
+### Bills
+
+Total household bills: ~£800/month. Each person pays their own bills from their respective accounts. Proportional methodology sets the target split; actual split follows account ownership.
+
+| Assumption            | Profile Value                        | This Month Value | Override? | Reason |
+| --------------------- | ------------------------------------ | ---------------- | --------- | ------ |
+| Total household bills | ~£800/month                          | ~£800            | No        |        |
+| Split methodology     | Proportional to net household income | 57.1% / 42.9%   | No        |        |
+| Romeo target share    | Calculate from income %              | ~£457            |           | Paid from Lloyds |
+| Kelly target share    | Calculate from income %              | ~£343            |           | Paid from Halifax |
+
+**Override: Kelly bill DDs — cashflow timing**
+Reason: Kelly's Halifax DDs (Vitality Life ~£74.68, Virgin Money BT ~£65) fall before her salary on 24 June. Halifax balance insufficient.
+Action required: Romeo to include Kelly's pre-24 June bill DDs in transfer to her Halifax.
+Review: July 2026 — revert to normal.
+
+---
+
+### Balance Transfers
+
+Actual MBNA DD (£225.27) is below the Finance Profile figure (~£240). Using confirmed actual DD figures from statements.
+
+| Assumption              | Profile Value | Confirmed Actual | This Month Value | Override? | Reason |
+| ----------------------- | ------------- | ---------------- | ---------------- | --------- | ------ |
+| MBNA operational target | £349/month    | —                | £349             | No        |        |
+| MBNA direct debit       | ~£240/month   | £225.27          | £225.27          | No        | Actual from statement |
+| MBNA manual top-up      | ~£109/month   | —                | **£123.73**      | No        | £349 − £225.27 |
+| M&S operational target  | £195/month    | —                | £195             | No        |        |
+| M&S direct debit        | ~£190/month   | £190.00          | £190.00          | No        | Actual from statement |
+| M&S manual top-up       | ~£5/month     | —                | **£5.00**        | No        |        |
+
+**Note:** Finance Profile DD figures (~£240 MBNA, ~£190 M&S) should be updated to reflect actual confirmed amounts. Will update Finance Profile after this review.
+
+---
+
+### Tithe
+
+| Assumption         | Profile Value              | This Month Value | Override? | Reason |
+| ------------------ | -------------------------- | ---------------- | --------- | ------ |
+| Kelly tithe (10%)  | 10% of Kelly's net income  | **~£350.00**     | No        | Based on estimated net of ~£3,500 |
+
+Note: Kelly tithe is estimated this month. Actual figure to be confirmed from June payslip.
+
+---
+
+### Emergency Fund
+
+Emergency fund is in rebuilding phase. Given cashflow constraints this month (Kelly salary timing, Romeo pre-funding Kelly's account), contribution is suspended for June.
+
+| Assumption                   | Profile Value | This Month Value | Override? | Reason |
+| ---------------------------- | ------------- | ---------------- | --------- | ------ |
+| Emergency fund contribution  | Variable      | **£0**           | Yes       | Cashflow constrained — Kelly salary timing, Romeo pre-funding Kelly's mortgage and bills |
+| Minimum operating level      | £5,000        | £5,000           | No        |        |
+
+**Override: Emergency fund contribution suspended June 2026**
+Reason: Romeo's Lloyds must cover his own obligations plus pre-fund Kelly's Halifax for mortgage and bill DDs. Insufficient discretionary capacity for emergency fund contribution this month.
+Normal value: Variable, assessed monthly.
+Override value: £0.
+Review: July 2026 — reassess once Kelly's salary is in place.
+
+---
+
+## One-Time Overrides Summary
+
+| Override                            | Normal Value              | June Value   | Review Date |
+| ----------------------------------- | ------------------------- | ------------ | ----------- |
+| Kelly income — estimated            | Confirmed from payslip    | ~£3,500 est. | Jul 2026    |
+| Kelly mortgage funding — Romeo covers | Kelly self-funds        | Romeo pre-funds £1,316.83 | Jul 2026 |
+| Kelly bill DDs — Romeo pre-funds    | Kelly self-funds          | Romeo covers pre-24 Jun DDs | Jul 2026 |
+| Emergency fund contribution         | Variable                  | £0           | Jul 2026    |
 
 ---
 
 ## Phase Lock
 
-Status: Not Started
-Completed: <!-- YYYY-MM-DD -->
+Status: Complete
+Completed: 2026-05-31
 
-Planning assumptions locked for this review.
+Planning assumptions locked for June 2026.
+
+Key points:
+- Income proportions: Romeo 57.1% / Kelly 42.9% (Kelly income estimated)
+- Mortgage: £3,069.53 total — Romeo £1,752.70 / Kelly £1,316.83
+- Romeo to pre-fund Kelly's Halifax: £1,316.83 (mortgage) + pre-24 June bill DDs (~£140) = ~£1,457 transfer required urgently
+- MBNA top-up: £123.73 | M&S top-up: £5.00
+- Kelly tithe: ~£350 (estimated)
+- Emergency fund: £0 this month
