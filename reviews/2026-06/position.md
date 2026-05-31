@@ -25,20 +25,31 @@
 | Savings Account | £       |
 | **Total Cash**  | **£**   |
 
-### Credit
+### Credit Cards
 
-| Account       | Balance Owed | Limit | Available |
-| ------------- | ------------ | ----- | --------- |
-| Credit Card 1 | £            | £     | £         |
-| BT Card       | £            | £     | £         |
-| **Total Owed**| **£**        |       |           |
+| Card                  | Holder | Balance Owed | Limit | Policy           |
+| --------------------- | ------ | ------------ | ----- | ---------------- |
+| Amex                  | Romeo  | £            | £     | Pay in full      |
+| Barclaycard           | Romeo  | £            | £     | Flexible         |
+| Halifax               | Romeo  | £            | £     | Flexible         |
+| Amex                  | Kelly  | £            | £     | Pay in full      |
+| Halifax               | Kelly  | £            | £     | Flexible         |
+| **Total owed**        |        | **£**        |       |                  |
+
+### Balance Transfers
+
+| Card     | Balance Owed | Promo Expiry | DD Amount | Top-Up Target | On Track? |
+| -------- | ------------ | ------------ | --------- | ------------- | --------- |
+| MBNA     | £            |              | £         | £109          |           |
+| M&S Bank | £            |              | £         | £5            |           |
+| **Total**| **£**        |              |           |               |           |
 
 ### Net Position
 
 | Item                      | Amount |
 | ------------------------- | ------ |
 | Total cash                | £      |
-| Less: minimum buffer      | £      |
+| Less: minimum buffer      | £500   |
 | Less: known liabilities   | £      |
 | **Available for planning**| **£**  |
 

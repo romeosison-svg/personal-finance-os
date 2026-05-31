@@ -22,11 +22,21 @@
 - [ ] Joint account statement — [Bank Name]
 - [ ] Any other accounts
 
-### Credit Cards
+### Credit Cards — Romeo
 
-- [ ] Credit card statement — [Card Name]
-- [ ] Credit card statement — [Card Name]
-- [ ] Balance transfer card statement — [Card Name]
+- [ ] Amex statement — Romeo
+- [ ] Barclaycard statement — Romeo
+- [ ] Halifax statement — Romeo
+
+### Credit Cards — Kelly
+
+- [ ] Amex statement — Kelly
+- [ ] Halifax statement — Kelly
+
+### Balance Transfer Cards
+
+- [ ] MBNA statement (BT card 1) — verify promotional expiry date and current balance
+- [ ] M&S Bank statement (BT card 2) — verify promotional expiry date and current balance
 
 ### Other Inputs
 

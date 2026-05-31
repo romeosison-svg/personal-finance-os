@@ -23,15 +23,55 @@ Available for planning (from position.md): £
 
 ## Payment Allocations
 
-| Allocation                   | Amount | Account From | Due Date   | Priority |
-| ---------------------------- | ------ | ------------ | ---------- | -------- |
-| Mortgage                     | £      |              | YYYY-MM-DD | 1        |
-| Bills (split per assumptions)| £      |              |            | 1        |
-| Credit card minimum          | £      |              | YYYY-MM-DD | 1        |
-| BT repayment                 | £      |              | YYYY-MM-DD | 2        |
-| Emergency fund contribution  | £      |              |            | 3        |
-| Credit card full balance     | £      |              |            | 4        |
-| **Total Allocated**          | **£**  |              |            |          |
+### Tier 1 — Non-Negotiable
+
+| Allocation                    | Amount | Account From | Due Date   |
+| ----------------------------- | ------ | ------------ | ---------- |
+| Mortgage — Romeo contribution | £      |              | YYYY-MM-DD |
+| Mortgage — Kelly contribution | £      |              | YYYY-MM-DD |
+| Household bills — Romeo share | £      |              |            |
+| Household bills — Kelly share | £      |              |            |
+| Minimum credit card payments  | £      |              |            |
+| Minimum cash buffer preserved | £      |              |            |
+| **Tier 1 subtotal**           | **£**  |              |            |
+
+### Tier 2 — Agreed Financial Commitments
+
+| Allocation                    | Amount | Account From | Due Date   |
+| ----------------------------- | ------ | ------------ | ---------- |
+| MBNA top-up (above DD)        | £      |              |            |
+| M&S top-up (above DD)         | £      |              |            |
+| Romeo Amex — full balance     | £      |              |            |
+| Kelly Amex — full balance     | £      |              |            |
+| Romeo tithe                   | £      |              |            |
+| Kelly tithe                   | £      |              |            |
+| **Tier 2 subtotal**           | **£**  |              |            |
+
+### Tier 3 — Financial Resilience
+
+| Allocation                    | Amount | Account From | Due Date   |
+| ----------------------------- | ------ | ------------ | ---------- |
+| Preferred buffer maintenance  | £      |              |            |
+| Emergency fund contribution   | £      |              |            |
+| **Tier 3 subtotal**           | **£**  |              |            |
+
+### Tier 4 — Financial Optimisation
+
+| Allocation                    | Amount | Account From | Due Date   |
+| ----------------------------- | ------ | ------------ | ---------- |
+| Accelerated BT repayments     | £      |              |            |
+| Additional debt overpayments  | £      |              |            |
+| **Tier 4 subtotal**           | **£**  |              |            |
+
+### Flexible Credit Cards (determined this phase)
+
+| Card                          | Payment  | Reason     |
+| ----------------------------- | -------- | ---------- |
+| Romeo — Barclaycard           | £        |            |
+| Romeo — Halifax               | £        |            |
+| Kelly — Halifax               | £        |            |
+
+| **Total Allocated**           | **£**    |            |
 
 ---
 
