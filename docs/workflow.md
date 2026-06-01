@@ -17,12 +17,13 @@ Begin a new monthly review.
 
 **Process:**
 1. Create a new folder under `/reviews/` named `YYYY-MM` (e.g. `reviews/2026-07`)
-2. Create the six phase files: `collect.md`, `reconcile.md`, `assumptions.md`, `position.md`, `plan.md`, `strategy.md`
-3. Copy the templates from `/docs/monthly-review-template.md`
-4. Set all phase statuses to `Not Started`
-5. Record the review start date
+2. Create the seven phase files: `collect.md`, `reconcile.md`, `assumptions.md`, `position.md`, `analyse.md`, `plan.md`, `strategy.md`
+3. Create two handoff artefact placeholders: `position-handoff.md`, `transactions.csv`
+4. Copy the templates from `/docs/monthly-review-template.md` and `templates/`
+5. Set all phase statuses to `Not Started`
+6. Record the review start date
 
-**You are ready when:** The folder exists with six empty template files.
+**You are ready when:** The folder exists with phase files and handoff placeholders.
 
 ---
 
@@ -105,16 +106,43 @@ Begin Phase 4. Calculate and record the current financial position.
 4. When the position is fully calculated, set phase status to `Complete` and record the date
 5. Commit: `git commit -m "position: phase 4 complete — YYYY-MM"`
 
-**Gate:** Do not open `analyse.md` until position is marked `Complete`.
+**Gate:** Do not begin handoff until position is marked `Complete`.
+
+---
+
+### `handoff`
+
+**What it means:**  
+Begin Phase 5. Export verified facts and transaction data for ChatGPT.
+
+This is the formal boundary between Claude's factual work and ChatGPT's judgement work. Handoff produces two artefacts. ChatGPT does not begin analyse until both are committed.
+
+**Requires:** `position` complete.
+
+**Process:**
+1. Open `position-handoff.md` (or create from `templates/position-handoff-template.md`)
+2. Populate all sections using verified data from `reconcile.md`, `assumptions.md`, and `position.md`
+3. Include only facts — no categorisation, no recommendations, no analysis
+4. Create `transactions.csv` (or use `templates/transactions-template.csv` as the header)
+5. Populate transaction rows from raw credit card statement data — merchant, amount, type only
+6. Do not categorise. Preserve raw merchant/description text.
+7. Review both files for completeness and accuracy
+8. Set phase status to `Complete` and record the date
+9. Commit: `git commit -m "handoff: phase 5 complete — YYYY-MM"`
+10. Provide to ChatGPT using the prompt in `templates/chatgpt-prompts.md`
+
+**Gate:** Do not give ChatGPT the analyse prompt until both handoff artefacts are committed.
 
 ---
 
 ### `analyse`
 
 **What it means:**  
-Begin Phase 5. Review credit card spending patterns from the month's statements.
+Begin Phase 6. Review credit card spending patterns from the month's statements.
 
-**Requires:** `position` complete.
+**Owner:** ChatGPT. Use the Phase 6 prompt from `templates/chatgpt-prompts.md`.
+
+**Requires:** `handoff` complete.
 
 **Process:**
 1. Open `analyse.md`
@@ -133,7 +161,9 @@ Begin Phase 5. Review credit card spending patterns from the month's statements.
 ### `plan`
 
 **What it means:**  
-Begin Phase 6. Generate the monthly payment plan.
+Begin Phase 7. Generate the monthly payment plan.
+
+**Owner:** ChatGPT. Use the Phase 7 prompt from `templates/chatgpt-prompts.md`.
 
 **Requires:** `analyse` complete.
 
@@ -160,7 +190,9 @@ Begin Phase 6. Generate the monthly payment plan.
 ### `strategy`
 
 **What it means:**  
-Begin Phase 7. Review long-term financial decisions.
+Begin Phase 8. Review long-term financial decisions.
+
+**Owner:** ChatGPT. Use the Phase 8 prompt from `templates/chatgpt-prompts.md`.
 
 **Requires:** `plan` complete.
 
@@ -203,9 +235,10 @@ collect: phase 1 complete — 2026-07
 reconcile: phase 2 complete — 2026-07
 assumptions: phase 3 complete — 2026-07
 position: phase 4 complete — 2026-07
-analyse: phase 5 complete — 2026-07
-plan: phase 6 complete — 2026-07
-strategy: phase 7 complete — 2026-07
+handoff: phase 5 complete — 2026-07
+analyse: phase 6 complete — 2026-07
+plan: phase 7 complete — 2026-07
+strategy: phase 8 complete — 2026-07
 ```
 
 This creates a clean, readable git history that serves as the audit trail for every monthly review.
