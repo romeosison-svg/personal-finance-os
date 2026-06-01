@@ -2,13 +2,18 @@
 
 Copy this structure into a new folder under `/reviews/YYYY-MM/` when starting a new monthly review.
 
-Create six files from the phase templates below:
+Create phase files:
 - `collect.md`
 - `reconcile.md`
 - `assumptions.md`
 - `position.md`
+- `analyse.md`
 - `plan.md`
 - `strategy.md`
+
+Create handoff artefacts (populated during the handoff phase):
+- `position-handoff.md` — from `templates/position-handoff-template.md`
+- `transactions.csv` — from `templates/transactions-template.csv`
 
 ---
 
@@ -16,14 +21,16 @@ Create six files from the phase templates below:
 
 Copy this table into each phase file header and update as phases complete.
 
-| Phase       | Status      | Completed  |
-| ----------- | ----------- | ---------- |
-| Collect     | Not Started |            |
-| Reconcile   | Not Started |            |
-| Assumptions | Not Started |            |
-| Position    | Not Started |            |
-| Plan        | Not Started |            |
-| Strategy    | Not Started |            |
+| Phase       | Owner       | Status      | Completed  |
+| ----------- | ----------- | ----------- | ---------- |
+| Collect     | Claude Code | Not Started |            |
+| Reconcile   | Claude Code | Not Started |            |
+| Assumptions | Claude Code | Not Started |            |
+| Position    | Claude Code | Not Started |            |
+| Handoff     | Claude Code | Not Started |            |
+| Analyse     | ChatGPT     | Not Started |            |
+| Plan        | ChatGPT     | Not Started |            |
+| Strategy    | ChatGPT     | Not Started |            |
 
 ---
 
@@ -42,6 +49,8 @@ Copy this table into each phase file header and update as phases complete.
 | Reconcile   | Not Started |            |
 | Assumptions | Not Started |            |
 | Position    | Not Started |            |
+| Handoff     | Not Started |            |
+| Analyse     | Not Started |            |
 | Plan        | Not Started |            |
 | Strategy    | Not Started |            |
 
@@ -106,6 +115,8 @@ All inputs confirmed present. Proceeding to Reconcile.
 | Reconcile   | In Progress |            |
 | Assumptions | Not Started |            |
 | Position    | Not Started |            |
+| Handoff     | Not Started |            |
+| Analyse     | Not Started |            |
 | Plan        | Not Started |            |
 | Strategy    | Not Started |            |
 
@@ -172,6 +183,8 @@ Financial facts locked. No further changes to balances without documented reason
 | Reconcile   | Complete    | YYYY-MM-DD |
 | Assumptions | In Progress |            |
 | Position    | Not Started |            |
+| Handoff     | Not Started |            |
+| Analyse     | Not Started |            |
 | Plan        | Not Started |            |
 | Strategy    | Not Started |            |
 
@@ -226,6 +239,8 @@ Planning assumptions locked for this review.
 | Reconcile   | Complete    | YYYY-MM-DD |
 | Assumptions | Complete    | YYYY-MM-DD |
 | Position    | In Progress |            |
+| Handoff     | Not Started |            |
+| Analyse     | Not Started |            |
 | Plan        | Not Started |            |
 | Strategy    | Not Started |            |
 
@@ -280,6 +295,22 @@ Financial position locked. Available for planning: £[amount]
 
 ---
 
+## position-handoff.md Template
+
+See `templates/position-handoff-template.md` for the full template.
+
+When creating a new review, copy that template to `reviews/YYYY-MM/position-handoff.md` and populate during the handoff phase.
+
+Artefacts required:
+- `reviews/YYYY-MM/position-handoff.md` — from `templates/position-handoff-template.md`
+- `reviews/YYYY-MM/transactions.csv` — from `templates/transactions-template.csv`
+
+Both files must be committed before ChatGPT begins analyse.
+
+---
+
+---
+
 ## analyse.md Template
 
 ```markdown
@@ -295,6 +326,7 @@ Financial position locked. Available for planning: £[amount]
 | Reconcile   | Complete    | YYYY-MM-DD |
 | Assumptions | Complete    | YYYY-MM-DD |
 | Position    | Complete    | YYYY-MM-DD |
+| Handoff     | Complete    | YYYY-MM-DD |
 | Analyse     | In Progress |            |
 | Plan        | Not Started |            |
 | Strategy    | Not Started |            |
@@ -407,6 +439,8 @@ Spending analysis locked.
 | Reconcile   | Complete    | YYYY-MM-DD |
 | Assumptions | Complete    | YYYY-MM-DD |
 | Position    | Complete    | YYYY-MM-DD |
+| Handoff     | Complete    | YYYY-MM-DD |
+| Analyse     | Complete    | YYYY-MM-DD |
 | Plan        | In Progress |            |
 | Strategy    | Not Started |            |
 
@@ -474,6 +508,8 @@ Approved: <!-- Yes / No — confirm plan is approved before locking -->
 | Reconcile   | Complete    | YYYY-MM-DD |
 | Assumptions | Complete    | YYYY-MM-DD |
 | Position    | Complete    | YYYY-MM-DD |
+| Handoff     | Complete    | YYYY-MM-DD |
+| Analyse     | Complete    | YYYY-MM-DD |
 | Plan        | Complete    | YYYY-MM-DD |
 | Strategy    | In Progress |            |
 

@@ -2,11 +2,35 @@
 
 The Finance Assembly Line is the core operating model of Personal Finance OS.
 
-Monthly reviews move through seven sequential, gated phases. No phase may be skipped. Each phase produces a locked output that the next phase depends on.
+Monthly reviews move through eight sequential, gated phases. No phase may be skipped. Each phase produces a locked output that the next phase depends on.
 
 ```
-collect → reconcile → assumptions → position → analyse → plan → strategy
+collect → reconcile → assumptions → position → handoff → analyse → plan → strategy
 ```
+
+---
+
+## Operating Model — Ownership
+
+**Claude Code** owns the factual phases. Claude's role is to produce trusted facts and compact handoff artefacts.
+
+| Phase | Owner | Role |
+| --- | --- | --- |
+| collect | Claude Code | Gather inputs |
+| reconcile | Claude Code | Verify and lock facts |
+| assumptions | Claude Code | Lock planning parameters |
+| position | Claude Code | Summarise verified position |
+| handoff | Claude Code | Export artefacts for ChatGPT |
+
+**ChatGPT** owns the judgement phases. ChatGPT's role is to interpret facts, analyse spending, produce the payment plan, and support strategic decisions.
+
+| Phase | Owner | Role |
+| --- | --- | --- |
+| analyse | ChatGPT | Categorise transactions, identify patterns |
+| plan | ChatGPT | Produce payment plan with exact amounts |
+| strategy | ChatGPT | Strategic recommendations and trade-offs |
+
+The **handoff** phase is the formal boundary. Claude passes verified facts to ChatGPT. ChatGPT does not receive raw statements — only the handoff artefacts.
 
 ---
 
@@ -17,7 +41,8 @@ Financial decisions made without verified facts are plans made from memory. Memo
 The Assembly Line enforces a discipline:
 
 - **Facts before analysis**
-- **Position before spending review**
+- **Position before handoff**
+- **Handoff before spending review**
 - **Spending review before planning**
 - **Planning before strategy**
 
@@ -150,16 +175,50 @@ The position describes the current state — it does not prescribe actions.
 
 ---
 
-### Phase 5 — Analyse
+### Phase 5 — Handoff
+
+**Alias:** `handoff`
+
+**Purpose:**  
+Export verified facts and transaction data for ChatGPT. This is the formal boundary between Claude's factual work and ChatGPT's judgement work.
+
+**Inputs:**
+- Locked facts from Phase 2 (reconcile)
+- Locked assumptions from Phase 3 (assumptions)
+- Locked position from Phase 4 (position)
+- Raw transaction data from credit card statements
+
+**Process:**
+- Populate `position-handoff.md` from the template using verified data only
+- Populate `transactions.csv` with raw transaction data — no categorisation
+- Review both artefacts for completeness and accuracy
+- Commit both files before providing to ChatGPT
+
+**Output:**
+- `position-handoff.md` — verified facts, locked assumptions, and framed questions for ChatGPT
+- `transactions.csv` — raw transaction data, factual only
+
+**Gate condition:**  
+Both artefacts committed and reviewed. Phase status set to `Complete`. ChatGPT does not begin analyse until both files are available.
+
+**What does NOT belong here:**  
+No spending categorisation. No payment recommendations. No strategic advice.  
+Handoff contains only facts. Judgement belongs to ChatGPT.
+
+---
+
+### Phase 6 — Analyse
 
 **Alias:** `analyse`
+
+**Owner:** ChatGPT
 
 **Purpose:**  
 Review credit card spending patterns from the current month's statements.
 
 **Inputs:**
-- Credit card statements from Phase 1 (collect)
-- Current Financial Position from Phase 4 (position) for context
+- `position-handoff.md` from Phase 5 (handoff)
+- `transactions.csv` from Phase 5 (handoff)
 
 **Process:**
 - Read all credit card statement transactions (Romeo and Kelly's cards)
@@ -180,16 +239,18 @@ This phase surfaces patterns and facts only — judgements and actions belong in
 
 ---
 
-### Phase 6 — Plan
+### Phase 7 — Plan
 
 **Alias:** `plan`
 
+**Owner:** ChatGPT
+
 **Purpose:**  
-Generate the next month's payment plan from the locked position and confirmed assumptions.
+Generate the month's payment plan from the locked position and confirmed assumptions.
 
 **Inputs:**
-- Current Financial Position from Phase 4 (position)
-- Spending analysis from Phase 5 (analyse)
+- `position-handoff.md` from Phase 5 (handoff)
+- Spending analysis from Phase 6 (analyse)
 - Locked assumptions from Phase 3 (assumptions)
 
 **Process:**
@@ -213,17 +274,19 @@ Tactical month-to-month payments only. Strategic decisions belong in Phase 7.
 
 ---
 
-### Phase 7 — Strategy
+### Phase 8 — Strategy
 
 **Alias:** `strategy`
+
+**Owner:** ChatGPT
 
 **Purpose:**  
 Review and record long-term financial decisions.
 
 **Inputs:**
-- Current Financial Position from Phase 4 (position)
-- Spending analysis from Phase 5 (analyse)
-- Approved Monthly Plan from Phase 6 (plan)
+- `position-handoff.md` from Phase 5 (handoff)
+- Spending analysis from Phase 6 (analyse)
+- Approved Monthly Plan from Phase 7 (plan)
 - Historical reviews (for trend context)
 
 **Process:**
@@ -266,9 +329,11 @@ Phase 3 (assumptions)   ← requires: Phase 2 complete
     ↓
 Phase 4 (position)      ← requires: Phases 2 + 3 complete
     ↓
-Phase 5 (analyse)       ← requires: Phase 4 complete
+Phase 5 (handoff)       ← requires: Phase 4 complete          [Claude Code → ChatGPT boundary]
     ↓
-Phase 6 (plan)          ← requires: Phases 3, 4 + 5 complete
+Phase 6 (analyse)       ← requires: Phase 5 complete
     ↓
-Phase 7 (strategy)      ← requires: Phases 4, 5 + 6 complete
+Phase 7 (plan)          ← requires: Phases 3, 5 + 6 complete
+    ↓
+Phase 8 (strategy)      ← requires: Phases 5, 6 + 7 complete
 ```

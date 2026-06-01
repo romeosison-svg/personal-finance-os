@@ -11,6 +11,7 @@ The following words are command aliases. When the user types one of these words 
 | `reconcile` | `.claude/commands/reconcile.md` |
 | `assumptions` | `.claude/commands/assumptions.md` |
 | `position` | `.claude/commands/position.md` |
+| `handoff` | `.claude/commands/handoff.md` |
 | `analyse` | `.claude/commands/analyse.md` |
 | `plan` | `.claude/commands/plan.md` |
 | `strategy` | `.claude/commands/strategy.md` |
