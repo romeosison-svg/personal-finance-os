@@ -1,7 +1,3 @@
-# Plan — June 2026
-
-> Requires: Position complete ✓
-
 ## Phase Status
 
 | Phase       | Status      | Completed  |
@@ -10,121 +6,114 @@
 | Reconcile   | Complete    | 2026-05-31 |
 | Assumptions | Complete    | 2026-05-31 |
 | Position    | Complete    | 2026-05-31 |
-| Plan        | Complete    | 2026-05-31 |
+| Analyse     | Complete    | 2026-06-01 |
+| Plan        | Complete    | 2026-06-01 |
 | Strategy    | Not Started |            |
 
 ---
 
-## Available Funds
+# FinanceOS Plan — 2026-06
 
-Effective planning cash (Romeo's Lloyds): **£5,064.89**
-Less preferred buffer: −£1,000.00
-Less Romeo's commitments: −£3,132.45 (mortgage Romeo's share £1,752.70 + DDs + minimums + top-ups)
-**Total available for plan decisions: £932.45**
+## 1. Planning basis
 
-Note: Kelly pays her mortgage share (£1,316.83) from personal savings directly. No reimbursement required from Romeo. Savings to be replenished from Zoe car sale proceeds.
+Use Romeo Lloyds as the planning account.
 
-Buffer: Lloyds stays above £1,931 before Barclaycard additional payment. No dip below preferred buffer. ✓
+Correction to handoff interpretation: Kelly's mortgage share was funded directly by Kelly from savings. Romeo did not need to front Kelly's £1,316.83 mortgage contribution and did not need to wait for a 24 June reimbursement to make the plan viable.
 
----
-
-## Payment Schedule
-
-### Pre-24 June — Romeo's Lloyds
-
-| Payment | Amount | From | Date | Type |
-| --- | --- | --- | --- | --- |
-| Mortgage — Romeo's share to Halifax | £1,752.70 | Lloyds | ~5 Jun | Manual transfer |
-| Kelly's mortgage share to Romeo's Halifax | £1,316.83 | Kelly savings | ~5 Jun | Kelly action |
-| M&S BT DD | £190.00 | Lloyds | 9 Jun | Auto DD |
-| Romeo Amex — full standard balance | £730.79 | Lloyds | 9 Jun | Manual |
-| Barclaycard — minimum payment | £105.52 | Lloyds | 12 Jun | Manual |
-| MBNA DD | £225.27 | Lloyds | 22 Jun | Auto DD |
-| MBNA manual top-up | £123.73 | Lloyds | Jun | Manual |
-| M&S manual top-up | £5.00 | Lloyds | Jun | Manual |
-| Barclaycard — above minimum | £931.88 | Lloyds | Post top-ups, Jun | Manual |
-| **Total (Romeo's Lloyds)** | **£4,064.89** | | | |
-
-### Lloyds Balance Trace
-
-| Date | Event | Balance |
-| --- | --- | --- |
-| 31 May | Opening | £5,064.89 |
-| ~5 Jun | Mortgage — Romeo's share only | £3,312.19 |
-| 9 Jun | M&S DD | £3,122.19 |
-| 9 Jun | Amex full balance | £2,391.40 |
-| 12 Jun | Barclaycard minimum | £2,285.88 |
-| 22 Jun | MBNA DD | £2,060.61 |
-| Jun | MBNA + M&S top-ups | £1,931.88 |
-| Jun | Barclaycard additional | £1,000.00 |
-
-Floor: **£1,931.88** (before Barclaycard additional). No dip below preferred buffer. ✓
+Therefore, this plan does not use a pre-24 June / post-24 June split.
 
 ---
 
-## Full Barclaycard Payment
+## 2. Payment plan
 
-| Component | Amount |
-| --- | --- |
-| Minimum (pre-24 Jun) | £105.52 |
-| Above minimum (post-24 Jun) | £931.88 |
-| **Total June payment** | **£1,037.40** |
-| Balance before | £2,215.04 |
-| **Estimated balance after** | **~£1,177.64** |
-
-At 28% APR, reducing the balance by £1,037.40 saves approximately **£290/year** in interest going forward.
-
----
-
-## Kelly's Allocations (Self-Funded from Savings / Salary 24 June)
-
-Not drawn from household planning cash. Recorded for completeness.
-
-| Payment | Amount | From | Date |
-| --- | --- | --- | --- |
-| Kelly Amex — minimum | £25.00 | Kelly savings | By 18 Jun |
-| Kelly Halifax CC — minimum | £5.00 | Kelly savings | By 1 Jun |
-| Kelly Vitality Life DD | £74.68 | Kelly Halifax | Auto |
-| Kelly Virgin Money BT DD | £65.00 | Kelly Halifax | Auto |
-| Kelly tithe (~10% net) | ~£350.00 | Kelly Halifax | After 24 Jun |
+| Priority | Payment | Amount | Classification |
+| ---: | --- | ---: | --- |
+| 1 | Mortgage, Romeo share to Halifax | £1,752.70 | Mandatory |
+| 2 | Romeo Amex | £730.79 | Pay-in-full, standard balance |
+| 3 | M&S BT direct debit | £190.00 | Mandatory / 0% BT |
+| 4 | Barclaycard minimum | £105.52 | Mandatory |
+| 5 | Barclaycard additional payment | £931.88 | Flexible / accelerated debt reduction |
+| 6 | MBNA direct debit | £225.27 | Mandatory / 0% BT |
+| 7 | MBNA manual top-up | £123.73 | 0% BT target top-up |
+| 8 | M&S manual top-up | £5.00 | 0% BT target top-up |
 
 ---
 
-## Reconciliation
+## 3. Balance transfer payments
 
-| Item | Amount |
-| --- | --- |
-| Effective planning cash (Lloyds) | £5,064.89 |
-| Less: mortgage — Romeo's share | −£1,752.70 |
-| Less: M&S DD | −£190.00 |
-| Less: Amex full balance | −£730.79 |
-| Less: Barclaycard total (min + additional) | −£1,037.40 |
-| Less: MBNA DD | −£225.27 |
-| Less: MBNA top-up | −£123.73 |
-| Less: M&S top-up | −£5.00 |
-| **End balance (Lloyds)** | **£1,000.00** |
-| Preferred buffer | £1,000.00 |
-| **Surplus above buffer** | **£0.00** |
+| Card | DD | Manual top-up | Total June payment | Decision |
+| --- | ---: | ---: | ---: | --- |
+| MBNA | £225.27 | £123.73 | £349.00 | Maintain |
+| M&S BT | £190.00 | £5.00 | £195.00 | Maintain |
 
 ---
 
-## Surplus Allocation
+## 4. Credit card payment plan
 
-No surplus this month. All available funds above the preferred buffer are allocated to Barclaycard debt reduction. Lloyds ends at exactly the preferred buffer of £1,000.
+| Card | Payment | Classification |
+| --- | ---: | --- |
+| Romeo Amex | £730.79 | Pay-in-full for standard balance |
+| Romeo Barclaycard | £1,037.40 | Mandatory minimum plus accelerated repayment |
+| Romeo Halifax CC | £0.00 | Cleared |
+| Kelly Amex | £0.00 | Self-funded by Kelly, excluded |
+| Kelly Halifax CC | £0.00 | Self-funded by Kelly, excluded |
+
+Barclaycard payment breakdown:
+
+- Minimum payment: £105.52
+- Additional payment: £931.88
+- **Total Barclaycard payment: £1,037.40**
 
 ---
 
-## Phase Lock
+## 5. Lloyds projected closing position
 
-Status: Complete
-Completed: 2026-05-31
-Approved: Yes
+| Step | Amount |
+| --- | ---: |
+| Starting Lloyds balance | £5,064.89 |
+| Mortgage, Romeo share | -£1,752.70 |
+| Romeo Amex | -£730.79 |
+| M&S BT DD | -£190.00 |
+| Barclaycard total payment | -£1,037.40 |
+| MBNA DD | -£225.27 |
+| MBNA manual top-up | -£123.73 |
+| M&S manual top-up | -£5.00 |
+| **Projected Lloyds closing balance** | **£1,000.00** |
 
-June 2026 plan approved. Key actions:
-1. Romeo transfers £1,752.70 to his Halifax current by ~5 June (his mortgage share)
-2. Kelly transfers £1,316.83 from savings to Romeo's Halifax by ~5 June (her mortgage share — replenishes from Zoe sale)
-3. Pay Amex £730.79 on 9 June (full standard balance)
-4. Pay Barclaycard £105.52 by 12 June (minimum)
-5. MBNA and M&S top-ups during June
-6. Pay Barclaycard additional £931.88 once top-ups are done (no need to wait for 24 June)
-7. Kelly funds her own cards and DDs from savings
+The preferred £1,000 cash buffer is preserved exactly.
+
+---
+
+## 6. Emergency fund
+
+Emergency fund contribution remains £0 for June.
+
+Reason: available surplus is better used to preserve the £1,000 Lloyds buffer and reduce Barclaycard, which carries 28% APR plus a £20/month fee.
+
+---
+
+## 7. Open questions answered
+
+1. Spending analysis shows food/eating out, car/home maintenance one-offs, pickleball/sport, transport/EV/parking, and groceries as the highest categories.
+2. Exact payments from Romeo Lloyds are listed above.
+3. No post-24 June allocation model is required. Kelly's mortgage share was self-funded from savings.
+4. MBNA and M&S top-ups should be maintained at £123.73 and £5.00.
+5. Emergency fund contribution remains suspended at £0.
+6. Projected Lloyds closing balance is £1,000.00.
+7. Strategic risks to escalate separately: Barclaycard 28% APR, Starling overdraft, Zoe sale timing, and ongoing discretionary spend pressure.
+
+---
+
+## 8. Final summary
+
+June plan:
+
+- Preserve £1,000 Lloyds buffer.
+- Pay Romeo Amex standard balance in full.
+- Maintain MBNA and M&S 0% balance transfer targets.
+- Pay £1,037.40 to Barclaycard, including £931.88 above minimum.
+- Do not model Kelly mortgage reimbursement as a dependency.
+
+---
+
+_Imported from ChatGPT on 2026-06-01._
