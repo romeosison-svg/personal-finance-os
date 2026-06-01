@@ -127,7 +127,42 @@ At −£289.26, the account costs approximately £8–9/month in overdraft inter
 
 ---
 
-### 5. Kelly's Virgin Money BT Card — Finance Profile Gap
+### 5. Zoe Vehicle Costs — Household Reconciliation
+
+**Status:** Decided
+
+**Context:**
+Historical vehicle costs paid by Romeo on the Renault Zoe (a shared household asset) have been identified and reconciled as shared household vehicle expenses.
+
+| Description | Amount |
+| --- | ---: |
+| April Zoe repair | £287.00 |
+| April Zoe service | £426.26 |
+| May Zoe repair | £286.60 |
+| **Total** | **£999.86** |
+
+Allocated at the standard household ratio (Romeo 57.1% / Kelly 42.9%):
+
+| Allocation | Amount |
+| --- | ---: |
+| Romeo share | £570.92 |
+| Kelly share | £428.94 |
+
+**Kelly reimbursement due:** £428.94
+**Expected settlement:** next available salary payment (~24 Jun 2026)
+
+**Decisions:**
+
+The Barclaycard balance remains Romeo's personal debt. This reconciliation does not reclassify it as household debt. The £428.94 reimbursement relates only to the identifiable Zoe vehicle costs listed above.
+
+From this point forward, vehicle servicing, repairs, MOTs, and general maintenance costs for the Zoe (or any successor shared household vehicle) should be classified as household vehicle costs and allocated using the standard household ratio (currently Romeo 57.1% / Kelly 42.9%).
+
+**Effective:** Immediately
+**Next review:** July 2026 — confirm £428.94 reimbursement received from Kelly.
+
+---
+
+### 6. Kelly's Virgin Money BT Card — Finance Profile Gap
 
 **Status:** Deferred
 
@@ -151,6 +186,7 @@ A Virgin Money BT card in Kelly's name was identified in reconcile (DD of £65/m
 | Zoe battery buyout | Proceed (~£1,128) | Required to achieve target sale price range | On sale |
 | Vehicle replacement | MG Urban Comfort PCP £300 + insurance £50 = £350/month | Kelly's transport need; PCP keeps monthly cost predictable | On purchase |
 | Starling overdraft | Clear in July via £300 Lloyds transfer | 35% APR; cheap to fix; move Google Workspace to prevent recurrence | Jul 2026 |
+| Zoe household reconciliation | £428.94 reimbursement due from Kelly | £999.86 Zoe costs identified as shared; allocated 57.1%/42.9% household ratio | ~24 Jun 2026 |
 
 ---
 
@@ -195,3 +231,4 @@ Key carry-forwards to July:
 - Recalculate MBNA required payment with updated balance
 - Apply new MBNA top-up target of ~£151
 - Confirm Kelly's net income from June payslip and recalculate proportional splits
+- Confirm £428.94 Zoe reimbursement received from Kelly

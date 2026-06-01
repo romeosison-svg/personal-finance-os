@@ -92,7 +92,34 @@ Reason: available surplus is better used to preserve the £1,000 Lloyds buffer a
 
 ---
 
-## 7. Open questions answered
+## 7. Household Vehicle Reconciliation
+
+Historical Zoe vehicle costs paid by Romeo have been identified as shared household vehicle expenses (Renault Zoe is a shared household asset). This is a one-off reconciliation.
+
+| Description | Amount |
+| --- | ---: |
+| April Zoe repair | £287.00 |
+| April Zoe service | £426.26 |
+| May Zoe repair | £286.60 |
+| **Total** | **£999.86** |
+
+Allocated at the standard household ratio (Romeo 57.1% / Kelly 42.9%):
+
+| Allocation | Amount |
+| --- | ---: |
+| Romeo share | £570.92 |
+| Kelly share | £428.94 |
+
+**Kelly reimbursement due:** £428.94
+**Expected settlement:** next available salary payment (~24 Jun 2026)
+
+This reimbursement is separate from Kelly's mortgage contribution. The June BT funding arrangement remains a one-month exception tied to Kelly's delayed salary start; it is not affected by this reconciliation.
+
+This reimbursement relates only to the identifiable Zoe vehicle costs listed above. It does not reclassify the wider Barclaycard balance as household debt. The Barclaycard balance remains Romeo's personal debt.
+
+---
+
+## 8. Open questions answered
 
 1. Spending analysis shows food/eating out, car/home maintenance one-offs, pickleball/sport, transport/EV/parking, and groceries as the highest categories.
 2. Exact payments from Romeo Lloyds are listed above.
@@ -104,7 +131,7 @@ Reason: available surplus is better used to preserve the £1,000 Lloyds buffer a
 
 ---
 
-## 8. Final summary
+## 9. Final summary
 
 June plan:
 

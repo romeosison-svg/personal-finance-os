@@ -268,7 +268,35 @@ Note: Kelly pays her mortgage share (£1,316.83) directly from personal savings.
 
 ---
 
-## 8. Open Questions for ChatGPT
+## 8. Outstanding Household Reconciliation
+
+### Zoe Vehicle Costs — One-off Reconciliation
+
+The following vehicle costs were paid by Romeo but have been identified as shared household vehicle expenses. The Renault Zoe is a shared household asset.
+
+| Description | Amount |
+| --- | ---: |
+| April Zoe repair | £287.00 |
+| April Zoe service | £426.26 |
+| May Zoe repair | £286.60 |
+| **Total** | **£999.86** |
+
+Household contribution ratio: Romeo 57.1% / Kelly 42.9%
+
+| Allocation | Amount |
+| --- | ---: |
+| Romeo share (57.1%) | £570.92 |
+| Kelly share (42.9%) | £428.94 |
+| **Total** | **£999.86** |
+
+**Kelly reimbursement due:** £428.94
+**Expected settlement:** next available salary payment (~24 Jun 2026)
+
+This is a one-off reconciliation item. It relates only to identifiable historical Zoe vehicle costs and does not reclassify the wider Barclaycard balance as household debt.
+
+---
+
+## 9. Open Questions for ChatGPT
 
 1. What does spending analysis show for June 2026? Which categories were highest? Any anomalies or patterns to flag?
 2. What exact payments should be made this month from Romeo Lloyds, in priority order?
@@ -283,7 +311,7 @@ Note: Kelly pays her mortgage share (£1,316.83) directly from personal savings.
 
 ---
 
-## 9. Constraints for ChatGPT
+## 10. Constraints for ChatGPT
 
 - Do not contradict locked facts in sections 3–7 above.
 - Do not reopen collect, reconcile, assumptions, or position unless a genuine inconsistency is found. If found, flag it explicitly before proceeding.
