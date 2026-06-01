@@ -210,6 +210,37 @@ Begin Phase 8. Review long-term financial decisions.
 
 ---
 
+### `import`
+
+**What it means:**  
+Import a ChatGPT-generated artefact into the active review and commit it as a first-class FinanceOS output.
+
+**Usage:** `import <phase>` where `<phase>` is `analyse`, `plan`, or `strategy`
+
+**Requires:** The preceding phase must be `Complete` (same gate rules as native phases).
+
+**Process:**
+1. Identify the active review month
+2. Validate the artefact type and phase gate
+3. Ask the user to paste the ChatGPT-generated content
+4. Write the content to `reviews/YYYY-MM/{phase}.md`, preserving the phase status dashboard
+5. Add an import metadata block (source, date, phase, review)
+6. Update the phase status to `Complete`
+7. Stage and commit
+
+**Commit messages:**
+```
+analyse: imported external analysis — YYYY-MM
+plan: imported external plan — YYYY-MM
+strategy: imported external strategy — YYYY-MM
+```
+
+**Repository persistence:** Claude Code always owns the commit. ChatGPT may produce the content; Claude saves and versions it. Once committed, an imported artefact is treated identically to a native phase output.
+
+**Gate:** Same as native phases — import does not bypass sequencing.
+
+---
+
 ### `status`
 
 **What it means:**  
@@ -241,7 +272,15 @@ plan: phase 7 complete — 2026-07
 strategy: phase 8 complete — 2026-07
 ```
 
-This creates a clean, readable git history that serves as the audit trail for every monthly review.
+When a phase is fulfilled by an imported artefact rather than a native Claude execution, use the import convention instead:
+
+```
+analyse: imported external analysis — 2026-07
+plan: imported external plan — 2026-07
+strategy: imported external strategy — 2026-07
+```
+
+Both conventions create a clean, readable git history. The commit message distinguishes native from imported artefacts while preserving the same audit trail for every monthly review.
 
 ---
 

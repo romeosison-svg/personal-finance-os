@@ -16,6 +16,7 @@ The following words are command aliases. When the user types one of these words 
 | `plan` | `.claude/commands/plan.md` |
 | `strategy` | `.claude/commands/strategy.md` |
 | `status` | `.claude/commands/status.md` |
+| `import` | `.claude/commands/import.md` |
 
 ## Phase Gate Rule
 

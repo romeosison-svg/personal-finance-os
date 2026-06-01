@@ -12,7 +12,7 @@ collect → reconcile → assumptions → position → handoff → analyse → p
 
 ## Operating Model — Ownership
 
-**Claude Code** owns the factual phases. Claude's role is to produce trusted facts and compact handoff artefacts.
+**Claude Code** owns the factual phases and repository persistence. Claude's role is to produce trusted facts, compact handoff artefacts, and commit every output to the repository — including artefacts generated externally.
 
 | Phase | Owner | Role |
 | --- | --- | --- |
@@ -22,15 +22,48 @@ collect → reconcile → assumptions → position → handoff → analyse → p
 | position | Claude Code | Summarise verified position |
 | handoff | Claude Code | Export artefacts for ChatGPT |
 
-**ChatGPT** owns the judgement phases. ChatGPT's role is to interpret facts, analyse spending, produce the payment plan, and support strategic decisions.
+**ChatGPT** may own the reasoning-heavy phases. ChatGPT's role is to interpret facts, analyse spending, produce the payment plan, and support strategic decisions.
 
-| Phase | Owner | Role |
+| Phase | Default Owner | Role |
 | --- | --- | --- |
 | analyse | ChatGPT | Categorise transactions, identify patterns |
 | plan | ChatGPT | Produce payment plan with exact amounts |
 | strategy | ChatGPT | Strategic recommendations and trade-offs |
 
 The **handoff** phase is the formal boundary. Claude passes verified facts to ChatGPT. ChatGPT does not receive raw statements — only the handoff artefacts.
+
+**Repository persistence always belongs to Claude Code.** When ChatGPT produces an artefact, Claude imports it via the `import` command. Once committed, an imported artefact is a first-class FinanceOS output — indistinguishable from a Claude-generated phase in the git history and in subsequent phases.
+
+---
+
+## Import Workflow
+
+ChatGPT-generated artefacts are imported into the repository using the `import` command.
+
+```
+import analyse
+import plan
+import strategy
+```
+
+The import command:
+
+1. Validates the phase gate (preceding phase must be `Complete`)
+2. Receives the ChatGPT-generated content from the user
+3. Writes the content to `reviews/YYYY-MM/{phase}.md`
+4. Updates the phase status to `Complete`
+5. Records the import source (ChatGPT / External analysis)
+6. Commits the artefact to the repository
+
+Commit convention for imported artefacts:
+
+```
+analyse: imported external analysis — YYYY-MM
+plan: imported external plan — YYYY-MM
+strategy: imported external strategy — YYYY-MM
+```
+
+Imported artefacts are subject to the same phase gate rules as native artefacts. Import does not bypass sequencing.
 
 ---
 
