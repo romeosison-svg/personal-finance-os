@@ -1,20 +1,45 @@
 # import
 
-Import an externally generated artefact into the active monthly review.
+Import a ChatGPT-generated artefact into the active monthly review.
 
 ## Usage
 
+Minimal (recommended):
+
 ```
-import <phase>
+import analyse
+[paste content]
+```
+
+With optional overrides:
+
+```
+import analyse
+Review Month: 2026-06
+
+[paste content]
+```
+
+```
+import analyse
+Review Month: 2026-06
+Source: ChatGPT
+
+[paste content]
 ```
 
 Where `<phase>` is one of: `analyse`, `plan`, `strategy`
 
-## Purpose
+---
 
-Accepts a ChatGPT-generated phase output and saves it as a first-class FinanceOS artefact. Once imported and committed, the phase is marked `Complete` and the review proceeds normally.
+## Defaults
 
-Claude owns repository persistence. ChatGPT owns reasoning. Import is the bridge.
+| Parameter    | Default                                                                 |
+| ------------ | ----------------------------------------------------------------------- |
+| Review month | Active review (most recent folder under `reviews/`, excluding `2026-06-example`) |
+| Source       | ChatGPT                                                                 |
+
+Do not ask for review month or source. Infer them silently. Only request clarification if genuine ambiguity exists (e.g. two review folders with the same date, which cannot happen in practice).
 
 ---
 
@@ -26,137 +51,137 @@ Claude owns repository persistence. ChatGPT owns reasoning. Import is the bridge
 | `plan`     | Phase 7 | `analyse` complete |
 | `strategy` | Phase 8 | `plan` complete    |
 
+Native Claude phases (`collect`, `reconcile`, `assumptions`, `position`, `handoff`) are executed locally and are not imported.
+
 ---
 
 ## Process
 
-### Step 1 — Identify active review
+### Step 1 — Parse the input
 
-Find the most recent folder under `reviews/` (alphabetically last), excluding `2026-06-example`. This is the active review month (`YYYY-MM`).
+Read the user's message. Extract:
+
+- **Phase** — from `import <phase>`
+- **Review month** — from `Review Month: YYYY-MM` if present; otherwise use the active review
+- **Source** — from `Source: X` if present; otherwise `ChatGPT`
+- **Content** — everything in the message after the command line and any override fields
+
+If content is present in the same message, proceed immediately.
+
+If content is absent, ask once — nothing else:
+
+> Paste the content for `{phase}.md`.
+
+Do not ask for review month, source, or confirmation of defaults.
 
 ### Step 2 — Validate artefact type
 
-If the artefact name is not one of `analyse`, `plan`, `strategy`, tell the user:
+If the phase is not `analyse`, `plan`, or `strategy`:
 
-> `import` only supports: `analyse`, `plan`, `strategy`.
-> Native Claude phases (collect, reconcile, assumptions, position, handoff) are executed locally — they are not imported.
+> `import` supports: `analyse`, `plan`, `strategy`. Native Claude phases are not imported.
 
 Stop.
 
 ### Step 3 — Check the phase gate
 
-Confirm the preceding phase is `Complete` in the active review's phase file:
+Read the preceding phase file and confirm its status is `Complete`:
 
-- `import analyse` → requires `handoff` complete
-- `import plan` → requires `analyse` complete
-- `import strategy` → requires `plan` complete
+- `import analyse` → `reviews/YYYY-MM/handoff.md` must be `Complete`
+- `import plan` → `reviews/YYYY-MM/analyse.md` must be `Complete`
+- `import strategy` → `reviews/YYYY-MM/plan.md` must be `Complete`
 
-If the gate is not met, tell the user which phase must be completed first and suggest the appropriate alias. Stop.
+If the gate is not met:
+
+> `{preceding-phase}` is not yet `Complete`. Complete or import it first.
+> Run: `{preceding-phase}` or `import {preceding-phase}`
+
+Stop.
 
 ### Step 4 — Check for existing content
 
-Read the target file: `reviews/YYYY-MM/{phase}.md`.
+Read `reviews/YYYY-MM/{phase}.md`.
 
-If the phase status is already `Complete`, warn:
+If the phase status is already `Complete`, warn once:
 
-> `{phase}.md` is already marked `Complete`. Importing will overwrite the existing content.
-> Proceed? (yes / no)
+> `{phase}.md` is already `Complete`. Overwrite? (yes / no)
 
 If no, stop.
 
-### Step 5 — Receive content from user
+### Step 5 — Write the file
 
-Tell the user:
+Compose file content in this order:
 
-> Ready to import `{phase}.md` for `YYYY-MM`.
->
-> Paste the ChatGPT-generated content now. When you're done, tell me to save it.
+**1. Phase status dashboard**
 
-Wait for the user to provide the full content. Do not proceed until content is received.
-
-### Step 6 — Compose the file
-
-Build the file content in this order:
-
-**1. Phase status dashboard** (preserve from existing file, or create if absent)
-
-Update the row for the imported phase:
+Preserve from the existing file. Update the row for the imported phase:
 - Status → `Complete`
 - Completed → today's date (`YYYY-MM-DD`)
 
-**2. Import metadata block** (insert immediately after dashboard)
+**2. ChatGPT content**
 
-```markdown
-## Import Metadata
+Append the pasted content verbatim. Do not reformat, summarise, or annotate.
 
-- **Source:** ChatGPT / External analysis
-- **Imported:** YYYY-MM-DD
-- **Phase:** {phase} (Phase N — e.g. Phase 6)
-- **Review:** YYYY-MM
+**3. Import line**
+
+Append a single line at the end of the file:
+
+```
+_Imported from {source} on YYYY-MM-DD._
 ```
 
-**3. ChatGPT content** (append verbatim below the metadata block)
+Write to `reviews/YYYY-MM/{phase}.md`.
 
-Preserve the content exactly as provided. Do not reformat, summarise, or annotate.
-
-### Step 7 — Write the file
-
-Write the composed content to `reviews/YYYY-MM/{phase}.md`.
-
-### Step 8 — Stage and commit
-
-Stage only the imported phase file:
+### Step 6 — Stage and commit
 
 ```
 git add reviews/YYYY-MM/{phase}.md
+git commit -m "{phase}: imported ChatGPT {label} — YYYY-MM"
 ```
 
-Commit with the appropriate message:
+| Phase      | Commit message                                     |
+| ---------- | -------------------------------------------------- |
+| `analyse`  | `analyse: imported ChatGPT analysis — YYYY-MM`     |
+| `plan`     | `plan: imported ChatGPT plan — YYYY-MM`            |
+| `strategy` | `strategy: imported ChatGPT strategy — YYYY-MM`    |
 
-| Phase      | Commit message                                       |
-| ---------- | ---------------------------------------------------- |
-| `analyse`  | `analyse: imported external analysis — YYYY-MM`      |
-| `plan`     | `plan: imported external plan — YYYY-MM`             |
-| `strategy` | `strategy: imported external strategy — YYYY-MM`     |
-
-If `strategy` import also includes updates to `docs/finance-profile.md`, stage and commit that file separately after the strategy import commit:
+If a `strategy` import also updates `docs/finance-profile.md`, commit that separately:
 
 ```
 git add docs/finance-profile.md
 git commit -m "finance-profile: update [what changed] — YYYY-MM"
 ```
 
-### Step 9 — Confirm to user
+### Step 7 — Confirm
 
-Tell the user:
+One line:
 
-> `{phase}.md` imported and committed for `YYYY-MM`.
-> Source: ChatGPT / External analysis
-> Phase N is now `Complete`.
->
-> Next: `{next_command}`
+> `{phase}.md` imported for `YYYY-MM`. Phase {N} `Complete`. Next: `{next_command}`
 
-Where `{next_command}` is:
-
-- After `analyse` → `import plan` or `plan`
-- After `plan` → `import strategy` or `strategy`
-- After `strategy` → The monthly review is complete.
+Where `{next_command}`:
+- After `analyse` → `import plan`
+- After `plan` → `import strategy`
+- After `strategy` → Monthly review complete.
 
 ---
 
 ## Commit Convention
 
 ```
-analyse: imported external analysis — YYYY-MM
-plan: imported external plan — YYYY-MM
-strategy: imported external strategy — YYYY-MM
+analyse: imported ChatGPT analysis — YYYY-MM
+plan: imported ChatGPT plan — YYYY-MM
+strategy: imported ChatGPT strategy — YYYY-MM
 ```
 
 ---
 
-## Notes
+## Edge Cases
 
-- Import does not validate the content — it trusts the user has reviewed it before importing.
-- The ChatGPT content is preserved verbatim. Claude does not edit or reformat it.
-- Once committed, an imported artefact is a first-class FinanceOS output and is treated identically to a Claude-generated phase output.
-- The phase gate is enforced the same way as native phases — import does not bypass sequencing.
+| Situation | Behaviour |
+| --- | --- |
+| Content pasted in same message as `import` | Use it immediately. No prompt. |
+| Phase already `Complete` | Warn once. Confirm overwrite. |
+| Gate not met | Stop. Name the blocking phase. Suggest next step. |
+| Unsupported phase name | Stop immediately. Do not guess. |
+| `Review Month` override supplied | Use it. Validate the folder exists first. |
+| `Source` override supplied | Use it in the import line. Commit message is always `ChatGPT`. |
+| No `reviews/` folder exists | Tell user to run `finance start` first. |

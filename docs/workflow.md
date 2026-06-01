@@ -219,25 +219,68 @@ Import a ChatGPT-generated artefact into the active review and commit it as a fi
 
 **Requires:** The preceding phase must be `Complete` (same gate rules as native phases).
 
+**Default behaviour:**
+- Review month → active review (detected automatically)
+- Source → ChatGPT (assumed, never asked)
+- No metadata entry required
+
 **Process:**
 1. Identify the active review month
 2. Validate the artefact type and phase gate
-3. Ask the user to paste the ChatGPT-generated content
-4. Write the content to `reviews/YYYY-MM/{phase}.md`, preserving the phase status dashboard
-5. Add an import metadata block (source, date, phase, review)
-6. Update the phase status to `Complete`
+3. Accept content from the same message, or prompt once if absent
+4. Write content verbatim to `reviews/YYYY-MM/{phase}.md`
+5. Update phase status to `Complete`
+6. Append `_Imported from ChatGPT on YYYY-MM-DD._` at end of file
 7. Stage and commit
+
+**Optional overrides** (supply in the message when needed):
+
+```
+import analyse
+Review Month: 2026-06
+
+[paste content]
+```
+
+```
+import analyse
+Review Month: 2026-06
+Source: ChatGPT
+
+[paste content]
+```
 
 **Commit messages:**
 ```
-analyse: imported external analysis — YYYY-MM
-plan: imported external plan — YYYY-MM
-strategy: imported external strategy — YYYY-MM
+analyse: imported ChatGPT analysis — YYYY-MM
+plan: imported ChatGPT plan — YYYY-MM
+strategy: imported ChatGPT strategy — YYYY-MM
 ```
 
 **Repository persistence:** Claude Code always owns the commit. ChatGPT may produce the content; Claude saves and versions it. Once committed, an imported artefact is treated identically to a native phase output.
 
 **Gate:** Same as native phases — import does not bypass sequencing.
+
+**Example usage:**
+
+```
+import analyse
+# Groceries: £480
+# Dining: £210
+...
+```
+
+```
+import plan
+## Payment Plan — June 2026
+...
+```
+
+```
+import strategy
+## Strategic Review — June 2026
+...
+```
 
 ---
 
@@ -275,9 +318,9 @@ strategy: phase 8 complete — 2026-07
 When a phase is fulfilled by an imported artefact rather than a native Claude execution, use the import convention instead:
 
 ```
-analyse: imported external analysis — 2026-07
-plan: imported external plan — 2026-07
-strategy: imported external strategy — 2026-07
+analyse: imported ChatGPT analysis — 2026-07
+plan: imported ChatGPT plan — 2026-07
+strategy: imported ChatGPT strategy — 2026-07
 ```
 
 Both conventions create a clean, readable git history. The commit message distinguishes native from imported artefacts while preserving the same audit trail for every monthly review.

@@ -40,30 +40,49 @@ The **handoff** phase is the formal boundary. Claude passes verified facts to Ch
 
 ChatGPT-generated artefacts are imported into the repository using the `import` command.
 
+**Default usage** — paste content in the same message:
+
 ```
 import analyse
+[paste analyse.md content]
+
 import plan
+[paste plan.md content]
+
 import strategy
+[paste strategy.md content]
 ```
+
+**With optional overrides** (only when needed):
+
+```
+import analyse
+Review Month: 2026-06
+
+[paste content]
+```
+
+Review month defaults to the active review. Source defaults to ChatGPT. Neither needs to be supplied unless there is a specific reason to override.
 
 The import command:
 
-1. Validates the phase gate (preceding phase must be `Complete`)
-2. Receives the ChatGPT-generated content from the user
-3. Writes the content to `reviews/YYYY-MM/{phase}.md`
-4. Updates the phase status to `Complete`
-5. Records the import source (ChatGPT / External analysis)
-6. Commits the artefact to the repository
+1. Detects the active review month automatically
+2. Validates the phase gate (preceding phase must be `Complete`)
+3. Accepts the ChatGPT content — from the same message or a single follow-up prompt
+4. Writes the content verbatim to `reviews/YYYY-MM/{phase}.md`
+5. Updates the phase status to `Complete`
+6. Appends a single import line (`_Imported from ChatGPT on YYYY-MM-DD._`)
+7. Commits the artefact
 
 Commit convention for imported artefacts:
 
 ```
-analyse: imported external analysis — YYYY-MM
-plan: imported external plan — YYYY-MM
-strategy: imported external strategy — YYYY-MM
+analyse: imported ChatGPT analysis — YYYY-MM
+plan: imported ChatGPT plan — YYYY-MM
+strategy: imported ChatGPT strategy — YYYY-MM
 ```
 
-Imported artefacts are subject to the same phase gate rules as native artefacts. Import does not bypass sequencing.
+Imported artefacts are subject to the same phase gate rules as native artefacts. Import does not bypass sequencing. Once committed, an imported artefact is a first-class FinanceOS output.
 
 ---
 
