@@ -1,0 +1,158 @@
+date,owner,account,card_provider,merchant,description,amount,type,statement_period,notes
+2026-04-16,Romeo,Romeo Amex,Amex,Unknown merchant,Unidentified transaction,36.84,debit,16 Apr – 15 May 2026,Date approximate (apr ~16 per analyse.md); merchant unknown
+2026-04-18,Romeo,Romeo Amex,Amex,Crumbs Bakery,CRUMBS BAKERY,15.80,debit,16 Apr – 15 May 2026,Part of x2 total £31.60
+2026-04-25,Romeo,Romeo Amex,Amex,Crumbs Bakery,CRUMBS BAKERY,15.80,debit,16 Apr – 15 May 2026,Part of x2 total £31.60 — dates from analyse.md
+2026-04-01,Romeo,Romeo Amex,Amex,Google,Google Workspace,15.00,debit,16 Apr – 15 May 2026,Date approximate; recurring subscription
+2026-04-01,Romeo,Romeo Amex,Amex,Amazon,Amazon purchase,8.11,debit,16 Apr – 15 May 2026,One of x9 Amazon purchases totalling £73.00; individual amounts unknown
+2026-04-01,Romeo,Romeo Amex,Amex,Amazon,Amazon purchase,8.11,debit,16 Apr – 15 May 2026,One of x9 Amazon purchases totalling £73.00; individual amounts unknown
+2026-04-01,Romeo,Romeo Amex,Amex,Amazon,Amazon purchase,8.11,debit,16 Apr – 15 May 2026,One of x9 Amazon purchases totalling £73.00; individual amounts unknown
+2026-04-01,Romeo,Romeo Amex,Amex,Amazon,Amazon purchase,8.11,debit,16 Apr – 15 May 2026,One of x9 Amazon purchases totalling £73.00; individual amounts unknown
+2026-04-01,Romeo,Romeo Amex,Amex,Amazon,Amazon purchase,8.11,debit,16 Apr – 15 May 2026,One of x9 Amazon purchases totalling £73.00; individual amounts unknown
+2026-04-01,Romeo,Romeo Amex,Amex,Amazon,Amazon purchase,8.11,debit,16 Apr – 15 May 2026,One of x9 Amazon purchases totalling £73.00; individual amounts unknown
+2026-04-01,Romeo,Romeo Amex,Amex,Amazon,Amazon purchase,8.11,debit,16 Apr – 15 May 2026,One of x9 Amazon purchases totalling £73.00; individual amounts unknown
+2026-04-01,Romeo,Romeo Amex,Amex,Amazon,Amazon purchase,8.11,debit,16 Apr – 15 May 2026,One of x9 Amazon purchases totalling £73.00; individual amounts unknown
+2026-04-01,Romeo,Romeo Amex,Amex,Amazon,Amazon purchase,8.12,debit,16 Apr – 15 May 2026,One of x9 Amazon purchases totalling £73.00; individual amounts unknown; adjusted for total
+2026-04-01,Romeo,Romeo Amex,Amex,Uber,UBER,17.93,debit,16 Apr – 15 May 2026,One of x2 Uber totalling £35.86; individual amounts unknown
+2026-04-01,Romeo,Romeo Amex,Amex,Uber,UBER,17.93,debit,16 Apr – 15 May 2026,One of x2 Uber totalling £35.86; individual amounts unknown
+2026-04-01,Romeo,Romeo Amex,Amex,Transport for London,TFL TRAVEL,9.93,debit,16 Apr – 15 May 2026,One of x3 TFL totalling £29.79; individual amounts unknown
+2026-04-01,Romeo,Romeo Amex,Amex,Transport for London,TFL TRAVEL,9.93,debit,16 Apr – 15 May 2026,One of x3 TFL totalling £29.79; individual amounts unknown
+2026-04-01,Romeo,Romeo Amex,Amex,Transport for London,TFL TRAVEL,9.93,debit,16 Apr – 15 May 2026,One of x3 TFL totalling £29.79; individual amounts unknown
+2026-04-01,Romeo,Romeo Amex,Amex,Singapore Garden,SINGAPORE GARDEN,45.56,debit,16 Apr – 15 May 2026,
+2026-04-01,Romeo,Romeo Amex,Amex,Deliveroo,DELIVEROO,3.50,debit,16 Apr – 15 May 2026,
+2026-04-01,Romeo,Romeo Amex,Amex,Spond,SPOND,11.49,debit,16 Apr – 15 May 2026,
+2026-04-01,Romeo,Romeo Amex,Amex,Sharp Pickleball,SHARP PICKLEBALL,8.10,debit,16 Apr – 15 May 2026,One of x2 totalling £16.20
+2026-04-01,Romeo,Romeo Amex,Amex,Sharp Pickleball,SHARP PICKLEBALL,8.10,debit,16 Apr – 15 May 2026,One of x2 totalling £16.20
+2026-04-01,Romeo,Romeo Amex,Amex,McDonald's,MCDONALDS,10.78,debit,16 Apr – 15 May 2026,One of x2 totalling £21.55; individual amounts unknown
+2026-04-01,Romeo,Romeo Amex,Amex,McDonald's,MCDONALDS,10.77,debit,16 Apr – 15 May 2026,One of x2 totalling £21.55; individual amounts unknown
+2026-04-01,Romeo,Romeo Amex,Amex,Nayaxau EV Chargers,NAYAXAU EV CHARGERS,14.08,debit,16 Apr – 15 May 2026,
+2026-04-01,Romeo,Romeo Amex,Amex,Prime Video,PRIME VIDEO (AD FREE),10.99,debit,16 Apr – 15 May 2026,Recurring subscription
+2026-04-01,Romeo,Romeo Amex,Amex,Boots the Chemist,BOOTS THE CHEMIST,3.65,debit,16 Apr – 15 May 2026,
+2026-04-01,Romeo,Romeo Amex,Amex,WIX.COM,WIX.COM,178.20,debit,16 Apr – 15 May 2026,Annual business subscription on Plan It; Plan It instalment balance included in statement total
+2026-04-01,Romeo,Romeo Amex,Amex,Companies House,COMPANIES HOUSE,100.00,debit,16 Apr – 15 May 2026,Annual filing fee on Plan It
+2026-04-01,Romeo,Romeo Amex,Amex,Unknown St Albans,ST.ALBANS,10.00,debit,16 Apr – 15 May 2026,Merchant unclear
+2026-04-01,Kelly,Romeo Amex (Kelly supplementary),Amex,Tesco,TESCO,43.24,debit,16 Apr – 15 May 2026,Part of Tesco x2 totalling ~£86.48 (estimated split); Kelly supplementary card
+2026-04-01,Kelly,Romeo Amex (Kelly supplementary),Amex,Tesco,TESCO,43.24,debit,16 Apr – 15 May 2026,Part of Tesco x2 totalling ~£86.48 (estimated split); Kelly supplementary card
+2026-04-01,Kelly,Romeo Amex (Kelly supplementary),Amex,M&S Food,M&S FOOD,30.00,debit,16 Apr – 15 May 2026,Amount estimated from £216.18 grocery total; Kelly supplementary card
+2026-04-01,Kelly,Romeo Amex (Kelly supplementary),Amex,Costco,COSTCO,50.00,debit,16 Apr – 15 May 2026,Amount estimated from £216.18 grocery total; Kelly supplementary card
+2026-04-01,Kelly,Romeo Amex (Kelly supplementary),Amex,Aldi,ALDI,30.00,debit,16 Apr – 15 May 2026,Amount estimated from £216.18 grocery total; Kelly supplementary card
+2026-04-01,Kelly,Romeo Amex (Kelly supplementary),Amex,Manila Supermarket,MANILA SUPERMARKET,16.18,debit,16 Apr – 15 May 2026,Amount estimated; Kelly supplementary card
+2026-04-01,Kelly,Romeo Amex (Kelly supplementary),Amex,Crumbs Bakery,CRUMBS BAKERY,7.80,debit,16 Apr – 15 May 2026,Part of cafe total £23.40; Kelly supplementary card
+2026-04-01,Kelly,Romeo Amex (Kelly supplementary),Amex,Panadera Bakery,PANADERA BAKERY,7.80,debit,16 Apr – 15 May 2026,Part of cafe total £23.40; Kelly supplementary card
+2026-04-01,Kelly,Romeo Amex (Kelly supplementary),Amex,Taste of Cyprus Bakery,TASTE OF CYPRUS BAKERY,7.80,debit,16 Apr – 15 May 2026,Part of cafe total £23.40; Kelly supplementary card
+2026-04-01,Kelly,Romeo Amex (Kelly supplementary),Amex,Gridserve,GRIDSERVE EV CHARGING,20.15,debit,16 Apr – 15 May 2026,EV charging; Kelly supplementary card
+2026-04-01,Kelly,Romeo Amex (Kelly supplementary),Amex,McDonald's,MCDONALDS,10.95,debit,16 Apr – 15 May 2026,Kelly supplementary card
+2026-04-01,Romeo,Romeo Barclaycard,Barclaycard,Captain Hoddesdon,CAPTAIN HODDESDON,34.65,debit,To 18 May 2026,
+2026-04-01,Romeo,Romeo Barclaycard,Barclaycard,Bank-Onc London,BANK-ONC LONDON,45.00,debit,To 18 May 2026,
+2026-04-01,Romeo,Romeo Barclaycard,Barclaycard,Thai House,THAI HOUSE,25.99,debit,To 18 May 2026,
+2026-04-01,Romeo,Romeo Barclaycard,Barclaycard,Harune Korean,HARUNE KOREAN,8.25,debit,To 18 May 2026,One of x2 totalling £16.50
+2026-04-01,Romeo,Romeo Barclaycard,Barclaycard,Harune Korean,HARUNE KOREAN,8.25,debit,To 18 May 2026,One of x2 totalling £16.50
+2026-04-01,Romeo,Romeo Barclaycard,Barclaycard,Yaki YA,YAKI YA,17.99,debit,To 18 May 2026,
+2026-04-01,Romeo,Romeo Barclaycard,Barclaycard,Kalm Club,KALM CLUB,16.50,debit,To 18 May 2026,
+2026-04-01,Romeo,Romeo Barclaycard,Barclaycard,Everyoneactive,EVERYONEACTIVE,20.50,debit,To 18 May 2026,One of x4 totalling £82.00; pay-per-visit
+2026-04-01,Romeo,Romeo Barclaycard,Barclaycard,Everyoneactive,EVERYONEACTIVE,20.50,debit,To 18 May 2026,One of x4 totalling £82.00; pay-per-visit
+2026-04-01,Romeo,Romeo Barclaycard,Barclaycard,Everyoneactive,EVERYONEACTIVE,20.50,debit,To 18 May 2026,One of x4 totalling £82.00; pay-per-visit
+2026-04-01,Romeo,Romeo Barclaycard,Barclaycard,Everyoneactive,EVERYONEACTIVE,20.50,debit,To 18 May 2026,One of x4 totalling £82.00; pay-per-visit
+2026-04-01,Romeo,Romeo Barclaycard,Barclaycard,Premier Pickleball,PREMIER PICKLEBALL,35.00,debit,To 18 May 2026,
+2026-04-01,Romeo,Romeo Barclaycard,Barclaycard,Pickleball England,PICKLEBALL ENGLAND,35.00,debit,To 18 May 2026,
+2026-04-01,Romeo,Romeo Barclaycard,Barclaycard,Vaillant Group,VAILLANT GROUP,139.00,debit,To 18 May 2026,Boiler service/repair — one-off
+2026-04-01,Romeo,Romeo Barclaycard,Barclaycard,Burger King,BURGER KING,11.97,debit,To 18 May 2026,One of x3 totalling £35.90; individual amounts unknown
+2026-04-01,Romeo,Romeo Barclaycard,Barclaycard,Burger King,BURGER KING,11.97,debit,To 18 May 2026,One of x3 totalling £35.90; individual amounts unknown
+2026-04-01,Romeo,Romeo Barclaycard,Barclaycard,Burger King,BURGER KING,11.96,debit,To 18 May 2026,One of x3 totalling £35.90; individual amounts unknown
+2026-04-01,Romeo,Romeo Barclaycard,Barclaycard,KFC,KFC,9.28,debit,To 18 May 2026,
+2026-04-01,Romeo,Romeo Barclaycard,Barclaycard,Alex Cox Osteopath,ALEX COX OSTEOPATH,45.00,debit,To 18 May 2026,
+2026-04-01,Romeo,Romeo Barclaycard,Barclaycard,Justpark,JUSTPARK,20.99,debit,To 18 May 2026,
+2026-04-01,Romeo,Romeo Barclaycard,Barclaycard,Free Wheelin,FREE WHEELIN,14.89,debit,To 18 May 2026,
+2026-04-01,Romeo,Romeo Barclaycard,Barclaycard,Ringgo Parking,RINGGO PARKING,1.40,debit,To 18 May 2026,
+2026-04-01,Romeo,Romeo Barclaycard,Barclaycard,Crumbs Bakery,CRUMBS BAKERY,3.20,debit,To 18 May 2026,
+2026-04-01,Romeo,Romeo Barclaycard,Barclaycard,Helg Ltd,HELG LTD,7.14,debit,To 18 May 2026,
+2026-04-01,Romeo,Romeo Barclaycard,Barclaycard,Decorum Vending,DECORUM VENDING,4.14,debit,To 18 May 2026,One of x2 totalling £8.28
+2026-04-01,Romeo,Romeo Barclaycard,Barclaycard,Decorum Vending,DECORUM VENDING,4.14,debit,To 18 May 2026,One of x2 totalling £8.28
+2026-04-01,Kelly,Barclaycard (Kelly supplementary),Barclaycard,Lea Motors 2023 Ltd,LEA MOTORS 2023 LTD,286.60,debit,To 18 May 2026,Zoe EV vehicle service/repair — one-off; Kelly supplementary card
+2026-04-01,Kelly,Barclaycard (Kelly supplementary),Barclaycard,Dental Health Care Hertford,DENTAL HEALTH CARE HERTFORD,75.00,debit,To 18 May 2026,Kelly supplementary card
+2026-04-01,Kelly,Barclaycard (Kelly supplementary),Barclaycard,McDonald's,MCDONALDS,14.06,debit,To 18 May 2026,One of x4 totalling £56.25; Kelly supplementary card
+2026-04-01,Kelly,Barclaycard (Kelly supplementary),Barclaycard,McDonald's,MCDONALDS,14.06,debit,To 18 May 2026,One of x4 totalling £56.25; Kelly supplementary card
+2026-04-01,Kelly,Barclaycard (Kelly supplementary),Barclaycard,McDonald's,MCDONALDS,14.06,debit,To 18 May 2026,One of x4 totalling £56.25; Kelly supplementary card
+2026-04-01,Kelly,Barclaycard (Kelly supplementary),Barclaycard,McDonald's,MCDONALDS,14.07,debit,To 18 May 2026,One of x4 totalling £56.25; Kelly supplementary card
+2026-04-01,Kelly,Barclaycard (Kelly supplementary),Barclaycard,Burger King,BURGER KING,18.55,debit,To 18 May 2026,Net amount after refund; Kelly supplementary card
+2026-04-01,Kelly,Barclaycard (Kelly supplementary),Barclaycard,Tesco,TESCO,12.50,debit,To 18 May 2026,Kelly supplementary card
+2026-04-01,Kelly,Barclaycard (Kelly supplementary),Barclaycard,Costco,COSTCO,3.99,debit,To 18 May 2026,One of x3 totalling £11.97; Kelly supplementary card
+2026-04-01,Kelly,Barclaycard (Kelly supplementary),Barclaycard,Costco,COSTCO,3.99,debit,To 18 May 2026,One of x3 totalling £11.97; Kelly supplementary card
+2026-04-01,Kelly,Barclaycard (Kelly supplementary),Barclaycard,Costco,COSTCO,3.99,debit,To 18 May 2026,One of x3 totalling £11.97; Kelly supplementary card
+2026-04-01,Kelly,Barclaycard (Kelly supplementary),Barclaycard,Sainsbury's,SAINSBURYS,20.10,debit,To 18 May 2026,Kelly supplementary card
+2026-04-01,Kelly,Barclaycard (Kelly supplementary),Barclaycard,Gridserve,GRIDSERVE EV CHARGING,17.00,debit,To 18 May 2026,One of x2 totalling £34.00; Kelly supplementary card
+2026-04-01,Kelly,Barclaycard (Kelly supplementary),Barclaycard,Gridserve,GRIDSERVE EV CHARGING,17.00,debit,To 18 May 2026,One of x2 totalling £34.00; Kelly supplementary card
+2026-04-01,Kelly,Barclaycard (Kelly supplementary),Barclaycard,Sidney & Sons Fish & Chips,SIDNEY & SONS FISH & CHIPS,32.10,debit,To 18 May 2026,Kelly supplementary card
+2026-04-01,Kelly,Barclaycard (Kelly supplementary),Barclaycard,Home Bargains,HOME BARGAINS,13.04,debit,To 18 May 2026,Kelly supplementary card
+2026-04-01,Kelly,Barclaycard (Kelly supplementary),Barclaycard,Uber,UBER,8.94,debit,To 18 May 2026,Kelly supplementary card
+2026-04-01,Romeo,Romeo Halifax CC,Halifax,OpenAI,OPENAI,8.90,debit,To 3 May 2026,USD 12.00 @ 1.3483; recurring subscription
+2026-04-01,Kelly,Kelly Amex,Amex,SNB Court,SNB COURT BOOKING,12.43,debit,25 Apr – 24 May 2026,One of x7 totalling ~£87; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,SNB Court,SNB COURT BOOKING,12.43,debit,25 Apr – 24 May 2026,One of x7 totalling ~£87; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,SNB Court,SNB COURT BOOKING,12.43,debit,25 Apr – 24 May 2026,One of x7 totalling ~£87; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,SNB Court,SNB COURT BOOKING,12.43,debit,25 Apr – 24 May 2026,One of x7 totalling ~£87; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,SNB Court,SNB COURT BOOKING,12.43,debit,25 Apr – 24 May 2026,One of x7 totalling ~£87; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,SNB Court,SNB COURT BOOKING,12.43,debit,25 Apr – 24 May 2026,One of x7 totalling ~£87; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,SNB Court,SNB COURT BOOKING,12.42,debit,25 Apr – 24 May 2026,One of x7 totalling ~£87; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Spond,SPOND COACHING,15.67,debit,25 Apr – 24 May 2026,One of x3 totalling ~£47; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Spond,SPOND COACHING,15.67,debit,25 Apr – 24 May 2026,One of x3 totalling ~£47; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Spond,SPOND COACHING,15.66,debit,25 Apr – 24 May 2026,One of x3 totalling ~£47; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Sharp Pickleball,SHARP PICKLEBALL,11.00,debit,25 Apr – 24 May 2026,One of x3 totalling £33; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Sharp Pickleball,SHARP PICKLEBALL,11.00,debit,25 Apr – 24 May 2026,One of x3 totalling £33; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Sharp Pickleball,SHARP PICKLEBALL,11.00,debit,25 Apr – 24 May 2026,One of x3 totalling £33; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Pickleball England,PICKLEBALL ENGLAND,22.00,debit,25 Apr – 24 May 2026,One of x2 totalling £44; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Pickleball England,PICKLEBALL ENGLAND,22.00,debit,25 Apr – 24 May 2026,One of x2 totalling £44; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Transport for London,TFL TRAVEL,7.67,debit,25 Apr – 24 May 2026,Part of TFL multiple totalling ~£115; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Transport for London,TFL TRAVEL,7.67,debit,25 Apr – 24 May 2026,Part of TFL multiple totalling ~£115; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Transport for London,TFL TRAVEL,7.67,debit,25 Apr – 24 May 2026,Part of TFL multiple totalling ~£115; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Transport for London,TFL TRAVEL,7.67,debit,25 Apr – 24 May 2026,Part of TFL multiple totalling ~£115; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Transport for London,TFL TRAVEL,7.67,debit,25 Apr – 24 May 2026,Part of TFL multiple totalling ~£115; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Transport for London,TFL TRAVEL,7.67,debit,25 Apr – 24 May 2026,Part of TFL multiple totalling ~£115; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Transport for London,TFL TRAVEL,7.67,debit,25 Apr – 24 May 2026,Part of TFL multiple totalling ~£115; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Transport for London,TFL TRAVEL,7.67,debit,25 Apr – 24 May 2026,Part of TFL multiple totalling ~£115; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Transport for London,TFL TRAVEL,7.67,debit,25 Apr – 24 May 2026,Part of TFL multiple totalling ~£115; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Transport for London,TFL TRAVEL,7.67,debit,25 Apr – 24 May 2026,Part of TFL multiple totalling ~£115; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Transport for London,TFL TRAVEL,7.67,debit,25 Apr – 24 May 2026,Part of TFL multiple totalling ~£115; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Transport for London,TFL TRAVEL,7.67,debit,25 Apr – 24 May 2026,Part of TFL multiple totalling ~£115; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Transport for London,TFL TRAVEL,7.67,debit,25 Apr – 24 May 2026,Part of TFL multiple totalling ~£115; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Transport for London,TFL TRAVEL,7.67,debit,25 Apr – 24 May 2026,Part of TFL multiple totalling ~£115; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Transport for London,TFL TRAVEL,7.67,debit,25 Apr – 24 May 2026,Part of TFL multiple totalling ~£115; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Parking,PARKING,11.00,debit,25 Apr – 24 May 2026,Part of parking x3 totalling ~£33; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Parking,PARKING,11.00,debit,25 Apr – 24 May 2026,Part of parking x3 totalling ~£33; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Parking,PARKING,11.00,debit,25 Apr – 24 May 2026,Part of parking x3 totalling ~£33; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,DVLA,DVLA VEHICLE TAX,11.25,debit,25 Apr – 24 May 2026,Vehicle tax; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,TODAYTIX,TODAYTIX,63.00,debit,25 Apr – 24 May 2026,One of x2 totalling £126.00; theatre/entertainment; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,TODAYTIX,TODAYTIX,63.00,debit,25 Apr – 24 May 2026,One of x2 totalling £126.00; theatre/entertainment; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Odeon,ODEON,8.50,debit,25 Apr – 24 May 2026,One of x2 net ~£17 (after £17 Central Tickets refund); Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Odeon,ODEON,8.50,debit,25 Apr – 24 May 2026,One of x2 net ~£17 (after £17 Central Tickets refund); Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Central Tickets,CENTRAL TICKETS,-17.00,refund,25 Apr – 24 May 2026,Refund/credit; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Lutong Pinoy,LUTONG PINOY,52.10,debit,25 Apr – 24 May 2026,Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,GN Stevenage,GN STEVENAGE,57.60,debit,25 Apr – 24 May 2026,Large transaction — possible restaurant/venue; confirm; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Xi Home Dumplings,XI HOME DUMPLINGS,10.80,debit,25 Apr – 24 May 2026,Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Tikka Nati,TIKKA NATI,10.49,debit,25 Apr – 24 May 2026,Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Tindahang Pinoy,TINDAHANG PINOY,5.20,debit,25 Apr – 24 May 2026,Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,M&S,M&S,21.50,debit,25 Apr – 24 May 2026,One of x2 totalling £43.00; clothing/goods; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,M&S,M&S,21.50,debit,25 Apr – 24 May 2026,One of x2 totalling £43.00; clothing/goods; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Alex Cox Osteopath,ALEX COX OSTEOPATH,45.00,debit,25 Apr – 24 May 2026,Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Spotify,SPOTIFY,17.99,debit,25 Apr – 24 May 2026,Recurring subscription; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Tesco,TESCO,11.53,debit,25 Apr – 24 May 2026,Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Costco,COSTCO,1.50,debit,25 Apr – 24 May 2026,Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,M&S Marshalswick,M&S MARSHALSWICK,4.85,debit,25 Apr – 24 May 2026,Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,McDonald's,MCDONALDS,11.46,debit,25 Apr – 24 May 2026,Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,JG Dementia UK,JG DEMENTIA UK,4.85,debit,25 Apr – 24 May 2026,Charity; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Stevenage Seventh Day Adventist,STEVENAGE SDA CHURCH,5.00,debit,25 Apr – 24 May 2026,Tithe/charity; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Thortful,THORTFUL,5.89,debit,25 Apr – 24 May 2026,Cards/gifts; Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Panadera Bakery,PANADERA BAKERY,1.80,debit,25 Apr – 24 May 2026,Kelly individual card
+2026-04-01,Kelly,Kelly Amex,Amex,Unknown,UNATTRIBUTED,7.00,debit,25 Apr – 24 May 2026,Unidentified; Kelly individual card
+2026-04-01,Kelly,Kelly Halifax CC,Halifax,Jollibee UK,JOLLIBEE UK,21.94,debit,To 7 May 2026,Kelly individual card
+2026-04-01,Kelly,Kelly Halifax CC,Halifax,Jamaica Patty Co,JAMAICA PATTY CO,3.95,debit,To 7 May 2026,Kelly individual card
+2026-04-01,Kelly,Kelly Halifax CC,Halifax,Didi Coffee,DIDI COFFEE,3.30,debit,To 7 May 2026,Kelly individual card
+2026-04-01,Kelly,Kelly Halifax CC,Halifax,Greggs,GREGGS,1.60,debit,To 7 May 2026,Kelly individual card
+2026-04-01,Kelly,Kelly Halifax CC,Halifax,Authentique Bakery,AUTHENTIQUE BAKERY,3.00,debit,To 7 May 2026,Kelly individual card
+2026-04-01,Kelly,Kelly Halifax CC,Halifax,Too Good To Go,TOO GOOD TO GO,2.69,debit,To 7 May 2026,Kelly individual card
+2026-04-01,Kelly,Kelly Halifax CC,Halifax,Virtus Leisure,VIRTUS LEISURE,1.40,debit,To 7 May 2026,Kelly individual card
+2026-04-01,Kelly,Kelly Halifax CC,Halifax,Batchwood Golf Course,BATCHWOOD GOLF COURSE,6.99,debit,To 7 May 2026,Kelly individual card
+2026-04-01,Kelly,Kelly Halifax CC,Halifax,ChargePoint Network UK,CHARGEPOINT NETWORK UK,8.09,debit,To 7 May 2026,EV charging; Kelly individual card
+2026-04-01,Kelly,Kelly Halifax CC,Halifax,Uno Bus,UNO BUS,3.00,debit,To 7 May 2026,One of x2 totalling £6.00; Kelly individual card
+2026-04-01,Kelly,Kelly Halifax CC,Halifax,Uno Bus,UNO BUS,3.00,debit,To 7 May 2026,One of x2 totalling £6.00; Kelly individual card
+2026-04-01,Kelly,Kelly Halifax CC,Halifax,Starry Mart,STARRY MART,1.85,debit,To 7 May 2026,One of x2 totalling £3.70; Kelly individual card
+2026-04-01,Kelly,Kelly Halifax CC,Halifax,Starry Mart,STARRY MART,1.85,debit,To 7 May 2026,One of x2 totalling £3.70; Kelly individual card
+2026-04-01,Kelly,Kelly Halifax CC,Halifax,Taco Bell,TACO BELL,2.49,debit,To 7 May 2026,Kelly individual card
