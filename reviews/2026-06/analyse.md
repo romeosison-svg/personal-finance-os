@@ -1,7 +1,3 @@
-# Analyse — June 2026
-
-> Retrospective addition — June 2026 review predates this phase. Statements read from Google Drive.
-
 ## Phase Status
 
 | Phase       | Status      | Completed  |
@@ -10,227 +6,258 @@
 | Reconcile   | Complete    | 2026-05-31 |
 | Assumptions | Complete    | 2026-05-31 |
 | Position    | Complete    | 2026-05-31 |
-| Analyse     | Complete    | 2026-05-31 |
+| Analyse     | Complete    | 2026-06-01 |
 | Plan        | Complete    | 2026-05-31 |
 | Strategy    | Complete    | 2026-05-31 |
 
 ---
 
-## Statements Analysed
+# FinanceOS Analyse — 2026-06
 
-| Card | Statement Period | Total Spend |
-| --- | --- | --- |
-| Romeo Amex (Romeo) | 16 Apr – 15 May 2026 | £637.31 |
-| Romeo Amex (Kelly supplementary) | 16 Apr – 15 May 2026 | £270.68 |
-| Barclaycard (Romeo) | To 18 May 2026 | ~£593.71 |
-| Barclaycard (Kelly supplementary) | To 18 May 2026 | ~£567.66 |
-| Romeo Halifax CC | To 03 May 2026 | £8.90 |
-| Kelly Amex | 25 Apr – 24 May 2026 | £774.12 |
-| Kelly Halifax CC | To 07 May 2026 | £65.15 |
-| **Household total** | | **~£2,917.53** |
+> Phase 6 output based on `reviews/2026-06/position-handoff.md` and `reviews/2026-06/transactions.csv`.
 
 ---
 
-## Romeo — Amex (Romeo's spend: £637.31)
+## 1. Scope and data notes
 
-| Category | Items | Amount |
-| --- | --- | --- |
-| Business & Professional | WIX.COM £178.20, Companies House £100.00, Google Workspace £15.00 | **£293.20** |
-| Retail | Amazon x9 purchases | **£73.00** |
-| Transport | Uber x2 £35.86, TFL x3 £29.79 | **£65.65** |
-| Dining & Restaurants | Singapore Garden £45.56, Deliveroo £3.50 | **£49.06** |
-| Coffee & Cafes | Crumbs Bakery x2 (Apr 18 & Apr 25) | **£31.60** |
-| Sport & Fitness | Spond £11.49, Sharp Pickleball x2 £16.20 | **£27.69** |
-| Fast Food | McDonald's x2 | **£21.55** |
-| EV Charging | Nayaxau EV Chargers | **£14.08** |
-| Subscriptions | Prime Video (AD free) | **£10.99** |
-| Health | Boots the Chemist | **£3.65** |
-| Other / Unidentified | ST.ALBANS £10.00, unidentified Apr ~16 £36.84 | **£46.84** |
-| **Total** | | **£637.31** |
+This analysis uses the locked June 2026 handoff assumptions and the transaction CSV only. The handoff confirms that Phases 1–5 are complete and should not be reopened unless there is a genuine inconsistency. No such inconsistency was found.
 
-> Note: Business spend (£293.20) includes WIX annual website fee and Companies House filing, both on 12-month Plan It instalments. Real spend this month but paid over 12 months.
+The transaction data is mostly drawn from statement periods ending in May 2026, used for the June 2026 review cycle. Several rows use approximate dates or estimated splits where the underlying statement grouped transactions, especially Amazon, groceries, TFL, and some food/cafe spend.
+
+Kelly's individual cards are included in the transaction analysis but remain excluded from Romeo Lloyds household cashflow planning, per the handoff constraints.
 
 ---
 
-## Romeo — Amex (Kelly's supplementary spend: £270.68)
+## 2. Category totals
 
-| Category | Items | Amount |
-| --- | --- | --- |
-| Groceries | Tesco x2, M&S, Costco, Aldi, Manila Supermarket | **£216.18** |
-| Coffee & Cafes | Crumbs Bakery, Panadera Bakery, Taste of Cyprus Bakery | **£23.40** |
-| EV Charging | Gridserve | **£20.15** |
-| Fast Food | McDonald's | **£10.95** |
-| **Total** | | **£270.68** |
+| Category | Household total | Notes |
+| --- | ---: | --- |
+| Food, restaurants, cafés, takeaways | £591.83 | Largest discretionary category. Includes restaurants, bakeries, McDonald's, Burger King, KFC, Jollibee, cafes, Deliveroo, and similar. |
+| Pickleball, sport, fitness | £356.59 | Includes Everyone Active, Spond, SNB court bookings, Sharp Pickleball, Pickleball England, Premier Pickleball, Batchwood, Virtus Leisure. |
+| Vehicle, EV charging, parking, transport | £344.97 | Includes EV charging, TFL, Uber, parking, bus, JustPark, RingGo, DVLA, Free Wheelin, and car-related costs. |
+| Business, software, subscriptions | £230.08 | Includes Wix annual charge, Google Workspace, OpenAI, Prime Video ad-free. |
+| Groceries and household shopping | £340.67 | Tesco, Costco, Aldi, M&S Food, Manila Supermarket, Sainsbury's, Home Bargains, Starry Mart, etc. |
+| Car repair / maintenance | £425.60 | Vaillant is household maintenance, Lea Motors is Zoe vehicle service/repair. Kept visible because it materially distorts the month. |
+| Health and medical | £93.65 | Alex Cox Osteopath x2, Boots. |
+| Entertainment | £143.00 | TodayTix, Odeon, net Central Tickets refund. |
+| Clothing / general goods | £43.00 | M&S general purchases. |
+| Charity | £4.85 | JG Dementia UK. |
+| Unknown / unidentified | £53.84 | Unknown Amex £36.84, Unknown St Albans £10.00, Kelly Amex unattributed £7.00. |
+| Refunds / credits | -£17.00 | Central Tickets refund already reflected separately. |
 
----
-
-## Romeo — Barclaycard (Romeo: ~£593.71)
-
-| Category | Items | Amount |
-| --- | --- | --- |
-| Dining & Restaurants | Captain Hoddesdon £34.65, Bank-Onc London £45.00, Thai House £25.99, Harune Korean x2 £16.50, Yaki YA £17.99, Kalm Club £16.50 | **£156.63** |
-| Sport & Fitness | Everyoneactive x4 £82.00, Premier Pickleball £35.00, Pickleball England £35.00 | **£152.00** |
-| Household (one-off) | Vaillant Group — boiler service/repair | **£139.00** |
-| Fast Food | Burger King x3 £35.90, KFC £9.28 | **£45.18** |
-| Health | Alex Cox Osteopath | **£45.00** |
-| Transport | Justpark £20.99, Free Wheelin £14.89, Ringgo Parking £1.40 | **£37.28** |
-| Coffee & Cafes | Crumbs Bakery £3.20, Helg Ltd £7.14 | **£10.34** |
-| Food / Snacks | Decorum Vending x2 | **£8.28** |
-| **Total** | | **~£593.71** |
+**Estimated total net spend analysed:** **£2,607.01**
 
 ---
 
-## Romeo — Barclaycard (Kelly's supplementary: ~£567.66)
+## 3. Top spending categories
 
-| Category | Items | Amount |
-| --- | --- | --- |
-| Vehicle (one-off) | Lea Motors 2023 Ltd — Zoe-related | **£286.60** |
-| Health | Dental Health Care Hertford £75.00 | **£75.00** |
-| Fast Food | McDonald's x4 £56.25, Burger King net £18.55 | **£74.80** |
-| Groceries | Tesco £12.50, Costco x3 £11.97, Sainsbury's £20.10 | **£44.57** |
-| EV Charging | Gridserve x2 | **£34.00** |
-| Dining | Sidney & Sons Fish & Chips | **£32.10** |
-| Retail | Home Bargains | **£13.04** |
-| Transport | Uber | **£8.94** |
-| **Total** | | **~£569.05** |
+The top 5 household spending categories were:
 
----
+| Rank | Category | Amount |
+| ---: | --- | ---: |
+| 1 | Food, restaurants, cafés, takeaways | £591.83 |
+| 2 | Car repair / maintenance | £425.60 |
+| 3 | Pickleball, sport, fitness | £356.59 |
+| 4 | Vehicle, EV charging, parking, transport | £344.97 |
+| 5 | Groceries and household shopping | £340.67 |
 
-## Romeo — Halifax CC (£8.90)
-
-| Category | Items | Amount |
-| --- | --- | --- |
-| Subscriptions | OpenAI (USD 12.00 @ 1.3483) | **£8.90** |
+The headline picture is that everyday discretionary spend, especially food and eating out, was the biggest category. The next largest drivers were car/maintenance one-offs, pickleball/sport, transport, and groceries.
 
 ---
 
-## Kelly — Amex (£774.12)
+## 4. Category detail
 
-| Category | Items | Amount |
-| --- | --- | --- |
-| Sport & Fitness | SNB court bookings x7 ~£87, Spond coaching x3 ~£47, Sharp Pickleball x3 £33, Pickleball England x2 £44 | **~£243** |
-| Transport | TFL multiple ~£115, parking x3 ~£33, DVLA vehicle tax £11.25 | **~£159** |
-| Entertainment | TODAYTIX x2 £126.00, Odeon x2 ~£17 (net of £17 Central Tickets refund) | **~£126** |
-| Dining & Restaurants | Lutong Pinoy £52.10, GN Stevenage £57.60, Xi Home Dumplings £10.80, Tikka Nati £10.49, Tindahang Pinoy £5.20 | **£136.19** |
-| Retail | M&S (clothing/goods) x2 | **£43.00** |
-| Health | Alex Cox Osteopath | **£45.00** |
-| Subscriptions | Spotify | **£17.99** |
-| Groceries | Tesco £11.53, Costco £1.50, M&S Marshalswick £4.85 | **£17.88** |
-| Fast Food | McDonald's | **£11.46** |
-| Charity & Church | JG Dementia UK £4.85, Stevenage Seventh Day Adventist £5.00 | **£9.85** |
-| Gifts | Thortful (cards/gifts) | **£5.89** |
-| Coffee & Cafes | Panadera Bakery | **~£1.80** |
-| Other | Unattributed | **~£7** |
-| **Total** | | **£774.12** |
+### Food, restaurants, cafés, takeaways — £591.83
 
----
+This was the largest category. It includes a wide spread of relatively small transactions rather than one single outlier.
 
-## Kelly — Halifax CC (£65.15)
+Notable items include:
 
-| Category | Items | Amount |
-| --- | --- | --- |
-| Dining | Jollibee UK £21.94, Jamaica Patty Co £3.95 | **£25.89** |
-| Coffee & Cafes | Didi Coffee £3.30, Greggs £1.60, Authentique Bakery £3.00, Too Good To Go £2.69 | **£10.59** |
-| Sport / Leisure | Virtus Leisure £1.40, Batchwood Golf Course £6.99 | **£8.39** |
-| EV Charging | ChargePoint Network UK | **£8.09** |
-| Transport | Uno bus x2 | **£6.00** |
-| Groceries | Starry Mart x2 | **£3.70** |
-| Fast Food | Taco Bell | **£2.49** |
-| **Total** | | **£65.15** |
+| Merchant / type | Amount |
+| --- | ---: |
+| Singapore Garden | £45.56 |
+| Lutong Pinoy | £52.10 |
+| GN Stevenage | £57.60 |
+| Captain Hoddesdon | £34.65 |
+| Thai House | £25.99 |
+| Sidney & Sons Fish & Chips | £32.10 |
+| McDonald's, Burger King, KFC, Jollibee, Taco Bell | ~£198.55 combined |
+| Bakeries and cafés | ~£80+ combined |
 
----
+The pattern is broad and repeated, not isolated. Fast food, restaurants, bakeries, and casual food purchases appear across multiple cards and both cardholders.
 
-## Household Combined
+### Pickleball, sport, fitness — £356.59
 
-| Category | Romeo | Kelly | Household Total |
-| --- | --- | --- | --- |
-| Sport & Fitness | £179.69 | ~£251 | **~£431** |
-| Dining & Restaurants | £205.69 | ~£194 | **~£400** |
-| Groceries | £0 | ~£282 | **~£282** |
-| Business & Professional | £293.20 | — | **£293.20** |
-| Transport | ~£103 | ~£165 | **~£268** |
-| Fast Food | £66.73 | ~£88 | **~£155** |
-| Health & Medical | £48.65 | £120.00 | **£168.65** |
-| Coffee & Cafes | £41.94 | ~£36 | **~£78** |
-| Entertainment | — | ~£126 | **~£126** |
-| Retail (Amazon + other) | £73.00 | ~£56 | **~£129** |
-| EV Charging | £14.08 | ~£62 | **~£76** |
-| Subscriptions (recurring) | £19.89 | £17.99 | **£37.88** |
-| Charity & Church | — | £9.85 | **£9.85** |
-| Gifts | — | £5.89 | **£5.89** |
-| **One-offs (excluded below)** | Vaillant £139 | Lea Motors £286.60 | **£425.60** |
-| **Other / Unidentified** | ~£47 | ~£7 | **~£54** |
-| **Household total (inc one-offs)** | | | **~£2,918** |
-| **Adjusted (excl. one-offs & business)** | | | **~£2,199** |
+This is a structurally high but expected category given the household activity pattern.
 
----
+Main components:
 
-## Subscriptions Identified
+| Merchant / type | Amount |
+| --- | ---: |
+| Everyone Active | £82.00 |
+| SNB Court Booking | ~£87.00 |
+| Spond Coaching | ~£47.00 |
+| Sharp Pickleball | £49.20 |
+| Pickleball England | £79.00 |
+| Premier Pickleball | £35.00 |
+| Batchwood / Virtus Leisure | £8.39 |
 
-| Subscription | Card | Monthly Cost | Holder |
-| --- | --- | --- | --- |
-| Google Workspace | Romeo Amex | £15.00 | Romeo (business) |
-| Spotify | Kelly Amex | £17.99 | Kelly |
-| Prime Video (AD free) | Romeo Amex | £10.99 | Romeo |
-| OpenAI | Romeo Halifax CC | £8.90 | Romeo |
-| WIX.COM | Romeo Amex | £14.85/month | Romeo (business — £178.20 annual on Plan It) |
-| Everyoneactive | Romeo Barclaycard | £20.50/visit | Romeo (4 visits this period — pay-per-use) |
+The CSV identifies Everyone Active as pay-per-visit and shows four £20.50 transactions totalling £82.00. Kelly's individual Amex also shows repeated court booking, coaching, Sharp Pickleball, and Pickleball England spend.
 
-**Confirmed monthly recurring subscriptions: £52.88**
+### Vehicle, EV charging, parking, transport — £344.97
 
----
+This category includes recurring mobility costs and EV-related usage.
 
-## Notable Observations
+Main components:
 
-### 1. Sport is the largest discretionary category — ~£431
+| Merchant / type | Amount |
+| --- | ---: |
+| TFL | ~£144.80 |
+| Uber | £44.80 |
+| EV charging | £93.32 |
+| Parking / JustPark / RingGo | £65.38 |
+| DVLA vehicle tax | £11.25 |
+| Free Wheelin | £14.89 |
+| Uno Bus | £6.00 |
 
-Combined household sport spend is the single largest discretionary category. Kelly's sport alone (~£251) is higher than Romeo's (~£180). Kelly's pickleball activity is extremely frequent: SNB court bookings appear 7+ times on Kelly's Amex in a single statement period, alongside Spond coaching, Sharp Pickleball sessions, and Pickleball England competitions. Romeo's Everyoneactive at £20.50/visit (4 visits) is a consistent recurring pattern.
+Kelly's TFL activity is materially higher than Romeo's in this dataset, with multiple entries totalling around £115. EV charging appears across Gridserve, Nayax, and ChargePoint.
 
-### 2. Fast food — £155, very high frequency
+### Business, software, subscriptions — £230.08
 
-McDonald's appears on 6 separate occasions across household cards. Burger King appears 5 times. Both Romeo and Kelly contribute. This is a high-frequency pattern spread across multiple venues and both cardholders.
+Main components:
 
-### 3. Dining out — ~£400
+| Merchant | Amount | Notes |
+| --- | ---: | --- |
+| Wix.com | £178.20 | Annual business subscription, on Plan It |
+| Google Workspace | £15.00 | Recurring subscription |
+| Prime Video ad-free | £10.99 | Recurring subscription |
+| OpenAI | £8.90 | Recurring subscription |
+| Spotify | £17.99 | Recurring subscription, Kelly individual card |
 
-Dining totals approximately £400 excluding fast food and cafes. Romeo's Barclaycard shows 6 dining transactions in a single period. Kelly's Amex has 5 dining transactions. Combined, dining and fast food together total **~£555/month**.
+The Wix charge is the main driver and is explicitly marked as an annual business subscription on Plan It.
 
-### 4. One-off items — £425 this month
+### Groceries and household shopping — £340.67
 
-Two significant one-offs inflate this month materially:
-- **Lea Motors £286.60** (Kelly Barclaycard) — Zoe vehicle service/repair
-- **Vaillant boiler £139.00** (Romeo Barclaycard) — boiler repair
+Main components include Tesco, Costco, Aldi, M&S Food, Manila Supermarket, Sainsbury's, Home Bargains, Starry Mart, and smaller grocery/convenience merchants.
 
-These are not representative of normal monthly spend.
+Kelly supplementary Amex grocery spend includes Tesco, M&S Food, Costco, Aldi, and Manila Supermarket, with several amounts estimated from a £216.18 grocery total.
 
-### 5. Romeo's Barclaycard dining — will shift to Amex
+### Car repair / maintenance — £425.60
 
-Romeo's £156.63 Barclaycard dining spend (6 transactions) will move to Amex under the strategy decision to stop new Barclaycard spend. This will increase the Amex bill by a corresponding amount.
+This category is distorted by known one-off or irregular costs:
 
-### 6. Kelly's TFL spend — ~£115
+| Merchant | Amount | Note |
+| --- | ---: | --- |
+| Lea Motors 2023 Ltd | £286.60 | Zoe EV vehicle service/repair |
+| Vaillant Group | £139.00 | Boiler service/repair, one-off |
 
-Kelly has extensive TFL usage, consistent with regular London trips for pickleball events and theatre. Multiple days per week pattern is visible from the frequency of small TFL charges.
+Both items are explicitly marked as one-offs in the transaction data.
 
-### 7. Alex Cox Osteopath — both in same period
+### Health and medical — £93.65
 
-Both Romeo (Barclaycard, £45) and Kelly (Amex, £45) have an Alex Cox Osteopath transaction this period. Regular treatment for both. Total household osteopath spend: £90/month.
+Main components:
 
-### 8. Romeo's Amex companion voucher — on track
+| Merchant | Amount |
+| --- | ---: |
+| Alex Cox Osteopath x2 | £90.00 |
+| Boots the Chemist | £3.65 |
 
-Romeo's qualifying Amex spend: £8,370.65. Target: £15,000. Anniversary: 03 Nov 2026 (~5 months away). Remaining: **£6,629.35**. At the current adjusted monthly spend rate (~£400–600 on Amex) this is unlikely to be reached without the Barclaycard spend moving across. With Barclaycard dining (~£157) shifting to Amex, the monthly Amex spend will increase — worth tracking each month.
+This appears to be a small number of targeted health-related costs rather than broad recurring medical spend.
 
-### 9. GN Stevenage £57.60 (Kelly Amex)
+### Entertainment — £143.00
 
-Large unidentified transaction. Amount consistent with a restaurant or social venue visit. Worth confirming.
+Main components:
 
-### 10. Groceries concentrated on Kelly
+| Merchant | Amount |
+| --- | ---: |
+| TodayTix | £126.00 |
+| Odeon | £17.00 net |
+| Central Tickets refund | -£17.00 |
 
-All household grocery spend (~£282) flows through Kelly's cards. Romeo has zero grocery spend across all his cards this period. Groceries are primarily purchased at Tesco, Costco, Aldi, M&S, and Manila Supermarket.
+TodayTix is the main entertainment cost, two £63.00 transactions.
 
 ---
 
-## Phase Lock
+## 5. Large, unusual, or anomalous transactions
 
-Status: Complete
-Completed: 2026-05-31
+| Transaction | Amount | Why flagged |
+| --- | ---: | --- |
+| Lea Motors 2023 Ltd | £286.60 | Large vehicle service/repair item, Zoe-related. |
+| Wix.com | £178.20 | Annual business subscription, not monthly run-rate spend. |
+| Vaillant Group | £139.00 | One-off boiler service/repair. |
+| Companies House | £100.00 | Annual filing/admin type cost. |
+| TodayTix x2 | £126.00 total | Entertainment spend concentrated in two transactions. |
+| GN Stevenage | £57.60 | Marked in CSV as large and requiring confirmation. |
+| Unknown merchant | £36.84 | Unidentified transaction. |
+| Unknown St Albans | £10.00 | Merchant unclear. |
+| Unattributed Kelly Amex | £7.00 | Unidentified. |
 
-Spending analysis locked. Retrospective — June 2026.
+The clearest one-off distortions are the Zoe/vehicle service, Vaillant, Wix annual subscription, and Companies House. These should not be treated as normal monthly discretionary run-rate.
+
+---
+
+## 6. Expected reimbursements and known one-offs
+
+Known June cashflow distortions from the handoff:
+
+| Item | Amount | Treatment |
+| --- | ---: | --- |
+| Kelly mortgage reimbursement to Romeo | £1,316.83 | Expected around 24 Jun from Kelly salary. This affects cashflow, not transaction spend. |
+| Kelly pre-24 Jun bills covered by Romeo | ~£139.68 | Temporary support due to Kelly salary timing. |
+| Emergency fund contribution | £0 | Suspended for June due to pre-funding constraints. |
+| Zoe sale proceeds | Unknown | Expected to replenish Kelly savings, not yet reflected in transaction data. |
+
+Known one-off or non-run-rate transactions in the CSV:
+
+| Transaction | Amount |
+| --- | ---: |
+| Lea Motors 2023 Ltd | £286.60 |
+| Vaillant Group | £139.00 |
+| Wix.com annual subscription | £178.20 |
+| Companies House | £100.00 |
+
+---
+
+## 7. Subscriptions identified
+
+| Subscription | Amount | Owner / account | Notes |
+| --- | ---: | --- | --- |
+| Google Workspace | £15.00 | Romeo Amex | Recurring subscription |
+| Prime Video ad-free | £10.99 | Romeo Amex | Recurring subscription |
+| OpenAI | £8.90 | Romeo Halifax CC | Recurring subscription |
+| Spotify | £17.99 | Kelly Amex | Recurring subscription |
+| Wix.com | £178.20 | Romeo Amex | Annual business subscription, on Plan It |
+| Spond | £11.49 | Romeo Amex | Could be sports/session payment rather than subscription, not marked recurring |
+| Spond Coaching | ~£47.00 | Kelly Amex | Coaching payments, not marked recurring |
+
+Confirmed recurring subscriptions total **£52.88/month-equivalent excluding Wix**.
+
+Including the Wix annual charge as paid this cycle, subscription/business software spend shown in the CSV is **£230.08**.
+
+---
+
+## 8. Prior period comparison
+
+No prior-period transaction totals were provided in the required inputs, so no month-on-month comparison can be completed from the available data.
+
+The only usable comparison point is qualitative: several items are explicitly marked as annual, one-off, or unusual, so June's analysed spend is not a clean baseline month.
+
+---
+
+## 9. Summary view
+
+The June review spending picture is dominated by five areas:
+
+1. **Food, restaurants, cafés, and takeaways: £591.83**
+2. **Car / home maintenance one-offs: £425.60**
+3. **Pickleball, sport, and fitness: £356.59**
+4. **Transport, EV charging, parking: £344.97**
+5. **Groceries and household shopping: £340.67**
+
+The main distortions are **Lea Motors £286.60**, **Wix £178.20**, **Vaillant £139.00**, and **Companies House £100.00**. Without those four items, underlying analysed spend would be materially lower by **£703.80**.
+
+The most visible repeat pattern is not a single large purchase, but frequent small-to-medium discretionary spend across food, cafés, fast food, sport, parking, and transport.
+
+---
+
+_Imported from ChatGPT on 2026-06-01._
