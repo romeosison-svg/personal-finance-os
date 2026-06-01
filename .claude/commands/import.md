@@ -78,7 +78,7 @@ Do not ask for review month, source, or confirmation of defaults.
 
 If the phase is not `analyse`, `plan`, or `strategy`:
 
-> `import` supports: `analyse`, `plan`, `strategy`. Native Claude phases are not imported.
+> `import` supports: `analyse`, `plan`, `strategy`. Native Claude phases (collect, reconcile, assumptions, position, handoff) are not imported.
 
 Stop.
 
@@ -99,13 +99,7 @@ Stop.
 
 ### Step 4 — Check for existing content
 
-Read `reviews/YYYY-MM/{phase}.md`.
-
-If the phase status is already `Complete`, warn once:
-
-> `{phase}.md` is already `Complete`. Overwrite? (yes / no)
-
-If no, stop.
+Read `reviews/YYYY-MM/{phase}.md`. If the phase is already `Complete`, overwrite silently — git history is the audit trail.
 
 ### Step 5 — Write the file
 
@@ -179,9 +173,8 @@ strategy: imported ChatGPT strategy — YYYY-MM
 | Situation | Behaviour |
 | --- | --- |
 | Content pasted in same message as `import` | Use it immediately. No prompt. |
-| Phase already `Complete` | Warn once. Confirm overwrite. |
+| Phase already `Complete` | Overwrite silently. Git history is the audit trail. |
 | Gate not met | Stop. Name the blocking phase. Suggest next step. |
 | Unsupported phase name | Stop immediately. Do not guess. |
-| `Review Month` override supplied | Use it. Validate the folder exists first. |
-| `Source` override supplied | Use it in the import line. Commit message is always `ChatGPT`. |
-| No `reviews/` folder exists | Tell user to run `finance start` first. |
+| `Review Month` override supplied | Use it as-is. |
+| `Source` override supplied | Use it in the import line. Commit message always says `ChatGPT`. |
