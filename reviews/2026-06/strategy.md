@@ -10,225 +10,253 @@
 | Reconcile   | Complete    | 2026-05-31 |
 | Assumptions | Complete    | 2026-05-31 |
 | Position    | Complete    | 2026-05-31 |
-| Plan        | Complete    | 2026-05-31 |
-| Strategy    | Complete    | 2026-05-31 |
+| Plan        | Complete    | 2026-06-01 |
+| Strategy    | Complete    | 2026-06-02 |
 
 ---
 
-## Strategic Items Reviewed
+# Strategy — June 2026
+
+## 1. Strategic summary
+
+June's strategy is to preserve minimum liquidity, keep the 0% balance transfer plan on track, and prioritise repayment of the highest-cost debt: Romeo Barclaycard.
+
+The corrected June position is stronger than the original handoff implied:
+
+* Kelly funded her mortgage share directly from savings.
+* Romeo did not need to wait for a 24 June reimbursement to execute the plan.
+* Emergency fund is confirmed at £5,058, which is £58 above the £5,000 minimum operating level.
+* Lloyds ended at the preferred £1,000 operating buffer.
+* Amex standard balance was paid in full.
+* Barclaycard received £1,037.40 total payment.
+* MBNA and M&S balance transfer payments remained on track.
+
+The main strategic concern remains that Barclaycard is expensive and was partly built through lifestyle spending. However, identifiable Zoe vehicle costs should be separated from lifestyle spending and treated as shared household vehicle costs.
 
 ---
 
-### 1. MBNA Balance Transfer — Target Increase
+## 2. Strategic risks to escalate
 
-**Status:** Decided
-
-**Context:**
-At the current operational target of £349/month, the MBNA balance (£9,010.78) will not clear before the 0% promotional rate expires on 30 May 2028 (24 months).
-
-| | |
-|---|---|
-| Required monthly payment to clear on time | £375.45 |
-| Previous operational target | £349.00 |
-| Shortfall per month | £26.45 |
-| Projected remaining balance at expiry (old target) | ~£635 |
-
-**Decision:** Increase MBNA operational target to **£376/month** from July 2026.
-
-New top-up required (above DD of £225.27): **~£151/month**
-
-**Reasoning:** A ~£635 residual balance rolling onto 24.33% APR at expiry would cost approximately £154 in the first year alone. Increasing the target by £27/month eliminates this exposure at minimal additional cost.
-
-**Effective:** July 2026
-**Next review:** Monthly — recalculate required payment each review as balance reduces.
+| Risk | Severity | Why it matters | Action |
+| --- | --- | --- | --- |
+| Barclaycard 28% APR + £20/month fee | High | This is the highest-cost debt in scope and should not be allowed to rebuild. | Stop new Barclaycard spend and continue accelerated repayment. |
+| Lifestyle spending pressure | High | Dining, fast food, sport, transport, and discretionary spend are recurring patterns, not one-offs. | Set July controls before further debt repayment assumptions. |
+| Zoe vehicle cost distortion | Medium | £999.86 of Zoe repair/service costs were paid by Romeo but relate to a shared household asset. | Treat as household vehicle reconciliation, not Romeo lifestyle debt. |
+| Lloyds operating buffer is thin | Medium | £1,000 looks safe but is much lower after regular Lloyds bills and card DDs. | Review whether July buffer should rise once Barclaycard pressure reduces. |
+| Starling overdraft | Medium | Starling is overdrawn and used for subscriptions. | Clear, close, or migrate subscriptions. |
+| Emergency fund | Low | EF is £5,058, slightly above the £5,000 minimum. | Maintain above £5,000, no June contribution required. |
 
 ---
 
-### 2. Barclaycard — Strategy
+## 3. Balance transfer strategy
 
-**Status:** Decided (phased)
+The balance transfer strategy should be maintained, not accelerated.
 
-**Context:**
-Barclaycard balance grew to £2,215.04 as spending was consciously shifted from Amex. The card carries 28% APR compound + £20/month membership fee. After June's payment the balance is ~£1,178.
+| Card | Current strategy | June decision | July direction |
+| --- | --- | --- | --- |
+| MBNA | 0% promo, £349/month operational target | Maintain | Resume proportional household funding |
+| M&S BT | 0% promo, £195/month operational target | Maintain | Resume proportional household funding |
+| Virgin Money BT | Kelly card, details incomplete | Kelly self-funded | Confirm balance and promo expiry |
 
-**Decisions:**
+June was an intentional exception where Romeo funded 100% of MBNA and M&S payments because Kelly funded her mortgage contribution from savings during a transition month.
 
-**2a. Stop new spending on Barclaycard immediately.**
-All card spending to consolidate onto Amex. Amex is paid in full monthly (no interest, earns Avios). The higher Amex bill is acceptable provided the discipline holds: only spend on Amex what can be paid in full that month. If the Amex balance grows beyond what cashflow supports, the problem recurs — the card is the symptom, not the cause.
+This is not a policy change.
 
-**2b. Do not open a third balance transfer card for the Barclaycard balance.**
-After June's payment, the balance is ~£1,178. At a similar payment in July (~£1,000+), the card could be cleared within 1-2 months. The potential saving from a 0% BT card (~£120 before clearance) does not justify a hard credit search and the complexity of managing a third BT card alongside MBNA and M&S. Clear aggressively instead.
+From July 2026 onwards, MBNA and M&S balance transfer repayments should revert to the normal household ratio:
 
-**2c. Once cleared: downgrade rather than cancel.**
-Call Barclaycard and request a downgrade to a no-fee Avios card. This eliminates the £240/year membership fee while:
-- Preserving the credit history (good for credit profile)
-- Retaining the card as a non-Amex backup (Mastercard, accepted where Amex is not)
+| Person | Share |
+| --- | --- |
+| Romeo | 57.1% |
+| Kelly | 42.9% |
 
-If no suitable free product is available, consider using Halifax CC (Visa, already clear, no annual fee) as the non-Amex backup and cancelling Barclaycard.
-
-**Effective:** Immediately (stop spending). Downgrade/cancel: when balance reaches £0.
-**Next review:** July 2026 — confirm no new Barclaycard spend and assess remaining balance.
+Do not accelerate 0% BT debt while Barclaycard remains at 28% APR.
 
 ---
 
-### 3. Zoe Sale and Vehicle Replacement — MG Urban Comfort
+## 4. Barclaycard strategy
 
-**Status:** Decided
+Barclaycard remains the highest-priority debt.
 
-**Context:**
-Kelly is selling the Zoe electric vehicle. The battery is currently on lease; buying it out costs ~£1,128 and is required to achieve the higher sale price range.
+June payment:
 
-| | Low | High |
-|---|---|---|
-| Expected sale proceeds | £2,500 | £2,900 |
-| Less: battery buyout | −£1,128 | −£1,128 |
-| **Net to Kelly's savings** | **£1,372** | **£1,772** |
-| Less: mortgage contribution (June 2026) | −£1,316.83 | −£1,316.83 |
-| **Net savings position after replenishment** | **~£55** | **~£455** |
+| Component | Amount |
+| --- | ---: |
+| Minimum payment | £105.52 |
+| Additional payment | £931.88 |
+| Total June Barclaycard payment | £1,037.40 |
 
-Savings replenishment is modest. Kelly's savings position remains thin until salary is established over several months.
+Estimated balance after payment:
 
-**Vehicle replacement:** MG Urban Comfort, PCP at £300/month.
-**Insurance:** ~£50/month.
-**Total new monthly commitment:** **£350/month** (Kelly's allocation).
+| Item | Amount |
+| --- | ---: |
+| Balance before June payment | £2,215.04 |
+| June payment | −£1,037.40 |
+| Estimated balance after | £1,177.64 |
 
-This commitment has been added to the Finance Profile under vehicle finance.
+The Barclaycard balance should remain Romeo's responsibility for repayment planning, except where specific identifiable costs are agreed as household costs.
 
-**Decisions:**
-- Proceed with battery buyout and Zoe sale.
-- Proceed with MG Urban Comfort PCP at £350/month total (PCP + insurance).
-- PCP end date and balloon payment to be confirmed when agreement is signed and added to Finance Profile.
-- Kelly's savings will be thin for several months — emergency fund contributions remain suspended until savings and salary are stabilised.
+The key rule is:
 
-**Effective:** As sale/purchase proceeds.
-**Next review:** July 2026 — confirm sale completed, net proceeds received, PCP signed and details added to Finance Profile.
+* General Barclaycard balance remains Romeo debt.
+* Identifiable shared household asset costs may be allocated separately.
+* Future Barclaycard spending should stop unless explicitly planned and repayable in full.
 
 ---
 
-### 4. Starling Account Overdraft — Payoff Plan
+## 5. Zoe household vehicle reconciliation
 
-**Status:** Decided
+The Zoe was a shared household asset.
 
-**Context:**
-Romeo's Starling current account is intentionally used for subscriptions only. Current balance: −£289.26 (overdrawn). Overdraft interest rate: 35% APR. Current outgoings: Google Workspace £14/month, Premier Pickleball League £150/month, overdraft charge ~£1/month.
+The following vehicle costs were paid by Romeo but should be treated as shared household vehicle costs:
 
-At −£289.26, the account costs approximately £8–9/month in overdraft interest.
-
-**Decisions:**
-
-**4a. Transfer £300 from Lloyds to Starling in July 2026** to clear the overdraft and leave a small positive balance.
-
-**4b. Move the Google Workspace subscription** from Starling to Romeo's Lloyds or Halifax CC. This prevents subscription DDs from re-accumulating a Starling overdraft after the clearance transfer.
-
-**Note for July review:** Remind Romeo to action transfer and subscription move at the start of the July review.
-
-**Effective:** July 2026
-**Next review:** July 2026 — confirm overdraft cleared and Google Workspace subscription moved.
-
----
-
-### 5. Zoe Vehicle Costs — Household Reconciliation
-
-**Status:** Decided
-
-**Context:**
-Historical vehicle costs paid by Romeo on the Renault Zoe (a shared household asset) have been identified and reconciled as shared household vehicle expenses.
-
-| Description | Amount |
+| Item | Amount |
 | --- | ---: |
 | April Zoe repair | £287.00 |
 | April Zoe service | £426.26 |
-| May Zoe repair | £286.60 |
-| **Total** | **£999.86** |
+| May Zoe repair, Lea Motors | £286.60 |
+| Total shared Zoe costs | £999.86 |
 
-Allocated at the standard household ratio (Romeo 57.1% / Kelly 42.9%):
+Allocation using household income ratio:
 
-| Allocation | Amount |
+| Person | Share | Amount |
+| --- | --- | ---: |
+| Romeo | 57.1% | £570.92 |
+| Kelly | 42.9% | £428.94 |
+
+Kelly reimbursement due: £428.94.
+
+This reimbursement relates only to identifiable Zoe vehicle costs. It does not reclassify the wider Barclaycard balance as household debt.
+
+Future vehicle servicing, repairs, MOTs, tyres, and maintenance should be classified as household vehicle costs and allocated using the standard household ratio unless explicitly overridden.
+
+---
+
+## 6. Emergency fund position
+
+Emergency fund balance is confirmed at £5,058.
+
+| Item | Amount |
 | --- | ---: |
-| Romeo share | £570.92 |
-| Kelly share | £428.94 |
+| Emergency fund balance | £5,058 |
+| Minimum operating level | £5,000 |
+| Surplus above minimum | £58 |
+| June contribution | £0 |
 
-**Kelly reimbursement due:** £428.94
-**Expected settlement:** next available salary payment (~24 Jun 2026)
+The emergency fund is adequate for June because it is above the minimum operating level.
 
-**Decisions:**
+No June contribution is required.
 
-The Barclaycard balance remains Romeo's personal debt. This reconciliation does not reclassify it as household debt. The £428.94 reimbursement relates only to the identifiable Zoe vehicle costs listed above.
+Additional surplus should continue to prioritise Barclaycard while:
 
-From this point forward, vehicle servicing, repairs, MOTs, and general maintenance costs for the Zoe (or any successor shared household vehicle) should be classified as household vehicle costs and allocated using the standard household ratio (currently Romeo 57.1% / Kelly 42.9%).
+* EF remains at or above £5,000
+* Lloyds operating buffer remains protected
+* MBNA and M&S BT targets remain on track
 
-**Effective:** Immediately
-**Next review:** July 2026 — confirm £428.94 reimbursement received from Kelly.
-
----
-
-### 6. Kelly's Virgin Money BT Card — Finance Profile Gap
-
-**Status:** Deferred
-
-**Context:**
-A Virgin Money BT card in Kelly's name was identified in reconcile (DD of £65/month from Kelly's Halifax). Balance and promotional expiry date are unknown — statement was not provided in this review.
-
-**Decision:** Deferred. Kelly to provide Virgin Money BT card details (current balance, promotional end date, DD amount) before or during the July 2026 review. Finance Profile to be updated once confirmed.
-
-**Next review:** July 2026.
+Once Barclaycard is cleared or materially reduced, reassess whether to grow EF toward a higher target.
 
 ---
 
-## Decisions Made This Month
+## 7. Lloyds operating buffer
 
-| Decision | Outcome | Reasoning | Effective |
-| --- | --- | --- | --- |
-| MBNA operational target | Increase to £376/month | At £349/month ~£635 residual at promo expiry; £376 clears on time | Jul 2026 |
-| Barclaycard new spend | Stop immediately — consolidate to Amex | 28% APR + £20 fee; Amex earns Avios at no cost if paid in full | Immediate |
-| Barclaycard BT card | Do not open third BT card | Balance ~£1,178; clears in 1-2 months; hard search not justified | — |
-| Barclaycard account | Downgrade to free card when cleared | Retains credit history and non-Amex backup; eliminates £240/year fee | On clearance |
-| Zoe battery buyout | Proceed (~£1,128) | Required to achieve target sale price range | On sale |
-| Vehicle replacement | MG Urban Comfort PCP £300 + insurance £50 = £350/month | Kelly's transport need; PCP keeps monthly cost predictable | On purchase |
-| Starling overdraft | Clear in July via £300 Lloyds transfer | 35% APR; cheap to fix; move Google Workspace to prevent recurrence | Jul 2026 |
-| Zoe household reconciliation | £428.94 reimbursement due from Kelly | £999.86 Zoe costs identified as shared; allocated 57.1%/42.9% household ratio | ~24 Jun 2026 |
+The £1,000 Lloyds balance should be described as an operating floor, not a true free-cash buffer.
+
+Known regular Lloyds bills and card DDs materially reduce the practical buffer.
+
+Current working estimate:
+
+| Item | Amount |
+| --- | ---: |
+| Lloyds operating floor | £1,000.00 |
+| Less recurring Lloyds bills | −£469.45 |
+| Less M&S DD | −£190.00 |
+| Less MBNA DD | −£225.27 |
+| Effective Lloyds free buffer | £115.28 |
+
+This does not invalidate the June plan because the emergency fund exists behind Lloyds.
+
+However, July should review whether the Lloyds operating floor should eventually increase to £1,500 once Barclaycard pressure reduces.
 
 ---
 
-## Items Deferred
+## 8. Spending patterns suggesting structural issues
 
-| Item | Reason Deferred | Next Review |
+The spending analysis shows several repeat patterns.
+
+| Pattern | Assessment |
+| --- | --- |
+| Sport and pickleball | High but expected lifestyle priority. Needs explicit monthly allowance. |
+| Dining and restaurants | Material recurring discretionary spend. |
+| Fast food | High frequency across both cardholders. |
+| Transport, EV, and parking | Recurring and meaningful. Some unavoidable, some controllable. |
+| Barclaycard usage | Needs to stop as a spending vehicle while carrying 28% APR debt. |
+| One-offs | Vaillant and Zoe costs distorted June and should be separated from normal lifestyle spend. |
+
+The main structural issue is not one single transaction. It is repeated lifestyle spending landing on credit cards while high-interest debt still exists.
+
+---
+
+## 9. Longer-horizon decisions
+
+| Decision | Timing | Recommendation |
 | --- | --- | --- |
-| Kelly Virgin Money BT — balance and promo date | Statement not available this review | Jul 2026 |
-| Barclaycard downgrade/cancel | Awaiting balance clearance | When balance = £0 |
-| MG PCP end date and balloon payment | Agreement not yet signed | Jul 2026 |
-| Emergency fund contribution | Kelly savings thin; salary not yet established | Jul 2026 — reassess |
-| Pension review | Annual review scheduled separately | Sep 2026 |
+| Barclaycard repayment target | July | Set an explicit target date to clear or materially reduce the balance. |
+| BT funding model | July | Resume 57.1% / 42.9% household split. |
+| Zoe reimbursement | July | Record £428.94 due from Kelly for shared vehicle costs. |
+| Emergency fund target | After Barclaycard | Hold at £5,000 for now, then reassess higher target. |
+| Lloyds operating floor | After Barclaycard improves | Consider increasing from £1,000 to £1,500. |
+| Starling overdraft | July | Decide whether to clear and close or keep with controls. |
+| Kelly income | July | Replace estimated income with confirmed payslip. |
+| Virgin Money BT | July | Add balance, promo expiry, and required monthly payment. |
 
 ---
 
-## Finance Profile Updates
+## 10. Top strategic priorities for next 1–3 months
 
-The following changes to `docs/finance-profile.md` are required as a result of this review:
+**Priority 1: Stop Barclaycard from rebuilding**
 
-1. **MBNA operational target:** £349 → £376/month; top-up £109 → ~£151/month
-2. **MBNA DD:** ~£240 → £225.27 (confirmed actual from statement)
-3. **M&S DD:** ~£190 → £190.00 (confirmed actual — no change needed)
-4. **Vehicle finance:** Add MG Urban Comfort PCP — £300/month + insurance ~£50/month = £350/month total, Kelly's allocation
-5. **Barclaycard note:** Stop new spend; clear aggressively; downgrade on clearance
-6. **Kelly Virgin Money BT:** Placeholder until details confirmed in July
+Barclaycard is the financial drag because of the 28% APR plus £20/month fee.
+
+The June payment was directionally correct, but July needs a behavioural control: no lifestyle spending should land on Barclaycard unless it is already funded and repayable in full.
+
+**Priority 2: Restore clean household contribution rules**
+
+From July:
+
+* MBNA and M&S BT repayments return to proportional funding.
+* Shared vehicle costs are allocated by household ratio.
+* Barclaycard remains Romeo debt except for explicitly identified shared costs.
+* No retrospective reclassification of general Barclaycard lifestyle spending.
+
+**Priority 3: Separate one-offs from lifestyle**
+
+June contains genuine one-offs:
+
+* Zoe vehicle costs
+* Vaillant boiler cost
+* Business annual costs
+
+These should not hide the lifestyle issue.
+
+The recurring concern is still food, fast food, sport, transport, and discretionary card usage.
 
 ---
 
-## Phase Lock
+## 11. Final strategy position
 
-Status: Complete
-Completed: 2026-05-31
+Maintain the 0% balance transfer plan.
 
-Monthly review complete. June 2026.
+Keep emergency fund contribution paused for June.
 
-Key carry-forwards to July:
-- Confirm Starling cleared and Google Workspace moved
-- Confirm no new Barclaycard spend; assess remaining balance
-- Confirm Zoe sale completed and net proceeds received
-- Confirm MG PCP signed; add end date and balloon payment to Finance Profile
-- Confirm Kelly's Virgin Money BT details and update Finance Profile
-- Recalculate MBNA required payment with updated balance
-- Apply new MBNA top-up target of ~£151
-- Confirm Kelly's net income from June payslip and recalculate proportional splits
-- Confirm £428.94 Zoe reimbursement received from Kelly
+Protect the £1,000 Lloyds operating floor.
+
+Treat £999.86 of Zoe costs as shared household vehicle costs, with £428.94 due from Kelly.
+
+Do not treat the wider Barclaycard balance as household debt.
+
+Prioritise Barclaycard repayment until it is cleared or materially reduced.
+
+July should focus on preventing new credit card debt, resuming proportional household debt funding, and tightening lifestyle spend controls.
+
+---
+
+_Imported from ChatGPT on 2026-06-02._
