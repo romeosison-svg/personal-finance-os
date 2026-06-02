@@ -17,7 +17,7 @@ Begin a new monthly review.
 
 **Process:**
 1. Create a new folder under `/reviews/` named `YYYY-MM` (e.g. `reviews/2026-07`)
-2. Create the seven phase files: `collect.md`, `reconcile.md`, `assumptions.md`, `position.md`, `analyse.md`, `plan.md`, `strategy.md`
+2. Create the eight phase files: `collect.md`, `reconcile.md`, `assumptions.md`, `position.md`, `analyse.md`, `budget-calibration.md`, `plan.md`, `strategy.md`
 3. Create two handoff artefact placeholders: `position-handoff.md`, `transactions.csv`
 4. Copy the templates from `/docs/monthly-review-template.md` and `templates/`
 5. Set all phase statuses to `Not Started`
@@ -154,18 +154,47 @@ Begin Phase 6. Review credit card spending patterns from the month's statements.
 7. Set phase status to `Complete` and record the date
 8. Commit: `git commit -m "analyse: phase 5 complete — YYYY-MM"`
 
-**Gate:** Do not open `plan.md` until analyse is marked `Complete`.
+**Gate:** Do not open `budget-calibration.md` until analyse is marked `Complete`.
+
+---
+
+### `budget-calibration`
+
+**What it means:**  
+Begin Phase 7. Convert the spending analysis into explicit monthly cash bucket limits.
+
+**Owner:** ChatGPT. Use the Phase 7 prompt from `templates/chatgpt-prompts.md`.
+
+**Aliases:** `budget-calibration`, `budget`
+
+**Requires:** `analyse` complete.
+
+**Process:**
+1. Open `budget-calibration.md`
+2. Using the spending picture from `analyse.md` and locked assumptions from `position-handoff.md`:
+   - Identify controllable spending categories
+   - Exclude genuine one-offs and list them explicitly
+   - Separate shared household buckets from Romeo and Kelly individual buckets
+   - Distinguish essential from discretionary spending
+   - Propose next-month budget limits using actual spend as the baseline
+   - Apply known recurring commitments (e.g. train commute) where actuals are incomplete
+   - Flag categories requiring a behaviour change
+   - Calculate the total monthly cash bucket requirement
+3. Set phase status to `Complete` and record the date
+4. Commit: `git commit -m "budget-calibration: imported ChatGPT budget calibration — YYYY-MM"`
+
+**Gate:** Do not open `plan.md` until budget-calibration is marked `Complete`.
 
 ---
 
 ### `plan`
 
 **What it means:**  
-Begin Phase 7. Generate the monthly payment plan.
+Begin Phase 8. Generate the monthly payment plan.
 
-**Owner:** ChatGPT. Use the Phase 7 prompt from `templates/chatgpt-prompts.md`.
+**Owner:** ChatGPT. Use the Phase 8 prompt from `templates/chatgpt-prompts.md`.
 
-**Requires:** `analyse` complete.
+**Requires:** `budget-calibration` complete.
 
 **Process:**
 1. Open `plan.md`
@@ -181,7 +210,7 @@ Begin Phase 7. Generate the monthly payment plan.
 5. Confirm surplus or note shortfall and resolution
 6. Review and approve the plan
 7. Set phase status to `Complete` and record the date
-8. Commit: `git commit -m "plan: phase 6 complete — YYYY-MM"`
+8. Commit: `git commit -m "plan: phase 8 complete — YYYY-MM"`
 
 **Gate:** Do not open `strategy.md` until plan is marked `Complete`.
 
@@ -190,9 +219,9 @@ Begin Phase 7. Generate the monthly payment plan.
 ### `strategy`
 
 **What it means:**  
-Begin Phase 8. Review long-term financial decisions.
+Begin Phase 9. Review long-term financial decisions.
 
-**Owner:** ChatGPT. Use the Phase 8 prompt from `templates/chatgpt-prompts.md`.
+**Owner:** ChatGPT. Use the Phase 9 prompt from `templates/chatgpt-prompts.md`.
 
 **Requires:** `plan` complete.
 
@@ -204,7 +233,7 @@ Begin Phase 8. Review long-term financial decisions.
 5. Note items deferred and when to revisit them
 6. If any persistent assumptions should change, update `finance-profile.md` and commit the change separately
 7. Set phase status to `Complete` and record the date
-8. Commit: `git commit -m "strategy: phase 7 complete — YYYY-MM"`
+8. Commit: `git commit -m "strategy: phase 9 complete — YYYY-MM"`
 
 **The monthly review is now complete.**
 
@@ -215,7 +244,7 @@ Begin Phase 8. Review long-term financial decisions.
 **What it means:**  
 Import a ChatGPT-generated artefact into the active review and commit it as a first-class FinanceOS output.
 
-**Usage:** `import <phase>` where `<phase>` is `analyse`, `plan`, or `strategy`
+**Usage:** `import <phase>` where `<phase>` is `analyse`, `budget-calibration` (alias: `budget`), `plan`, or `strategy`
 
 **Requires:** The preceding phase must be `Complete` (same gate rules as native phases).
 
@@ -253,6 +282,7 @@ Source: ChatGPT
 **Commit messages:**
 ```
 analyse: imported ChatGPT analysis — YYYY-MM
+budget-calibration: imported ChatGPT budget calibration — YYYY-MM
 plan: imported ChatGPT plan — YYYY-MM
 strategy: imported ChatGPT strategy — YYYY-MM
 ```
@@ -267,6 +297,12 @@ strategy: imported ChatGPT strategy — YYYY-MM
 import analyse
 # Groceries: £480
 # Dining: £210
+...
+```
+
+```
+import budget-calibration
+## Budget Calibration — June 2026
 ...
 ```
 
@@ -311,14 +347,16 @@ assumptions: phase 3 complete — 2026-07
 position: phase 4 complete — 2026-07
 handoff: phase 5 complete — 2026-07
 analyse: phase 6 complete — 2026-07
-plan: phase 7 complete — 2026-07
-strategy: phase 8 complete — 2026-07
+budget-calibration: phase 7 complete — 2026-07
+plan: phase 8 complete — 2026-07
+strategy: phase 9 complete — 2026-07
 ```
 
 When a phase is fulfilled by an imported artefact rather than a native Claude execution, use the import convention instead:
 
 ```
 analyse: imported ChatGPT analysis — 2026-07
+budget-calibration: imported ChatGPT budget calibration — 2026-07
 plan: imported ChatGPT plan — 2026-07
 strategy: imported ChatGPT strategy — 2026-07
 ```

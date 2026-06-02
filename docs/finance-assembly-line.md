@@ -2,10 +2,10 @@
 
 The Finance Assembly Line is the core operating model of Personal Finance OS.
 
-Monthly reviews move through eight sequential, gated phases. No phase may be skipped. Each phase produces a locked output that the next phase depends on.
+Monthly reviews move through nine sequential, gated phases. No phase may be skipped. Each phase produces a locked output that the next phase depends on.
 
 ```
-collect → reconcile → assumptions → position → handoff → analyse → plan → strategy
+collect → reconcile → assumptions → position → handoff → analyse → budget-calibration → plan → strategy
 ```
 
 ---
@@ -24,11 +24,12 @@ collect → reconcile → assumptions → position → handoff → analyse → p
 
 **ChatGPT** may own the reasoning-heavy phases. ChatGPT's role is to interpret facts, analyse spending, produce the payment plan, and support strategic decisions.
 
-| Phase | Default Owner | Role |
-| --- | --- | --- |
-| analyse | ChatGPT | Categorise transactions, identify patterns |
-| plan | ChatGPT | Produce payment plan with exact amounts |
-| strategy | ChatGPT | Strategic recommendations and trade-offs |
+| Phase                | Default Owner | Role |
+| -------------------- | ------------- | ---- |
+| analyse              | ChatGPT       | Categorise transactions, identify patterns |
+| budget-calibration   | ChatGPT       | Convert spending analysis into monthly cash bucket limits |
+| plan                 | ChatGPT       | Produce payment plan with exact amounts |
+| strategy             | ChatGPT       | Strategic recommendations and trade-offs |
 
 The **handoff** phase is the formal boundary. Claude passes verified facts to ChatGPT. ChatGPT does not receive raw statements — only the handoff artefacts.
 
@@ -45,6 +46,9 @@ ChatGPT-generated artefacts are imported into the repository using the `import` 
 ```
 import analyse
 [paste analyse.md content]
+
+import budget-calibration
+[paste budget-calibration.md content]
 
 import plan
 [paste plan.md content]
@@ -78,6 +82,7 @@ Commit convention for imported artefacts:
 
 ```
 analyse: imported ChatGPT analysis — YYYY-MM
+budget-calibration: imported ChatGPT budget calibration — YYYY-MM
 plan: imported ChatGPT plan — YYYY-MM
 strategy: imported ChatGPT strategy — YYYY-MM
 ```
@@ -291,7 +296,42 @@ This phase surfaces patterns and facts only — judgements and actions belong in
 
 ---
 
-### Phase 7 — Plan
+### Phase 7 — Budget Calibration
+
+**Alias:** `budget-calibration` (short alias: `budget`)
+
+**Owner:** ChatGPT
+
+**Purpose:**  
+Convert the spending analysis into explicit monthly cash bucket limits for the following month. Separates shared household spend from individual Romeo and Kelly spend. Excludes genuine one-offs from the baseline.
+
+**Inputs:**
+- `position-handoff.md` from Phase 5 (handoff)
+- `analyse.md` from Phase 6 (analyse)
+
+**Process:**
+- Identify controllable spending categories from the analyse output
+- Exclude genuine one-offs (vehicle repairs, annual subscriptions, emergency costs) — list them explicitly, do not ignore them
+- Separate shared household buckets from Romeo-specific and Kelly-specific buckets
+- Distinguish essential spending from discretionary spending
+- Use actual spend as the baseline and propose next-month budget limits
+- Where known recurring commitments exist (e.g. train commute), use those commitments rather than prior-month actuals
+- Flag categories requiring a behaviour change
+- Calculate the total cash bucket requirement for the next month
+- Note which categories should be funded in cash/debit rather than allowed to drift onto credit cards
+
+**Output:**  
+Budget calibration note with per-bucket limits, one-off exclusions listed, and total monthly cash bucket requirement.
+
+**Gate condition:**  
+All controllable categories reviewed. One-offs separated. Bucket limits set. Phase status set to `Complete`.
+
+**What does NOT belong here:**  
+No payment plan. No debt repayment decisions. No investment or emergency fund recommendations. No reopening of collect, reconcile, or position.
+
+---
+
+### Phase 8 — Plan
 
 **Alias:** `plan`
 
@@ -303,6 +343,7 @@ Generate the month's payment plan from the locked position and confirmed assumpt
 **Inputs:**
 - `position-handoff.md` from Phase 5 (handoff)
 - Spending analysis from Phase 6 (analyse)
+- Budget calibration from Phase 7 (budget-calibration)
 - Locked assumptions from Phase 3 (assumptions)
 
 **Process:**
@@ -322,11 +363,11 @@ All allocations made. Total reconciled against available funds. Plan approved. P
 
 **What does NOT belong here:**  
 No vehicle finance decisions. No investment decisions.  
-Tactical month-to-month payments only. Strategic decisions belong in Phase 7.
+Tactical month-to-month payments only. Strategic decisions belong in Phase 9.
 
 ---
 
-### Phase 8 — Strategy
+### Phase 9 — Strategy
 
 **Alias:** `strategy`
 
@@ -338,7 +379,8 @@ Review and record long-term financial decisions.
 **Inputs:**
 - `position-handoff.md` from Phase 5 (handoff)
 - Spending analysis from Phase 6 (analyse)
-- Approved Monthly Plan from Phase 7 (plan)
+- Budget calibration from Phase 7 (budget-calibration)
+- Approved Monthly Plan from Phase 8 (plan)
 - Historical reviews (for trend context)
 
 **Process:**
@@ -375,17 +417,19 @@ This phase does not override the plan. Strategic decisions affect future months,
 ```
 Phase 1 (collect)
     ↓
-Phase 2 (reconcile)     ← requires: Phase 1 complete
+Phase 2 (reconcile)              ← requires: Phase 1 complete
     ↓
-Phase 3 (assumptions)   ← requires: Phase 2 complete
+Phase 3 (assumptions)            ← requires: Phase 2 complete
     ↓
-Phase 4 (position)      ← requires: Phases 2 + 3 complete
+Phase 4 (position)               ← requires: Phases 2 + 3 complete
     ↓
-Phase 5 (handoff)       ← requires: Phase 4 complete          [Claude Code → ChatGPT boundary]
+Phase 5 (handoff)                ← requires: Phase 4 complete          [Claude Code → ChatGPT boundary]
     ↓
-Phase 6 (analyse)       ← requires: Phase 5 complete
+Phase 6 (analyse)                ← requires: Phase 5 complete
     ↓
-Phase 7 (plan)          ← requires: Phases 3, 5 + 6 complete
+Phase 7 (budget-calibration)     ← requires: Phase 6 complete
     ↓
-Phase 8 (strategy)      ← requires: Phases 5, 6 + 7 complete
+Phase 8 (plan)                   ← requires: Phases 3, 5, 6 + 7 complete
+    ↓
+Phase 9 (strategy)               ← requires: Phases 5, 6, 7 + 8 complete
 ```
