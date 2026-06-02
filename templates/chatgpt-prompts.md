@@ -43,7 +43,7 @@ Do not produce a payment plan. Do not produce strategic recommendations. Analysi
 
 ---
 
-## Phase 7 — Plan
+## Phase 7 — Budget Calibration
 
 **Required inputs:**
 - `reviews/YYYY-MM/position-handoff.md`
@@ -58,7 +58,45 @@ Phases 1–6 (collect, reconcile, assumptions, position, handoff, analyse) are c
 The verified facts and locked assumptions are in position-handoff.md.
 The spending analysis is in analyse.md.
 
-Your task is Phase 7: Plan.
+Your task is Phase 7: Budget Calibration.
+
+Using the spending picture from analyse.md and the locked assumptions from position-handoff.md:
+
+1. Identify controllable spending categories.
+2. Exclude genuine one-offs from baseline budget setting, but list them explicitly.
+3. Separate shared household budget buckets from Romeo-specific and Kelly-specific buckets.
+4. Distinguish essential spending from discretionary spending.
+5. Use actual spend as the baseline and propose next-month budget limits.
+6. Where known recurring commitments exist, use those commitments rather than relying solely on previous-month actuals.
+7. Flag any category where the proposed budget requires a behaviour change.
+8. Calculate the total cash bucket requirement for the next month.
+9. Note which categories should be funded in cash/debit rather than allowed to drift onto credit cards.
+10. Do not produce a payment plan.
+11. Do not recommend debt repayments, investments, or emergency fund contributions.
+
+Output a clean budget calibration note suitable for committing to reviews/YYYY-MM/budget-calibration.md.
+```
+
+---
+
+## Phase 8 — Plan
+
+**Required inputs:**
+- `reviews/YYYY-MM/position-handoff.md`
+- `reviews/YYYY-MM/analyse.md`
+- `reviews/YYYY-MM/budget-calibration.md`
+
+**Prompt:**
+
+```
+You are continuing a FinanceOS monthly review for YYYY-MM.
+
+Phases 1–7 (collect, reconcile, assumptions, position, handoff, analyse, budget calibration) are complete.
+The verified facts and locked assumptions are in position-handoff.md.
+The spending analysis is in analyse.md.
+The spending limits for next month are in budget-calibration.md.
+
+Your task is Phase 8: Plan.
 
 Using the locked assumptions in position-handoff.md and the spending picture from analyse.md:
 
@@ -80,11 +118,12 @@ Output a clean payment plan suitable for committing to reviews/YYYY-MM/plan.md.
 
 ---
 
-## Phase 8 — Strategy
+## Phase 9 — Strategy
 
 **Required inputs:**
 - `reviews/YYYY-MM/position-handoff.md`
 - `reviews/YYYY-MM/analyse.md`
+- `reviews/YYYY-MM/budget-calibration.md`
 - `reviews/YYYY-MM/plan.md`
 
 **Prompt:**
@@ -92,12 +131,12 @@ Output a clean payment plan suitable for committing to reviews/YYYY-MM/plan.md.
 ```
 You are continuing a FinanceOS monthly review for YYYY-MM.
 
-Phases 1–7 (collect, reconcile, assumptions, position, handoff, analyse, plan) are complete.
-The verified facts are in position-handoff.md. The spending analysis is in analyse.md. The payment plan is in plan.md.
+Phases 1–8 (collect, reconcile, assumptions, position, handoff, analyse, budget calibration, plan) are complete.
+The verified facts are in position-handoff.md. The spending analysis is in analyse.md. The spending limits are in budget-calibration.md. The payment plan is in plan.md.
 
-Your task is Phase 8: Strategy.
+Your task is Phase 9: Strategy.
 
-Using the full picture from position-handoff.md, analyse.md, and plan.md:
+Using the full picture from position-handoff.md, analyse.md, budget-calibration.md, and plan.md:
 
 1. Identify any strategic risks that should be escalated for joint review.
 2. Assess the current balance transfer strategy: is it on track? Should it be accelerated, maintained, or adjusted?

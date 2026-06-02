@@ -1,20 +1,23 @@
 ## Phase Status
 
-| Phase       | Status      | Completed  |
-| ----------- | ----------- | ---------- |
-| Collect     | Complete    | 2026-05-31 |
-| Reconcile   | Complete    | 2026-05-31 |
-| Assumptions | Complete    | 2026-05-31 |
-| Position    | Complete    | 2026-05-31 |
-| Analyse     | Complete    | 2026-06-01 |
-| Plan        | Complete    | 2026-06-01 |
-| Strategy    | Not Started |            |
+| Phase                | Status      | Completed  |
+| -------------------- | ----------- | ---------- |
+| Collect              | Complete    | 2026-05-31 |
+| Reconcile            | Complete    | 2026-05-31 |
+| Assumptions          | Complete    | 2026-05-31 |
+| Position             | Complete    | 2026-05-31 |
+| Analyse              | Complete    | 2026-06-01 |
+| Budget Calibration   | Complete    | 2026-06-02 |
+| Plan                 | Complete    | 2026-06-01 |
+| Strategy             | Not Started |            |
 
 ---
 
 # FinanceOS Plan — 2026-06
 
 ## 1. Planning basis
+
+Spending limits for July 2026 are defined in `reviews/2026-06/budget-calibration.md`. This plan is concerned with payment decisions and cashflow sequencing only, not with setting spending limits.
 
 Use Romeo Lloyds as the planning account.
 

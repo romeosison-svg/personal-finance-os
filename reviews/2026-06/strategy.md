@@ -4,14 +4,16 @@
 
 ## Phase Status
 
-| Phase       | Status      | Completed  |
-| ----------- | ----------- | ---------- |
-| Collect     | Complete    | 2026-05-31 |
-| Reconcile   | Complete    | 2026-05-31 |
-| Assumptions | Complete    | 2026-05-31 |
-| Position    | Complete    | 2026-05-31 |
-| Plan        | Complete    | 2026-06-01 |
-| Strategy    | Complete    | 2026-06-02 |
+| Phase                | Status   | Completed  |
+| -------------------- | -------- | ---------- |
+| Collect              | Complete | 2026-05-31 |
+| Reconcile            | Complete | 2026-05-31 |
+| Assumptions          | Complete | 2026-05-31 |
+| Position             | Complete | 2026-05-31 |
+| Analyse              | Complete | 2026-06-01 |
+| Budget Calibration   | Complete | 2026-06-02 |
+| Plan                 | Complete | 2026-06-01 |
+| Strategy             | Complete | 2026-06-02 |
 
 ---
 
@@ -192,6 +194,8 @@ The spending analysis shows several repeat patterns.
 | One-offs | Vaillant and Zoe costs distorted June and should be separated from normal lifestyle spend. |
 
 The main structural issue is not one single transaction. It is repeated lifestyle spending landing on credit cards while high-interest debt still exists.
+
+Budget calibration (`reviews/2026-06/budget-calibration.md`) is the mechanism for converting this pattern into explicit monthly cash bucket limits. Lifestyle categories — dining, fast food, transport, sport — must be funded from designated buckets rather than allowed to drift onto Barclaycard or Amex.
 
 ---
 
