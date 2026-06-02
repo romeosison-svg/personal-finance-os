@@ -28,7 +28,7 @@ Source: ChatGPT
 [paste content]
 ```
 
-Where `<phase>` is one of: `analyse`, `budget-calibration`, `budget`, `plan`, `strategy`
+Where `<phase>` is one of: `analyse`, `budget-calibration`, `budget`, `affordability-check`, `affordability`, `plan`, `strategy`
 
 ---
 
@@ -45,13 +45,15 @@ Do not ask for review month or source. Infer them silently. Only request clarifi
 
 ## Supported Artefacts
 
-| Artefact             | Phase   | Gate Requires                  |
-| -------------------- | ------- | ------------------------------ |
-| `analyse`            | Phase 6 | `handoff` complete             |
-| `budget-calibration` | Phase 7 | `analyse` complete             |
-| `budget`             | Phase 7 | alias for `budget-calibration` |
-| `plan`               | Phase 8 | `budget-calibration` complete  |
-| `strategy`           | Phase 9 | `plan` complete                |
+| Artefact             | Phase    | Gate Requires                   |
+| -------------------- | -------- | ------------------------------- |
+| `analyse`            | Phase 6  | `handoff` complete              |
+| `budget-calibration` | Phase 7  | `analyse` complete              |
+| `budget`             | Phase 7  | alias for `budget-calibration`  |
+| `affordability-check`| Phase 8  | `budget-calibration` complete   |
+| `affordability`      | Phase 8  | alias for `affordability-check` |
+| `plan`               | Phase 9  | `affordability-check` complete  |
+| `strategy`           | Phase 10 | `plan` complete                 |
 
 Native Claude phases (`collect`, `reconcile`, `assumptions`, `position`, `handoff`) are executed locally and are not imported.
 
@@ -78,13 +80,14 @@ Do not ask for review month, source, or confirmation of defaults.
 
 ### Step 2 — Validate artefact type
 
-If the phase is not `analyse`, `budget-calibration`, `budget`, `plan`, or `strategy`:
+If the phase is not `analyse`, `budget-calibration`, `budget`, `affordability-check`, `affordability`, `plan`, or `strategy`:
 
-> `import` supports: `analyse`, `budget-calibration` (alias: `budget`), `plan`, `strategy`. Native Claude phases (collect, reconcile, assumptions, position, handoff) are not imported.
+> `import` supports: `analyse`, `budget-calibration` (alias: `budget`), `affordability-check` (alias: `affordability`), `plan`, `strategy`. Native Claude phases (collect, reconcile, assumptions, position, handoff) are not imported.
 
 Stop.
 
 If the phase is `budget`, treat it as `budget-calibration` for all subsequent steps.
+If the phase is `affordability`, treat it as `affordability-check` for all subsequent steps.
 
 ### Step 3 — Check the phase gate
 
@@ -92,7 +95,8 @@ Read the preceding phase file and confirm its status is `Complete`:
 
 - `import analyse` → `reviews/YYYY-MM/handoff.md` must be `Complete`
 - `import budget-calibration` → `reviews/YYYY-MM/analyse.md` must be `Complete`
-- `import plan` → `reviews/YYYY-MM/budget-calibration.md` must be `Complete`
+- `import affordability-check` → `reviews/YYYY-MM/budget-calibration.md` must be `Complete`
+- `import plan` → `reviews/YYYY-MM/affordability-check.md` must be `Complete`
 - `import strategy` → `reviews/YYYY-MM/plan.md` must be `Complete`
 
 If the gate is not met:
@@ -137,12 +141,13 @@ git add reviews/YYYY-MM/{phase}.md
 git commit -m "{phase}: imported ChatGPT {label} — YYYY-MM"
 ```
 
-| Phase                | Commit message                                                       |
-| -------------------- | -------------------------------------------------------------------- |
-| `analyse`            | `analyse: imported ChatGPT analysis — YYYY-MM`                      |
-| `budget-calibration` | `budget-calibration: imported ChatGPT budget calibration — YYYY-MM` |
-| `plan`               | `plan: imported ChatGPT plan — YYYY-MM`                             |
-| `strategy`           | `strategy: imported ChatGPT strategy — YYYY-MM`                     |
+| Phase                  | Commit message                                                              |
+| ---------------------- | --------------------------------------------------------------------------- |
+| `analyse`              | `analyse: imported ChatGPT analysis — YYYY-MM`                             |
+| `budget-calibration`   | `budget-calibration: imported ChatGPT budget calibration — YYYY-MM`        |
+| `affordability-check`  | `affordability-check: imported ChatGPT affordability check — YYYY-MM`      |
+| `plan`                 | `plan: imported ChatGPT plan — YYYY-MM`                                    |
+| `strategy`             | `strategy: imported ChatGPT strategy — YYYY-MM`                            |
 
 If a `strategy` import also updates `docs/finance-profile.md`, commit that separately:
 
@@ -159,7 +164,8 @@ One line:
 
 Where `{next_command}`:
 - After `analyse` → `import budget-calibration`
-- After `budget-calibration` → `import plan`
+- After `budget-calibration` → `import affordability-check`
+- After `affordability-check` → `import plan`
 - After `plan` → `import strategy`
 - After `strategy` → Monthly review complete.
 
@@ -170,6 +176,7 @@ Where `{next_command}`:
 ```
 analyse: imported ChatGPT analysis — YYYY-MM
 budget-calibration: imported ChatGPT budget calibration — YYYY-MM
+affordability-check: imported ChatGPT affordability check — YYYY-MM
 plan: imported ChatGPT plan — YYYY-MM
 strategy: imported ChatGPT strategy — YYYY-MM
 ```

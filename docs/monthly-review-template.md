@@ -8,6 +8,8 @@ Create phase files:
 - `assumptions.md`
 - `position.md`
 - `analyse.md`
+- `budget-calibration.md`
+- `affordability-check.md`
 - `plan.md`
 - `strategy.md`
 
@@ -21,16 +23,18 @@ Create handoff artefacts (populated during the handoff phase):
 
 Copy this table into each phase file header and update as phases complete.
 
-| Phase       | Owner       | Status      | Completed  |
-| ----------- | ----------- | ----------- | ---------- |
-| Collect     | Claude Code | Not Started |            |
-| Reconcile   | Claude Code | Not Started |            |
-| Assumptions | Claude Code | Not Started |            |
-| Position    | Claude Code | Not Started |            |
-| Handoff     | Claude Code | Not Started |            |
-| Analyse     | ChatGPT     | Not Started |            |
-| Plan        | ChatGPT     | Not Started |            |
-| Strategy    | ChatGPT     | Not Started |            |
+| Phase                | Owner       | Status      | Completed  |
+| -------------------- | ----------- | ----------- | ---------- |
+| Collect              | Claude Code | Not Started |            |
+| Reconcile            | Claude Code | Not Started |            |
+| Assumptions          | Claude Code | Not Started |            |
+| Position             | Claude Code | Not Started |            |
+| Handoff              | Claude Code | Not Started |            |
+| Analyse              | ChatGPT     | Not Started |            |
+| Budget Calibration   | ChatGPT     | Not Started |            |
+| Affordability Check  | ChatGPT     | Not Started |            |
+| Plan                 | ChatGPT     | Not Started |            |
+| Strategy             | ChatGPT     | Not Started |            |
 
 ---
 
@@ -43,16 +47,18 @@ Copy this table into each phase file header and update as phases complete.
 
 ## Phase Status
 
-| Phase       | Status      | Completed  |
-| ----------- | ----------- | ---------- |
-| Collect     | In Progress |            |
-| Reconcile   | Not Started |            |
-| Assumptions | Not Started |            |
-| Position    | Not Started |            |
-| Handoff     | Not Started |            |
-| Analyse     | Not Started |            |
-| Plan        | Not Started |            |
-| Strategy    | Not Started |            |
+| Phase                | Status      | Completed  |
+| -------------------- | ----------- | ---------- |
+| Collect              | In Progress |            |
+| Reconcile            | Not Started |            |
+| Assumptions          | Not Started |            |
+| Position             | Not Started |            |
+| Handoff              | Not Started |            |
+| Analyse              | Not Started |            |
+| Budget Calibration   | Not Started |            |
+| Affordability Check  | Not Started |            |
+| Plan                 | Not Started |            |
+| Strategy             | Not Started |            |
 
 ---
 
@@ -109,16 +115,18 @@ All inputs confirmed present. Proceeding to Reconcile.
 
 ## Phase Status
 
-| Phase       | Status      | Completed  |
-| ----------- | ----------- | ---------- |
-| Collect     | Complete    | YYYY-MM-DD |
-| Reconcile   | In Progress |            |
-| Assumptions | Not Started |            |
-| Position    | Not Started |            |
-| Handoff     | Not Started |            |
-| Analyse     | Not Started |            |
-| Plan        | Not Started |            |
-| Strategy    | Not Started |            |
+| Phase                | Status      | Completed  |
+| -------------------- | ----------- | ---------- |
+| Collect              | Complete    | YYYY-MM-DD |
+| Reconcile            | In Progress |            |
+| Assumptions          | Not Started |            |
+| Position             | Not Started |            |
+| Handoff              | Not Started |            |
+| Analyse              | Not Started |            |
+| Budget Calibration   | Not Started |            |
+| Affordability Check  | Not Started |            |
+| Plan                 | Not Started |            |
+| Strategy             | Not Started |            |
 
 ---
 
@@ -177,16 +185,18 @@ Financial facts locked. No further changes to balances without documented reason
 
 ## Phase Status
 
-| Phase       | Status      | Completed  |
-| ----------- | ----------- | ---------- |
-| Collect     | Complete    | YYYY-MM-DD |
-| Reconcile   | Complete    | YYYY-MM-DD |
-| Assumptions | In Progress |            |
-| Position    | Not Started |            |
-| Handoff     | Not Started |            |
-| Analyse     | Not Started |            |
-| Plan        | Not Started |            |
-| Strategy    | Not Started |            |
+| Phase                | Status      | Completed  |
+| -------------------- | ----------- | ---------- |
+| Collect              | Complete    | YYYY-MM-DD |
+| Reconcile            | Complete    | YYYY-MM-DD |
+| Assumptions          | In Progress |            |
+| Position             | Not Started |            |
+| Handoff              | Not Started |            |
+| Analyse              | Not Started |            |
+| Budget Calibration   | Not Started |            |
+| Affordability Check  | Not Started |            |
+| Plan                 | Not Started |            |
+| Strategy             | Not Started |            |
 
 ---
 
@@ -233,16 +243,18 @@ Planning assumptions locked for this review.
 
 ## Phase Status
 
-| Phase       | Status      | Completed  |
-| ----------- | ----------- | ---------- |
-| Collect     | Complete    | YYYY-MM-DD |
-| Reconcile   | Complete    | YYYY-MM-DD |
-| Assumptions | Complete    | YYYY-MM-DD |
-| Position    | In Progress |            |
-| Handoff     | Not Started |            |
-| Analyse     | Not Started |            |
-| Plan        | Not Started |            |
-| Strategy    | Not Started |            |
+| Phase                | Status      | Completed  |
+| -------------------- | ----------- | ---------- |
+| Collect              | Complete    | YYYY-MM-DD |
+| Reconcile            | Complete    | YYYY-MM-DD |
+| Assumptions          | Complete    | YYYY-MM-DD |
+| Position             | In Progress |            |
+| Handoff              | Not Started |            |
+| Analyse              | Not Started |            |
+| Budget Calibration   | Not Started |            |
+| Affordability Check  | Not Started |            |
+| Plan                 | Not Started |            |
+| Strategy             | Not Started |            |
 
 ---
 
@@ -320,16 +332,18 @@ Both files must be committed before ChatGPT begins analyse.
 
 ## Phase Status
 
-| Phase       | Status      | Completed  |
-| ----------- | ----------- | ---------- |
-| Collect     | Complete    | YYYY-MM-DD |
-| Reconcile   | Complete    | YYYY-MM-DD |
-| Assumptions | Complete    | YYYY-MM-DD |
-| Position    | Complete    | YYYY-MM-DD |
-| Handoff     | Complete    | YYYY-MM-DD |
-| Analyse     | In Progress |            |
-| Plan        | Not Started |            |
-| Strategy    | Not Started |            |
+| Phase                | Status      | Completed  |
+| -------------------- | ----------- | ---------- |
+| Collect              | Complete    | YYYY-MM-DD |
+| Reconcile            | Complete    | YYYY-MM-DD |
+| Assumptions          | Complete    | YYYY-MM-DD |
+| Position             | Complete    | YYYY-MM-DD |
+| Handoff              | Complete    | YYYY-MM-DD |
+| Analyse              | In Progress |            |
+| Budget Calibration   | Not Started |            |
+| Affordability Check  | Not Started |            |
+| Plan                 | Not Started |            |
+| Strategy             | Not Started |            |
 
 ---
 
@@ -424,25 +438,163 @@ Spending analysis locked.
 
 ---
 
+## budget-calibration.md Template
+
+```markdown
+# Budget Calibration — [Month] [Year]
+
+> Requires: Analyse complete
+
+> **This file is ChatGPT-owned.** Do not populate manually. Import using: `import budget-calibration`
+
+## Phase Status
+
+| Phase                | Status      | Completed  |
+| -------------------- | ----------- | ---------- |
+| Collect              | Complete    | YYYY-MM-DD |
+| Reconcile            | Complete    | YYYY-MM-DD |
+| Assumptions          | Complete    | YYYY-MM-DD |
+| Position             | Complete    | YYYY-MM-DD |
+| Handoff              | Complete    | YYYY-MM-DD |
+| Analyse              | Complete    | YYYY-MM-DD |
+| Budget Calibration   | In Progress |            |
+| Affordability Check  | Not Started |            |
+| Plan                 | Not Started |            |
+| Strategy             | Not Started |            |
+
+---
+
+_Content imported from ChatGPT._
+```
+
+---
+
+---
+
+## affordability-check.md Template
+
+```markdown
+# Affordability Check — [Month] [Year]
+
+> Requires: Budget Calibration complete
+
+> **This file is ChatGPT-owned.** Do not populate manually. Import using: `import affordability-check`
+
+Budget Calibration answers: what are sensible behavioural spending caps?
+Affordability Check answers: can those caps actually be funded from current cashflow?
+Plan answers: what actions should be taken now given the affordable limits?
+
+## Phase Status
+
+| Phase                | Status      | Completed  |
+| -------------------- | ----------- | ---------- |
+| Collect              | Complete    | YYYY-MM-DD |
+| Reconcile            | Complete    | YYYY-MM-DD |
+| Assumptions          | Complete    | YYYY-MM-DD |
+| Position             | Complete    | YYYY-MM-DD |
+| Handoff              | Complete    | YYYY-MM-DD |
+| Analyse              | Complete    | YYYY-MM-DD |
+| Budget Calibration   | Complete    | YYYY-MM-DD |
+| Affordability Check  | In Progress |            |
+| Plan                 | Not Started |            |
+| Strategy             | Not Started |            |
+
+---
+
+## Scope and Basis
+
+<!-- Imported from ChatGPT -->
+
+---
+
+## Inputs Used
+
+- `reviews/YYYY-MM/position-handoff.md` — verified facts and locked assumptions
+- `reviews/YYYY-MM/budget-calibration.md` — calibrated bucket limits
+
+---
+
+## Fixed Obligations
+
+<!-- Imported from ChatGPT -->
+
+---
+
+## Required Buffers
+
+<!-- Imported from ChatGPT -->
+
+---
+
+## Available Cashflow
+
+<!-- Imported from ChatGPT -->
+
+---
+
+## Calibrated Bucket Requirement
+
+<!-- Imported from ChatGPT -->
+
+---
+
+## Affordability Result
+
+<!-- Imported from ChatGPT -->
+
+---
+
+## Required Adjustments
+
+<!-- Imported from ChatGPT — only present if calibrated limits are not fully fundable -->
+
+---
+
+## Final Affordable Bucket Limits
+
+<!-- Imported from ChatGPT -->
+
+---
+
+## Implications for Plan
+
+<!-- Imported from ChatGPT -->
+
+---
+
+## Phase Lock
+
+Status: <!-- Not Started / In Progress / Complete / Blocked -->
+Completed: <!-- YYYY-MM-DD -->
+
+Affordability check complete. Proceed to Plan.
+```
+
+---
+
+---
+
 ## plan.md Template
 
 ```markdown
 # Plan — [Month] [Year]
 
-> Requires: Analyse complete
+> Requires: Affordability Check complete
 
 ## Phase Status
 
-| Phase       | Status      | Completed  |
-| ----------- | ----------- | ---------- |
-| Collect     | Complete    | YYYY-MM-DD |
-| Reconcile   | Complete    | YYYY-MM-DD |
-| Assumptions | Complete    | YYYY-MM-DD |
-| Position    | Complete    | YYYY-MM-DD |
-| Handoff     | Complete    | YYYY-MM-DD |
-| Analyse     | Complete    | YYYY-MM-DD |
-| Plan        | In Progress |            |
-| Strategy    | Not Started |            |
+| Phase                | Status      | Completed  |
+| -------------------- | ----------- | ---------- |
+| Collect              | Complete    | YYYY-MM-DD |
+| Reconcile            | Complete    | YYYY-MM-DD |
+| Assumptions          | Complete    | YYYY-MM-DD |
+| Position             | Complete    | YYYY-MM-DD |
+| Handoff              | Complete    | YYYY-MM-DD |
+| Analyse              | Complete    | YYYY-MM-DD |
+| Budget Calibration   | Complete    | YYYY-MM-DD |
+| Affordability Check  | Complete    | YYYY-MM-DD |
+| Plan                 | In Progress |            |
+| Strategy             | Not Started |            |
 
 ---
 
@@ -502,16 +654,18 @@ Approved: <!-- Yes / No — confirm plan is approved before locking -->
 
 ## Phase Status
 
-| Phase       | Status      | Completed  |
-| ----------- | ----------- | ---------- |
-| Collect     | Complete    | YYYY-MM-DD |
-| Reconcile   | Complete    | YYYY-MM-DD |
-| Assumptions | Complete    | YYYY-MM-DD |
-| Position    | Complete    | YYYY-MM-DD |
-| Handoff     | Complete    | YYYY-MM-DD |
-| Analyse     | Complete    | YYYY-MM-DD |
-| Plan        | Complete    | YYYY-MM-DD |
-| Strategy    | In Progress |            |
+| Phase                | Status      | Completed  |
+| -------------------- | ----------- | ---------- |
+| Collect              | Complete    | YYYY-MM-DD |
+| Reconcile            | Complete    | YYYY-MM-DD |
+| Assumptions          | Complete    | YYYY-MM-DD |
+| Position             | Complete    | YYYY-MM-DD |
+| Handoff              | Complete    | YYYY-MM-DD |
+| Analyse              | Complete    | YYYY-MM-DD |
+| Budget Calibration   | Complete    | YYYY-MM-DD |
+| Affordability Check  | Complete    | YYYY-MM-DD |
+| Plan                 | Complete    | YYYY-MM-DD |
+| Strategy             | In Progress |            |
 
 ---
 

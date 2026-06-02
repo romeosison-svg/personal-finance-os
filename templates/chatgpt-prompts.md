@@ -79,11 +79,10 @@ Output a clean budget calibration note suitable for committing to reviews/YYYY-M
 
 ---
 
-## Phase 8 — Plan
+## Phase 8 — Affordability Check
 
 **Required inputs:**
 - `reviews/YYYY-MM/position-handoff.md`
-- `reviews/YYYY-MM/analyse.md`
 - `reviews/YYYY-MM/budget-calibration.md`
 
 **Prompt:**
@@ -93,10 +92,55 @@ You are continuing a FinanceOS monthly review for YYYY-MM.
 
 Phases 1–7 (collect, reconcile, assumptions, position, handoff, analyse, budget calibration) are complete.
 The verified facts and locked assumptions are in position-handoff.md.
-The spending analysis is in analyse.md.
-The spending limits for next month are in budget-calibration.md.
+The calibrated spending bucket limits are in budget-calibration.md.
 
-Your task is Phase 8: Plan.
+Your task is Phase 8: Affordability Check.
+
+Budget Calibration answered: what are sensible behavioural spending caps?
+Affordability Check answers: can those caps actually be funded from current cashflow?
+Plan will answer: what actions should be taken now given the affordable limits?
+
+Using budget-calibration.md and the locked financial position from position-handoff.md:
+
+1. List all fixed monthly obligations (mortgage, direct debits, minimum credit card payments, balance transfer targets, standing orders).
+2. List all required buffers (Lloyds operating floor, emergency fund minimum).
+3. Calculate available cashflow after fixed obligations and required buffers.
+4. State the total calibrated bucket requirement from budget-calibration.md.
+5. Test whether the calibrated bucket total can be funded from available cashflow.
+6. If it cannot be fully funded, identify which buckets must be reduced and by how much.
+7. Confirm which buckets are funded in full, which require reduction, and which are unfundable without trade-offs.
+8. Note any timing gaps (e.g. mid-month cashflow constraints, salary timing, reimbursement timing).
+9. State the final affordable bucket limits — which may match, reduce, or in rare cases increase the calibrated limits.
+10. Note the implications for the Plan phase.
+
+Do not produce a payment plan.
+Do not recommend debt repayments, investments, or emergency fund contributions.
+
+Output a clean affordability check note suitable for committing to reviews/YYYY-MM/affordability-check.md.
+```
+
+---
+
+## Phase 9 — Plan
+
+**Required inputs:**
+- `reviews/YYYY-MM/position-handoff.md`
+- `reviews/YYYY-MM/analyse.md`
+- `reviews/YYYY-MM/budget-calibration.md`
+- `reviews/YYYY-MM/affordability-check.md`
+
+**Prompt:**
+
+```
+You are continuing a FinanceOS monthly review for YYYY-MM.
+
+Phases 1–8 (collect, reconcile, assumptions, position, handoff, analyse, budget calibration, affordability check) are complete.
+The verified facts and locked assumptions are in position-handoff.md.
+The spending analysis is in analyse.md.
+The spending limits are in budget-calibration.md.
+The confirmed affordable limits are in affordability-check.md.
+
+Your task is Phase 9: Plan.
 
 Using the locked assumptions in position-handoff.md and the spending picture from analyse.md:
 
@@ -118,12 +162,13 @@ Output a clean payment plan suitable for committing to reviews/YYYY-MM/plan.md.
 
 ---
 
-## Phase 9 — Strategy
+## Phase 10 — Strategy
 
 **Required inputs:**
 - `reviews/YYYY-MM/position-handoff.md`
 - `reviews/YYYY-MM/analyse.md`
 - `reviews/YYYY-MM/budget-calibration.md`
+- `reviews/YYYY-MM/affordability-check.md`
 - `reviews/YYYY-MM/plan.md`
 
 **Prompt:**
@@ -131,12 +176,12 @@ Output a clean payment plan suitable for committing to reviews/YYYY-MM/plan.md.
 ```
 You are continuing a FinanceOS monthly review for YYYY-MM.
 
-Phases 1–8 (collect, reconcile, assumptions, position, handoff, analyse, budget calibration, plan) are complete.
-The verified facts are in position-handoff.md. The spending analysis is in analyse.md. The spending limits are in budget-calibration.md. The payment plan is in plan.md.
+Phases 1–9 (collect, reconcile, assumptions, position, handoff, analyse, budget calibration, affordability check, plan) are complete.
+The verified facts are in position-handoff.md. The spending analysis is in analyse.md. The spending limits are in budget-calibration.md. The affordability check is in affordability-check.md. The payment plan is in plan.md.
 
-Your task is Phase 9: Strategy.
+Your task is Phase 10: Strategy.
 
-Using the full picture from position-handoff.md, analyse.md, budget-calibration.md, and plan.md:
+Using the full picture from position-handoff.md, analyse.md, budget-calibration.md, affordability-check.md, and plan.md:
 
 1. Identify any strategic risks that should be escalated for joint review.
 2. Assess the current balance transfer strategy: is it on track? Should it be accelerated, maintained, or adjusted?

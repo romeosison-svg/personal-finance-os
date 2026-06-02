@@ -2,10 +2,10 @@
 
 The Finance Assembly Line is the core operating model of Personal Finance OS.
 
-Monthly reviews move through nine sequential, gated phases. No phase may be skipped. Each phase produces a locked output that the next phase depends on.
+Monthly reviews move through ten sequential, gated phases. No phase may be skipped. Each phase produces a locked output that the next phase depends on.
 
 ```
-collect → reconcile → assumptions → position → handoff → analyse → budget-calibration → plan → strategy
+collect → reconcile → assumptions → position → handoff → analyse → budget-calibration → affordability-check → plan → strategy
 ```
 
 ---
@@ -28,6 +28,7 @@ collect → reconcile → assumptions → position → handoff → analyse → b
 | -------------------- | ------------- | ---- |
 | analyse              | ChatGPT       | Categorise transactions, identify patterns |
 | budget-calibration   | ChatGPT       | Convert spending analysis into monthly cash bucket limits |
+| affordability-check  | ChatGPT       | Test whether calibrated bucket limits can be funded from available cashflow |
 | plan                 | ChatGPT       | Produce payment plan with exact amounts |
 | strategy             | ChatGPT       | Strategic recommendations and trade-offs |
 
@@ -49,6 +50,9 @@ import analyse
 
 import budget-calibration
 [paste budget-calibration.md content]
+
+import affordability-check
+[paste affordability-check.md content]
 
 import plan
 [paste plan.md content]
@@ -83,6 +87,7 @@ Commit convention for imported artefacts:
 ```
 analyse: imported ChatGPT analysis — YYYY-MM
 budget-calibration: imported ChatGPT budget calibration — YYYY-MM
+affordability-check: imported ChatGPT affordability check — YYYY-MM
 plan: imported ChatGPT plan — YYYY-MM
 strategy: imported ChatGPT strategy — YYYY-MM
 ```
@@ -331,7 +336,44 @@ No payment plan. No debt repayment decisions. No investment or emergency fund re
 
 ---
 
-### Phase 8 — Plan
+### Phase 8 — Affordability Check
+
+**Alias:** `affordability-check` (short alias: `affordability`)
+
+**Owner:** ChatGPT
+
+**Purpose:**  
+Test whether the calibrated spending bucket limits from Budget Calibration can actually be funded from available monthly cashflow.
+
+Budget Calibration answers: what are sensible behavioural spending caps?
+Affordability Check answers: can those caps actually be funded from current cashflow?
+Plan answers: what actions should be taken now given the affordable limits?
+
+**Inputs:**
+- `position-handoff.md` from Phase 5 (handoff)
+- `budget-calibration.md` from Phase 7 (budget-calibration)
+
+**Process:**
+- List all fixed monthly obligations (mortgage, direct debits, card minimums, balance transfer targets)
+- List all required buffers (Lloyds operating floor, emergency fund minimum)
+- Calculate available cashflow after fixed obligations and required buffers
+- Compare available cashflow against the total calibrated bucket requirement
+- If the calibrated total cannot be funded in full, identify which buckets must be reduced and by how much
+- Note any timing gaps (salary timing, mid-month constraints, reimbursement timing)
+- State the final affordable bucket limits
+
+**Output:**  
+Affordability check note confirming whether calibrated bucket limits are fundable. Final affordable bucket limits stated. Implications for Plan noted.
+
+**Gate condition:**  
+Fixed obligations listed. Available cashflow calculated. Final affordable limits stated. Phase status set to `Complete`.
+
+**What does NOT belong here:**  
+No payment plan. No debt repayment decisions. No investment or emergency fund recommendations. No reopening of collect, reconcile, position, or budget-calibration.
+
+---
+
+### Phase 9 — Plan
 
 **Alias:** `plan`
 
@@ -344,6 +386,7 @@ Generate the month's payment plan from the locked position and confirmed assumpt
 - `position-handoff.md` from Phase 5 (handoff)
 - Spending analysis from Phase 6 (analyse)
 - Budget calibration from Phase 7 (budget-calibration)
+- Affordability check from Phase 8 (affordability-check)
 - Locked assumptions from Phase 3 (assumptions)
 
 **Process:**
@@ -363,11 +406,11 @@ All allocations made. Total reconciled against available funds. Plan approved. P
 
 **What does NOT belong here:**  
 No vehicle finance decisions. No investment decisions.  
-Tactical month-to-month payments only. Strategic decisions belong in Phase 9.
+Tactical month-to-month payments only. Strategic decisions belong in Phase 10.
 
 ---
 
-### Phase 9 — Strategy
+### Phase 10 — Strategy
 
 **Alias:** `strategy`
 
@@ -380,7 +423,8 @@ Review and record long-term financial decisions.
 - `position-handoff.md` from Phase 5 (handoff)
 - Spending analysis from Phase 6 (analyse)
 - Budget calibration from Phase 7 (budget-calibration)
-- Approved Monthly Plan from Phase 8 (plan)
+- Affordability check from Phase 8 (affordability-check)
+- Approved Monthly Plan from Phase 9 (plan)
 - Historical reviews (for trend context)
 
 **Process:**
@@ -415,21 +459,23 @@ This phase does not override the plan. Strategic decisions affect future months,
 ## Phase Dependencies
 
 ```
-Phase 1 (collect)
+Phase 1  (collect)
     ↓
-Phase 2 (reconcile)              ← requires: Phase 1 complete
+Phase 2  (reconcile)              ← requires: Phase 1 complete
     ↓
-Phase 3 (assumptions)            ← requires: Phase 2 complete
+Phase 3  (assumptions)            ← requires: Phase 2 complete
     ↓
-Phase 4 (position)               ← requires: Phases 2 + 3 complete
+Phase 4  (position)               ← requires: Phases 2 + 3 complete
     ↓
-Phase 5 (handoff)                ← requires: Phase 4 complete          [Claude Code → ChatGPT boundary]
+Phase 5  (handoff)                ← requires: Phase 4 complete          [Claude Code → ChatGPT boundary]
     ↓
-Phase 6 (analyse)                ← requires: Phase 5 complete
+Phase 6  (analyse)                ← requires: Phase 5 complete
     ↓
-Phase 7 (budget-calibration)     ← requires: Phase 6 complete
+Phase 7  (budget-calibration)     ← requires: Phase 6 complete
     ↓
-Phase 8 (plan)                   ← requires: Phases 3, 5, 6 + 7 complete
+Phase 8  (affordability-check)    ← requires: Phase 7 complete
     ↓
-Phase 9 (strategy)               ← requires: Phases 5, 6, 7 + 8 complete
+Phase 9  (plan)                   ← requires: Phases 3, 5, 6, 7 + 8 complete
+    ↓
+Phase 10 (strategy)               ← requires: Phases 5, 6, 7, 8 + 9 complete
 ```

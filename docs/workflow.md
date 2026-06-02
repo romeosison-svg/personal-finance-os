@@ -17,7 +17,7 @@ Begin a new monthly review.
 
 **Process:**
 1. Create a new folder under `/reviews/` named `YYYY-MM` (e.g. `reviews/2026-07`)
-2. Create the eight phase files: `collect.md`, `reconcile.md`, `assumptions.md`, `position.md`, `analyse.md`, `budget-calibration.md`, `plan.md`, `strategy.md`
+2. Create ten files in that folder: `collect.md`, `reconcile.md`, `assumptions.md`, `position.md`, `analyse.md`, `budget-calibration.md`, `affordability-check.md`, `plan.md`, `strategy.md`
 3. Create two handoff artefact placeholders: `position-handoff.md`, `transactions.csv`
 4. Copy the templates from `/docs/monthly-review-template.md` and `templates/`
 5. Set all phase statuses to `Not Started`
@@ -183,18 +183,46 @@ Begin Phase 7. Convert the spending analysis into explicit monthly cash bucket l
 3. Set phase status to `Complete` and record the date
 4. Commit: `git commit -m "budget-calibration: imported ChatGPT budget calibration — YYYY-MM"`
 
-**Gate:** Do not open `plan.md` until budget-calibration is marked `Complete`.
+**Gate:** Do not open `affordability-check.md` until budget-calibration is marked `Complete`.
+
+---
+
+### `affordability-check`
+
+**What it means:**  
+Begin Phase 8. Test whether calibrated bucket limits can be funded from available cashflow.
+
+**Owner:** ChatGPT. Use the Phase 8 prompt from `templates/chatgpt-prompts.md`.
+
+**Aliases:** `affordability-check`, `affordability`
+
+**Requires:** `budget-calibration` complete.
+
+**Process:**
+1. Open `affordability-check.md`
+2. Using the calibrated bucket limits from `budget-calibration.md` and the locked position from `position-handoff.md`:
+   - List all fixed monthly obligations (mortgage, direct debits, card minimums, balance transfer targets)
+   - List all required buffers (Lloyds operating floor, emergency fund minimum)
+   - Calculate available cashflow after fixed obligations and required buffers
+   - Compare available cashflow against the total calibrated bucket requirement
+   - If the total cannot be funded, identify which buckets must be reduced and by how much
+   - Note any timing gaps
+   - State the final affordable bucket limits
+3. Set phase status to `Complete` and record the date
+4. Commit: `git commit -m "affordability-check: imported ChatGPT affordability check — YYYY-MM"`
+
+**Gate:** Do not open `plan.md` until affordability-check is marked `Complete`.
 
 ---
 
 ### `plan`
 
 **What it means:**  
-Begin Phase 8. Generate the monthly payment plan.
+Begin Phase 9. Generate the monthly payment plan.
 
-**Owner:** ChatGPT. Use the Phase 8 prompt from `templates/chatgpt-prompts.md`.
+**Owner:** ChatGPT. Use the Phase 9 prompt from `templates/chatgpt-prompts.md`.
 
-**Requires:** `budget-calibration` complete.
+**Requires:** `affordability-check` complete.
 
 **Process:**
 1. Open `plan.md`
@@ -210,7 +238,7 @@ Begin Phase 8. Generate the monthly payment plan.
 5. Confirm surplus or note shortfall and resolution
 6. Review and approve the plan
 7. Set phase status to `Complete` and record the date
-8. Commit: `git commit -m "plan: phase 8 complete — YYYY-MM"`
+8. Commit: `git commit -m "plan: phase 9 complete — YYYY-MM"`
 
 **Gate:** Do not open `strategy.md` until plan is marked `Complete`.
 
@@ -219,9 +247,9 @@ Begin Phase 8. Generate the monthly payment plan.
 ### `strategy`
 
 **What it means:**  
-Begin Phase 9. Review long-term financial decisions.
+Begin Phase 10. Review long-term financial decisions.
 
-**Owner:** ChatGPT. Use the Phase 9 prompt from `templates/chatgpt-prompts.md`.
+**Owner:** ChatGPT. Use the Phase 10 prompt from `templates/chatgpt-prompts.md`.
 
 **Requires:** `plan` complete.
 
@@ -233,7 +261,7 @@ Begin Phase 9. Review long-term financial decisions.
 5. Note items deferred and when to revisit them
 6. If any persistent assumptions should change, update `finance-profile.md` and commit the change separately
 7. Set phase status to `Complete` and record the date
-8. Commit: `git commit -m "strategy: phase 9 complete — YYYY-MM"`
+8. Commit: `git commit -m "strategy: phase 10 complete — YYYY-MM"`
 
 **The monthly review is now complete.**
 
@@ -244,7 +272,7 @@ Begin Phase 9. Review long-term financial decisions.
 **What it means:**  
 Import a ChatGPT-generated artefact into the active review and commit it as a first-class FinanceOS output.
 
-**Usage:** `import <phase>` where `<phase>` is `analyse`, `budget-calibration` (alias: `budget`), `plan`, or `strategy`
+**Usage:** `import <phase>` where `<phase>` is `analyse`, `budget-calibration` (alias: `budget`), `affordability-check` (alias: `affordability`), `plan`, or `strategy`
 
 **Requires:** The preceding phase must be `Complete` (same gate rules as native phases).
 
@@ -283,6 +311,7 @@ Source: ChatGPT
 ```
 analyse: imported ChatGPT analysis — YYYY-MM
 budget-calibration: imported ChatGPT budget calibration — YYYY-MM
+affordability-check: imported ChatGPT affordability check — YYYY-MM
 plan: imported ChatGPT plan — YYYY-MM
 strategy: imported ChatGPT strategy — YYYY-MM
 ```
@@ -303,6 +332,12 @@ import analyse
 ```
 import budget-calibration
 ## Budget Calibration — June 2026
+...
+```
+
+```
+import affordability-check
+## Affordability Check — June 2026
 ...
 ```
 
@@ -348,8 +383,9 @@ position: phase 4 complete — 2026-07
 handoff: phase 5 complete — 2026-07
 analyse: phase 6 complete — 2026-07
 budget-calibration: phase 7 complete — 2026-07
-plan: phase 8 complete — 2026-07
-strategy: phase 9 complete — 2026-07
+affordability-check: phase 8 complete — 2026-07
+plan: phase 9 complete — 2026-07
+strategy: phase 10 complete — 2026-07
 ```
 
 When a phase is fulfilled by an imported artefact rather than a native Claude execution, use the import convention instead:
@@ -357,6 +393,7 @@ When a phase is fulfilled by an imported artefact rather than a native Claude ex
 ```
 analyse: imported ChatGPT analysis — 2026-07
 budget-calibration: imported ChatGPT budget calibration — 2026-07
+affordability-check: imported ChatGPT affordability check — 2026-07
 plan: imported ChatGPT plan — 2026-07
 strategy: imported ChatGPT strategy — 2026-07
 ```
