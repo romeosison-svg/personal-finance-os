@@ -14,135 +14,268 @@
 
 ---
 
-# FinanceOS Budget Calibration — 2026-06
+# Budget Calibration — June 2026
 
-> Phase 7 output based on `reviews/2026-06/position-handoff.md` and `reviews/2026-06/analyse.md`.
+Purpose: convert June 2026 spending analysis into July 2026 cash bucket limits.
 
----
+This phase sits after Analyse and before Plan.
 
-## 1. Scope and basis
-
-This budget calibration uses the June 2026 spending analysis from analyse.md and the locked assumptions from position-handoff.md.
-
-The purpose is to convert the spending picture into explicit monthly cash bucket limits for July 2026.
-
-This phase does not produce a payment plan. It does not recommend debt repayments, investments, or emergency fund contributions.
+Budget Calibration does not produce payment plans, debt repayment recommendations, investment recommendations, or emergency fund contribution decisions.
 
 ---
 
-## 2. One-offs excluded from baseline
+## 1. Phase status
 
-The following items appeared in June but are not part of the monthly run-rate. They are excluded from the baseline budget calculation but are listed explicitly.
+| Phase | Status |
+| --- | --- |
+| Collect | Complete |
+| Reconcile | Complete |
+| Assumptions | Complete |
+| Position | Complete |
+| Handoff | Complete |
+| Analyse | Complete |
+| Budget Calibration | Complete |
+| Plan | Complete |
+| Strategy | Complete |
+
+---
+
+## 2. Budget calibration principles
+
+The June review showed that spending was visible only after it had already landed on credit cards.
+
+July needs explicit spending buckets so credit cards are no longer used as overflow.
+
+Rules:
+
+1. Credit cards may only be used as payment rails, not spending buffers.
+2. Every card transaction must map to a funded cash bucket.
+3. When a credit card transaction is made, the same amount should be moved from the relevant cash bucket into a card-payment holding bucket within 7 days.
+4. If the relevant bucket has insufficient cash, the purchase should not be made unless money is consciously reallocated from another bucket.
+5. Barclaycard should not be used for new lifestyle spend.
+6. One-offs are excluded from baseline budget setting but still recorded.
+7. Known recurring commitments override incomplete prior-month actuals.
+
+---
+
+## 3. Known July constraint — Kelly commute
+
+Kelly's work train fares will be no less than £266/month.
+
+This means July transport budgeting cannot be based purely on June transport spend, because June did not fully reflect Kelly's recurring work commute.
+
+Transport is therefore split into:
+
+| Bucket | Purpose |
+| --- | --- |
+| Commuting & essential transport | Train fares, essential TFL, unavoidable travel, baseline EV charging |
+| Discretionary transport | Uber, optional parking, ad hoc non-essential travel |
+
+---
+
+## 4. Excluded from baseline
+
+These items were real spend but should not set the recurring lifestyle baseline.
 
 | Item | Amount | Reason |
 | --- | ---: | --- |
-| Lea Motors — Zoe vehicle repair/service | £286.60 | One-off vehicle maintenance, shared household asset |
-| Vaillant Group — boiler repair | £139.00 | One-off household repair |
-| Wix.com — annual business subscription | £178.20 | Annual cost, not monthly run-rate |
-| Companies House — annual filing | £100.00 | Annual cost, not monthly run-rate |
-| **Total excluded** | **£703.80** | |
+| Lea Motors Zoe repair | £286.60 | Shared household vehicle repair, one-off |
+| Vaillant boiler repair | £139.00 | Household repair, one-off |
+| WIX annual business subscription | £178.20 | Annual business cost, not monthly lifestyle baseline |
+| Companies House filing | £100.00 | Annual business/admin cost |
+| **Total excluded from baseline** | **£703.80** | |
 
-Adjusted controllable spend (June total less one-offs): approximately **£1,903**.
-
-These items are not ignored. They are tracked separately and should be anticipated in future months where recurrence is expected (e.g. annual subscriptions, vehicle servicing cycles).
+Zoe vehicle costs should be handled through household vehicle reconciliation, not lifestyle budget limits.
 
 ---
 
-## 3. Shared household budget buckets
+## 5. June controllable actuals
 
-| Bucket | June actual | July limit | Type |
+| Category | June actual | Notes |
+| --- | ---: | --- |
+| Groceries | ~£282 | Mostly Kelly cards |
+| Dining / restaurants | ~£400 | High discretionary category |
+| Fast food | ~£155 | High frequency across both cardholders |
+| Coffee / bakery | ~£78 | Frequent small spend |
+| Sport / pickleball / fitness | ~£431 | Largest discretionary category |
+| Transport / EV / parking | ~£344 | Includes EV, TFL, parking, Uber, but does not fully reflect Kelly work commute |
+| Entertainment | ~£126 | Mostly Kelly |
+| Health / supplements / personal care | ~£169 | Includes osteopath and dental |
+| Retail / personal discretionary | ~£129 | Amazon, Home Bargains, M&S, gifts, other retail |
+| Subscriptions | ~£53 | Confirmed monthly recurring subscriptions |
+
+---
+
+## 6. July shared household buckets
+
+| Bucket | June actual | July limit | Behaviour change |
 | --- | ---: | ---: | --- |
-| Groceries | ~£282 | £350 | Essential |
-| Dining / restaurants | ~£400 | £200 | Discretionary |
-| Fast food | ~£155 | £50 | Discretionary |
-| Coffee / bakery | ~£78 | £50 | Discretionary |
-| Household contingency | N/A | £100 | Essential |
-| Commuting & essential transport | ~£344 | £350 | Essential |
-| Discretionary transport | Included above | £100 | Discretionary |
-| Entertainment | ~£126 | £100 | Discretionary |
-| **Shared total** | | **£1,300** | |
+| Groceries | ~£282 | £350 | Maintain realistic headroom |
+| Dining / restaurants | ~£400 | £200 | Significant reduction required |
+| Fast food | ~£155 | £50 | Significant reduction required |
+| Coffee / bakery | ~£78 | £50 | Moderate reduction required |
+| Household contingency | N/A | £100 | Creates small non-card buffer |
+| Commuting & essential transport | ~£344 | £350 | Reflects Kelly train fares of at least £266 |
+| Discretionary transport | Included above | £100 | Optional parking/Uber/ad hoc travel controlled separately |
+| Entertainment | ~£126 | £100 | Mild reduction required |
 
-Notes:
-- Kelly's monthly train commuting cost is approximately £266/month. Commuting budgets must accommodate this recurring cost regardless of prior-month actuals.
-- Commuting is treated as essential and tracked separately from discretionary transport (Uber, parking, non-essential journeys).
-- Dining and fast food combined were approximately £555 in June. The July combined cap is £250. This requires a clear and sustained behaviour change.
+**Shared household bucket total: £1,300**
 
 ---
 
-## 4. Romeo individual budget buckets
+## 7. July Romeo buckets
 
-| Bucket | June actual | July limit | Type |
+| Bucket | June actual | July limit | Behaviour change |
 | --- | ---: | ---: | --- |
-| Pickleball / sport | ~£180 | £180 | Lifestyle |
-| Supplements / health | N/A | £50 | Essential |
-| Personal discretionary | N/A | £150 | Discretionary |
-| **Romeo total** | | **£380** | |
+| Pickleball / sport | ~£180 | £180 | Hold flat |
+| Supplements / health | N/A | £50 | Explicit allowance |
+| Personal discretionary | N/A | £150 | Creates controlled personal spend |
+
+**Romeo bucket total: £380**
 
 ---
 
-## 5. Kelly individual budget buckets
+## 8. July Kelly buckets
 
-| Bucket | June actual | July limit | Type |
+| Bucket | June actual | July limit | Behaviour change |
 | --- | ---: | ---: | --- |
-| Pickleball / sport | ~£251 | £220 | Lifestyle |
-| Supplements / personal care | N/A | £30 | Discretionary |
-| Personal discretionary | N/A | £150 | Discretionary |
-| **Kelly total** | | **£400** | |
+| Pickleball / sport | ~£251 | £220 | Small reduction required |
+| Supplements / personal care | N/A | £30 | Explicit allowance |
+| Personal discretionary | N/A | £150 | Creates controlled personal spend |
+
+**Kelly bucket total: £400**
 
 ---
 
-## 6. Total cash bucket requirement — July 2026
+## 9. July cash bucket requirement
 
-| Group | July limit |
+| Bucket group | Amount |
 | --- | ---: |
-| Shared household | £1,300 |
-| Romeo individual | £380 |
-| Kelly individual | £400 |
-| **Total monthly cash bucket** | **£2,080** |
+| Shared household buckets | £1,300 |
+| Romeo buckets | £380 |
+| Kelly buckets | £400 |
+| **Total July cash bucket requirement** | **£2,080** |
 
-This is the amount that should be funded from income at the start of July before any discretionary spending begins.
-
----
-
-## 7. Funding rules
-
-The following categories should be funded in cash or debit before the month begins and must not be allowed to drift onto credit cards:
-
-- Groceries
-- Dining / restaurants
-- Fast food
-- Coffee / bakery
-- Household contingency
-- Discretionary transport
-- Entertainment
-- Personal discretionary (Romeo and Kelly)
-
-Commuting and essential transport may be charged to a card where contactless or subscription payment is standard (e.g. Oyster, train season ticket), but must stay within the budgeted amount.
-
-**Barclaycard must not be used for any lifestyle spending** while it carries 28% APR and a £20/month fee. If a bucket is exhausted, spending stops or must be consciously reallocated from another bucket. There is no automatic overflow.
+This is the amount that should be explicitly funded or tracked for controllable July spending before using credit cards.
 
 ---
 
-## 8. Behaviour change required
+## 10. Shared household funding split
 
-| Category | Issue | Required change |
-| --- | --- | --- |
-| Dining / restaurants | ~£400 in June. July cap is £200. | Reduce to approximately 4–5 restaurant meals combined across the month. |
-| Fast food | ~£155 in June. July cap is £50. | Treat as occasional, not routine. Stop habitual fast food across both cardholders. |
-| Dining + fast food combined | ~£555 in June. Combined July cap is £250. | This requires a sustained household-level change, not a one-off effort. |
-| Credit card usage for lifestyle | Lifestyle spend landing on Barclaycard and Amex. | Fund lifestyle from debit or designated cash bucket. Barclaycard is not a spending vehicle. |
-| Discretionary transport | Recurring Uber and parking charges. | Plan journeys. Use public transport or scheduled alternatives where practical. |
+Using the standard household income ratio:
+
+| Person | Share | Amount |
+| --- | --- | ---: |
+| Romeo | 57.1% | £742.30 |
+| Kelly | 42.9% | £557.70 |
+| Total | 100.0% | £1,300.00 |
+
+Individual buckets remain personal:
+
+| Person | Personal bucket total |
+| --- | ---: |
+| Romeo | £380 |
+| Kelly | £400 |
+
+Total expected controllable July funding by person:
+
+| Person | Shared bucket share | Individual buckets | Total |
+| --- | ---: | ---: | ---: |
+| Romeo | £742.30 | £380.00 | £1,122.30 |
+| Kelly | £557.70 | £400.00 | £957.70 |
 
 ---
 
-## 9. Key rules
+## 11. Credit card transition rule
 
-1. Excluded one-offs are listed explicitly. They are not invisible — they should be anticipated in months where recurrence is likely.
-2. Where a bucket is exhausted, spending stops. There is no automatic credit card overflow.
-3. Barclaycard is not available for lifestyle spend while it carries 28% APR.
-4. Kelly's train commute (~£266/month) overrides prior-month actuals where commuting patterns were incomplete.
-5. Budget limits are commitments, not targets.
+Credit cards may only be used as payment rails, not spending buffers.
+
+Any credit card purchase must map to a funded cash bucket.
+
+When a credit card transaction is made, the same amount should be moved from the relevant cash bucket into a card-payment holding bucket within 7 days.
+
+If the relevant bucket has insufficient cash remaining, the purchase should not be made unless another bucket is consciously reallocated.
+
+Barclaycard is excluded from day-to-day spending and should be used only for repayment until cleared.
 
 ---
 
-_Created 2026-06-02._
+## 12. Behaviour changes required
+
+### Dining and fast food
+
+June dining plus fast food was approximately £555.
+
+July combined dining plus fast food limit:
+
+| Category | Limit |
+| --- | ---: |
+| Dining / restaurants | £200 |
+| Fast food | £50 |
+| **Combined limit** | **£250** |
+
+Required reduction: approximately £305.
+
+This is the biggest controllable change.
+
+### Sport and pickleball
+
+Sport remains a lifestyle priority, but it needs limits.
+
+| Person | July limit |
+| --- | ---: |
+| Romeo | £180 |
+| Kelly | £220 |
+
+If tournaments, coaching, or court bookings exceed these amounts, spend must be consciously reallocated from personal discretionary or another bucket.
+
+### Transport
+
+Kelly's train fares are a known recurring commitment of at least £266/month.
+
+Transport budget therefore needs enough room for work travel and essential movement, but discretionary Uber, parking, and ad hoc travel should not blend into the same bucket.
+
+### Barclaycard
+
+Barclaycard must stop being the lifestyle overflow account.
+
+New lifestyle spend should not be placed on Barclaycard.
+
+If Amex is used for points, the equivalent cash should be moved into a card-payment holding bucket within 7 days.
+
+---
+
+## 13. Buckets that should be cash/debit first
+
+These categories should be funded in cash/debit or actively mirrored into a card-payment holding pot if paid by credit card:
+
+| Bucket | Preferred mechanism |
+| --- | --- |
+| Groceries | Cash/debit or Amex with immediate sweep |
+| Dining / restaurants | Cash/debit or Amex with immediate sweep |
+| Fast food | Cash/debit only preferred |
+| Coffee / bakery | Cash/debit only preferred |
+| Pickleball / sport | Cash/debit or Amex with immediate sweep |
+| Transport | Cash/debit or Amex with immediate sweep |
+| Personal discretionary | Cash/debit only preferred |
+
+---
+
+## 14. Final calibration decision
+
+July 2026 should run with explicit cash buckets totalling £2,080.
+
+The July focus is not optimisation. It is behavioural control.
+
+Success criteria:
+
+1. Barclaycard receives no new lifestyle spend.
+2. Every Amex spend maps to a funded bucket.
+3. Dining plus fast food stays at or below £250.
+4. Sport stays within individual limits unless consciously reallocated.
+5. Kelly's commuting cost is recognised as unavoidable and not treated as overspend.
+6. Credit card statements stop being the first place spending pain is felt.
+
+---
+
+_Imported from ChatGPT on 2026-06-02._
