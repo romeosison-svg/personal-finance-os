@@ -543,7 +543,49 @@ Where temporary cashflow pressures exist, any deviation from the standard tithe 
 
 ---
 
+## Known Seasonal Costs — PPL Challenger League 2026–27
+
+Romeo has committed to 6 PPL Challenger League fixture weekends across the 2026–27 season.
+
+These are known upcoming costs that should be surfaced during the Assumptions phase of each relevant monthly review.
+
+**Accommodation working assumption:** £90 per hotel night unless a booking is confirmed at a different rate.
+
+| # | Dates | Venue | Location | Accommodation | Hotel nights | Estimate |
+| --- | --- | --- | --- | --- | ---: | ---: |
+| 1 | 18–19 Jul 2026 | Bolton Arena | Bolton, BL6 6LB | Required | 1 | £90 |
+| 2 | 5–6 Sep 2026 | Tunbridge Wells | TN4 9TX | None — day trip | 0 | £0 |
+| 3 | 14–15 Nov 2026 | Courtside Stourbridge | DY8 1JN | Strongly recommended | 1 | £90 |
+| 4 | 12–13 Dec 2026 | Hampshire Court Hotel | RG24 8FY | None — venue is hotel, day trip | 0 | £0 |
+| 5 | 13–14 Feb 2027 | Swindon | SN5 7XF | Optional/borderline — included in plan | 1 | £90 |
+| 6 | 13–14 Mar 2027 | Destination Pickleball | Festival Way, Stoke-on-Trent | Leaning recommended — included in plan | 1 | £90 |
+| | | | | **Total** | **4** | **£360** |
+
+Travel costs (fuel, mileage, or rail) are separate and should be estimated during the assumptions phase of each relevant monthly review once journey plans are confirmed.
+
+### Monthly review flag
+
+During the assumptions phase, flag any PPL Challenger League fixture falling within the upcoming month and confirm:
+
+1. Accommodation status — booked, still required, or no longer required.
+2. Actual booking cost if already confirmed (replace the £90 estimate).
+3. Travel cost estimate for the fixture weekend.
+4. Whether the fixture cost should be treated as a Romeo personal discretionary spend or a household sport/lifestyle allocation.
+
+### Fixtures by planning month
+
+| Month | Fixture | Action required |
+| --- | --- | --- |
+| July 2026 | Bolton Arena (18–19 Jul) | Confirm/book accommodation. Budget £90 + travel. |
+| September 2026 | Tunbridge Wells (5–6 Sep) | Day trip. Budget travel only. |
+| November 2026 | Courtside Stourbridge (14–15 Nov) | Confirm/book accommodation. Budget £90 + travel. |
+| December 2026 | Hampshire Court Hotel (12–13 Dec) | Day trip. Budget travel only. |
+| February 2027 | Swindon (13–14 Feb) | Confirm accommodation intention. Budget £90 + travel. |
+| March 2027 | Stoke-on-Trent (13–14 Mar) | Confirm accommodation intention. Budget £90 + travel. |
+
+---
+
 ## Last Updated
 
-Date: <!-- update when this file changes -->  
-Reason: <!-- brief note on what changed and why -->
+Date: 2026-06-03
+Reason: Added PPL Challenger League 2026–27 seasonal cost commitments (6 fixtures, 4 hotel nights, £360 accommodation estimate).
