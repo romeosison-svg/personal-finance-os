@@ -69,6 +69,36 @@ During each monthly review:
 
 ---
 
+## Income
+
+### Romeo
+
+| Assumption | Value | Notes |
+| --- | --- | --- |
+| Net monthly income | (confirm monthly) | Updated during collect/reconcile each month from payslip |
+
+### Kelly
+
+| Assumption | Value | Notes |
+| --- | --- | --- |
+| Employer | Morningstar | Started 18 May 2026 |
+| Gross annual salary | £56,000 | Confirmed by Kelly — £1K above UHY contract figure of £55K |
+| Gross monthly | £4,666.67 | £56,000 ÷ 12 |
+| Tax code | 1257L | |
+| Pension | 3.2% pre-tax | Net pay arrangement via Morningstar scheme; ~£149.33/month |
+| Student loan | ~£224.50/month | Extrapolated from £55K payslip (£217/month at 9% on earnings above threshold) |
+| Normalised net take-home | ~£3,272/month | After income tax, NI, pension, and student loan |
+
+### Normalised Income Rule — Kelly
+
+Kelly's first pay period was partial (started 18 May 2026; first pay received 24 June 2026). Her actual payslip will not reflect a full month's salary.
+
+For all household allocation calculations — mortgage contribution, bills split, tithe — use the **normalised monthly net of ~£3,272** rather than the actual payslip amount, until Kelly has received at least one full calendar-month payslip.
+
+Review: Confirm actual net from first full-month payslip (expected July 2026). Update normalised figure if materially different from £3,272.
+
+---
+
 ## Mortgage
 
 | Assumption           | Value                                | Notes                                                                     |
@@ -356,6 +386,8 @@ Due to:
 
 Emergency fund contributions may be reduced, paused or increased during the monthly planning phase.
 
+**Kelly's priority — replenishment:** Kelly used her personal emergency fund to cover her mortgage share in May 2026 (while between jobs). Her stated priority is to replenish this from any monthly surplus once her salary is in place. This takes precedence over discretionary spending but sits below Tier 2 committed obligations in the planning hierarchy.
+
 ### Review Rules
 
 During each monthly review:
@@ -587,5 +619,7 @@ During the assumptions phase, flag any PPL Challenger League fixture falling wit
 
 ## Last Updated
 
-Date: 2026-06-03
-Reason: Added PPL Challenger League 2026–27 seasonal cost commitments (6 fixtures, 4 hotel nights, £360 accommodation estimate).
+Date: 2026-06-29
+Reason: Added Income section — Kelly's salary details (£56K gross, 1257L, pension 3.2% pre-tax, student loan ~£224.50, normalised net ~£3,272). Added normalised income rule for mortgage/bills/tithe calculations. Added Kelly emergency fund replenishment priority.
+
+Previous: 2026-06-03 — Added PPL Challenger League 2026–27 seasonal cost commitments (6 fixtures, 4 hotel nights, £360 accommodation estimate).
