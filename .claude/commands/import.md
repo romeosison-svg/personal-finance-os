@@ -1,6 +1,6 @@
 # import
 
-Import a ChatGPT-generated artefact into the active monthly review.
+Import an externally generated artefact into the active monthly review.
 
 ## Usage
 
@@ -37,7 +37,7 @@ Where `<phase>` is one of: `analyse`, `budget-calibration`, `budget`, `affordabi
 | Parameter    | Default                                                                 |
 | ------------ | ----------------------------------------------------------------------- |
 | Review month | Active review (most recent folder under `reviews/`, excluding `2026-06-example`) |
-| Source       | ChatGPT                                                                 |
+| Source       | external                                                                |
 
 Do not ask for review month or source. Infer them silently. Only request clarification if genuine ambiguity exists (e.g. two review folders with the same date, which cannot happen in practice).
 
@@ -55,7 +55,7 @@ Do not ask for review month or source. Infer them silently. Only request clarifi
 | `plan`               | Phase 9  | `affordability-check` complete  |
 | `strategy`           | Phase 10 | `plan` complete                 |
 
-Native Claude phases (`collect`, `reconcile`, `assumptions`, `position`, `handoff`) are executed locally and are not imported.
+Native Codex phases (`collect`, `reconcile`, `assumptions`, `position`, `handoff`) are executed locally and are not imported.
 
 ---
 
@@ -67,7 +67,7 @@ Read the user's message. Extract:
 
 - **Phase** — from `import <phase>`
 - **Review month** — from `Review Month: YYYY-MM` if present; otherwise use the active review
-- **Source** — from `Source: X` if present; otherwise `ChatGPT`
+- **Source** — from `Source: X` if present; otherwise `external`
 - **Content** — everything in the message after the command line and any override fields
 
 If content is present in the same message, proceed immediately.
@@ -82,7 +82,7 @@ Do not ask for review month, source, or confirmation of defaults.
 
 If the phase is not `analyse`, `budget-calibration`, `budget`, `affordability-check`, `affordability`, `plan`, or `strategy`:
 
-> `import` supports: `analyse`, `budget-calibration` (alias: `budget`), `affordability-check` (alias: `affordability`), `plan`, `strategy`. Native Claude phases (collect, reconcile, assumptions, position, handoff) are not imported.
+> `import` supports: `analyse`, `budget-calibration` (alias: `budget`), `affordability-check` (alias: `affordability`), `plan`, `strategy`. Native Codex phases (collect, reconcile, assumptions, position, handoff) are not imported.
 
 Stop.
 
@@ -93,7 +93,7 @@ If the phase is `affordability`, treat it as `affordability-check` for all subse
 
 Read the preceding phase file and confirm its status is `Complete`:
 
-- `import analyse` → `reviews/YYYY-MM/handoff.md` must be `Complete`
+- `import analyse` → `reviews/YYYY-MM/handoff.md` must be `Complete`, and `position-handoff.md` plus `transactions.csv` must exist
 - `import budget-calibration` → `reviews/YYYY-MM/analyse.md` must be `Complete`
 - `import affordability-check` → `reviews/YYYY-MM/budget-calibration.md` must be `Complete`
 - `import plan` → `reviews/YYYY-MM/affordability-check.md` must be `Complete`
@@ -120,7 +120,7 @@ Preserve from the existing file. Update the row for the imported phase:
 - Status → `Complete`
 - Completed → today's date (`YYYY-MM-DD`)
 
-**2. ChatGPT content**
+**2. External content**
 
 Append the pasted content verbatim. Do not reformat, summarise, or annotate.
 
@@ -138,16 +138,16 @@ Write to `reviews/YYYY-MM/{phase}.md`.
 
 ```
 git add reviews/YYYY-MM/{phase}.md
-git commit -m "{phase}: imported ChatGPT {label} — YYYY-MM"
+git commit -m "{phase}: imported external {label} — YYYY-MM"
 ```
 
 | Phase                  | Commit message                                                              |
 | ---------------------- | --------------------------------------------------------------------------- |
-| `analyse`              | `analyse: imported ChatGPT analysis — YYYY-MM`                             |
-| `budget-calibration`   | `budget-calibration: imported ChatGPT budget calibration — YYYY-MM`        |
-| `affordability-check`  | `affordability-check: imported ChatGPT affordability check — YYYY-MM`      |
-| `plan`                 | `plan: imported ChatGPT plan — YYYY-MM`                                    |
-| `strategy`             | `strategy: imported ChatGPT strategy — YYYY-MM`                            |
+| `analyse`              | `analyse: imported external analysis — YYYY-MM`                             |
+| `budget-calibration`   | `budget-calibration: imported external budget calibration — YYYY-MM`        |
+| `affordability-check`  | `affordability-check: imported external affordability check — YYYY-MM`      |
+| `plan`                 | `plan: imported external plan — YYYY-MM`                                    |
+| `strategy`             | `strategy: imported external strategy — YYYY-MM`                            |
 
 If a `strategy` import also updates `docs/finance-profile.md`, commit that separately:
 
@@ -174,11 +174,11 @@ Where `{next_command}`:
 ## Commit Convention
 
 ```
-analyse: imported ChatGPT analysis — YYYY-MM
-budget-calibration: imported ChatGPT budget calibration — YYYY-MM
-affordability-check: imported ChatGPT affordability check — YYYY-MM
-plan: imported ChatGPT plan — YYYY-MM
-strategy: imported ChatGPT strategy — YYYY-MM
+analyse: imported external analysis — YYYY-MM
+budget-calibration: imported external budget calibration — YYYY-MM
+affordability-check: imported external affordability check — YYYY-MM
+plan: imported external plan — YYYY-MM
+strategy: imported external strategy — YYYY-MM
 ```
 
 ---
@@ -192,4 +192,4 @@ strategy: imported ChatGPT strategy — YYYY-MM
 | Gate not met | Stop. Name the blocking phase. Suggest next step. |
 | Unsupported phase name | Stop immediately. Do not guess. |
 | `Review Month` override supplied | Use it as-is. |
-| `Source` override supplied | Use it in the import line. Commit message always says `ChatGPT`. |
+| `Source` override supplied | Use it in the import line. Commit message always says `external`. |

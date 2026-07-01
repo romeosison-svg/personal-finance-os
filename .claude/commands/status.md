@@ -1,7 +1,7 @@
 Report the current status of the active monthly finance review.
 
 1. Find the most recent folder under `reviews/` (by folder name, alphabetically last — this is the active review).
-2. Read the phase status table from each of the six phase files: `collect.md`, `reconcile.md`, `assumptions.md`, `position.md`, `plan.md`, `strategy.md`.
+2. Read the phase status table from each of the ten phase files: `collect.md`, `reconcile.md`, `assumptions.md`, `position.md`, `handoff.md`, `analyse.md`, `budget-calibration.md`, `affordability-check.md`, `plan.md`, `strategy.md`.
 3. Report a single consolidated status table:
 
 | Phase       | Status      | Completed  |
@@ -10,6 +10,10 @@ Report the current status of the active monthly finance review.
 | Reconcile   | ...         | ...        |
 | Assumptions | ...         | ...        |
 | Position    | ...         | ...        |
+| Handoff     | ...         | ...        |
+| Analyse     | ...         | ...        |
+| Budget Calibration | ...  | ...        |
+| Affordability Check | ... | ...        |
 | Plan        | ...         | ...        |
 | Strategy    | ...         | ...        |
 

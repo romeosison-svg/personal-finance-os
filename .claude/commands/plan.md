@@ -1,7 +1,7 @@
-Begin or continue Phase 5 (Plan) of the active monthly finance review.
+Begin or continue Phase 9 (Plan) of the active monthly finance review.
 
 1. Find the most recent folder under `reviews/` (alphabetically last, excluding `2026-06-example`).
-2. Read `position.md` and confirm its phase status is `Complete`. If not, tell the user Phase 4 (Position) must be completed first and suggest running `/position`.
+2. Read `affordability-check.md` and confirm its phase status is `Complete`. If not, tell the user Phase 8 (Affordability Check) must be completed first and suggest running `/affordability-check`.
 3. Read `plan.md` from that folder.
 4. Check the phase status. If already `Complete`, tell the user the plan is locked and suggest running `/strategy`.
 5. Set the phase status to `In Progress` if it was `Not Started`.
@@ -21,5 +21,5 @@ Begin or continue Phase 5 (Plan) of the active monthly finance review.
     - Set phase status to `Complete` in `plan.md`.
     - Record today's date.
     - Update the phase status table.
-    - Commit: `git commit -m "plan: phase 5 complete — YYYY-MM"`
-    - Instruct the user to run `/strategy` to begin Phase 6.
+    - Commit: `git commit -m "plan: phase 9 complete — YYYY-MM"`
+    - Instruct the user to run `/strategy` to begin Phase 10.

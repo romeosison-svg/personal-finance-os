@@ -5,17 +5,17 @@ Begin or continue Phase 1 (Collect) of the active monthly finance review.
    a. Local: check whether a `statements/` subfolder exists inside that review folder and list any files found.
    b. Google Drive: if local statements/ is empty or absent, use the Google Drive MCP to list files in folder ID `1D_U5sNk52firQcWsD6K1QBfmcsTCJxP0` (Finance OS / Statements).
    c. If neither has files, tell the user: "No statement files found locally or in Google Drive (Finance OS / Statements). You can drop files into either location, or proceed and enter figures manually."
-3. Build the statements map:
-   - For each file found, read its contents to determine: statement period (YYYY-MM), account holder name, institution, and account type (e.g. current, savings, credit, mortgage).
-   - For any file where the contents are ambiguous, flag it and ask the user to supply the missing detail.
-   - Derive a normalised name for each file using the convention: `YYYY-MM_<person>_<institution>_<account-type>`
+3. Build the statements map from filenames only — do NOT read file contents:
+   - Files are assumed to already be named using the normalised convention: `YYYY-MM_<person>_<institution>_<account-type>`
      Examples: `2026-06_Kelly_Halifax_current`, `2026-06_Kelly_Amex_credit`
+   - List all non-`.gitkeep` files (ignoring `.Zone.Identifier` files and other metadata files).
+   - For any file whose name does not match the normalised convention, flag it and ask the user to supply the correct normalised name before continuing.
    - Write (or overwrite) `reviews/YYYY-MM/statements.md` with a mapping table in this format:
 
      | Normalised name | Original filename | Source |
      |---|---|---|
-     | 2026-06_Kelly_Halifax_current | Jun2026_statement_012345.pdf | Google Drive |
-     | 2026-06_Kelly_Amex_credit | AMEX_eStatement_2026-06-01.pdf | Google Drive |
+     | 2026-06_Kelly_Halifax_current | 2026-06_Kelly_Halifax_current.pdf | Local |
+     | 2026-06_Kelly_Amex_credit | 2026-06_Kelly_Amex_credit.pdf | Local |
 
    - Do not rename or move any files. The original files stay exactly as they are.
 4. Present the statements map to the user and ask them to confirm it is correct before continuing.

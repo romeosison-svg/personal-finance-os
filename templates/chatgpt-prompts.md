@@ -1,8 +1,8 @@
-# ChatGPT Phase Prompts
+# External Phase Prompts
 
-Standard prompts for handing off to ChatGPT after the handoff phase is complete.
+Standard prompts for handing off to an external model after the handoff phase is complete.
 
-Copy the relevant prompt, attach or paste the required artefacts, and send to ChatGPT.
+Copy the relevant prompt, attach or paste the required artefacts, and send to the external model.
 
 ---
 
@@ -17,7 +17,7 @@ Copy the relevant prompt, attach or paste the required artefacts, and send to Ch
 ```
 You are continuing a FinanceOS monthly review for YYYY-MM.
 
-Phases 1–5 (collect, reconcile, assumptions, position, handoff) have been completed by Claude Code.
+Phases 1–5 (collect, reconcile, assumptions, position, handoff) have been completed by Codex.
 The verified facts and locked assumptions are in position-handoff.md.
 The transaction data is in transactions.csv.
 

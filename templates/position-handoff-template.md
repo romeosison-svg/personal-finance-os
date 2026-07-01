@@ -1,9 +1,9 @@
-# FinanceOS ChatGPT Position Handoff — YYYY-MM
+# FinanceOS Position Handoff — YYYY-MM
 
-> Produced by Claude Code during the handoff phase.
+> Produced by Codex during the handoff phase.
 > Contains verified facts and locked assumptions only.
 > Does not contain recommendations, categorisation, or analysis.
-> ChatGPT uses this as the primary input for analyse, plan, and strategy.
+> Later phases use this as the primary factual input for analyse, budget-calibration, affordability-check, plan, and strategy.
 
 ---
 
@@ -14,6 +14,7 @@
 | `reviews/YYYY-MM/reconcile.md` | Complete |
 | `reviews/YYYY-MM/assumptions.md` | Complete |
 | `reviews/YYYY-MM/position.md` | Complete |
+| `reviews/YYYY-MM/handoff.md` | Complete |
 | `docs/finance-profile.md` | Reference |
 
 ---
@@ -22,13 +23,13 @@
 
 | Phase | Owner | Status |
 | --- | --- | --- |
-| collect | Claude Code | Complete |
-| reconcile | Claude Code | Complete |
-| assumptions | Claude Code | Complete |
-| position | Claude Code | Complete |
-| handoff | Claude Code | Complete |
+| collect | Codex | Complete |
+| reconcile | Codex | Complete |
+| assumptions | Codex | Complete |
+| position | Codex | Complete |
+| handoff | Codex | Complete |
 
-ChatGPT should not reopen any of these phases unless a genuine inconsistency is found in the data below. If an inconsistency is found, flag it explicitly before proceeding.
+Later phases should not reopen any of these phases unless a genuine inconsistency is found in the data below. If an inconsistency is found, flag it explicitly before proceeding.
 
 ---
 
@@ -204,7 +205,7 @@ These assumptions are locked for YYYY-MM. Do not override without flagging as an
 
 ---
 
-## 8. Open Questions for ChatGPT
+## 8. Open Questions for Later Phases
 
 1. What does spending analysis show for YYYY-MM? Which categories were highest? Any anomalies vs prior months?
 2. What exact payments should be made this month, in priority order?
@@ -216,7 +217,7 @@ These assumptions are locked for YYYY-MM. Do not override without flagging as an
 
 ---
 
-## 9. Constraints for ChatGPT
+## 9. Constraints for Later Phases
 
 - Do not contradict locked facts in sections 3–7 above.
 - Do not reopen collect, reconcile, assumptions, or position unless a genuine inconsistency is found. If found, flag it explicitly before proceeding.
