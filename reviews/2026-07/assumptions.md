@@ -136,8 +136,11 @@ Note: Kelly's actual June net received is inflated by backpay. Use the normalise
 | Emergency fund contribution | Variable | Determine in Plan | No | Profile says contribution depends on available cashflow |
 | Emergency fund minimum operating level | £5,000 | £5,000 | No | Preserve minimum operating level |
 | Kelly emergency fund replenishment priority | Replenish once salary in place | Carry into Plan/Strategy | No | Profile priority sits below committed obligations and above discretionary spending |
+| Kelly personal savings replenishment goal | Replenish savings used during job transition | £1,316.83 target, funded only from surplus | No | Kelly used personal savings to fund her previous mortgage share; this is not a one-hit reimbursement and should only receive surplus after established goals |
 
 No July emergency-fund contribution is assumed at this phase. Affordability belongs in the Plan phase after Position is calculated.
+
+Clarification added 2026-07-01: Kelly's personal savings replenishment is a goal, not a fixed July liability. The Plan phase should prioritise established obligations and goals first, then allocate any remaining surplus to this replenishment target.
 
 ---
 
@@ -149,7 +152,9 @@ No July emergency-fund contribution is assumed at this phase. Affordability belo
 | MG insurance | Kelly vehicle commitment | £40.00 | Paid from Santander joint account per reconcile |
 | Zoe insurance | Vehicle commitment | £61.29 | Paid from Santander joint account per reconcile |
 | Kelly -> Romeo Zoe reimbursement | Shared vehicle cost reconciliation | £428.94 outstanding | Carried from June review and confirmed in reconcile |
-| PPL Challenger League - Bolton Arena | Known seasonal cost | £90 accommodation estimate + travel TBC | Fixture 18-19 Jul 2026; confirm actual booking/travel in Plan or Strategy |
+| PPL Challenger League - Bolton Arena | Known seasonal cost | First night already paid; extra night £91 payable at hotel; travel TBC | Fixture 18-19 Jul 2026; extended by one night |
+| PPL Challenger training - Farnborough | Planned seasonal cost | £123 semi-flex Premier Inn for one night on 11 Jul 2026 | Aldershot was full; booking under consideration |
+| Plumbing work | Optional household maintenance under consideration | ~£300 estimate | Do not treat as committed until affordability and Plan phases decide |
 
 ---
 
