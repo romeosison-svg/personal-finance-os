@@ -150,7 +150,9 @@ a temporary override may be applied and documented in the monthly review.
 | Assumption             | Value                                | Notes                                                                     |
 | ---------------------- | ------------------------------------ | ------------------------------------------------------------------------- |
 | Bill split methodology | Proportional to net household income | Recalculated each monthly review using current net monthly income figures |
-| Shared bills accounts  | Romeo and Kelly                      | Household bills funded by both parties                                    |
+| Shared bills account   | Santander joint account              | Shared household bills are paid from the joint account                    |
+| Shared bills baseline  | £767.80/month                        | Current known recurring shared household bills before reimbursable Spotify |
+| Spotify Premium Family | £21.99/month DD; £14.66 net cost     | Elaine reimburses £7.33/month, leaving £14.66 household net cost          |
 | Fallback methodology   | Manual override                      | Used only if proportional allocation is temporarily unsuitable            |
 
 ### Bill Contribution Methodology
@@ -171,10 +173,11 @@ The percentages are not fixed and must be recalculated whenever income changes.
 During each monthly review:
 
 1. Update total household bills.
-2. Update both net income figures.
-3. Recalculate contribution percentages.
-4. Calculate each person's bill contribution.
-5. Document any temporary override.
+2. Distinguish gross joint-account cash outflow from net household cost after reimbursements.
+3. Update both net income figures.
+4. Recalculate contribution percentages.
+5. Calculate each person's bill contribution.
+6. Document any temporary override.
 
 ### Override Rule
 
