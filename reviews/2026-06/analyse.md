@@ -4,15 +4,15 @@
 
 ## Phase Status
 
-| Phase       | Status      | Completed  |
-| ----------- | ----------- | ---------- |
-| Collect     | Complete    | 2026-05-31 |
-| Reconcile   | Complete    | 2026-05-31 |
-| Assumptions | Complete    | 2026-05-31 |
-| Position    | Complete    | 2026-05-31 |
-| Analyse     | Complete    | 2026-05-31 |
-| Plan        | Complete    | 2026-05-31 |
-| Strategy    | Complete    | 2026-05-31 |
+| Phase       | Status   | Completed  |
+| ----------- | -------- | ---------- |
+| Collect     | Complete | 2026-05-31 |
+| Reconcile   | Complete | 2026-05-31 |
+| Assumptions | Complete | 2026-05-31 |
+| Position    | Complete | 2026-05-31 |
+| Analyse     | Complete | 2026-05-31 |
+| Plan        | Complete | 2026-05-31 |
+| Strategy    | Complete | 2026-05-31 |
 
 ---
 
