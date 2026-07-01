@@ -55,6 +55,9 @@ Statement issues on July 3rd (billing period mostly covers May transactions). No
 - Car insurance (MG): £40.00/month
 - Car insurance (Zoe — keeping): £61.29/month
 
+### Kelly Reimbursement — Zoe Vehicle Costs
+£428.94 due from Kelly for shared Zoe vehicle costs (April repair £287.00 + April service £426.26 + May repair £286.60 = £999.86 total, split 50/50 less Romeo's half). Agreed in June 2026 review (`reviews/2026-06/plan.md`). Capture in reconcile reimbursements table and confirm whether payment has been received.
+
 ### Kelly Income — June Pay Anomaly
 Kelly started employment on May 18 but was not paid in May. June payslip therefore includes arrears from May 18 to May 31 plus normal June salary, making the total higher than a normal month.
 
