@@ -2,7 +2,7 @@
 
 Process commands for the Personal Finance Assembly Line.
 
-These are conceptual commands — process instructions, not executable scripts. They describe what to do at each stage of a monthly review.
+These are conceptual commands - process instructions, not executable scripts. They describe what to do at each stage of a monthly review.
 
 ---
 
@@ -17,7 +17,7 @@ Begin a new monthly review.
 
 **Process:**
 1. Create a new folder under `/reviews/` named `YYYY-MM` (e.g. `reviews/2026-07`)
-2. Create ten files in that folder: `collect.md`, `reconcile.md`, `assumptions.md`, `position.md`, `analyse.md`, `budget-calibration.md`, `affordability-check.md`, `plan.md`, `strategy.md`
+2. Create ten phase files in that folder: `collect.md`, `reconcile.md`, `assumptions.md`, `position.md`, `handoff.md`, `analyse.md`, `budget-calibration.md`, `affordability-check.md`, `plan.md`, `strategy.md`
 3. Create two handoff artefact placeholders: `position-handoff.md`, `transactions.csv`
 4. Copy the templates from `/docs/monthly-review-template.md` and `templates/`
 5. Set all phase statuses to `Not Started`
@@ -113,25 +113,25 @@ Begin Phase 4. Calculate and record the current financial position.
 ### `handoff`
 
 **What it means:**  
-Begin Phase 5. Export verified facts and transaction data for ChatGPT.
+Begin Phase 5. Export verified facts and transaction data.
 
-This is the formal boundary between Claude's factual work and ChatGPT's judgement work. Handoff produces two artefacts. ChatGPT does not begin analyse until both are committed.
+This is the formal boundary between factual work and judgement work. Handoff produces three artefacts. Analyse does not begin until all are committed.
 
 **Requires:** `position` complete.
 
 **Process:**
-1. Open `position-handoff.md` (or create from `templates/position-handoff-template.md`)
-2. Populate all sections using verified data from `reconcile.md`, `assumptions.md`, and `position.md`
-3. Include only facts — no categorisation, no recommendations, no analysis
-4. Create `transactions.csv` (or use `templates/transactions-template.csv` as the header)
-5. Populate transaction rows from raw credit card statement data — merchant, amount, type only
-6. Do not categorise. Preserve raw merchant/description text.
-7. Review both files for completeness and accuracy
-8. Set phase status to `Complete` and record the date
-9. Commit: `git commit -m "handoff: phase 5 complete — YYYY-MM"`
-10. Provide to ChatGPT using the prompt in `templates/chatgpt-prompts.md`
+1. Open `handoff.md`
+2. Open `position-handoff.md` (or create from `templates/position-handoff-template.md`)
+3. Populate all sections using verified data from `reconcile.md`, `assumptions.md`, and `position.md`
+4. Include only facts - no categorisation, no recommendations, no analysis
+5. Create `transactions.csv` (or use `templates/transactions-template.csv` as the header)
+6. Populate transaction rows from raw credit card statement data - merchant, amount, type only
+7. Do not categorise. Preserve raw merchant/description text.
+8. Review all three handoff artefacts for completeness and accuracy
+9. Set phase status to `Complete` and record the date
+10. Commit: `git commit -m "handoff: phase 5 complete — YYYY-MM"`
 
-**Gate:** Do not give ChatGPT the analyse prompt until both handoff artefacts are committed.
+**Gate:** Do not begin analyse until all handoff artefacts are committed.
 
 ---
 
@@ -140,7 +140,7 @@ This is the formal boundary between Claude's factual work and ChatGPT's judgemen
 **What it means:**  
 Begin Phase 6. Review credit card spending patterns from the month's statements.
 
-**Owner:** ChatGPT. Use the Phase 6 prompt from `templates/chatgpt-prompts.md`.
+**Owner:** Codex. External analysis may still be imported if needed.
 
 **Requires:** `handoff` complete.
 
@@ -150,9 +150,9 @@ Begin Phase 6. Review credit card spending patterns from the month's statements.
 3. Categorise every transaction by type (groceries, dining, transport, subscriptions, health, entertainment, retail, etc.)
 4. Total spend per card and across the household combined
 5. Flag notable items: highest categories, recurring subscriptions, large one-off transactions
-6. Record observations only — no recommendations, no judgements
+6. Record observations only - no recommendations, no judgements
 7. Set phase status to `Complete` and record the date
-8. Commit: `git commit -m "analyse: phase 5 complete — YYYY-MM"`
+8. Commit: `git commit -m "analyse: phase 6 complete — YYYY-MM"`
 
 **Gate:** Do not open `budget-calibration.md` until analyse is marked `Complete`.
 
@@ -163,7 +163,7 @@ Begin Phase 6. Review credit card spending patterns from the month's statements.
 **What it means:**  
 Begin Phase 7. Convert the spending analysis into explicit monthly cash bucket limits.
 
-**Owner:** ChatGPT. Use the Phase 7 prompt from `templates/chatgpt-prompts.md`.
+**Owner:** Codex. External budget calibration may still be imported if needed.
 
 **Aliases:** `budget-calibration`, `budget`
 
@@ -181,7 +181,7 @@ Begin Phase 7. Convert the spending analysis into explicit monthly cash bucket l
    - Flag categories requiring a behaviour change
    - Calculate the total monthly cash bucket requirement
 3. Set phase status to `Complete` and record the date
-4. Commit: `git commit -m "budget-calibration: imported ChatGPT budget calibration — YYYY-MM"`
+4. Commit: `git commit -m "budget-calibration: phase 7 complete — YYYY-MM"`
 
 **Gate:** Do not open `affordability-check.md` until budget-calibration is marked `Complete`.
 
@@ -192,7 +192,7 @@ Begin Phase 7. Convert the spending analysis into explicit monthly cash bucket l
 **What it means:**  
 Begin Phase 8. Test whether calibrated bucket limits can be funded from available cashflow.
 
-**Owner:** ChatGPT. Use the Phase 8 prompt from `templates/chatgpt-prompts.md`.
+**Owner:** Codex. External affordability checks may still be imported if needed.
 
 **Aliases:** `affordability-check`, `affordability`
 
@@ -209,7 +209,7 @@ Begin Phase 8. Test whether calibrated bucket limits can be funded from availabl
    - Note any timing gaps
    - State the final affordable bucket limits
 3. Set phase status to `Complete` and record the date
-4. Commit: `git commit -m "affordability-check: imported ChatGPT affordability check — YYYY-MM"`
+4. Commit: `git commit -m "affordability-check: phase 8 complete — YYYY-MM"`
 
 **Gate:** Do not open `plan.md` until affordability-check is marked `Complete`.
 
@@ -220,7 +220,7 @@ Begin Phase 8. Test whether calibrated bucket limits can be funded from availabl
 **What it means:**  
 Begin Phase 9. Generate the monthly payment plan.
 
-**Owner:** ChatGPT. Use the Phase 9 prompt from `templates/chatgpt-prompts.md`.
+**Owner:** Codex. External plans may still be imported if needed.
 
 **Requires:** `affordability-check` complete.
 
@@ -249,7 +249,7 @@ Begin Phase 9. Generate the monthly payment plan.
 **What it means:**  
 Begin Phase 10. Review long-term financial decisions.
 
-**Owner:** ChatGPT. Use the Phase 10 prompt from `templates/chatgpt-prompts.md`.
+**Owner:** Codex. External strategy notes may still be imported if needed.
 
 **Requires:** `plan` complete.
 
@@ -270,7 +270,7 @@ Begin Phase 10. Review long-term financial decisions.
 ### `import`
 
 **What it means:**  
-Import a ChatGPT-generated artefact into the active review and commit it as a first-class FinanceOS output.
+Import an externally generated artefact into the active review and commit it as a first-class FinanceOS output.
 
 **Usage:** `import <phase>` where `<phase>` is `analyse`, `budget-calibration` (alias: `budget`), `affordability-check` (alias: `affordability`), `plan`, or `strategy`
 
@@ -278,7 +278,7 @@ Import a ChatGPT-generated artefact into the active review and commit it as a fi
 
 **Default behaviour:**
 - Review month → active review (detected automatically)
-- Source → ChatGPT (assumed, never asked)
+- Source → external (assumed, never asked)
 - No metadata entry required
 
 **Process:**
@@ -287,7 +287,7 @@ Import a ChatGPT-generated artefact into the active review and commit it as a fi
 3. Accept content from the same message, or prompt once if absent
 4. Write content verbatim to `reviews/YYYY-MM/{phase}.md`
 5. Update phase status to `Complete`
-6. Append `_Imported from ChatGPT on YYYY-MM-DD._` at end of file
+6. Append `_Imported from {source} on YYYY-MM-DD._` at end of file
 7. Stage and commit
 
 **Optional overrides** (supply in the message when needed):
@@ -309,14 +309,14 @@ Source: ChatGPT
 
 **Commit messages:**
 ```
-analyse: imported ChatGPT analysis — YYYY-MM
-budget-calibration: imported ChatGPT budget calibration — YYYY-MM
-affordability-check: imported ChatGPT affordability check — YYYY-MM
-plan: imported ChatGPT plan — YYYY-MM
-strategy: imported ChatGPT strategy — YYYY-MM
+analyse: imported external analysis — YYYY-MM
+budget-calibration: imported external budget calibration — YYYY-MM
+affordability-check: imported external affordability check — YYYY-MM
+plan: imported external plan — YYYY-MM
+strategy: imported external strategy — YYYY-MM
 ```
 
-**Repository persistence:** Claude Code always owns the commit. ChatGPT may produce the content; Claude saves and versions it. Once committed, an imported artefact is treated identically to a native phase output.
+**Repository persistence:** Codex always owns the commit. External tools may produce the content; Codex saves and versions it. Once committed, an imported artefact is treated identically to a native phase output.
 
 **Gate:** Same as native phases — import does not bypass sequencing.
 
@@ -388,14 +388,14 @@ plan: phase 9 complete — 2026-07
 strategy: phase 10 complete — 2026-07
 ```
 
-When a phase is fulfilled by an imported artefact rather than a native Claude execution, use the import convention instead:
+When a phase is fulfilled by an imported artefact rather than native Codex execution, use the import convention instead:
 
 ```
-analyse: imported ChatGPT analysis — 2026-07
-budget-calibration: imported ChatGPT budget calibration — 2026-07
-affordability-check: imported ChatGPT affordability check — 2026-07
-plan: imported ChatGPT plan — 2026-07
-strategy: imported ChatGPT strategy — 2026-07
+analyse: imported external analysis — 2026-07
+budget-calibration: imported external budget calibration — 2026-07
+affordability-check: imported external affordability check — 2026-07
+plan: imported external plan — 2026-07
+strategy: imported external strategy — 2026-07
 ```
 
 Both conventions create a clean, readable git history. The commit message distinguishes native from imported artefacts while preserving the same audit trail for every monthly review.

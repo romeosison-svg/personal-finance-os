@@ -36,20 +36,24 @@ Every monthly review is a folder. Every phase is a file. The git history is the 
 
 ## Finance Assembly Line
 
-The system operates as a Finance Assembly Line. Monthly reviews move through six gated phases in sequence.
+The system operates as a Finance Assembly Line. Monthly reviews move through ten gated phases in sequence.
 
 ```
-collect → reconcile → assumptions → position → plan → strategy
+collect -> reconcile -> assumptions -> position -> handoff -> analyse -> budget-calibration -> affordability-check -> plan -> strategy
 ```
 
-| Phase       | Alias       | Purpose                                      | Output                    |
-| ----------- | ----------- | -------------------------------------------- | ------------------------- |
-| 1           | collect     | Gather all required inputs                   | Completed checklist       |
-| 2           | reconcile   | Establish the truth                          | Locked financial facts    |
-| 3           | assumptions | Set planning rules                           | Locked planning rules     |
-| 4           | position    | Create current financial position snapshot   | Financial position report |
-| 5           | plan        | Generate next month's payment plan           | Approved monthly plan     |
-| 6           | strategy    | Long-term financial decisions                | Strategic recommendations |
+| Phase | Alias | Purpose | Output |
+| --- | --- | --- | --- |
+| 1 | collect | Gather all required inputs | Completed checklist |
+| 2 | reconcile | Establish the truth | Locked financial facts |
+| 3 | assumptions | Set planning rules | Locked planning rules |
+| 4 | position | Create current financial position snapshot | Financial position report |
+| 5 | handoff | Export verified facts and raw transactions | Handoff artefacts |
+| 6 | analyse | Review spending patterns | Spending analysis |
+| 7 | budget-calibration | Convert spend patterns into bucket limits | Calibrated budget limits |
+| 8 | affordability-check | Test whether limits are fundable | Affordable bucket limits |
+| 9 | plan | Generate next month's payment plan | Approved monthly plan |
+| 10 | strategy | Long-term financial decisions | Strategic recommendations |
 
 See [Finance Assembly Line](/docs/finance-assembly-line.md) for full phase documentation.
 
@@ -66,7 +70,9 @@ personal-finance-os/
 │   ├── finance-assembly-line.md     # Full phase documentation
 │   ├── finance-profile.md           # Persistent planning assumptions
 │   ├── monthly-review-template.md   # Reusable monthly review template
-│   └── workflow.md                  # Process commands reference
+│   └── workflow.md                  # Process reference
+│
+├── AGENTS.md                        # Codex operating instructions
 │
 └── reviews/
     └── 2026-06-example/             # Example monthly review folder
@@ -74,11 +80,17 @@ personal-finance-os/
         ├── reconcile.md
         ├── assumptions.md
         ├── position.md
+        ├── handoff.md
+        ├── position-handoff.md
+        ├── transactions.csv
+        ├── analyse.md
+        ├── budget-calibration.md
+        ├── affordability-check.md
         ├── plan.md
         └── strategy.md
 ```
 
-Each monthly review lives in its own folder under `/reviews/`, named `YYYY-MM-description`.
+Each monthly review lives in its own folder under `/reviews/`, named `YYYY-MM`.
 
 ---
 
@@ -88,18 +100,19 @@ Each monthly review lives in its own folder under `/reviews/`, named `YYYY-MM-de
 
 1. Copy `/docs/monthly-review-template.md` structure into a new folder under `/reviews/`.
 2. Name the folder `YYYY-MM` (e.g. `reviews/2026-07/`).
-3. Create the six phase files: `collect.md`, `reconcile.md`, `assumptions.md`, `position.md`, `plan.md`, `strategy.md`.
-4. Work through each phase in order, completing each before moving to the next.
-5. Commit after each phase is completed and locked.
+3. Create the ten phase files: `collect.md`, `reconcile.md`, `assumptions.md`, `position.md`, `handoff.md`, `analyse.md`, `budget-calibration.md`, `affordability-check.md`, `plan.md`, `strategy.md`.
+4. Create handoff artefact placeholders: `position-handoff.md` and `transactions.csv`.
+5. Work through each phase in order, completing each before moving to the next.
+6. Commit after each phase is completed and locked.
 
 ### Phase discipline
 
 - A phase is **locked** when all required fields are populated and the phase status is marked `Complete`.
 - Do not move to the next phase until the current phase is locked.
-- Do not generate recommendations in phases 1–4.
-- Plans belong in phase 5. Strategic decisions belong in phase 6.
+- Do not generate recommendations in phases 1–5.
+- Plans belong in phase 9. Strategic decisions belong in phase 10.
 
-See [Workflow](/docs/workflow.md) for full command reference.
+See [Workflow](/docs/workflow.md) for the full process reference.
 
 ---
 
@@ -107,8 +120,8 @@ See [Workflow](/docs/workflow.md) for full command reference.
 
 ### V1 — Markdown Process System *(current)*
 
-File-based. No automation. No dependencies.  
-The process, the structure, and the discipline.
+File-based. Codex-assisted. No application dependencies.
+The process, the structure, the repository persistence, and the discipline.
 
 ### V2 — Historical Trend Tracking
 

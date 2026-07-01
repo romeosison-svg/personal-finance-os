@@ -12,35 +12,30 @@ collect → reconcile → assumptions → position → handoff → analyse → b
 
 ## Operating Model — Ownership
 
-**Claude Code** owns the factual phases and repository persistence. Claude's role is to produce trusted facts, compact handoff artefacts, and commit every output to the repository — including artefacts generated externally.
+**Codex** owns repository persistence and may execute every phase. Codex's role is to produce trusted facts, compact handoff artefacts, analysis, plans, strategy notes, and commits for every locked output.
 
 | Phase | Owner | Role |
 | --- | --- | --- |
-| collect | Claude Code | Gather inputs |
-| reconcile | Claude Code | Verify and lock facts |
-| assumptions | Claude Code | Lock planning parameters |
-| position | Claude Code | Summarise verified position |
-| handoff | Claude Code | Export artefacts for ChatGPT |
+| collect | Codex | Gather inputs |
+| reconcile | Codex | Verify and lock facts |
+| assumptions | Codex | Lock planning parameters |
+| position | Codex | Summarise verified position |
+| handoff | Codex | Export verified facts and raw transactions |
+| analyse | Codex | Categorise transactions, identify patterns |
+| budget-calibration | Codex | Convert spending analysis into monthly cash bucket limits |
+| affordability-check | Codex | Test whether calibrated bucket limits can be funded from available cashflow |
+| plan | Codex | Produce payment plan with exact amounts |
+| strategy | Codex | Strategic recommendations and trade-offs |
 
-**ChatGPT** may own the reasoning-heavy phases. ChatGPT's role is to interpret facts, analyse spending, produce the payment plan, and support strategic decisions.
+The **handoff** phase is the formal lock boundary between verified facts and judgement. It produces `handoff.md`, `position-handoff.md`, and `transactions.csv`. Analysis and planning phases must use those artefacts rather than reopening raw statements unless a genuine inconsistency is found.
 
-| Phase                | Default Owner | Role |
-| -------------------- | ------------- | ---- |
-| analyse              | ChatGPT       | Categorise transactions, identify patterns |
-| budget-calibration   | ChatGPT       | Convert spending analysis into monthly cash bucket limits |
-| affordability-check  | ChatGPT       | Test whether calibrated bucket limits can be funded from available cashflow |
-| plan                 | ChatGPT       | Produce payment plan with exact amounts |
-| strategy             | ChatGPT       | Strategic recommendations and trade-offs |
-
-The **handoff** phase is the formal boundary. Claude passes verified facts to ChatGPT. ChatGPT does not receive raw statements — only the handoff artefacts.
-
-**Repository persistence always belongs to Claude Code.** When ChatGPT produces an artefact, Claude imports it via the `import` command. Once committed, an imported artefact is a first-class FinanceOS output — indistinguishable from a Claude-generated phase in the git history and in subsequent phases.
+External tools or models may still produce reasoning-heavy artefacts. Codex imports those artefacts via the `import` workflow, validates the phase gate, writes the file, and commits it. Once committed, an imported artefact is a first-class FinanceOS output.
 
 ---
 
 ## Import Workflow
 
-ChatGPT-generated artefacts are imported into the repository using the `import` command.
+Externally generated artefacts are imported into the repository using the `import` workflow.
 
 **Default usage** — paste content in the same message:
 
@@ -70,26 +65,26 @@ Review Month: 2026-06
 [paste content]
 ```
 
-Review month defaults to the active review. Source defaults to ChatGPT. Neither needs to be supplied unless there is a specific reason to override.
+Review month defaults to the active review. Source defaults to `external`. Neither needs to be supplied unless there is a specific reason to override.
 
 The import command:
 
 1. Detects the active review month automatically
 2. Validates the phase gate (preceding phase must be `Complete`)
-3. Accepts the ChatGPT content — from the same message or a single follow-up prompt
+3. Accepts the external content from the same message or a single follow-up prompt
 4. Writes the content verbatim to `reviews/YYYY-MM/{phase}.md`
 5. Updates the phase status to `Complete`
-6. Appends a single import line (`_Imported from ChatGPT on YYYY-MM-DD._`)
+6. Appends a single import line (`_Imported from {source} on YYYY-MM-DD._`)
 7. Commits the artefact
 
 Commit convention for imported artefacts:
 
 ```
-analyse: imported ChatGPT analysis — YYYY-MM
-budget-calibration: imported ChatGPT budget calibration — YYYY-MM
-affordability-check: imported ChatGPT affordability check — YYYY-MM
-plan: imported ChatGPT plan — YYYY-MM
-strategy: imported ChatGPT strategy — YYYY-MM
+analyse: imported external analysis — YYYY-MM
+budget-calibration: imported external budget calibration — YYYY-MM
+affordability-check: imported external affordability check — YYYY-MM
+plan: imported external plan — YYYY-MM
+strategy: imported external strategy — YYYY-MM
 ```
 
 Imported artefacts are subject to the same phase gate rules as native artefacts. Import does not bypass sequencing. Once committed, an imported artefact is a first-class FinanceOS output.
@@ -242,7 +237,7 @@ The position describes the current state — it does not prescribe actions.
 **Alias:** `handoff`
 
 **Purpose:**  
-Export verified facts and transaction data for ChatGPT. This is the formal boundary between Claude's factual work and ChatGPT's judgement work.
+Export verified facts and transaction data. This is the formal boundary between factual work and judgement work.
 
 **Inputs:**
 - Locked facts from Phase 2 (reconcile)
@@ -251,21 +246,23 @@ Export verified facts and transaction data for ChatGPT. This is the formal bound
 - Raw transaction data from credit card statements
 
 **Process:**
+- Populate `handoff.md` as the phase lock record
 - Populate `position-handoff.md` from the template using verified data only
 - Populate `transactions.csv` with raw transaction data — no categorisation
-- Review both artefacts for completeness and accuracy
-- Commit both files before providing to ChatGPT
+- Review all handoff artefacts for completeness and accuracy
+- Commit all handoff artefacts before beginning analyse
 
 **Output:**
-- `position-handoff.md` — verified facts, locked assumptions, and framed questions for ChatGPT
+- `handoff.md` — phase status and handoff checklist
+- `position-handoff.md` — verified facts, locked assumptions, and framed questions for the later phases
 - `transactions.csv` — raw transaction data, factual only
 
 **Gate condition:**  
-Both artefacts committed and reviewed. Phase status set to `Complete`. ChatGPT does not begin analyse until both files are available.
+All handoff artefacts committed and reviewed. Phase status set to `Complete`. Analyse does not begin until the files are available.
 
 **What does NOT belong here:**  
 No spending categorisation. No payment recommendations. No strategic advice.  
-Handoff contains only facts. Judgement belongs to ChatGPT.
+Handoff contains only facts. Judgement belongs to later phases.
 
 ---
 
@@ -273,7 +270,7 @@ Handoff contains only facts. Judgement belongs to ChatGPT.
 
 **Alias:** `analyse`
 
-**Owner:** ChatGPT
+**Owner:** Codex
 
 **Purpose:**  
 Review credit card spending patterns from the current month's statements.
@@ -305,7 +302,7 @@ This phase surfaces patterns and facts only — judgements and actions belong in
 
 **Alias:** `budget-calibration` (short alias: `budget`)
 
-**Owner:** ChatGPT
+**Owner:** Codex
 
 **Purpose:**  
 Convert the spending analysis into explicit monthly cash bucket limits for the following month. Separates shared household spend from individual Romeo and Kelly spend. Excludes genuine one-offs from the baseline.
@@ -340,7 +337,7 @@ No payment plan. No debt repayment decisions. No investment or emergency fund re
 
 **Alias:** `affordability-check` (short alias: `affordability`)
 
-**Owner:** ChatGPT
+**Owner:** Codex
 
 **Purpose:**  
 Test whether the calibrated spending bucket limits from Budget Calibration can actually be funded from available monthly cashflow.
@@ -377,7 +374,7 @@ No payment plan. No debt repayment decisions. No investment or emergency fund re
 
 **Alias:** `plan`
 
-**Owner:** ChatGPT
+**Owner:** Codex
 
 **Purpose:**  
 Generate the month's payment plan from the locked position and confirmed assumptions.
@@ -414,7 +411,7 @@ Tactical month-to-month payments only. Strategic decisions belong in Phase 10.
 
 **Alias:** `strategy`
 
-**Owner:** ChatGPT
+**Owner:** Codex
 
 **Purpose:**  
 Review and record long-term financial decisions.
@@ -467,7 +464,7 @@ Phase 3  (assumptions)            ← requires: Phase 2 complete
     ↓
 Phase 4  (position)               ← requires: Phases 2 + 3 complete
     ↓
-Phase 5  (handoff)                ← requires: Phase 4 complete          [Claude Code → ChatGPT boundary]
+Phase 5  (handoff)                ← requires: Phase 4 complete
     ↓
 Phase 6  (analyse)                ← requires: Phase 5 complete
     ↓

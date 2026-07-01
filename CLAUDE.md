@@ -1,4 +1,7 @@
-# Personal Finance OS — Claude Instructions
+# Personal Finance OS — Legacy Claude Instructions
+
+> Legacy reference only. Codex instructions in `AGENTS.md` are authoritative for current work.
+> These command files are retained for historical context and should not override the Codex workflow.
 
 ## Command Aliases
 

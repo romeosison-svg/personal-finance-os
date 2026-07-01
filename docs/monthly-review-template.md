@@ -7,6 +7,7 @@ Create phase files:
 - `reconcile.md`
 - `assumptions.md`
 - `position.md`
+- `handoff.md`
 - `analyse.md`
 - `budget-calibration.md`
 - `affordability-check.md`
@@ -25,16 +26,16 @@ Copy this table into each phase file header and update as phases complete.
 
 | Phase                | Owner       | Status      | Completed  |
 | -------------------- | ----------- | ----------- | ---------- |
-| Collect              | Claude Code | Not Started |            |
-| Reconcile            | Claude Code | Not Started |            |
-| Assumptions          | Claude Code | Not Started |            |
-| Position             | Claude Code | Not Started |            |
-| Handoff              | Claude Code | Not Started |            |
-| Analyse              | ChatGPT     | Not Started |            |
-| Budget Calibration   | ChatGPT     | Not Started |            |
-| Affordability Check  | ChatGPT     | Not Started |            |
-| Plan                 | ChatGPT     | Not Started |            |
-| Strategy             | ChatGPT     | Not Started |            |
+| Collect              | Codex       | Not Started |            |
+| Reconcile            | Codex       | Not Started |            |
+| Assumptions          | Codex       | Not Started |            |
+| Position             | Codex       | Not Started |            |
+| Handoff              | Codex       | Not Started |            |
+| Analyse              | Codex       | Not Started |            |
+| Budget Calibration   | Codex       | Not Started |            |
+| Affordability Check  | Codex       | Not Started |            |
+| Plan                 | Codex       | Not Started |            |
+| Strategy             | Codex       | Not Started |            |
 
 ---
 
@@ -307,6 +308,70 @@ Financial position locked. Available for planning: £[amount]
 
 ---
 
+## handoff.md Template
+
+```markdown
+# Handoff — [Month] [Year]
+
+> Requires: Position complete
+
+## Phase Status
+
+| Phase                | Status      | Completed  |
+| -------------------- | ----------- | ---------- |
+| Collect              | Complete    | YYYY-MM-DD |
+| Reconcile            | Complete    | YYYY-MM-DD |
+| Assumptions          | Complete    | YYYY-MM-DD |
+| Position             | Complete    | YYYY-MM-DD |
+| Handoff              | In Progress |            |
+| Analyse              | Not Started |            |
+| Budget Calibration   | Not Started |            |
+| Affordability Check  | Not Started |            |
+| Plan                 | Not Started |            |
+| Strategy             | Not Started |            |
+
+---
+
+## Handoff Artefacts
+
+| Artefact | Status | Notes |
+| --- | --- | --- |
+| `position-handoff.md` | Pending | Verified facts and locked assumptions only |
+| `transactions.csv` | Pending | Raw transaction rows only, no categorisation |
+
+---
+
+## Source Files Used
+
+| File | Status |
+| --- | --- |
+| `reconcile.md` | Complete |
+| `assumptions.md` | Complete |
+| `position.md` | Complete |
+
+---
+
+## Checks
+
+- [ ] `position-handoff.md` populated from verified facts only
+- [ ] `transactions.csv` populated with raw transaction data only
+- [ ] No categorisation, analysis, recommendations, or strategy included
+- [ ] User reviewed the handoff artefacts
+
+---
+
+## Phase Lock
+
+Status: <!-- Not Started / In Progress / Complete / Blocked -->
+Completed: <!-- YYYY-MM-DD -->
+
+Handoff locked. Proceed to Analyse.
+```
+
+---
+
+---
+
 ## position-handoff.md Template
 
 See `templates/position-handoff-template.md` for the full template.
@@ -317,7 +382,7 @@ Artefacts required:
 - `reviews/YYYY-MM/position-handoff.md` — from `templates/position-handoff-template.md`
 - `reviews/YYYY-MM/transactions.csv` — from `templates/transactions-template.csv`
 
-Both files must be committed before ChatGPT begins analyse.
+`handoff.md`, `position-handoff.md`, and `transactions.csv` must be committed before analyse begins.
 
 ---
 
@@ -328,7 +393,7 @@ Both files must be committed before ChatGPT begins analyse.
 ```markdown
 # Analyse — [Month] [Year]
 
-> Requires: Position complete
+> Requires: Handoff complete
 
 ## Phase Status
 
@@ -445,7 +510,7 @@ Spending analysis locked.
 
 > Requires: Analyse complete
 
-> **This file is ChatGPT-owned.** Do not populate manually. Import using: `import budget-calibration`
+> **This file may be produced by Codex or imported from an external source.**
 
 ## Phase Status
 
@@ -464,7 +529,7 @@ Spending analysis locked.
 
 ---
 
-_Content imported from ChatGPT._
+_Content produced by Codex or imported from an external source._
 ```
 
 ---
@@ -478,7 +543,7 @@ _Content imported from ChatGPT._
 
 > Requires: Budget Calibration complete
 
-> **This file is ChatGPT-owned.** Do not populate manually. Import using: `import affordability-check`
+> **This file may be produced by Codex or imported from an external source.**
 
 Budget Calibration answers: what are sensible behavioural spending caps?
 Affordability Check answers: can those caps actually be funded from current cashflow?
@@ -503,7 +568,7 @@ Plan answers: what actions should be taken now given the affordable limits?
 
 ## Scope and Basis
 
-<!-- Imported from ChatGPT -->
+<!-- Produced by Codex or imported from an external source -->
 
 ---
 
@@ -516,49 +581,49 @@ Plan answers: what actions should be taken now given the affordable limits?
 
 ## Fixed Obligations
 
-<!-- Imported from ChatGPT -->
+<!-- Produced by Codex or imported from an external source -->
 
 ---
 
 ## Required Buffers
 
-<!-- Imported from ChatGPT -->
+<!-- Produced by Codex or imported from an external source -->
 
 ---
 
 ## Available Cashflow
 
-<!-- Imported from ChatGPT -->
+<!-- Produced by Codex or imported from an external source -->
 
 ---
 
 ## Calibrated Bucket Requirement
 
-<!-- Imported from ChatGPT -->
+<!-- Produced by Codex or imported from an external source -->
 
 ---
 
 ## Affordability Result
 
-<!-- Imported from ChatGPT -->
+<!-- Produced by Codex or imported from an external source -->
 
 ---
 
 ## Required Adjustments
 
-<!-- Imported from ChatGPT — only present if calibrated limits are not fully fundable -->
+<!-- Produced by Codex or imported from an external source - only present if calibrated limits are not fully fundable -->
 
 ---
 
 ## Final Affordable Bucket Limits
 
-<!-- Imported from ChatGPT -->
+<!-- Produced by Codex or imported from an external source -->
 
 ---
 
 ## Implications for Plan
 
-<!-- Imported from ChatGPT -->
+<!-- Produced by Codex or imported from an external source -->
 
 ---
 
