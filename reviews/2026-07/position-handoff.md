@@ -92,8 +92,8 @@ These assumptions are locked for 2026-07. Do not override without flagging as an
 | Total household-visible cash | £8,123.29 |
 | Less: preferred cash buffer | -£1,000.00 |
 | Net available before listed commitments | **£7,123.29** |
-| Less: listed known liabilities | -£5,412.43 |
-| **Available for plan decisions** | **£1,710.86** |
+| Less: listed known liabilities | -£5,509.02 |
+| **Available for plan decisions** | **£1,614.27** |
 
 Scope notes:
 
@@ -110,7 +110,7 @@ Scope notes:
 | Santander joint account gross top-up need | £1,001.92 | Before / around July DDs | Into Santander joint | Current balance £200.00 against £1,201.92 gross monthly outflow |
 | M&S credit card DD | £190.00 | ~9 Jul 2026 | Romeo / Lloyds | Expected DD; exceeds £107.09 statement minimum |
 | Romeo / Amex minimum | £142.15 | 10 Jul 2026 | Romeo | Mandatory minimum |
-| Romeo / Barclaycard minimum | £26.61 | 10 Jul 2026 | Romeo | Mandatory minimum |
+| Romeo / Barclaycard payment already made | £123.20 | 1 Jul 2026 | Romeo / Lloyds | Satisfies July minimum; paid after locked cash snapshot from reimbursements plus £15.40 Lloyds cash |
 | MBNA DD | £276.21 | 23 Jul 2026 | Romeo / Lloyds | Confirmed DD |
 | MBNA manual top-up to operational target | £99.79 | July 2026 | Romeo | Assumption only; Plan decides timing |
 | M&S manual top-up to operational target | £5.00 | July 2026 | Romeo | Assumption only; Plan decides timing |
@@ -119,7 +119,7 @@ Scope notes:
 | Shared bills settlement adjustment | £35.02 | July 2026 | Romeo -> Kelly | Kelly paid £358.00 against ~£322.98 target share |
 | PPL Challenger League extra hotel night | £91.00 | 18-19 Jul 2026 | Pay at hotel | First Bolton night already paid; travel cost still TBC |
 | PPL Challenger training accommodation | £123.00 | 11 Jul 2026 | TBC | Farnborough Premier Inn semi-flex; Aldershot was full |
-| **Total listed known liabilities** | **£5,412.43** | | | Excludes TBC travel and the internal Zoe reimbursement receivable |
+| **Total listed known liabilities** | **£5,509.02** | | | Excludes TBC travel and the internal Zoe reimbursement receivable |
 
 ### Receivables and Non-Liability Goals
 
@@ -188,11 +188,11 @@ Scope notes:
 | Owner | Romeo |
 | Statement date | 15 Jun 2026 |
 | Statement balance | £284.67 |
-| Already paid | £0 confirmed |
-| Remaining balance | £284.67 |
-| Minimum payment | £26.61 |
+| Already paid | £123.20 paid 1 Jul 2026 from reimbursements plus £15.40 Lloyds cash; accepted as July minimum payment |
+| Remaining balance | £202.97 |
+| Minimum payment | £26.61 satisfied by 1 Jul payment |
 | Due date | 10 Jul 2026 |
-| Notes | Previous balance reduced by £2,317 BT to MBNA plus payments of £3,477.40; monthly fee £20 |
+| Notes | Current balance corrected by user on 2026-07-02. Previous balance reduced by £2,317 BT to MBNA plus statement payments; monthly fee £20 |
 | Default repayment policy | No new spend; clearing amount belongs in Plan |
 
 ### Kelly / Amex BA

@@ -48,10 +48,10 @@ Notes:
 | Account | Balance Owed | Limit | Minimum / DD | Due Date | Notes |
 | --- | ---: | ---: | ---: | --- | --- |
 | Romeo / Amex BA Premium Plus | £933.57 | £19,800 | £142.15 | 10 Jul 2026 | Statement balance; Plan It remaining balance noted separately |
-| Romeo / Barclaycard Avios Plus | £284.67 | £17,000 | £26.61 | 10 Jul 2026 | No payments since statement confirmed |
+| Romeo / Barclaycard Avios Plus | £202.97 | £17,000 | £26.61 satisfied | 10 Jul 2026 | Current balance corrected by user on 2026-07-02; £123.20 paid on 1 Jul from reimbursements plus £15.40 Lloyds cash and accepted as July minimum |
 | Romeo / MBNA BT | £11,048.29 | — | £276.21 DD | 23 Jul 2026 | 0% BT tranches expire 03 Jun 2027 and 30 May 2028 |
 | Romeo / M&S BT | £4,283.75 | £7,500 | £190.00 expected DD | ~9 Jul 2026 | Statement minimum £107.09 |
-| **Romeo credit total** | **£16,550.28** | | | | Excludes Amex Plan It remaining balance |
+| **Romeo credit total** | **£16,468.58** | | | | Excludes Amex Plan It remaining balance |
 
 Additional tracked balance:
 
@@ -85,11 +85,11 @@ Additional tracked balance:
 
 | Item | Amount |
 | --- | ---: |
-| Romeo credit statement / BT balances | £16,550.28 |
+| Romeo credit statement / BT balances | £16,468.58 |
 | Kelly credit balances | £877.67 |
-| **Total credit balances owed** | **£17,427.95** |
+| **Total credit balances owed** | **£17,346.25** |
 | Add: Romeo Amex Plan It remaining balance tracked separately | £443.32 |
-| **Total including tracked Plan It remaining balance** | **£17,871.27** |
+| **Total including tracked Plan It remaining balance** | **£17,789.57** |
 
 ---
 
@@ -103,7 +103,7 @@ These are known commitments and locked planning assumptions for July. This table
 | Santander joint account gross top-up need | £1,001.92 | Before / around July DDs | Into Santander joint | Current balance £200.00 against £1,201.92 gross monthly outflow |
 | M&S credit card DD | £190.00 | ~9 Jul 2026 | Romeo / Lloyds | Expected DD; exceeds £107.09 statement minimum |
 | Romeo / Amex minimum | £142.15 | 10 Jul 2026 | Romeo | Mandatory minimum |
-| Romeo / Barclaycard minimum | £26.61 | 10 Jul 2026 | Romeo | Mandatory minimum |
+| Romeo / Barclaycard payment already made | £123.20 | 1 Jul 2026 | Romeo / Lloyds | Satisfies July minimum; paid after locked cash snapshot from reimbursements plus £15.40 Lloyds cash |
 | MBNA DD | £276.21 | 23 Jul 2026 | Romeo / Lloyds | Confirmed DD |
 | MBNA manual top-up to operational target | £99.79 | July 2026 | Romeo | Assumption only; Plan decides timing |
 | M&S manual top-up to operational target | £5.00 | July 2026 | Romeo | Assumption only; Plan decides timing |
@@ -112,7 +112,7 @@ These are known commitments and locked planning assumptions for July. This table
 | Shared bills settlement adjustment | £35.02 | July 2026 | Romeo -> Kelly | Kelly paid £358.00 against ~£322.98 target share |
 | PPL Challenger League extra hotel night | £91.00 | 18-19 Jul 2026 | Pay at hotel | First Bolton night already paid; travel cost still TBC |
 | PPL Challenger training accommodation | £123.00 | 11 Jul 2026 | TBC | Farnborough Premier Inn semi-flex; Aldershot was full |
-| **Total listed known liabilities** | **£5,412.43** | | | Excludes TBC travel and the internal Zoe reimbursement receivable |
+| **Total listed known liabilities** | **£5,509.02** | | | Excludes TBC travel and the internal Zoe reimbursement receivable |
 
 Separate receivable:
 
@@ -141,12 +141,13 @@ Separate optional cost under consideration:
 | Total household-visible cash | £8,123.29 |
 | Less: preferred cash buffer | -£1,000.00 |
 | Net available before listed commitments | **£7,123.29** |
-| Less: total listed known liabilities | -£5,412.43 |
-| **Available for plan decisions** | **£1,710.86** |
+| Less: total listed known liabilities | -£5,509.02 |
+| **Available for plan decisions** | **£1,614.27** |
 
 Important scope notes:
 
 - The available-for-plan figure uses all household-visible cash, including Kelly's current account and the Santander joint account.
+- Barclaycard current balance is corrected to £202.97 based on user confirmation on 2026-07-02. A £123.20 payment was made on 1 Jul 2026 from reimbursements plus £15.40 Lloyds cash and is accepted as the July minimum payment. Because this was paid after the locked cash snapshot, available-for-plan cash is reduced by a net £96.59 versus the prior draft: £123.20 new cash outflow less the removed £26.61 future minimum.
 - The £428.94 Zoe vehicle settlement is not added to the household-visible available figure because it is settled from household cash already reflected in the combined balances.
 - Kelly's £1,316.83 personal savings replenishment target is not deducted as a liability; it can receive surplus only after established obligations and goals.
 - PPL Bolton travel is still TBC and is not included beyond the £91 extra hotel night payable at the hotel.
@@ -161,8 +162,8 @@ Important scope notes:
 1. Starling is overdrawn by £622.18 and reduces the cash position.
 2. Santander joint account has only £200.00 against £1,201.92 gross July outflow, so it requires funding before or around July DDs.
 3. Balance transfer balances total £15,332.04, with July operational targets totalling £571.00.
-4. Total credit balances owed are £17,427.95 before the separately tracked Amex Plan It remaining balance of £443.32.
-5. Available-for-plan cash is £1,710.86 after the preferred £1,000 buffer and listed known July liabilities.
+4. Total credit balances owed are £17,346.25 before the separately tracked Amex Plan It remaining balance of £443.32.
+5. Available-for-plan cash is £1,614.27 after the preferred £1,000 buffer and listed known July liabilities.
 6. Plumbing work of ~£300 is under consideration and should be tested in Affordability / Plan before approval.
 
 ---
@@ -174,4 +175,4 @@ Completed: 2026-07-01
 
 Financial position locked.
 
-Available for planning: **£1,710.86**
+Available for planning: **£1,614.27**

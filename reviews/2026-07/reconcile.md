@@ -37,7 +37,7 @@
 | Kelly / Amex (BA) | 24 Jun 2026 | £877.67 | £0 | £877.67 | 19 Jul 2026 | £25.00 | Full balance from previous month (£774.12) was paid 1 Jun |
 | Kelly / Halifax credit | 07 Jun 2026 | £218.60 | £218.60 paid 29 Jun | **£0.00** | 02 Jul 2026 | £5.00 | Paid in full — visible in Halifax current statement |
 | Romeo / Amex (BA Premium Plus) | 15 Jun 2026 | £933.57 | £0 confirmed | £933.57 | 10 Jul 2026 | £142.15 | Total inc. Plan It remaining balance: £1,376.89. Romeo spend: £687.60; Kelly supplementary spend: £174.97 |
-| Romeo / Barclaycard (Avios Plus) | 15 Jun 2026 | £284.67 | £0 confirmed | £284.67 | 10 Jul 2026 | £26.61 | Previous balance £2,215.04; reduced by £2,317 BT to MBNA + payments of £3,477.40. Monthly fee: £20. |
+| Romeo / Barclaycard (Avios Plus) | 15 Jun 2026 | £284.67 | £123.20 paid 1 Jul 2026 from reimbursements plus £15.40 Lloyds cash; accepted as July minimum payment | £202.97 | 10 Jul 2026 | £26.61 satisfied by 1 Jul payment | User-confirmed current balance correction on 2026-07-02. Previous balance £2,215.04; reduced by £2,317 BT to MBNA + statement payments. Monthly fee: £20. |
 | Romeo / MBNA BT | 28 Jun 2026 | £11,048.29 | £0 (DD £276.21 due 23 Jul) | £11,048.29 | 23 Jul 2026 | £276.21 | 0% BT promotional: £8,661.78 (exp 30/05/28) + £2,386.51 (exp 03/06/27). Balance increased: £2,317 BT from Barclaycard + £69.51 BT fee in Jun. |
 | Romeo / M&S BT | 15 Jun 2026 | £4,283.75 | £0 confirmed | £4,283.75 | 10 Jul 2026 | £107.09 | Statement file now readable. Previous balance £4,478.75; statement includes £5.00 payment on 1 Jun and £190.00 DD on 9 Jun. Credit limit £7,500. |
 
@@ -107,6 +107,8 @@
 7. **Court reimbursements confirmed manually and already paid** — £107.80 received by Romeo for June court bookings.
 
 8. **Santander joint account needs top-up** — estimated current balance £200.00. New July DDs from the joint account total £412.13 (MG PCP £310.84 + MG insurance £40.00 + Zoe insurance £61.29), before any other joint-account obligations.
+
+9. **Romeo / Barclaycard current balance corrected after lock** — user confirmed on 2026-07-02 that the current balance is £202.97. A £123.20 payment was made on 1 Jul 2026 from reimbursements plus £15.40 of Romeo Lloyds cash and is accepted as the July minimum payment. This reduces credit exposure and removes the separate £26.61 future minimum, but it is still a July cash outflow after the locked cash snapshot.
 
 ---
 
