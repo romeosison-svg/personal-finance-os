@@ -98,7 +98,7 @@ These assumptions are locked for 2026-07. Do not override without flagging as an
 Scope notes:
 
 - The available-for-plan figure uses all household-visible cash, including Kelly's current account and the Santander joint account.
-- The £428.94 Zoe reimbursement is not added to household-visible available cash because it is an internal transfer when both Romeo and Kelly accounts are included.
+- The £428.94 Zoe vehicle settlement is not added to household-visible available cash because it is settled from household cash already reflected in the combined balances.
 - Kelly's £1,316.83 personal savings replenishment target is not deducted as a liability; it can receive surplus only after established obligations and goals.
 - Plumbing work estimated at ~£300 is tracked as an optional household maintenance item under consideration, not a committed liability.
 
@@ -125,7 +125,7 @@ Scope notes:
 
 | Item | Amount | Treatment | Notes |
 | --- | ---: | --- | --- |
-| Zoe vehicle cost reimbursement | £428.94 | Internal receivable | Kelly -> Romeo; does not increase household-visible cash when both accounts are included |
+| Zoe vehicle cost settlement | £428.94 | Household receivable | Settled from shared household cash; does not increase household-visible cash when both accounts are included |
 | Kelly personal savings replenishment | £1,316.83 | Surplus-only goal | Not a committed July liability and not required in one payment |
 | Plumbing work | ~£300.00 | Optional cost under consideration | Affordability / Plan decision |
 

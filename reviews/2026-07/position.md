@@ -118,7 +118,7 @@ Separate receivable:
 
 | Item | Amount | Direction | Notes |
 | --- | ---: | --- | --- |
-| Zoe vehicle cost reimbursement | £428.94 | Kelly -> Romeo | Internal household receivable; does not increase total household-visible cash if both Romeo and Kelly accounts are included |
+| Zoe vehicle cost settlement | £428.94 | Shared household | Household vehicle receivable; can be settled from shared household cash and does not increase total household-visible cash if both Romeo and Kelly accounts are included |
 
 Separate surplus-only goal:
 
@@ -147,7 +147,7 @@ Separate optional cost under consideration:
 Important scope notes:
 
 - The available-for-plan figure uses all household-visible cash, including Kelly's current account and the Santander joint account.
-- The £428.94 Zoe reimbursement is not added to the household-visible available figure because it is an internal transfer when both parties' current accounts are included.
+- The £428.94 Zoe vehicle settlement is not added to the household-visible available figure because it is settled from household cash already reflected in the combined balances.
 - Kelly's £1,316.83 personal savings replenishment target is not deducted as a liability; it can receive surplus only after established obligations and goals.
 - PPL Bolton travel is still TBC and is not included beyond the £91 extra hotel night payable at the hotel.
 - Farnborough Premier Inn accommodation for 11 Jul 2026 is included at £123.00.
