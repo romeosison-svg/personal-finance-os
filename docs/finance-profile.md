@@ -22,7 +22,7 @@ Percentages are derived during the monthly review from current income figures.
 | Preferred cash buffer  | £1,000                   | Target month-end cash position before discretionary allocations     |
 | Buffer methodology     | Preserve liquidity first | Cashflow stability takes precedence over accelerated debt reduction |
 | Emergency fund target  | £20,000 - £22,000        | Long-term target                                                    |
-| Emergency fund current | (update monthly)       | Updated during reconcile phase                                      |
+| Emergency fund current | £15,091                | Trading 212 emergency fund; updated 2026-07-07 after Tesla trim     |
 
 ### Minimum Cash Buffer
 
@@ -347,10 +347,10 @@ During each monthly review:
 | --------------------------------------- | ------------------- | ----------------------------------------------------------------------------- |
 | Emergency fund target                   | £20,000 - £22,000   | Long-term target based on approximately 3-4 months of core household expenses |
 | Emergency fund contribution methodology | Variable            | Determined during monthly planning phase based on available cashflow          |
-| Emergency fund account                  | Easy-access savings | Must remain immediately accessible                                            |
-| Emergency fund current                  | (update monthly)    | Update during reconcile phase                                                 |
+| Emergency fund account                  | Trading 212 emergency fund | Must remain accessible enough for emergency use                               |
+| Emergency fund current                  | £15,091             | Updated 2026-07-07 after Romeo trimmed Tesla position and sold £10,000        |
 | Emergency fund minimum operating level  | £5,000              | Avoid reducing below this level unless unavoidable                            |
-| Months to target (calculated)           | (calculate monthly) | Based on current balance and forecast contributions                           |
+| Months to target (calculated)           | £4,909 - £6,909 gap | Based on £20,000 - £22,000 target and £15,091 current balance                 |
 
 ### Emergency Fund Methodology
 
@@ -378,7 +378,7 @@ Contribution priority:
 
 ### Current Strategy
 
-The emergency fund is currently in a rebuilding phase.
+The emergency fund is currently above the minimum operating level but still below the long-term target.
 
 Due to:
 
@@ -390,6 +390,8 @@ Due to:
 Emergency fund contributions may be reduced, paused or increased during the monthly planning phase.
 
 **Kelly's priority — replenishment:** Kelly used her personal emergency fund to cover her mortgage share in May 2026 (while between jobs). Her stated priority is to replenish this from any monthly surplus once her salary is in place. This takes precedence over discretionary spending but sits below Tier 2 committed obligations in the planning hierarchy.
+
+Update 2026-07-07: Romeo trimmed Tesla exposure and sold £10,000, increasing the Trading 212 emergency fund balance to **£15,091**. This materially reduces household emergency-fund pressure but does not automatically clear Kelly's separate personal savings replenishment goal.
 
 ### Review Rules
 
