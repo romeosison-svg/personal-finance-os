@@ -6,11 +6,11 @@
 
 | Phase                | Status      | Completed  |
 | -------------------- | ----------- | ---------- |
-| Collect              | Not Started    |  |
-| Reconcile            | Not Started    |  |
-| Assumptions          | Not Started    |  |
-| Position             | Not Started    |  |
-| Handoff              | Not Started |            |
+| Collect              | Complete    | 2026-08-03 |
+| Reconcile            | Complete    | 2026-08-03 |
+| Assumptions          | Complete    | 2026-08-03 |
+| Position             | Complete    | 2026-08-03 |
+| Handoff              | Complete    | 2026-08-03 |
 | Analyse              | Not Started |            |
 | Budget Calibration   | Not Started |            |
 | Affordability Check  | Not Started |            |
@@ -23,8 +23,8 @@
 
 | Artefact | Status | Notes |
 | --- | --- | --- |
-| `position-handoff.md` | Pending | Verified facts and locked assumptions only |
-| `transactions.csv` | Pending | Raw transaction rows only, no categorisation |
+| `position-handoff.md` | Complete | Verified facts and locked assumptions only |
+| `transactions.csv` | Complete | Raw card and balance-transfer transaction rows only, no categorisation |
 
 ---
 
@@ -40,16 +40,16 @@
 
 ## Checks
 
-- [ ] `position-handoff.md` populated from verified facts only
-- [ ] `transactions.csv` populated with raw transaction data only
-- [ ] No categorisation, analysis, recommendations, or strategy included
-- [ ] User reviewed the handoff artefacts
+- [x] `position-handoff.md` populated from verified facts only
+- [x] `transactions.csv` populated with raw transaction data only
+- [x] No categorisation, analysis, recommendations, or strategy included
+- [x] User reviewed the handoff artefacts
 
 ---
 
 ## Phase Lock
 
-Status: <!-- Not Started / In Progress / Complete / Blocked -->
-Completed: <!-- YYYY-MM-DD -->
+Status: Complete
+Completed: 2026-08-03
 
 Handoff locked. Proceed to Analyse.

@@ -1,1 +1,168 @@
 date,owner,account,card_provider,merchant,description,amount,type,statement_period,notes
+2026-07-07,Romeo,Romeo Amex credit,Amex,PAYMENT RECEIVED - THANK YOU,PAYMENT RECEIVED - THANK YOU,-933.57,credit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-06-16,Romeo,Romeo Amex credit,Amex,KISS THE HIPPO COFFEE London,KISS THE HIPPO COFFEE London,5.00,debit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-06-16,Romeo,Romeo Amex credit,Amex,DOJO*INDI GO LIVERPOOL LONDON,DOJO*INDI GO LIVERPOOL LONDON,9.95,debit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-06-16,Romeo,Romeo Amex credit,Amex,DOJO*INDI GO LIVERPOOL LONDON,DOJO*INDI GO LIVERPOOL LONDON,17.40,debit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-06-16,Romeo,Romeo Amex credit,Amex,SHARP PICKLEB 13149447 HEMEL HEMPSTEAD,SHARP PICKLEB 13149447 HEMEL HEMPSTEAD,8.10,debit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-06-16,Romeo,Romeo Amex credit,Amex,TFL TRAVEL CHARGE,TFL TRAVEL CHARGE TFL.GOV.UK/CP,23.10,debit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-06-17,Romeo,Romeo Amex credit,Amex,MCDONALD'S RESTAURANT H KINGSWINFORD,MCDONALD'S RESTAURANT H KINGSWINFORD GOODS,15.26,debit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-06-18,Romeo,Romeo Amex credit,Amex,AD FREE FOR PRIMEVIDEO 353-12477661,AD FREE FOR PRIMEVIDEO 353-12477661,2.99,debit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-06-19,Romeo,Romeo Amex credit,Amex,DELIVEROO,DELIVEROO LONDON,36.80,debit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-06-21,Romeo,Romeo Amex credit,Amex,SHARP PICKLEB 13165814 HEMEL HEMPSTEAD,SHARP PICKLEB 13165814 HEMEL HEMPSTEAD,8.10,debit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-06-21,Romeo,Romeo Amex credit,Amex,SP DRINK OSHUN,SP DRINK OSHUN STOURPAINE,26.78,debit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-06-21,Romeo,Romeo Amex credit,Amex,DINES* BLACK BEAR 20FT LONDON,DINES* BLACK BEAR 20FT LONDON,44.70,debit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-06-21,Romeo,Romeo Amex credit,Amex,GAILS SHAFTESBURY AVENU LONDON,GAILS SHAFTESBURY AVENU LONDON,4.20,debit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-06-21,Romeo,Romeo Amex credit,Amex,AMZNMKTPLACE*1G45U4P35 AMAZON.CO.UK,AMZNMKTPLACE*1G45U4P35 AMAZON.CO.UK,5.99,debit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-06-21,Romeo,Romeo Amex credit,Amex,AMAZON.CO.UK*WL1HT7GR5 AMAZON.CO.UK,AMAZON.CO.UK*WL1HT7GR5 AMAZON.CO.UK,4.00,debit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-06-21,Romeo,Romeo Amex credit,Amex,AMAZON.CO.UK*MG7MP4AZ5 AMAZON.CO.UK,AMAZON.CO.UK*MG7MP4AZ5 AMAZON.CO.UK,3.95,debit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-06-23,Romeo,Romeo Amex credit,Amex,AMZNMKTPLACE*4Z03W2C15 AMAZON.CO.UK,AMZNMKTPLACE*4Z03W2C15 AMAZON.CO.UK,10.70,debit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-06-25,Romeo,Romeo Amex credit,Amex,AMAZON.CO.UK*JS8E06X45 AMAZON.CO.UK,AMAZON.CO.UK*JS8E06X45 AMAZON.CO.UK,32.99,debit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-06-26,Romeo,Romeo Amex credit,Amex,AMAZON.CO.UK*N49O42O55 AMAZON.CO.UK,AMAZON.CO.UK*N49O42O55 AMAZON.CO.UK,8.00,debit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-06-27,Romeo,Romeo Amex credit,Amex,MCDONALD'S CHESHUNT 232 CHESHUNT,MCDONALD'S CHESHUNT 232 CHESHUNT GOODS,9.09,debit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-06-27,Romeo,Romeo Amex credit,Amex,DOJO*GREEK STREET,DOJO*GREEK STREET BASINGSTOKE,1.60,debit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-06-29,Romeo,Romeo Amex credit,Amex,HOTELCOM72076105633731 UK.HOTELS.COM,HOTELCOM72076105633731 UK.HOTELS.COM,44.77,debit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-06-29,Romeo,Romeo Amex credit,Amex,SHARP PICKLEB 13199199 HEMEL HEMPSTEAD,SHARP PICKLEB 13199199 HEMEL HEMPSTEAD,8.10,debit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-06-29,Romeo,Romeo Amex credit,Amex,ALDI HERTFORD,ALDI HERTFORD HERTFORD GOODS,60.13,debit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-06-30,Romeo,Romeo Amex credit,Amex,ALEX COX OSTEOPATH,ALEX COX OSTEOPATH Stevenage,45.00,debit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-06-30,Romeo,Romeo Amex credit,Amex,PICKLEBALL ENGLAND,PICKLEBALL ENGLAND SELMESTON,70.00,debit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-06-30,Romeo,Romeo Amex credit,Amex,SHARP PICKLEB 13200567 HEMEL HEMPSTEAD,SHARP PICKLEB 13200567 HEMEL HEMPSTEAD,8.10,debit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-07-03,Romeo,Romeo Amex credit,Amex,SHIFT4*MEZEO LTD 107 HI STOURBRIDGE,SHIFT4*MEZEO LTD 107 HI STOURBRIDGE,13.19,debit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-07-05,Romeo,Romeo Amex credit,Amex,SUSHIMANIA SUSHIMANIA ST. ALBANS,SUSHIMANIA SUSHIMANIA ST. ALBANS,-2.52,credit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-07-05,Romeo,Romeo Amex credit,Amex,SUSHIMANIA SUSHIMANIA ST. ALBANS,SUSHIMANIA SUSHIMANIA ST. ALBANS,32.00,debit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-07-07,Romeo,Romeo Amex credit,Amex,HERTFORD,HERTFORD Hertford,2.80,debit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-07-07,Romeo,Romeo Amex credit,Amex,HERTFORD,HERTFORD Hertford,10.00,debit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-07-10,Romeo,Romeo Amex credit,Amex,SHARP PICKLEB 13264115 HEMEL HEMPSTEAD,SHARP PICKLEB 13264115 HEMEL HEMPSTEAD,8.10,debit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-07-10,Romeo,Romeo Amex credit,Amex,VAGARO* WARE THAI MASS WARE,VAGARO* WARE THAI MASS WARE,80.00,debit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-07-11,Romeo,Romeo Amex credit,Amex,MCDONALDS BASINGSTOKE 2 BASINGSTOKE,MCDONALDS BASINGSTOKE 2 BASINGSTOKE GOODS,13.38,debit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-07-11,Romeo,Romeo Amex credit,Amex,DOJO*SUSHI MOTO,DOJO*SUSHI MOTO ALDERSHOT,42.99,debit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-07-12,Romeo,Romeo Amex credit,Amex,AMAZON.CO.UK*RP8Q52815 AMAZON.CO.UK,AMAZON.CO.UK*RP8Q52815 AMAZON.CO.UK,4.85,debit,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-06-22,Kelly,Romeo Amex credit,Amex,ALDI HERTFORD,ALDI HERTFORD HERTFORD GOODS,68.30,debit,16 Jun 2026-15 Jul 2026,raw Amex supplementary card row
+2026-06-26,Kelly,Romeo Amex credit,Amex,TESCO STORE 3213 3213TE STEVENAGE,TESCO STORE 3213 3213TE STEVENAGE,11.25,debit,16 Jun 2026-15 Jul 2026,raw Amex supplementary card row
+2026-06-26,Kelly,Romeo Amex credit,Amex,ALDI STEVENAGE 776040 STEVENAGE,ALDI STEVENAGE 776040 STEVENAGE GOODS,3.37,debit,16 Jun 2026-15 Jul 2026,raw Amex supplementary card row
+2026-06-26,Kelly,Romeo Amex credit,Amex,Costco Wholesale #129 Stevenage,Costco Wholesale #129 Stevenage,42.46,debit,16 Jun 2026-15 Jul 2026,raw Amex supplementary card row
+2026-06-27,Kelly,Romeo Amex credit,Amex,DOJO*GREEK STREET,DOJO*GREEK STREET BASINGSTOKE,17.00,debit,16 Jun 2026-15 Jul 2026,raw Amex supplementary card row
+2026-07-04,Kelly,Romeo Amex credit,Amex,TESCO STORE 2654 2654TE HATFIELD,TESCO STORE 2654 2654TE HATFIELD,14.20,debit,16 Jun 2026-15 Jul 2026,raw Amex supplementary card row
+2026-07-04,Kelly,Romeo Amex credit,Amex,AGODA*AGODA.COM THE HOG LONDON,AGODA*AGODA.COM THE HOG LONDON,93.45,debit,16 Jun 2026-15 Jul 2026,raw Amex supplementary card row
+2026-07-05,Kelly,Romeo Amex credit,Amex,AMAZON.CO.UK*0P91S0B15 AMAZON.CO.UK,AMAZON.CO.UK*0P91S0B15 AMAZON.CO.UK,8.12,debit,16 Jun 2026-15 Jul 2026,raw Amex supplementary card row
+2026-07-06,Kelly,Romeo Amex credit,Amex,TESCO STORE 2654 2654TE HATFIELD,TESCO STORE 2654 2654TE HATFIELD,35.50,debit,16 Jun 2026-15 Jul 2026,raw Amex supplementary card row
+2026-07-08,Kelly,Romeo Amex credit,Amex,TESCO STORE 2661 2661TE HERTFORD,TESCO STORE 2661 2661TE HERTFORD,31.65,debit,16 Jun 2026-15 Jul 2026,raw Amex supplementary card row
+2026-07-08,Kelly,Romeo Amex credit,Amex,ALDI HERTFORD,ALDI HERTFORD HERTFORD GOODS,53.60,debit,16 Jun 2026-15 Jul 2026,raw Amex supplementary card row
+2026-07-09,Kelly,Romeo Amex credit,Amex,ALDI HERTFORD,ALDI HERTFORD HERTFORD GOODS,15.48,debit,16 Jun 2026-15 Jul 2026,raw Amex supplementary card row
+2026-07-10,Kelly,Romeo Amex credit,Amex,TESCO STORE 2661 2661TE HERTFORD,TESCO STORE 2661 2661TE HERTFORD,14.50,debit,16 Jun 2026-15 Jul 2026,raw Amex supplementary card row
+2026-07-14,Kelly,Romeo Amex credit,Amex,TESCO STORE 2661 2661TE HERTFORD,TESCO STORE 2661 2661TE HERTFORD,18.00,debit,16 Jun 2026-15 Jul 2026,raw Amex supplementary card row
+2026-06-25,Romeo,Romeo Amex credit,Amex,CREDIT FOR MEMBERSHIP FEE,CREDIT FOR MEMBERSHIP FEE,-107.67,credit,16 Jun 2026-15 Jul 2026,raw Amex other account row
+2026-07-15,Romeo,Romeo Amex credit,Amex,INSTALMENT PLAN FEE,INSTALMENT PLAN FEE,1.62,fee,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-07-15,Romeo,Romeo Amex credit,Amex,INSTALMENT PLAN FEE,INSTALMENT PLAN FEE,1.23,fee,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-07-15,Romeo,Romeo Amex credit,Amex,INSTALMENT PLAN FEE,INSTALMENT PLAN FEE,1.56,fee,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-07-15,Romeo,Romeo Amex credit,Amex,INSTALMENT PLAN FEE,INSTALMENT PLAN FEE,1.86,fee,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-07-15,Romeo,Romeo Amex credit,Amex,INSTALMENT PLAN FEE,INSTALMENT PLAN FEE,1.04,fee,16 Jun 2026-15 Jul 2026,raw Amex statement row
+2026-07-07,Kelly,Kelly Amex credit,Amex,PAYMENT RECEIVED - THANK YOU,PAYMENT RECEIVED - THANK YOU,-877.67,credit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-15,Kelly,Kelly Amex credit,Amex,PAYMENT RECEIVED - THANK YOU,PAYMENT RECEIVED - THANK YOU,-322.02,credit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-06-24,Kelly,Kelly Amex credit,Amex,"MOORGATE LEON UNIT 2, 5 LONDON","MOORGATE LEON UNIT 2, 5 LONDON",6.50,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-06-24,Kelly,Kelly Amex credit,Amex,"MOORGATE LEON UNIT 2, 5 LONDON","MOORGATE LEON UNIT 2, 5 LONDON",-6.50,credit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-06-25,Kelly,Kelly Amex credit,Amex,PUPPYTHERAPYSUSSEX,PUPPYTHERAPYSUSSEX UCKFIELD,45.00,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-06-25,Kelly,Kelly Amex credit,Amex,SAINSBURY'S SUPERMARKET LONDON,SAINSBURY'S SUPERMARKET LONDON GOODS,2.00,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-06-25,Kelly,Kelly Amex credit,Amex,TFL TRAVEL CHARGE,TFL TRAVEL CHARGE TFL.GOV.UK/CP,21.10,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-06-26,Kelly,Kelly Amex credit,Amex,SHARP PICKLEB 13188615 HEMEL HEMPSTEAD,SHARP PICKLEB 13188615 HEMEL HEMPSTEAD,16.85,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-06-26,Kelly,Kelly Amex credit,Amex,AMZNMKTPLACE*RL5FS9Z75 AMAZON.CO.UK,AMZNMKTPLACE*RL5FS9Z75 AMAZON.CO.UK,14.40,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-06-26,Kelly,Kelly Amex credit,Amex,AMZNMKTPLACE*BN05I1545 AMAZON.CO.UK,AMZNMKTPLACE*BN05I1545 AMAZON.CO.UK,14.70,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-06-27,Kelly,Kelly Amex credit,Amex,SP THIRD SHOT UK,SP THIRD SHOT UK SHEFFIELD,33.15,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-06-28,Kelly,Kelly Amex credit,Amex,MOTO THURROCK COSTA COF GRAYS,MOTO THURROCK COSTA COF GRAYS,5.40,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-06-29,Kelly,Kelly Amex credit,Amex,AMZNMKTPLACE*PS8759GE5 AMAZON.CO.UK,AMZNMKTPLACE*PS8759GE5 AMAZON.CO.UK,74.04,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-06-29,Kelly,Kelly Amex credit,Amex,TFL TRAVEL CHARGE,TFL TRAVEL CHARGE TFL.GOV.UK/CP,21.20,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-06-29,Kelly,Kelly Amex credit,Amex,SNB S200217,SNB S200217 Manchester,16.50,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-06-30,Kelly,Kelly Amex credit,Amex,SPORTS DIRECT,SPORTS DIRECT LONDON,91.98,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-06-30,Kelly,Kelly Amex credit,Amex,PICKLEBALL UK TOURNAME,PICKLEBALL UK TOURNAME HARLOW,28.00,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-06-30,Kelly,Kelly Amex credit,Amex,SNB S200217,SNB S200217 Manchester,16.50,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-06-30,Kelly,Kelly Amex credit,Amex,SAINSBURY'S SUPERMARKET LONDON,SAINSBURY'S SUPERMARKET LONDON GOODS,6.15,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-01,Kelly,Kelly Amex credit,Amex,DOJO*ELANDN CRUMBS,DOJO*ELANDN CRUMBS LONDON,3.50,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-01,Kelly,Kelly Amex credit,Amex,TRAINLINE Trainline,TRAINLINE Trainline LONDON,28.80,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-01,Kelly,Kelly Amex credit,Amex,TFL TRAVEL CHARGE,TFL TRAVEL CHARGE TFL.GOV.UK/CP,6.20,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-01,Kelly,Kelly Amex credit,Amex,Waitrose Barbican Waitr London,Waitrose Barbican Waitr London,156.00,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-02,Kelly,Kelly Amex credit,Amex,TFL TRAVEL CHARGE,TFL TRAVEL CHARGE TFL.GOV.UK/CP,18.60,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-03,Kelly,Kelly Amex credit,Amex,UNVRS* LUTON RISING PR LONDON,UNVRS* LUTON RISING PR LONDON,47.00,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-04,Kelly,Kelly Amex credit,Amex,SPOND* ADVANCED INTERM WELWYN GARDEN C,SPOND* ADVANCED INTERM WELWYN GARDEN C,14.00,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-05,Kelly,Kelly Amex credit,Amex,SUSHIMANIA SUSHIMANIA ST. ALBANS,SUSHIMANIA SUSHIMANIA ST. ALBANS,29.48,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-06,Kelly,Kelly Amex credit,Amex,BOOTS THE CHEMIST,BOOTS THE CHEMIST LONDON MERCHANDISE,19.20,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-06,Kelly,Kelly Amex credit,Amex,PRET A MANGER,PRET A MANGER London,8.24,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-06,Kelly,Kelly Amex credit,Amex,SNB S200217,SNB S200217 Manchester,16.50,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-06,Kelly,Kelly Amex credit,Amex,TFL TRAVEL CHARGE,TFL TRAVEL CHARGE TFL.GOV.UK/CP,21.20,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-07,Kelly,Kelly Amex credit,Amex,VAGARO* WARE THAI MASS WARE,VAGARO* WARE THAI MASS WARE,80.00,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-07,Kelly,Kelly Amex credit,Amex,DOJO*COSTCUTTERS WARE WARE,DOJO*COSTCUTTERS WARE WARE,7.17,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-09,Kelly,Kelly Amex credit,Amex,SPOND* ADVANCED INTERM WELWYN GARDEN C,SPOND* ADVANCED INTERM WELWYN GARDEN C,14.00,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-09,Kelly,Kelly Amex credit,Amex,SHARP PICKLEB 13263322 HEMEL HEMPSTEAD,SHARP PICKLEB 13263322 HEMEL HEMPSTEAD,8.10,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-11,Kelly,Kelly Amex credit,Amex,THE STREET BAKESHOP,THE STREET BAKESHOP Basingstoke,14.40,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-11,Kelly,Kelly Amex credit,Amex,THE STREET BAKESHOP,THE STREET BAKESHOP Basingstoke,4.45,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-11,Kelly,Kelly Amex credit,Amex,MCDONALDS BASINGSTOKE 2 BASINGSTOKE,MCDONALDS BASINGSTOKE 2 BASINGSTOKE GOODS,5.99,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-12,Kelly,Kelly Amex credit,Amex,KALM CLUB AT HURLANDS,KALM CLUB AT HURLANDS Farnham,25.20,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-12,Kelly,Kelly Amex credit,Amex,HURLANDS L* EVT PICKLE FARNHAM,HURLANDS L* EVT PICKLE FARNHAM,15.00,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-12,Kelly,Kelly Amex credit,Amex,31445 - Welwyn GC,31445 - Welwyn GC Welwyn GC,53.08,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-13,Kelly,Kelly Amex credit,Amex,TFL TRAVEL CHARGE,TFL TRAVEL CHARGE TFL.GOV.UK/CP,21.10,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-13,Kelly,Kelly Amex credit,Amex,SNB S200217,SNB S200217 Manchester,16.50,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-14,Kelly,Kelly Amex credit,Amex,TIME OUT ENGLAND LTD LONDON,TIME OUT ENGLAND LTD LONDON,5.00,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-14,Kelly,Kelly Amex credit,Amex,TFL TRAVEL CHARGE,TFL TRAVEL CHARGE TFL.GOV.UK/CP,6.10,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-14,Kelly,Kelly Amex credit,Amex,DOJO*BEN S COOKIES,DOJO*BEN S COOKIES LONDON,2.50,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-14,Kelly,Kelly Amex credit,Amex,SNB S200217,SNB S200217 Manchester,16.50,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-14,Kelly,Kelly Amex credit,Amex,ASICS EUROPE B.V.,ASICS EUROPE B.V. HOOFDDORP,126.00,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-15,Kelly,Kelly Amex credit,Amex,SNB S200217,SNB S200217 Manchester,16.50,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-15,Kelly,Kelly Amex credit,Amex,Coffee Station Broxbour,Coffee Station Broxbour Broxbourne,3.50,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-16,Kelly,Kelly Amex credit,Amex,SP SQAIRZ LLC,SP SQAIRZ LLC SALEM,130.26,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-17,Kelly,Kelly Amex credit,Amex,SPOND* ADVANCED INTERM WELWYN GARDEN C,SPOND* ADVANCED INTERM WELWYN GARDEN C,14.00,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-17,Kelly,Kelly Amex credit,Amex,Horwich Park Inn,Horwich Park Inn BOLTON,33.93,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-17,Kelly,Kelly Amex credit,Amex,MCDONALDS,MCDONALDS HERTFORDSHIRE GOODS,2.49,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-17,Kelly,Kelly Amex credit,Amex,ASICS EUROPE B.V.,ASICS EUROPE B.V. HOOFDDORP,126.00,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-18,Kelly,Kelly Amex credit,Amex,SHARP PICKLEB 13296419 HEMEL HEMPSTEAD,SHARP PICKLEB 13296419 HEMEL HEMPSTEAD,16.85,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-18,Kelly,Kelly Amex credit,Amex,DOJO*BOLTON ARENA,DOJO*BOLTON ARENA BOLTON,11.95,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-18,Kelly,Kelly Amex credit,Amex,3CPAYMENT*PREIMER INN 4 BOLTON,3CPAYMENT*PREIMER INN 4 BOLTON,23.98,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-18,Kelly,Kelly Amex credit,Amex,FDEL*THE CHINESE BUFFE BOLTON,FDEL*THE CHINESE BUFFE BOLTON,65.87,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-19,Kelly,Kelly Amex credit,Amex,MCDONALDS BARNSDALE 177 WAKEFILED,MCDONALDS BARNSDALE 177 WAKEFILED GOODS,2.39,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-20,Kelly,Kelly Amex credit,Amex,PICKLEBALL ENGLAND,PICKLEBALL ENGLAND SELMESTON,22.00,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-20,Kelly,Kelly Amex credit,Amex,TFL TRAVEL CHARGE,TFL TRAVEL CHARGE TFL.GOV.UK/CP,21.20,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-21,Kelly,Kelly Amex credit,Amex,HOTEL CHOCOLAT LONDON B LONDON,HOTEL CHOCOLAT LONDON B LONDON,4.15,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-21,Kelly,Kelly Amex credit,Amex,TRAINLINE Trainline,TRAINLINE Trainline LONDON,15.90,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-21,Kelly,Kelly Amex credit,Amex,TFL TRAVEL CHARGE,TFL TRAVEL CHARGE TFL.GOV.UK/CP,13.70,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-21,Kelly,Kelly Amex credit,Amex,M&S FINSBURY PAVEMENT LONDON,M&S FINSBURY PAVEMENT LONDON GOODS,1.40,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-21,Kelly,Kelly Amex credit,Amex,UBER TRIP,UBER TRIP HTTPS://HELP.UB,10.02,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-22,Kelly,Kelly Amex credit,Amex,UBER TRAINS,UBER TRAINS HTTPS://HELP.UB,10.90,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-22,Kelly,Kelly Amex credit,Amex,PANADERA SOHO CATERIN*P LONDON,PANADERA SOHO CATERIN*P LONDON,19.10,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-22,Kelly,Kelly Amex credit,Amex,SHARP PICKLEB 13311159 HEMEL HEMPSTEAD,SHARP PICKLEB 13311159 HEMEL HEMPSTEAD,16.85,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-22,Kelly,Kelly Amex credit,Amex,TFL TRAVEL CHARGE,TFL TRAVEL CHARGE TFL.GOV.UK/CP,13.70,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-22,Kelly,Kelly Amex credit,Amex,Coffee Station Broxbour,Coffee Station Broxbour Broxbourne,3.00,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-23,Kelly,Kelly Amex credit,Amex,SPOND* ADVANCED INTERM WELWYN GARDEN C,SPOND* ADVANCED INTERM WELWYN GARDEN C,14.00,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-23,Kelly,Kelly Amex credit,Amex,AMZNMKTPLACE*TE0DT49R5 AMAZON.CO.UK,AMZNMKTPLACE*TE0DT49R5 AMAZON.CO.UK,13.73,debit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-24,Kelly,Kelly Amex credit,Amex,ASICS EUROPE B.V.,ASICS EUROPE B.V. HOOFDDORP,-126.00,credit,25 Jun 2026-24 Jul 2026,raw Amex statement row
+2026-07-01,Romeo,Romeo Barclaycard credit,Barclaycard,"Payment, Thank You","Payment, Thank You",-123.20,credit,16 Jun 2026-15 Jul 2026,raw Barclaycard statement row
+2026-06-16,Romeo,Romeo Barclaycard credit,Barclaycard,Refund Membership Fee,Refund Membership Fee,-20.00,credit,16 Jun 2026-15 Jul 2026,raw Barclaycard statement row
+2026-06-26,Romeo,Romeo Barclaycard credit,Barclaycard,"www.Everyoneactive.com, Hinckley","www.Everyoneactive.com, Hinckley",20.50,debit,16 Jun 2026-15 Jul 2026,raw Barclaycard statement row
+2026-06-26,Romeo,Romeo Barclaycard credit,Barclaycard,"www.Everyoneactive.com, Hinckley","www.Everyoneactive.com, Hinckley",20.50,debit,16 Jun 2026-15 Jul 2026,raw Barclaycard statement row
+2026-06-30,Romeo,Romeo Barclaycard credit,Barclaycard,"www.Everyoneactive.com, Hinckley","www.Everyoneactive.com, Hinckley",20.50,debit,16 Jun 2026-15 Jul 2026,raw Barclaycard statement row
+2026-07-15,Romeo,Romeo Barclaycard credit,Barclaycard,Interest On Your Standard Balance,Interest On Your Standard Balance Interest 2.0775%,11.03,fee,16 Jun 2026-15 Jul 2026,raw Barclaycard statement row
+2026-06-05,Romeo,Romeo Halifax credit,Halifax,PAYMENT RECEIVED - THANK YOU,PAYMENT RECEIVED - THANK YOU,-17.85,credit,02 Jun 2026-01 Jul 2026,raw Halifax credit statement row
+2026-06-03,Romeo,Romeo Halifax credit,Halifax,WWW.PERPLEXITY.AI,WWW.PERPLEXITY.AI WWW.PERPLEXIT CA 24.00 USD @ 1.3445,17.85,debit,02 Jun 2026-01 Jul 2026,raw Halifax credit statement row
+2026-06-05,Romeo,Romeo Halifax credit,Halifax,hostinger.com,hostinger.com Wilmington DE 22.46 USD @ 1.3409,16.75,debit,02 Jun 2026-01 Jul 2026,raw Halifax credit statement row
+2026-06-10,Romeo,Romeo Halifax credit,Halifax,DINKSPACE.CO.UK,DINKSPACE.CO.UK NORTH BADDESL GB 50.00 EUR @ 1.1553,43.28,debit,02 Jun 2026-01 Jul 2026,raw Halifax credit statement row
+2026-06-18,Romeo,Romeo Halifax credit,Halifax,BURGER KING,BURGER KING HATFIELD GB,23.74,debit,02 Jun 2026-01 Jul 2026,raw Halifax credit statement row
+2026-06-28,Romeo,Romeo Halifax credit,Halifax,The Plough Inn,The Plough Inn Henfield GB,46.00,debit,02 Jun 2026-01 Jul 2026,raw Halifax credit statement row
+2026-06-12,Kelly,Kelly Halifax credit,Halifax,PAYMENT RECEIVED - THANK YOU,PAYMENT RECEIVED - THANK YOU,-62.36,credit,08 Jun 2026-07 Jul 2026,raw Halifax credit statement row
+2026-06-29,Kelly,Kelly Halifax credit,Halifax,PAYMENT RECEIVED - THANK YOU,PAYMENT RECEIVED - THANK YOU,-218.60,credit,08 Jun 2026-07 Jul 2026,raw Halifax credit statement row
+2026-06-08,Kelly,Kelly Halifax credit,Halifax,WWW.GOV.UK/PAY-DARTFOR LEEDS,WWW.GOV.UK/PAY-DARTFOR LEEDS GB,7.00,debit,08 Jun 2026-07 Jul 2026,raw Halifax credit statement row
+2026-06-09,Kelly,Kelly Halifax credit,Halifax,BOREHAMWOOD OUTLET,BOREHAMWOOD OUTLET BOREHAMWOOD GB,1.65,debit,08 Jun 2026-07 Jul 2026,raw Halifax credit statement row
+2026-06-10,Kelly,Kelly Halifax credit,Halifax,OFFICIAL TKTS,OFFICIAL TKTS NOTTINGHAM GB,249.42,debit,08 Jun 2026-07 Jul 2026,raw Halifax credit statement row
+2026-06-10,Kelly,Kelly Halifax credit,Halifax,WWW CENTRALTICKETS CO LONDON,WWW CENTRALTICKETS CO LONDON GB,16.00,debit,08 Jun 2026-07 Jul 2026,raw Halifax credit statement row
+2026-06-10,Kelly,Kelly Halifax credit,Halifax,Too Good To Go,Too Good To Go Copenhagen DK,3.99,debit,08 Jun 2026-07 Jul 2026,raw Halifax credit statement row
+2026-06-12,Kelly,Kelly Halifax credit,Halifax,Aviva,Aviva Perth GB,49.64,debit,08 Jun 2026-07 Jul 2026,raw Halifax credit statement row
+2026-06-12,Kelly,Kelly Halifax credit,Halifax,COSTCO PFS,COSTCO PFS STEVENAGE GB,72.19,debit,08 Jun 2026-07 Jul 2026,raw Halifax credit statement row
+2026-06-12,Kelly,Kelly Halifax credit,Halifax,TGTG f87k27rtd7hf0,TGTG f87k27rtd7hf0 toogoodtogo.c DK,5.30,debit,08 Jun 2026-07 Jul 2026,raw Halifax credit statement row
+2026-06-15,Kelly,Kelly Halifax credit,Halifax,BATCHWOOD GOLF COURSE ST ALBANS,BATCHWOOD GOLF COURSE ST ALBANS GB,1.50,debit,08 Jun 2026-07 Jul 2026,raw Halifax credit statement row
+2026-06-15,Kelly,Kelly Halifax credit,Halifax,WWW.EVERYONEACTIVE.COM HINCKLEY,WWW.EVERYONEACTIVE.COM HINCKLEY GB,20.50,debit,08 Jun 2026-07 Jul 2026,raw Halifax credit statement row
+2026-06-16,Kelly,Kelly Halifax credit,Halifax,BOREHAMWOOD OUTLET,BOREHAMWOOD OUTLET BOREHAMWOOD GB,8.60,debit,08 Jun 2026-07 Jul 2026,raw Halifax credit statement row
+2026-06-17,Kelly,Kelly Halifax credit,Halifax,WWW.EVERYONEACTIVE.COM HINCKLEY,WWW.EVERYONEACTIVE.COM HINCKLEY GB,20.50,debit,08 Jun 2026-07 Jul 2026,raw Halifax credit statement row
+2026-06-22,Kelly,Kelly Halifax credit,Halifax,Imm-Aroy by SeeWoo,Imm-Aroy by SeeWoo London GB,13.15,debit,08 Jun 2026-07 Jul 2026,raw Halifax credit statement row
+2026-06-23,Kelly,Kelly Halifax credit,Halifax,Too Good To Go,Too Good To Go Copenhagen DK,5.00,debit,08 Jun 2026-07 Jul 2026,raw Halifax credit statement row
+2026-06-25,Kelly,Kelly Halifax credit,Halifax,ARRIVA KENT THAMESIDE,ARRIVA KENT THAMESIDE MAIDSTONE GB,3.00,debit,08 Jun 2026-07 Jul 2026,raw Halifax credit statement row
+2026-07-02,Kelly,Kelly Halifax credit,Halifax,WWW.GOV.UK/PAY-DARTFOR LEEDS,WWW.GOV.UK/PAY-DARTFOR LEEDS GB,7.00,debit,08 Jun 2026-07 Jul 2026,raw Halifax credit statement row
+2026-07-06,Kelly,Kelly Halifax credit,Halifax,APCOA PARKING UK,APCOA PARKING UK,7.00,debit,08 Jun 2026-07 Jul 2026,raw Halifax credit statement row
+2026-07-06,Kelly,Kelly Halifax credit,Halifax,WWW.EVERYONEACTIVE.COM HINCKLEY,WWW.EVERYONEACTIVE.COM HINCKLEY GB,20.50,debit,08 Jun 2026-07 Jul 2026,raw Halifax credit statement row
+2026-07-06,Kelly,Kelly Halifax credit,Halifax,CHRISTOPHER PLACE CAR,CHRISTOPHER PLACE CAR ST ALBANS GB,2.00,debit,08 Jun 2026-07 Jul 2026,raw Halifax credit statement row
+2026-07-10,Romeo,Romeo M&S BT,M&S Bank,Direct Debit - Thank You,Direct Debit - Thank You,-190.00,credit,15 Jul 2026 statement,raw M&S statement row
+2026-07-23,Romeo,Romeo MBNA BT,MBNA,DIRECT DEBIT PAYMENT - THANK YOU,DIRECT DEBIT PAYMENT - THANK YOU,-276.21,credit,26 Jul 2026 statement,raw MBNA statement row
