@@ -199,7 +199,7 @@ a temporary override may be applied and documented in the monthly review.
 | ------------------------------------------- | ----------- | ------------------------------------------------------------------- |
 | BT card 1 provider                          | MBNA        | Primary balance transfer card                                       |
 | BT card 1 balance                           | (update monthly)  | Update monthly during review                                        |
-| BT card 1 promotional end                   |(verify from latest statement)    | Based on 34-month promotional period from July 2025 account opening |
+| BT card 1 promotional end                   | 03 Jun 2027 / 30 May 2028        | MBNA has two 0% promotional balance transfer tranches; verified from July 2026 statement |
 | BT card 1 required payment to clear on time | (calculate monthly)  | Calculated monthly based on current balance and months remaining    |
 | BT card 1 operational target                | £376/month  | Increased from £349 — required to clear balance by May 2028 expiry  |
 | BT card 1 direct debit                      | £225.27/month | Confirmed actual from May 2026 statement                          |
@@ -209,7 +209,7 @@ a temporary override may be applied and documented in the monthly review.
 | ------------------------------------------- | ------------------------------ | ------------------------------------------------------ |
 | BT card 2 provider                          | M&S Bank                       | Secondary balance transfer card                        |
 | BT card 2 balance                           | (update monthly)               | Update during monthly review                           |
-| BT card 2 promotional end                   | (verify from latest statement) | Must be confirmed from statement                       |
+| BT card 2 promotional end                   | Mar 2028                       | Confirmed by user during August 2026 review            |
 | BT card 2 required payment to clear on time | (calculate monthly)            | Based on current balance and months remaining          |
 | BT card 2 operational target                | £195/month                     | Current agreed repayment target                        |
 | BT card 2 direct debit                      | ~£190/month                    | Automatically collected                                |
