@@ -391,6 +391,10 @@ Generate the month's payment plan from the locked position and confirmed assumpt
 - Allocate bill payments (with split methodology applied)
 - Allocate credit card payments (minimum and over-minimum)
 - Allocate balance transfer top-ups if applicable
+- Calculate and show balance-transfer reimbursement settlements where one person pays shared BT cards from their current account
+- Split BT cards by tranche where promotional periods or ownership differ
+- Exclude owner-specific BT tranches from shared reimbursement calculations unless explicitly overridden
+- List any current-account overdrafts, show the known facility limit/headroom, and record the monthly decision: repay, partial repay, or defer
 - Allocate emergency fund contribution if applicable
 - Confirm total allocations against available funds
 - Note surplus or shortfall

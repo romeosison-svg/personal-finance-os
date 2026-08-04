@@ -69,6 +69,18 @@ During each monthly review:
 
 ---
 
+## Current Account Facilities
+
+| Account | Facility | Limit | Notes |
+| --- | --- | ---: | --- |
+| Romeo Starling current account | Overdraft | £750.00 | User-confirmed 2026-08-04; list in Position and Plan while any balance is overdrawn |
+
+### Overdraft Facility Rule
+
+Where an overdraft facility is used, monthly reviews should track both the current overdrawn balance and the facility limit so the plan can distinguish repayment priority from available overdraft headroom.
+
+---
+
 ## Income
 
 ### Romeo
@@ -225,6 +237,26 @@ For each balance transfer card:
 2. Compare the required payment against the current operational target.
 3. Flag any variance between the two.
 4. Review and adjust targets during the monthly planning cycle if necessary.
+
+### Balance Transfer Ownership and Settlement
+
+Balance transfer repayment targets must be split between:
+
+1. Shared household BT obligations.
+2. Owner-specific BT tranches.
+
+During every monthly Plan phase:
+
+* List each BT card by tranche where promotional periods or ownership differ.
+* Calculate the planned payment for each tranche or target group.
+* Calculate Kelly's reimbursement to Romeo for her share of shared BT obligations when Romeo pays the BT card from his current account.
+* Exclude owner-specific tranches from the other person's reimbursement calculation unless an explicit household-sharing override is agreed.
+* Show the BT reimbursement as a separate settlement line item, not hidden inside the main payment table.
+* Preserve the distinction between aggregate household affordability and account-to-account fairness settlements.
+
+Known August 2026 ownership note:
+
+* The MBNA Barclaycard-transfer tranche from June 2026 is Romeo-specific and must not be included in Kelly's shared BT reimbursement unless explicitly overridden.
 
 ### Priority Rules
 
@@ -449,6 +481,27 @@ When there is a conflict between allocations, apply this priority order:
 11. Accelerated balance transfer repayments
 12. Additional debt overpayments
 13. Investment contributions beyond pension deductions
+
+### Overdraft Planning Rule
+
+Any current-account overdraft must be listed explicitly in the monthly Position and Plan while it remains open.
+
+The plan should show the known overdraft limit and remaining headroom where the facility limit is known.
+
+Plan must make a clear decision each month:
+
+* repay now;
+* make a partial repayment;
+* defer repayment.
+
+Default priority:
+
+1. Credit card minimums and statement-balance interest risk.
+2. Balance transfer operational targets and promotional-period protection.
+3. Preferred cash buffer.
+4. Current-account overdraft repayment.
+
+Unless fees or interest make the overdraft urgent, overdraft repayment is normally lower priority than credit card repayment and BT promotional targets.
 
 ### Exception Rule
 
