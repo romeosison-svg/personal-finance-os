@@ -14,7 +14,7 @@
 | Analyse              | Complete    | 2026-08-03 |
 | Budget Calibration   | Complete    | 2026-08-03 |
 | Affordability Check  | Complete    | 2026-08-03 |
-| Plan                 | In Progress |            |
+| Plan                 | Complete    | 2026-08-04 |
 | Strategy             | Not Started |            |
 
 ---
@@ -309,8 +309,8 @@ Notes:
 
 ## Phase Lock
 
-Status: In Progress
-Completed:
-Approved: No
+Status: Complete
+Completed: 2026-08-04
+Approved: Yes
 
-Plan prepared for review. Do not proceed to Strategy until Plan is explicitly approved and locked.
+Plan approved and locked. Strategy may now proceed.
