@@ -71,13 +71,13 @@ During each monthly review:
 
 ## Current Account Facilities
 
-| Account | Facility | Limit | Notes |
-| --- | --- | ---: | --- |
-| Romeo Starling current account | Overdraft | £750.00 | User-confirmed 2026-08-04; list in Position and Plan while any balance is overdrawn |
+| Account | Facility | Limit | Interest rate | Notes |
+| --- | --- | ---: | ---: | --- |
+| Romeo Starling current account | Overdraft | £750.00 | 35% EAR variable | Limit user-confirmed 2026-08-04; interest rate user-confirmed 2026-08-17; list in Position and Plan while any balance is overdrawn |
 
 ### Overdraft Facility Rule
 
-Where an overdraft facility is used, monthly reviews should track both the current overdrawn balance and the facility limit so the plan can distinguish repayment priority from available overdraft headroom.
+Where an overdraft facility is used, monthly reviews should track the current overdrawn balance, facility limit, remaining headroom, interest rate, and latest interest charged so the plan can distinguish repayment priority from available overdraft headroom.
 
 ---
 
@@ -486,7 +486,7 @@ When there is a conflict between allocations, apply this priority order:
 
 Any current-account overdraft must be listed explicitly in the monthly Position and Plan while it remains open.
 
-The plan should show the known overdraft limit and remaining headroom where the facility limit is known.
+The plan should show the known overdraft limit, remaining headroom, interest rate, and latest interest charge where known.
 
 Plan must make a clear decision each month:
 
@@ -502,6 +502,8 @@ Default priority:
 4. Current-account overdraft repayment.
 
 Unless fees or interest make the overdraft urgent, overdraft repayment is normally lower priority than credit card repayment and BT promotional targets.
+
+If the overdraft is charging high interest while balance-transfer cards remain at 0%, overdraft repayment should take priority over optional or accelerated BT overpayments above the required promotional-clearing target.
 
 ### Exception Rule
 
