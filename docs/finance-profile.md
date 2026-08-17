@@ -330,7 +330,7 @@ PCP end date and balloon payment must be reviewed 12 months before expiry to ass
 | Romeo       | Amex        | Pay in full                | Highest repayment priority after essential household obligations |
 | Romeo       | Barclaycard | Clear and downgrade        | No new spend from June 2026. Clear aggressively. Downgrade to free card when balance reaches £0. |
 | Romeo       | Halifax     | Flexible                   | Payment determined during monthly planning phase                 |
-| Kelly       | Amex        | Pay in full where possible | Review monthly based on available cashflow                       |
+| Kelly       | Amex        | Pay in full                | Household preference is to pay statement balances in full monthly; any partial payment must be an explicit cashflow exception |
 | Kelly       | Halifax     | Flexible                   | Payment determined during monthly planning phase                 |
 
 ### Credit Card Repayment Methodology
@@ -347,7 +347,11 @@ PCP end date and balloon payment must be reviewed 12 months before expiry to ass
    * MBNA target
    * M&S target
 
-3. Amex balances should be paid in full wherever possible.
+3. Amex statement balances should be planned for payment in full by default for both Romeo and Kelly.
+
+   * Minimum payments are the mandatory safety floor, not the planning default.
+   * If cashflow cannot support full Amex repayment, the monthly Plan must explicitly document the partial-payment exception, the unpaid amount, and the reason.
+   * Pending reimbursements may be netted only where the reimbursement is specific, expected, and separately tracked in the Plan.
 
 4. Flexible credit cards (Barclaycard, Halifax and similar) may receive:
 
