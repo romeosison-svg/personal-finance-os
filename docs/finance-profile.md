@@ -689,10 +689,27 @@ During the assumptions phase, flag any PPL Challenger League fixture falling wit
 
 ---
 
+## Known Travel Cash Needs — Turkey September 2026
+
+User-confirmed on 2026-08-25 for the upcoming Turkey trip:
+
+| Item | Planning assumption | Treatment |
+| --- | ---: | --- |
+| Euro cash conversion target | At least EUR 300 | Convert from GBP before travel; verify actual GBP cost from live exchange rate during September assumptions |
+| GBP estimate for EUR 300 | ~£260 | Planning estimate only |
+| Monzo balance for Turkish lira withdrawal | £75 | Hold in Monzo for local TRY cash withdrawal while in Turkey |
+| **Total September travel cash set-aside** | **~£335** | Surface during September assumptions and include in position / affordability / plan if still required |
+
+FinanceOS should treat this as a known September travel cash requirement unless the user updates or cancels it. LifeCoach OS remains the source of truth for itinerary details and any additional trip components.
+
+---
+
 ## Last Updated
 
-Date: 2026-08-21
-Reason: Corrected recurring vehicle-cost methodology. MG PCP, MG insurance, Zoe insurance, and Zoe battery lease are shared household commitments paid from Santander joint account and allocated by household-income split. Zoe insurance verified at £62.28 from the latest available Santander statement.
+Date: 2026-08-25
+Reason: Added September 2026 Turkey travel cash planning assumption: at least EUR 300 cash conversion, estimated at ~£260, plus £75 held in Monzo for Turkish lira withdrawal.
+
+Previous: 2026-08-21 — Corrected recurring vehicle-cost methodology. MG PCP, MG insurance, Zoe insurance, and Zoe battery lease are shared household commitments paid from Santander joint account and allocated by household-income split. Zoe insurance verified at £62.28 from the latest available Santander statement.
 
 Previous: 2026-06-29 — Added Income section — Kelly's salary details (£56K gross, 1257L, pension 3.2% pre-tax, student loan ~£224.50, normalised net ~£3,272). Added normalised income rule for mortgage/bills/tithe calculations. Added Kelly emergency fund replenishment priority.
 
