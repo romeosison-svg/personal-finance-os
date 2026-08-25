@@ -160,6 +160,29 @@ plan: imported external plan - YYYY-MM
 strategy: imported external strategy - YYYY-MM
 ```
 
+## Cross-Repo Context
+
+`lifecoach-os` may exist as a sibling repository at `../lifecoach-os`. Use it as read-only travel-planning context when a FinanceOS question involves holidays, trips, bookings, parking, flights, hotels, vouchers, loyalty accounts, or known travel costs.
+
+Before asking the user to restate travel details, check whether the sibling repo exists. If it does, run the LifeCoach travel summary from that repo:
+
+```text
+cd ../lifecoach-os
+npm run travel:summary
+```
+
+FinanceOS remains the source of truth for affordability, payment timing, card repayment plans, buffer rules, household-income splits, and monthly review outputs. LifeCoach OS remains the source of truth for itinerary details, traveller preferences, loyalty memberships, vouchers, travel documents, and planned trip components.
+
+Treat LifeCoach OS data as external context, not locked FinanceOS fact. If a LifeCoach trip cost affects cashflow, bring it into the active review only in the correct phase:
+
+- `collect`: note that LifeCoach travel context exists; do not analyse affordability.
+- `reconcile`: verify any user-confirmed travel cost that is now a real liability.
+- `assumptions`: record uncertain or planned travel costs as assumptions.
+- `position`, `affordability-check`, and `plan`: apply verified or explicitly assumed travel costs to cashflow.
+- `strategy`: update durable travel or holiday funding rules only with user approval.
+
+Do not write to `lifecoach-os` from FinanceOS unless the user explicitly asks. Do not let LifeCoach context bypass phase gates or phase boundaries.
+
 ## Current Migration Note
 
 Claude-specific instructions under `CLAUDE.md` and `.claude/commands/` are legacy references. Use this file, `docs/finance-assembly-line.md`, and `docs/workflow.md` as the current authority.

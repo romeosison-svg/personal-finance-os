@@ -371,6 +371,29 @@ Check the current state of the active monthly review.
 
 ---
 
+## LifeCoach OS Travel Context
+
+If a review question involves holidays, trips, travel bookings, parking, flights, hotels, vouchers, loyalty accounts, or planned travel costs, check for a sibling LifeCoach OS repository before asking the user to restate trip details:
+
+```text
+cd ../lifecoach-os
+npm run travel:summary
+```
+
+Use that output as read-only context. FinanceOS is still responsible for affordability, payment timing, buffers, card repayment choices, household splits, and monthly review artefacts. LifeCoach OS is responsible for itinerary detail, traveller preferences, loyalty memberships, vouchers, travel documents, and planned trip components.
+
+When travel costs matter to the monthly review, bring them into FinanceOS at the right point in the phase flow:
+
+- During `collect`, record only that the LifeCoach travel context exists.
+- During `reconcile`, verify any user-confirmed travel cost that has become a real liability.
+- During `assumptions`, record uncertain or planned travel costs as assumptions.
+- During `position`, `affordability-check`, and `plan`, apply verified or explicitly assumed travel costs to cashflow.
+- During `strategy`, update durable travel funding rules only with user approval.
+
+Do not write back to `lifecoach-os` unless the user explicitly asks.
+
+---
+
 ## Review Commit Convention
 
 Each phase completion should be committed with a consistent message format:
