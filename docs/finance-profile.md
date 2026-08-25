@@ -298,17 +298,22 @@ During each monthly review:
 
 | Assumption | Value | Notes |
 | --- | --- | --- |
-| Vehicle | MG Urban Comfort | Kelly's vehicle |
-| Finance type | PCP | |
-| Monthly PCP payment | £300/month | Kelly's allocation |
-| Insurance | ~£50/month | Kelly's allocation |
-| **Total monthly commitment** | **£350/month** | From Kelly's salary |
+| Shared vehicle account | Santander joint account | Recurring household vehicle commitments are paid from the joint account |
+| MG Urban Comfort PCP | £310.84/month | Shared household commitment |
+| MG insurance | £40.00/month | Shared household commitment |
+| Zoe insurance | £62.28/month | Shared household commitment; verified from latest available Santander statement, 2026-06 joint statement |
+| Zoe battery lease | £59.00/month | Shared household commitment; RCI Financial Services DD |
+| **Total recurring vehicle commitments** | **£472.12/month** | Allocated using the normal household-income split |
 | PCP end date | (confirm when signed) | Add balloon payment when known |
 | Balloon payment | (confirm when signed) | |
 
 ### Vehicle Finance Methodology
 
-Vehicle finance is Kelly's individual committed expense, funded from her salary.
+Recurring vehicle finance, insurance, and battery-lease costs paid from the Santander joint account are shared household commitments.
+
+Allocate the MG PCP, MG insurance, Zoe insurance, and Zoe battery lease using the same proportional household-income split as mortgage and shared bills unless an explicit monthly override is documented.
+
+Do not count these vehicle commitments twice. If a monthly Santander top-up schedule already includes the Aviva Zoe insurance or RCI Zoe battery lease in its recurring joint-account outflows, do not also add those same DDs again as separate vehicle costs.
 
 PCP end date and balloon payment must be reviewed 12 months before expiry to assess:
 - Voluntary termination eligibility
@@ -317,8 +322,11 @@ PCP end date and balloon payment must be reviewed 12 months before expiry to ass
 
 ### Monthly Review Checks
 
-- Confirm PCP payment collected
-- Confirm insurance collected
+- Confirm MG PCP collected from Santander joint account
+- Confirm MG insurance collected from Santander joint account
+- Confirm Zoe insurance collected from Santander joint account
+- Confirm Zoe battery lease collected from Santander joint account
+- Recalculate the household-income split for all recurring vehicle commitments
 - Flag if within 12 months of PCP end date
 
 ---
@@ -683,7 +691,9 @@ During the assumptions phase, flag any PPL Challenger League fixture falling wit
 
 ## Last Updated
 
-Date: 2026-06-29
-Reason: Added Income section — Kelly's salary details (£56K gross, 1257L, pension 3.2% pre-tax, student loan ~£224.50, normalised net ~£3,272). Added normalised income rule for mortgage/bills/tithe calculations. Added Kelly emergency fund replenishment priority.
+Date: 2026-08-21
+Reason: Corrected recurring vehicle-cost methodology. MG PCP, MG insurance, Zoe insurance, and Zoe battery lease are shared household commitments paid from Santander joint account and allocated by household-income split. Zoe insurance verified at £62.28 from the latest available Santander statement.
 
-Previous: 2026-06-03 — Added PPL Challenger League 2026–27 seasonal cost commitments (6 fixtures, 4 hotel nights, £360 accommodation estimate).
+Previous: 2026-06-29 — Added Income section — Kelly's salary details (£56K gross, 1257L, pension 3.2% pre-tax, student loan ~£224.50, normalised net ~£3,272). Added normalised income rule for mortgage/bills/tithe calculations. Added Kelly emergency fund replenishment priority.
+
+Previous: 2026-06-03 — Added PPL Challenger League 2026-27 seasonal cost commitments (6 fixtures, 4 hotel nights, £360 accommodation estimate).

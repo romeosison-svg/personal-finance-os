@@ -122,6 +122,7 @@ Santander reference facts from the June joint statement and July plan:
 | Prior estimated recurring shared-bill/card outflows after early July | £840.70 |
 | Prior first-time July MG vehicle DDs | £350.84 |
 | Prior estimated remaining Santander outflows | £1,191.54 |
+| Corrected recurring vehicle commitments | £472.12 |
 | Current Santander balance confirmed by user | £599.42 |
 | Kelly August top-up confirmed by user | £665.00 |
 

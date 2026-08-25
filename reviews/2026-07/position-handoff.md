@@ -52,9 +52,10 @@ These assumptions are locked for 2026-07. Do not override without flagging as an
 | Shared bills account | Santander joint account |
 | Shared household bills baseline | £767.80/month |
 | Spotify Premium Family | £21.99/month gross DD; £7.33 reimbursed by Elaine; £14.66 net household cost |
-| Santander gross monthly outflow before reimbursement | £1,201.92 |
-| Santander net household cost after reimbursement | £1,194.59 |
-| Santander joint top-up need | At least £1,001.92 gross before reimbursement |
+| Santander gross monthly outflow before reimbursement | £1,261.91 |
+| Santander net household cost after reimbursement | £1,254.58 |
+| Santander vehicle commitments | £472.12 shared household commitment; MG PCP £310.84 + MG insurance £40.00 + Zoe insurance £62.28 + Zoe battery lease £59.00 |
+| Santander joint top-up need | At least £1,061.91 gross before reimbursement |
 | Tithe | Kelly only; ~£327.20 based on normalised Kelly net income |
 | MBNA direct debit | £276.21 |
 | MBNA manual top-up | £99.79 |
@@ -92,8 +93,8 @@ These assumptions are locked for 2026-07. Do not override without flagging as an
 | Total household-visible cash | £8,123.29 |
 | Less: preferred cash buffer | -£1,000.00 |
 | Net available before listed commitments | **£7,123.29** |
-| Less: listed known liabilities | -£5,509.02 |
-| **Available for plan decisions** | **£1,614.27** |
+| Less: listed known liabilities | -£5,569.01 |
+| **Available for plan decisions** | **£1,554.28** |
 
 Scope notes:
 
@@ -107,7 +108,7 @@ Scope notes:
 | Obligation | Amount | Due / Timing | Account / Direction | Notes |
 | --- | ---: | --- | --- | --- |
 | Mortgage | £3,069.53 | Monthly date not restated in reconcile | Household | Locked split: Romeo £1,802.51 / Kelly £1,267.02 |
-| Santander joint account gross top-up need | £1,001.92 | Before / around July DDs | Into Santander joint | Current balance £200.00 against £1,201.92 gross monthly outflow |
+| Santander joint account gross top-up need | £1,061.91 | Before / around July DDs | Into Santander joint | Current balance £200.00 against £1,261.91 gross monthly outflow, including £472.12 shared vehicle commitments |
 | M&S credit card DD | £190.00 | ~9 Jul 2026 | Romeo / Lloyds | Expected DD; exceeds £107.09 statement minimum |
 | Romeo / Amex minimum | £142.15 | 10 Jul 2026 | Romeo | Mandatory minimum |
 | Romeo / Barclaycard payment already made | £123.20 | 1 Jul 2026 | Romeo / Lloyds | Satisfies July minimum; paid after locked cash snapshot from reimbursements plus £15.40 Lloyds cash |
@@ -119,7 +120,7 @@ Scope notes:
 | Shared bills settlement adjustment | £35.02 | July 2026 | Romeo -> Kelly | Kelly paid £358.00 against ~£322.98 target share |
 | PPL Challenger League extra hotel night | £91.00 | 18-19 Jul 2026 | Pay at hotel | First Bolton night already paid; travel cost still TBC |
 | PPL Challenger training accommodation | £123.00 | 11 Jul 2026 | TBC | Farnborough Premier Inn semi-flex; Aldershot was full |
-| **Total listed known liabilities** | **£5,509.02** | | | Excludes TBC travel and the internal Zoe reimbursement receivable |
+| **Total listed known liabilities** | **£5,569.01** | | | Excludes TBC travel and the internal Zoe reimbursement receivable |
 
 ### Receivables and Non-Liability Goals
 

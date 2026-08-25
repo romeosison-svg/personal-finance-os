@@ -55,7 +55,7 @@ The locked Position already deducts the following listed July liabilities before
 | Item | Amount |
 | --- | ---: |
 | Mortgage | £3,069.53 |
-| Santander joint account gross top-up need | £1,001.92 |
+| Santander joint account gross top-up need | £1,061.91 |
 | M&S credit card DD | £190.00 |
 | Romeo Amex minimum | £142.15 |
 | Romeo Barclaycard payment already made | £123.20 |
@@ -67,7 +67,7 @@ The locked Position already deducts the following listed July liabilities before
 | Shared bills settlement adjustment | £35.02 |
 | PPL Bolton extra hotel night | £91.00 |
 | PPL Farnborough accommodation | £123.00 |
-| **Total listed known liabilities** | **£5,509.02** |
+| **Total listed known liabilities** | **£5,569.01** |
 
 These are treated as already funded before the affordability test begins.
 
@@ -90,10 +90,10 @@ This affordability check preserves the preferred £1,000 buffer unless the Plan 
 | --- | ---: |
 | Total household-visible cash | £8,123.29 |
 | Less: preferred cash buffer | -£1,000.00 |
-| Less: listed known liabilities | -£5,509.02 |
-| **Available for affordability decisions** | **£1,614.27** |
+| Less: listed known liabilities | -£5,569.01 |
+| **Available for affordability decisions** | **£1,554.28** |
 
-This £1,614.27 is the maximum available for discretionary buckets, optional costs, extra card payments, emergency-fund contribution, and surplus-only goals while preserving the preferred buffer.
+This £1,554.28 is the maximum available for discretionary buckets, optional costs, extra card payments, emergency-fund contribution, and surplus-only goals while preserving the preferred buffer.
 
 ---
 
@@ -123,13 +123,13 @@ The calibrated July buckets are **not fully affordable** while preserving the pr
 
 | Test | Amount |
 | --- | ---: |
-| Available for affordability decisions | £1,614.27 |
+| Available for affordability decisions | £1,554.28 |
 | Less: calibrated bucket requirement | -£2,080.00 |
-| **Shortfall vs calibrated buckets** | **-£465.73** |
+| **Shortfall vs calibrated buckets** | **-£525.72** |
 
-To fund all calibrated buckets without changing anything else, the household would need to operate at an implied buffer of approximately **£534.27** instead of £1,000.
+To fund all calibrated buckets without changing anything else, the household would need to operate at an implied buffer of approximately **£474.28** instead of £1,000.
 
-That is above the absolute £500 minimum buffer, but below the preferred buffer.
+That is below the absolute £500 minimum buffer.
 
 ---
 
@@ -150,13 +150,13 @@ The Zoe settlement affects ownership and fairness between accounts, not aggregat
 
 ## Required Adjustments
 
-If the preferred £1,000 buffer is preserved, July must reduce the calibrated bucket plan by at least **£465.73** before approving any optional spending or extra debt repayment.
+If the preferred £1,000 buffer is preserved, July must reduce the calibrated bucket plan by at least **£525.72** before approving any optional spending or extra debt repayment.
 
 User direction added 2026-07-02: use the minimum-buffer approach and trim buckets enough to prioritise clearing Barclaycard.
 
 Possible adjustment routes for Plan:
 
-1. Reduce controllable buckets to **£1,614.27** and approve no optional plumbing, no emergency-fund contribution, and no extra card repayment above already-listed liabilities.
+1. Reduce controllable buckets to **£1,554.28** and approve no optional plumbing, no emergency-fund contribution, and no extra card repayment above already-listed liabilities.
 2. Preserve more of the calibrated buckets by temporarily operating closer to the £500 minimum buffer.
 3. Fund plumbing only by either reducing buckets further or accepting a lower buffer.
 4. Treat any Amex pay-in-full amount above the minimum as a Plan trade-off against buckets, not as automatically affordable.
@@ -171,16 +171,16 @@ This phase does not choose the final cuts. For Plan, the affordability ceiling i
 
 | Scenario | Bucket funding | Optional plumbing | Extra card repayment above listed liabilities | Result |
 | --- | ---: | ---: | ---: | --- |
-| Preserve preferred buffer | £1,614.27 | £0.00 | £0.00 | Affordable |
-| Full calibrated buckets | £2,080.00 | £0.00 | £0.00 | Short by £465.73 |
-| Full calibrated buckets + plumbing | £2,080.00 | £300.00 | £0.00 | Short by £765.73 |
-| Preserve preferred buffer + plumbing | £1,314.27 | £300.00 | £0.00 | Affordable only if buckets are cut to £1,314.27 |
-| Minimum-buffer approach | Up to £2,114.27 | £0.00 | £0.00 | Uses cash down to £500 buffer |
-| Minimum buffer + clear Barclaycard | £1,911.30 | £0.00 | £202.97 | Affordable; trims calibrated buckets by £168.70 |
+| Preserve preferred buffer | £1,554.28 | £0.00 | £0.00 | Affordable |
+| Full calibrated buckets | £2,080.00 | £0.00 | £0.00 | Short by £525.72 |
+| Full calibrated buckets + plumbing | £2,080.00 | £300.00 | £0.00 | Short by £825.72 |
+| Preserve preferred buffer + plumbing | £1,254.28 | £300.00 | £0.00 | Affordable only if buckets are cut to £1,254.28 |
+| Minimum-buffer approach | Up to £2,054.28 | £0.00 | £0.00 | Uses cash down to £500 buffer; still short of full calibrated buckets |
+| Minimum buffer + clear Barclaycard | £1,851.31 | £0.00 | £202.97 | Affordable; trims calibrated buckets by £228.69 |
 
-The minimum-buffer approach creates only **£34.27** of headroom above full calibrated buckets, so it still does not fund plumbing or meaningful extra card repayment without further cuts.
+The minimum-buffer approach remains **£25.72** short of full calibrated buckets, so it does not fund plumbing or meaningful extra card repayment without further cuts.
 
-With the user-directed bucket trim, Plan should test a working bucket ceiling of **£1,911.30** and allocate **£202.97** to clear the remaining Barclaycard balance.
+With the user-directed bucket trim, Plan should test a working bucket ceiling of **£1,851.31** and allocate **£202.97** to clear the remaining Barclaycard balance.
 
 Suggested bucket trim for Plan to confirm:
 
@@ -188,10 +188,11 @@ Suggested bucket trim for Plan to confirm:
 | --- | ---: | ---: | ---: |
 | Dining / restaurants | £200.00 | -£70.00 | £130.00 |
 | Fast food | £50.00 | -£25.00 | £25.00 |
-| Coffee / bakery | £50.00 | -£18.70 | £31.30 |
+| Coffee / bakery | £50.00 | -£50.00 | £0.00 |
 | Discretionary transport | £100.00 | -£30.00 | £70.00 |
 | Entertainment | £100.00 | -£25.00 | £75.00 |
-| **Total trim** | | **-£168.70** | |
+| Retail / personal discretionary | £100.00 | -£28.69 | £71.31 |
+| **Total trim** | | **-£228.69** | |
 
 ---
 
@@ -201,7 +202,7 @@ Plan should start from a constrained position:
 
 1. The £2,080 calibrated bucket plan is a useful behavioural target, but it is not fully fundable with the preferred buffer.
 2. User direction is to trim buckets, use the £500 minimum buffer, and prioritise clearing Barclaycard.
-3. The working Plan scenario is £1,911.30 of controllable buckets plus £202.97 to clear the remaining Barclaycard balance.
+3. The working Plan scenario is £1,851.31 of controllable buckets plus £202.97 to clear the remaining Barclaycard balance.
 4. Plumbing at ~£300 can fit only if controllable buckets are reduced further, the buffer is pushed below £500, or another goal is deferred.
 5. The Zoe settlement can be processed as an internal household allocation without reducing aggregate household cash.
 6. Amex pay-in-full is not automatically affordable; only the £142.15 minimum is already included in locked liabilities.

@@ -49,7 +49,8 @@ Before reconcile can be locked, the following must be resolved:
 ### 4. New July direct debits — account not confirmed
 - MG PCP lease: £310.84/month — which account?
 - MG insurance: £40.00/month — which account?
-- Zoe insurance: £61.29/month — which account?
+- Zoe insurance: £62.28/month — Santander joint account, verified from latest available Santander statement
+- Zoe battery lease: £59.00/month — Santander joint account, RCI Financial Services
 - Action: ask user
 
 ### 5. Joint account estimated balance

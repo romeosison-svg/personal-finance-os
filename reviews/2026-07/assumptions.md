@@ -86,10 +86,10 @@ Shared household bills use the same proportional-income methodology as the mortg
 | Kelly target share of £782.46 net cost | Calculated from income % | ~£322.98 | No | £782.46 x 41.3% |
 | Kelly already paid into Santander joint | N/A | £358.00 | No | Pre-existing July contribution |
 | Shared bills settlement adjustment | N/A | Romeo owes Kelly ~£35.02 | No | Kelly paid £358.00 against a target share of ~£322.98 |
-| Santander joint account DDs | New July DDs confirmed | £412.13 | No | MG PCP £310.84 + MG insurance £40.00 + Zoe insurance £61.29 |
-| Santander gross monthly outflow before reimbursement | N/A | £1,201.92 | No | £789.79 shared bills gross outflow + £412.13 vehicle DDs |
-| Santander net household cost after reimbursement | N/A | £1,194.59 | No | £782.46 net shared bills + £412.13 vehicle DDs |
-| Santander joint top-up need | N/A | At least £1,001.92 gross before reimbursement | No | Current estimated balance £200.00; top-up required before/around July DDs; Elaine reimbursement reduces net cost by £7.33 after receipt |
+| Santander vehicle commitments | Shared household commitments | £472.12 | No | MG PCP £310.84 + MG insurance £40.00 + Zoe insurance £62.28 + Zoe battery lease £59.00; all paid from Santander joint account and allocated by normal household-income split |
+| Santander gross monthly outflow before reimbursement | N/A | £1,261.91 | No | £789.79 shared bills gross outflow + £472.12 vehicle commitments |
+| Santander net household cost after reimbursement | N/A | £1,254.58 | No | £782.46 net shared bills + £472.12 vehicle commitments |
+| Santander joint top-up need | N/A | At least £1,061.91 gross before reimbursement | No | Current estimated balance £200.00 against full-month gross outflow; Elaine reimbursement reduces net household cost by £7.33 after receipt |
 
 ---
 
@@ -148,9 +148,11 @@ Clarification added 2026-07-01: Kelly's personal savings replenishment is a goal
 
 | Item | Assumption | This Month Value | Notes |
 | --- | --- | ---: | --- |
-| MG PCP | Kelly vehicle commitment | £310.84 | Paid from Santander joint account per reconcile |
-| MG insurance | Kelly vehicle commitment | £40.00 | Paid from Santander joint account per reconcile |
-| Zoe insurance | Vehicle commitment | £61.29 | Paid from Santander joint account per reconcile |
+| MG PCP | Shared household vehicle commitment | £310.84 | Paid from Santander joint account; allocate by locked 58.7% / 41.3% household-income split |
+| MG insurance | Shared household vehicle commitment | £40.00 | Paid from Santander joint account; allocate by locked 58.7% / 41.3% household-income split |
+| Zoe insurance | Shared household vehicle commitment | £62.28 | Verified from 2026-06 Santander joint statement; allocate by locked 58.7% / 41.3% household-income split |
+| Zoe battery lease | Shared household vehicle commitment | £59.00 | RCI Financial Services DD from Santander joint account; allocate by locked 58.7% / 41.3% household-income split |
+| Total recurring vehicle commitments | Shared household vehicle commitments | £472.12 | Romeo share £277.13 / Kelly share £194.99; do not add Aviva or RCI twice if a Plan-stage Santander estimate already includes them in recurring outflows |
 | Zoe vehicle cost settlement | Shared household vehicle reconciliation | £428.94 outstanding | Treat as a shared household vehicle cost recovery; may be funded from household cash rather than Kelly's personal spend bucket |
 | PPL Challenger League - Bolton Arena | Known seasonal cost | First night already paid; extra night £91 payable at hotel; travel TBC | Fixture 18-19 Jul 2026; extended by one night |
 | PPL Challenger training - Farnborough | Planned seasonal cost | £123 semi-flex Premier Inn for one night on 11 Jul 2026 | Aldershot was full; booking under consideration |

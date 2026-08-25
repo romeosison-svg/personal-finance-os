@@ -53,7 +53,7 @@ Statement issues on July 3rd (billing period mostly covers May transactions). No
 ### New Direct Debits (effective July 2026)
 - MG PCP lease: £310.84/month
 - Car insurance (MG): £40.00/month
-- Car insurance (Zoe — keeping): £61.29/month
+- Car insurance (Zoe — keeping): £62.28/month
 
 ### Kelly Reimbursement — Zoe Vehicle Costs
 £428.94 due from Kelly for shared Zoe vehicle costs (April repair £287.00 + April service £426.26 + May repair £286.60 = £999.86 total, split 50/50 less Romeo's half). Agreed in June 2026 review (`reviews/2026-06/plan.md`). Capture in reconcile reimbursements table and confirm whether payment has been received.

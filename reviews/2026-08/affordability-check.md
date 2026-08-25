@@ -55,7 +55,7 @@ The locked Position already deducts the following listed August liabilities befo
 | Item | Amount |
 | --- | ---: |
 | Mortgage | £3,069.53 |
-| Santander joint account gross top-up need | £602.50 |
+| Santander joint account gross top-up need | £662.49 |
 | M&S BT DD | £190.00 |
 | Romeo Amex minimum | £126.00 |
 | Romeo Barclaycard minimum | £16.10 |
@@ -64,7 +64,7 @@ The locked Position already deducts the following listed August liabilities befo
 | M&S manual top-up to target | £5.00 |
 | Kelly Amex minimum | £27.52 |
 | Kelly tithe | £423.40 |
-| **Total listed known liabilities** | **£4,836.05** |
+| **Total listed known liabilities** | **£4,896.04** |
 
 These are treated as already funded before the affordability test begins.
 
@@ -87,8 +87,8 @@ This affordability check preserves the preferred £1,000 buffer.
 | --- | ---: |
 | Total operating household-visible cash | £8,751.04 |
 | Less: preferred cash buffer | -£1,000.00 |
-| Less: listed known liabilities | -£4,836.05 |
-| **Available for affordability decisions** | **£2,914.99** |
+| Less: listed known liabilities | -£4,896.04 |
+| **Available for affordability decisions** | **£2,855.00** |
 
 Scope notes:
 
@@ -126,9 +126,9 @@ The calibrated August buckets are fully affordable while preserving the preferre
 
 | Test | Amount |
 | --- | ---: |
-| Available for affordability decisions | £2,914.99 |
+| Available for affordability decisions | £2,855.00 |
 | Less: calibrated bucket requirement | -£2,575.00 |
-| **Headroom after calibrated buckets** | **£339.99** |
+| **Headroom after calibrated buckets** | **£280.00** |
 
 The household can fund the full calibrated bucket requirement without reducing the preferred buffer and without using the pending IOND proceeds.
 
@@ -138,7 +138,7 @@ The household can fund the full calibrated bucket requirement without reducing t
 
 | Scenario | Result |
 | --- | --- |
-| Preserve preferred £1,000 buffer and fund full calibrated buckets | Affordable; £339.99 headroom remains |
+| Preserve preferred £1,000 buffer and fund full calibrated buckets | Affordable; £280.00 headroom remains |
 | Preserve minimum £500 buffer and fund full calibrated buckets | Affordable; £839.99 headroom above minimum buffer |
 | Include pending Kelly £400 reimbursement after receipt | Would increase available headroom to £739.99 if treated as available household cash |
 | Include pending IOND proceeds as general cash | Not tested; locked assumptions exclude it pending portfolio-os allocation |
@@ -149,7 +149,7 @@ The household can fund the full calibrated bucket requirement without reducing t
 
 No reductions to the calibrated August bucket limits are required for affordability.
 
-No optional surplus use is approved in this phase. The £339.99 headroom belongs to Plan.
+No optional surplus use is approved in this phase. The £280.00 headroom belongs to Plan.
 
 ---
 
@@ -169,8 +169,8 @@ Detailed bucket limits remain as set in `budget-calibration.md`.
 ## Implications for Plan
 
 1. Plan can start from the full calibrated bucket requirement of £2,575.00.
-2. The preferred £1,000 buffer can be preserved with £339.99 headroom remaining.
-3. The £339.99 headroom is not allocated by this phase.
+2. The preferred £1,000 buffer can be preserved with £280.00 headroom remaining.
+3. The £280.00 headroom is not allocated by this phase.
 4. IOND proceeds remain excluded from ordinary plan cash unless the portfolio allocation assumption changes.
 5. Kelly's pending £400.00 reimbursement should be handled by Plan only if timing and treatment are confirmed there.
 6. Santander internal settlement remains a Plan trace item because the exact amount is still pending.

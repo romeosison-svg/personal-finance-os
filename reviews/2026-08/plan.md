@@ -25,7 +25,7 @@
 | --- | ---: |
 | Total operating household-visible cash | £8,751.04 |
 | Preferred cash buffer | £1,000.00 |
-| Known liabilities from Position | £4,836.05 |
+| Known liabilities from Position | £4,896.04 |
 | Original calibrated controllable buckets | £2,575.00 |
 | Plan treatment of calibrated buckets | Guardrails only; not funded as upfront cash buckets in August |
 
@@ -47,7 +47,7 @@ Restricted / pending cash:
 | --- | ---: | --- | --- | --- |
 | Mortgage | £1,607.43 | Romeo current account | Monthly date not restated | Romeo share |
 | Mortgage | £1,462.10 | Kelly current account | Monthly date not restated | Kelly share |
-| Santander joint top-up | £602.50 | Romeo current account -> Santander joint | August 2026 | Covers remaining gross top-up need after Kelly's earlier £665.00 top-up |
+| Santander joint top-up | £662.49 | Romeo current account -> Santander joint | August 2026 | Covers remaining gross top-up need after Kelly's earlier £665.00 top-up; corrected for shared MG PCP, MG insurance, Zoe insurance, and Zoe battery lease |
 | Romeo Amex payment | £1,139.80 | Romeo current account -> Romeo Amex | By 2026-08-09 | Pays statement balance in full |
 | M&S BT DD | £190.00 | Romeo current account -> M&S | 2026-08-09 | Direct Debit |
 | Romeo Barclaycard payment | £214.00 | Romeo current account -> Barclaycard | By 2026-08-10 | Clears full £214.00 balance |
@@ -57,32 +57,32 @@ Restricted / pending cash:
 | MBNA July catch-up top-up | £99.79 | Romeo current account -> MBNA | August 2026 | Catches up missed July planned MBNA top-up |
 | M&S manual top-up | £5.00 | Romeo current account -> M&S | August 2026 | Brings M&S BT payment to £195.00 operational target |
 | Kelly tithe | £423.40 | Kelly current account | August 2026 | 10% of Kelly net pay |
-| **Total planned payments** | **£7,210.15** | | | |
+| **Total planned payments** | **£7,270.14** | | | |
 
 Notes:
 
-- This is £2,176.20 higher than the first draft plan because Romeo Amex is paid in full, Kelly Amex is paid down to the pending reimbursement balance, and £213.79 of the above-buffer reserve is used for MBNA.
+- This is £2,236.19 higher than the first draft plan because Romeo Amex is paid in full, Kelly Amex is paid down to the pending reimbursement balance, £213.79 of the above-buffer reserve is used for MBNA, and the Santander top-up is corrected for shared vehicle commitments.
 - The full calibrated bucket system is not adopted as upfront cash funding this month.
 
 ---
 
 ## Santander Top-Up Settlement
 
-Kelly has already paid £665.00 into Santander. The plan adds £602.50 from Romeo into Santander, making total August Santander funding of £1,267.50.
+Kelly has already paid £665.00 into Santander. The plan adds £662.49 from Romeo into Santander, making total August Santander funding of £1,327.49.
 
 Using the locked August split:
 
-| Person | Share | Target share of £1,267.50 | Actual Santander funding | Settlement |
+| Person | Share | Target share of £1,327.49 | Actual Santander funding | Settlement |
 | --- | ---: | ---: | ---: | ---: |
-| Romeo | 52.37% | £663.79 | £602.50 | Pays Kelly £61.29 |
-| Kelly | 47.63% | £603.71 | £665.00 | Receives £61.29 |
-| **Total** | **100.00%** | **£1,267.50** | **£1,267.50** | **£0.00** |
+| Romeo | 52.37% | £695.21 | £662.49 | Pays Kelly £32.72 |
+| Kelly | 47.63% | £632.28 | £665.00 | Receives £32.72 |
+| **Total** | **100.00%** | **£1,327.49** | **£1,327.49** | **£0.00** |
 
 Settlement action:
 
 | Transfer | Amount | Timing | Treatment |
 | --- | ---: | --- | --- |
-| Romeo -> Kelly | £61.29 | August 2026 | Internal household settlement; does not reduce aggregate household-visible cash |
+| Romeo -> Kelly | £32.72 | August 2026 | Internal household settlement; does not reduce aggregate household-visible cash |
 
 ---
 
@@ -179,10 +179,10 @@ User update during Plan:
 | Item | Amount |
 | --- | ---: |
 | Romeo Lloyds current balance after completed payments | £691.24 |
-| Remaining planned Lloyds payments / DDs due before 2026-08-31 payday | -£577.99 |
-| **Romeo Lloyds remaining before internal settlements** | **£113.25** |
+| Remaining planned Lloyds payments / DDs due before 2026-08-31 payday | -£637.98 |
+| **Romeo Lloyds remaining before internal settlements** | **£53.26** |
 
-Clarification: the £577.99 figure is the remaining subset of already-planned Lloyds payments/DDs. Some planned August payments had already left Lloyds in the first few days of August before this finance review.
+Clarification: the £637.98 figure is the remaining subset of already-planned Lloyds payments/DDs. Some planned August payments had already left Lloyds in the first few days of August before this finance review.
 
 Completed by Romeo before this update:
 
@@ -200,20 +200,20 @@ Internal settlement impact:
 | Transfer | Direction | Amount |
 | --- | --- | ---: |
 | BT contribution | Kelly -> Romeo | £280.41 |
-| Santander settlement | Romeo -> Kelly | -£61.29 |
-| **Net internal transfer to Romeo** | **Kelly -> Romeo** | **£219.12** |
+| Santander settlement | Romeo -> Kelly | -£32.72 |
+| **Net internal transfer to Romeo** | **Kelly -> Romeo** | **£247.69** |
 
 If both internal settlements are made, Romeo Lloyds before payday becomes:
 
 | Item | Amount |
 | --- | ---: |
-| Romeo Lloyds remaining before internal settlements | £113.25 |
-| Net internal transfer from Kelly | £219.12 |
-| **Romeo Lloyds remaining after internal settlements** | **£332.37** |
+| Romeo Lloyds remaining before internal settlements | £53.26 |
+| Net internal transfer from Kelly | £247.69 |
+| **Romeo Lloyds remaining after internal settlements** | **£300.95** |
 
-This supports Romeo's £283.26 reserve, leaving £49.11 of margin in Romeo Lloyds before payday.
+This supports Romeo's £283.26 reserve, leaving £17.69 of margin in Romeo Lloyds before payday.
 
-The £577.99 figure is not an additional unplanned liability, so the aggregate reserve calculation remains valid.
+The £637.98 figure is not an additional unplanned liability, so the aggregate reserve calculation remains valid.
 
 ---
 
@@ -273,8 +273,8 @@ Notes:
 
 | Date / Timing | Action | Amount |
 | --- | --- | ---: |
-| Immediate | Transfer Romeo Santander top-up | £602.50 |
-| Immediate | Transfer Romeo -> Kelly Santander settlement | £61.29 |
+| Immediate | Transfer Romeo Santander top-up | £662.49 |
+| Immediate | Transfer Romeo -> Kelly Santander settlement | £32.72 |
 | Immediate | Transfer Kelly -> Romeo BT contribution | £280.41 |
 | By 2026-08-09 | Pay Romeo Amex statement balance | £1,139.80 |
 | By 2026-08-09 | Ensure M&S BT DD clears | £190.00 |

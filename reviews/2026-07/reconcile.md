@@ -86,7 +86,8 @@
 | Starling overdraft charge (May) | £3.94 | 15 Jun 2026 | Romeo / Starling | [x] — noted |
 | New: MG PCP lease | £310.84 | From Jul 2026 | Santander joint account | [x] |
 | New: MG insurance | £40.00 | From Jul 2026 | Santander joint account | [x] |
-| New: Zoe insurance | £61.29 | From Jul 2026 | Santander joint account | [x] |
+| New: Zoe insurance | £62.28 | 29 Jun 2026 / recurring monthly | Santander joint account | [x] — verified from latest available Santander statement |
+| Zoe battery lease | £59.00 | 29 Jun 2026 / recurring monthly | Santander joint account | [x] — RCI Financial Services DD verified from latest available Santander statement |
 
 ---
 
@@ -106,7 +107,7 @@
 
 7. **Court reimbursements confirmed manually and already paid** — £107.80 received by Romeo for June court bookings.
 
-8. **Santander joint account needs top-up** — estimated current balance £200.00. New July DDs from the joint account total £412.13 (MG PCP £310.84 + MG insurance £40.00 + Zoe insurance £61.29), before any other joint-account obligations.
+8. **Santander joint account needs top-up** — estimated current balance £200.00. Recurring vehicle commitments paid from the joint account total £472.12 (MG PCP £310.84 + MG insurance £40.00 + Zoe insurance £62.28 + Zoe battery lease £59.00). These are shared household commitments allocated by the normal household-income split. Do not add Aviva or RCI twice if a later Plan-stage Santander schedule already includes them in recurring joint-account outflows.
 
 9. **Romeo / Barclaycard current balance corrected after lock** — user confirmed on 2026-07-02 that the current balance is £202.97. A £123.20 payment was made on 1 Jul 2026 from reimbursements plus £15.40 of Romeo Lloyds cash and is accepted as the July minimum payment. This reduces credit exposure and removes the separate £26.61 future minimum, but it is still a July cash outflow after the locked cash snapshot.
 

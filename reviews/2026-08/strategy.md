@@ -82,8 +82,8 @@ Next review: September 2026 plan, once August spending and Kelly reimbursement a
 ### Vehicle Finance
 
 Status: Open  
-Decision: No change to the current vehicle finance assumption.  
-Reasoning: Kelly's vehicle commitment remains treated as her individual committed expense. PCP end date and balloon payment still need confirmation when available.  
+Decision: Correct vehicle-cost methodology. MG PCP, MG insurance, Zoe insurance, and Zoe battery lease are shared household commitments paid from Santander joint account and allocated using the normal household-income split.
+Reasoning: These costs are recurring household vehicle commitments funded through the joint account, not Kelly-only expenses funded solely from Kelly's salary. Zoe insurance is verified at £62.28 from the latest available Santander statement, and RCI Zoe battery lease is £59.00.
 Next review: Next review where PCP documents or end-date information are available.
 
 ---
@@ -97,6 +97,7 @@ Next review: Next review where PCP documents or end-date information are availab
 | MBNA BT tracked by tranche | Decided | Promotional periods and ownership differ; the June 2026 tranche is Romeo-specific | 2026-08-04 |
 | Kelly BT reimbursement excludes Romeo-specific MBNA tranche | Decided | Keeps shared household BT settlement separate from Romeo-only borrowing | 2026-08-04 |
 | Cash buckets not adopted as upfront funding | Decided for August | Amex remains the practical payment rail; buckets act as spending guardrails | 2026-08-04 |
+| Vehicle commitments allocated as shared household costs | Decided | MG PCP, MG insurance, Zoe insurance, and Zoe battery lease are paid from Santander joint and split by household-income ratio | 2026-08-21 |
 
 ---
 
@@ -123,6 +124,7 @@ The following persistent assumptions were updated during the August review befor
 | Balance-transfer settlement | Profile now requires BTs to be split by shared versus owner-specific tranches when calculating reimbursements |
 | Starling overdraft | Romeo Starling overdraft facility limit recorded as £750.00 |
 | Overdraft planning rule | Every Plan phase must list open overdrafts, show known limit/headroom, and decide repay, partial repay, or defer |
+| Vehicle-cost methodology | MG PCP, MG insurance, Zoe insurance, and Zoe battery lease are shared household commitments paid from Santander joint and allocated by household-income split |
 
 No further `finance-profile.md` change is proposed by this Strategy draft.
 

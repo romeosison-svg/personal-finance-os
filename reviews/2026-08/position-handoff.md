@@ -110,15 +110,15 @@ These assumptions are locked for 2026-08. Do not override without flagging as an
 | Total operating household-visible cash | £8,751.04 |
 | Less: preferred cash buffer | -£1,000.00 |
 | Net available before listed commitments | **£7,751.04** |
-| Less: listed known liabilities | -£4,836.05 |
-| **Available for plan decisions** | **£2,914.99** |
+| Less: listed known liabilities | -£4,896.04 |
+| **Available for plan decisions** | **£2,855.00** |
 
 ### Known Upcoming Payments / Liabilities
 
 | Obligation | Amount | Due / Timing | Type |
 | --- | ---: | --- | --- |
 | Mortgage | £3,069.53 | Monthly date not restated | Household obligation |
-| Santander joint gross top-up need | £602.50 | August 2026 | Shared account funding |
+| Santander joint gross top-up need | £662.49 | August 2026 | Shared account funding; current Santander balance £599.42 against £1,261.91 corrected gross outflow |
 | M&S BT DD | £190.00 | 2026-08-09 | Auto DD |
 | Romeo Amex minimum | £126.00 | 2026-08-09 | Mandatory minimum |
 | Romeo Barclaycard minimum | £16.10 | 2026-08-10 | Mandatory minimum |
@@ -127,7 +127,7 @@ These assumptions are locked for 2026-08. Do not override without flagging as an
 | M&S manual top-up to target | £5.00 | August 2026 | Target top-up assumption |
 | Kelly Amex minimum | £27.52 | 2026-08-18 | Mandatory minimum |
 | Kelly tithe | £423.40 | August 2026 | Kelly obligation |
-| **Total listed known liabilities** | **£4,836.05** | | |
+| **Total listed known liabilities** | **£4,896.04** | | |
 
 ### Receivables / Settlement Items
 
@@ -252,7 +252,7 @@ These assumptions are locked for 2026-08. Do not override without flagging as an
 | --- | --- | ---: | --- |
 | Mortgage | Household | £3,069.53 | Locked split: Romeo £1,607.43 / Kelly £1,462.10 |
 | Shared bills net baseline | Household | £782.46 | Locked split: Romeo £409.75 / Kelly £372.71 |
-| Santander gross top-up need | Household / joint | £602.50 | Current Santander balance £599.42 against assumed £1,201.92 gross outflow |
+| Santander gross top-up need | Household / joint | £662.49 | Current Santander balance £599.42 against assumed £1,261.91 gross outflow, including £472.12 shared vehicle commitments |
 | Tithe | Kelly | £423.40 | 10% of Kelly net pay |
 | MBNA DD | Romeo | £269.30 | Auto from Romeo / Lloyds on 2026-08-20 |
 | MBNA top-up | Romeo | £106.70 | To reach £376.00 operational target |

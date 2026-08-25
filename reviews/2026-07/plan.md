@@ -105,6 +105,8 @@ Santander estimate basis from the June statement:
 
 Clarification: RCI £59.00 remains as the Zoe battery lease. Aviva £62.28 is the Zoe monthly car insurance and is expected to repeat in July. The MG PCP and MG insurance DDs are expected to come out this month for the first time.
 
+Methodology correction: MG PCP (£310.84), MG insurance (£40.00), Zoe insurance (£62.28), and Zoe battery lease (£59.00) are all shared household vehicle commitments paid from Santander joint and allocated by the normal household-income split. The £1,191.54 remaining-outflow estimate already includes Aviva and RCI in the recurring shared-bill/card line, so those DDs must not be added again as separate vehicle costs.
+
 ---
 
 ## Shared Funding Transfers
@@ -282,7 +284,7 @@ To avoid building a recurring plan around non-recurring backpay, July should als
 | **Normalised recurring plan capacity** | **£2,293.32 provisional** |
 | **Backpay / uplift capacity** | **£980.89** |
 
-This means the previous £1,911.30 bucket level is not proven sustainable from normal monthly income. It relied on the June pay uplift unless fixed costs reduce or future income is higher than the current estimate.
+This means the corrected £1,851.31 bucket level from the minimum-buffer-plus-Barclaycard scenario is not proven sustainable from normal monthly income. It relied on the June pay uplift unless fixed costs reduce or future income is higher than the current estimate.
 
 If July is planned as though the £980.89 uplift did not exist, then the normal-income base can support **£2,293.32 provisional** after fixed payments and the £500 buffer. The plan still caps July operating spend at **£1,256.38** until the full cash refresh confirms the provisional Santander improvement.
 

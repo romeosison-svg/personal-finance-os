@@ -116,7 +116,7 @@ These are known commitments and locked planning assumptions for August. This tab
 | Item | Amount | Due Date / Timing | Account / Direction | Notes |
 | --- | ---: | --- | --- | --- |
 | Mortgage | £3,069.53 | Monthly date not restated in reconcile | Household | Locked split: Romeo £1,607.43 / Kelly £1,462.10 |
-| Santander joint account gross top-up need | £602.50 | August 2026 | Into Santander joint | Current balance £599.42 against assumed £1,201.92 gross monthly outflow |
+| Santander joint account gross top-up need | £662.49 | August 2026 | Into Santander joint | Current balance £599.42 against assumed £1,261.91 gross monthly outflow, including £472.12 shared vehicle commitments |
 | M&S credit card DD | £190.00 | 2026-08-09 | Romeo / Lloyds | Expected DD |
 | Romeo / Amex minimum | £126.00 | 2026-08-09 | Romeo | Mandatory minimum |
 | Romeo / Barclaycard minimum | £16.10 | 2026-08-10 | Romeo | Mandatory minimum |
@@ -125,7 +125,7 @@ These are known commitments and locked planning assumptions for August. This tab
 | M&S manual top-up to operational target | £5.00 | August 2026 | Romeo | Assumption only; Plan decides timing |
 | Kelly / Amex minimum | £27.52 | 2026-08-18 | Kelly | Self-funded unless Plan treats otherwise |
 | Kelly tithe | £423.40 | August 2026 | Kelly | Based on confirmed Kelly net income |
-| **Total listed known liabilities** | **£4,836.05** | | | Excludes pending Santander settlement imbalance and pending IOND portfolio allocation |
+| **Total listed known liabilities** | **£4,896.04** | | | Excludes pending Santander settlement imbalance and pending IOND portfolio allocation |
 
 Separate receivable / reimbursement:
 
@@ -156,15 +156,15 @@ Separate surplus-only / later-phase items:
 | Total operating household-visible cash | £8,751.04 |
 | Less: preferred cash buffer | -£1,000.00 |
 | Net available before listed commitments | **£7,751.04** |
-| Less: total listed known liabilities | -£4,836.05 |
-| **Available for plan decisions** | **£2,914.99** |
+| Less: total listed known liabilities | -£4,896.04 |
+| **Available for plan decisions** | **£2,855.00** |
 
 Important scope notes:
 
 - The available-for-plan figure uses operating household-visible cash only: Romeo Lloyds, Romeo Starling, Kelly Halifax, and Santander joint.
 - Trading 212 Cash ISA is tracked as emergency fund, not ordinary operating cash.
 - The pending £9,327.50 IOND proceeds are not included in available-for-plan cash because assumptions reserve them for portfolio-os allocation review.
-- The Santander top-up need uses the prior locked gross monthly outflow assumption of £1,201.92 against the user-confirmed current balance of £599.42.
+- The Santander top-up need uses the corrected gross monthly outflow assumption of £1,261.91 against the user-confirmed current balance of £599.42. This includes MG PCP, MG insurance, Zoe insurance, and Zoe battery lease as shared household commitments paid from Santander joint.
 - The Santander top-up imbalance is not calculated in this phase because exact settlement belongs after shared funding is traced.
 - No emergency-fund contribution is included at this phase; assumptions state that contribution is determined in Plan.
 - Payment amounts above mandatory minimums and profile operational targets belong in Plan, not Position.
@@ -175,10 +175,10 @@ Important scope notes:
 
 1. Operating household-visible cash is £8,751.04 before preferred buffer and known liabilities.
 2. Starling is overdrawn by £483.05 and reduces the operating cash position.
-3. Santander current balance is £599.42 against an assumed £1,201.92 gross monthly outflow, leaving a £602.50 gross top-up need before settlement analysis.
+3. Santander current balance is £599.42 against an assumed £1,261.91 gross monthly outflow, leaving a £662.49 gross top-up need before settlement analysis.
 4. Balance transfer balances total £14,865.83, with August operational targets totalling £571.00.
 5. Total credit balances owed are £17,595.76 before the separately tracked Amex Plan It remaining balance of £349.63.
-6. Available-for-plan operating cash is £2,914.99 after the preferred £1,000 buffer and listed known August liabilities.
+6. Available-for-plan operating cash is £2,855.00 after the preferred £1,000 buffer and listed known August liabilities.
 7. IOND proceeds are pending and restricted by the locked portfolio allocation assumption.
 
 ---
@@ -190,4 +190,4 @@ Completed: 2026-08-03
 
 Financial position locked.
 
-Available for planning: **£2,914.99**
+Available for planning: **£2,855.00**

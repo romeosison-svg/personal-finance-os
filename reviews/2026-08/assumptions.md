@@ -89,6 +89,8 @@ Shared household bills use the same proportional-income methodology as the mortg
 | Kelly target share of £782.46 net cost | Calculated from income % | £372.71 | No | £782.46 x 47.6326% |
 | Santander current balance | N/A | £599.42 | No | User-confirmed reconcile fact |
 | Kelly Santander top-up | N/A | £665.00 | No | User-confirmed reconcile fact |
+| Santander vehicle commitments | Shared household commitments | £472.12 | No | MG PCP £310.84 + MG insurance £40.00 + Zoe insurance £62.28 + Zoe battery lease £59.00; all paid from Santander joint and allocated by normal household-income split |
+| Santander gross monthly outflow before reimbursement | N/A | £1,261.91 | No | £789.79 shared bills gross outflow + £472.12 vehicle commitments |
 | Santander top-up imbalance | N/A | Track in Position / Plan | No | Kelly likely paid above ratio share; exact balancing amount depends on August shared outflow facts |
 
 No Santander reimbursement or top-up decision is made in this phase.
@@ -156,9 +158,11 @@ No August emergency-fund contribution is assumed at this phase.
 
 | Item | Assumption | This Month Value | Notes |
 | --- | --- | ---: | --- |
-| MG PCP | Kelly vehicle commitment | £310.84 | Known from prior review / Santander shared account tracking |
-| MG insurance | Kelly vehicle commitment | £40.00 | Known from prior review / Santander shared account tracking |
-| Zoe insurance | Vehicle commitment | £61.29 | Known from prior review / Santander shared account tracking |
+| MG PCP | Shared household vehicle commitment | £310.84 | Paid from Santander joint account; allocate by locked 52.37% / 47.63% household-income split |
+| MG insurance | Shared household vehicle commitment | £40.00 | Paid from Santander joint account; allocate by locked 52.37% / 47.63% household-income split |
+| Zoe insurance | Shared household vehicle commitment | £62.28 | Verified from latest available Santander statement; allocate by locked 52.37% / 47.63% household-income split |
+| Zoe battery lease | Shared household vehicle commitment | £59.00 | RCI Financial Services DD from Santander joint account; allocate by locked 52.37% / 47.63% household-income split |
+| Total recurring vehicle commitments | Shared household vehicle commitments | £472.12 | Romeo share £247.25 / Kelly share £224.87; do not add Aviva or RCI twice if a Santander estimate already includes them in recurring outflows |
 | Santander joint-account funding | Shared account liquidity item | Kelly paid £665.00; balance £599.42 | Exact ratio settlement to be calculated later from locked facts |
 | IOND share sale proceeds | One-off pending cash inflow | £9,327.50 | User-confirmed pending transfer to Romeo bank account; allocation to be checked with portfolio-os |
 | IOND proceeds intended Cash ISA allocation | Pending portfolio-os consultation | At least £5,000.00 | User-stated intention; not a final investment decision in this phase |
