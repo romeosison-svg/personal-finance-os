@@ -700,6 +700,21 @@ User-confirmed on 2026-08-25 for the upcoming Turkey trip:
 | Monzo balance for Turkish lira withdrawal | £75 | Hold in Monzo for local TRY cash withdrawal while in Turkey |
 | **Total September travel cash set-aside** | **~£335** | Surface during September assumptions and include in position / affordability / plan if still required |
 
+Treat the Turkey travel cash set-aside as a shared household travel cost. Allocate it between Romeo and Kelly using the normal household-income split confirmed in the September review, unless the user explicitly overrides the split.
+
+For the September review, test whether the trip cash can be funded from a deliberate one-week low-spend window before touching buffers, debt repayments, or fixed commitments.
+
+Suggested one-week funding stack for a ~£270 cash requirement:
+
+| Source | Planning amount | Notes |
+| --- | ---: | --- |
+| Pickleball / sport pause | ~£100 | Based on recent household pickleball run-rate |
+| Kelly London train / TFL avoided | ~£70 | Count if Kelly is not travelling into London that week |
+| Dining / takeaway / coffee cut | ~£50 | No-eating-out week |
+| Groceries tighter week | ~£35 | Essentials-only grocery week |
+| Miscellaneous discretionary freeze | ~£15 | Small personal discretionary pause |
+| **Total one-week funding stack** | **~£270** | Use as September planning assumption, then verify actual commitments |
+
 FinanceOS should treat this as a known September travel cash requirement unless the user updates or cancels it. LifeCoach OS remains the source of truth for itinerary details and any additional trip components.
 
 ---
@@ -707,7 +722,7 @@ FinanceOS should treat this as a known September travel cash requirement unless 
 ## Last Updated
 
 Date: 2026-08-25
-Reason: Added September 2026 Turkey travel cash planning assumption: at least EUR 300 cash conversion, estimated at ~£260, plus £75 held in Monzo for Turkish lira withdrawal.
+Reason: Added September 2026 Turkey travel cash planning assumption: at least EUR 300 cash conversion, estimated at ~£260, plus £75 held in Monzo for Turkish lira withdrawal. Added one-week low-spend funding stack using pickleball pause, avoided Kelly London travel, food-out reduction, tighter groceries, and discretionary freeze. Treat Turkey travel cash as a shared household travel cost allocated by the normal household-income split.
 
 Previous: 2026-08-21 — Corrected recurring vehicle-cost methodology. MG PCP, MG insurance, Zoe insurance, and Zoe battery lease are shared household commitments paid from Santander joint account and allocated by household-income split. Zoe insurance verified at £62.28 from the latest available Santander statement.
 
