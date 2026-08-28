@@ -1,0 +1,33 @@
+# Strategy — September 2026
+
+> Requires: Plan complete
+
+## Phase Status
+
+| Phase                | Status      | Completed  |
+| -------------------- | ----------- | ---------- |
+| Collect              | Complete    | 2026-08-28 |
+| Reconcile            | Not Started |            |
+| Assumptions          | Not Started |            |
+| Position             | Not Started |            |
+| Handoff              | Not Started |            |
+| Analyse              | Not Started |            |
+| Budget Calibration   | Not Started |            |
+| Affordability Check  | Not Started |            |
+| Plan                 | Not Started |            |
+| Strategy             | Not Started |            |
+
+---
+
+## Strategic Review
+
+Review longer-term risks, trade-offs, and standing assumptions after the September plan is complete.
+
+---
+
+## Phase Lock
+
+Status: Not Started
+Completed:
+
+Strategic review complete.
