@@ -8,7 +8,7 @@
 | Reconcile            | Complete    | 2026-08-28 |
 | Assumptions          | Complete    | 2026-08-28 |
 | Position             | Complete    | 2026-08-28 |
-| Handoff              | Not Started |            |
+| Handoff              | Complete    | 2026-08-28 |
 | Analyse              | Not Started |            |
 | Budget Calibration   | Not Started |            |
 | Affordability Check  | Not Started |            |
