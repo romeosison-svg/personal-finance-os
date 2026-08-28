@@ -86,15 +86,20 @@
 | Item | Total | Romeo 59.5% | Kelly 40.5% |
 | --- | ---: | ---: | ---: |
 | Mortgage | £3,069.53 | £1,826.37 | £1,243.16 |
-| Shared bills baseline | £767.80 | £456.84 | £310.96 |
+| Shared bills gross recurring outflow | £789.79 | £469.93 | £319.86 |
+| Shared bills net household cost | £782.46 | £465.56 | £316.90 |
 | Shared vehicle commitments | £472.12 | £280.91 | £191.21 |
 | Turkey travel cash set-aside | £335.00 | £199.32 | £135.68 |
-| Combined shared inputs | £4,644.45 | £2,763.45 | £1,881.00 |
+| Combined shared inputs, gross | £4,666.44 | £2,776.54 | £1,889.91 |
+| Combined shared inputs, net of Spotify reimbursement | £4,659.11 | £2,772.17 | £1,886.94 |
 
 ## Other Locked Assumptions And Facts
 
 - Santander joint account statement is unavailable until after review start; use user-confirmed £58.77 balance until replaced by statement evidence.
-- Santander immediate funding gap against shared bills plus vehicles is £1,181.15 before timing analysis.
+- Post-lock clarification on 2026-08-29: Spotify Premium Family remains relevant, and all listed Santander recurring items remain relevant for September.
+- Santander recurring gross outflow is £1,261.91: £767.80 shared bills baseline + £21.99 Spotify + £472.12 shared vehicle commitments.
+- Santander recurring net household cost is £1,254.58 after Elaine's £7.33 Spotify reimbursement.
+- Santander immediate gross funding gap against recurring outflows is £1,203.14 before timing analysis.
 - Starling overdraft balance is -£549.87; facility limit is £750.00; interest rate is 35% EAR variable; latest charge was £10.42.
 - Chip Cash ISA screenshot shows £20,032.43, 4.55% AER, and £9.79 interest earned this month due 14 Sep 2026.
 - Turkey trip cash assumption is EUR 300 plus £75 Monzo TRY withdrawal float.

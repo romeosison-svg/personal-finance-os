@@ -11,7 +11,7 @@
 | Assumptions          | Complete    | 2026-08-28 |
 | Position             | Complete    | 2026-08-28 |
 | Handoff              | Complete    | 2026-08-28 |
-| Analyse              | Not Started |            |
+| Analyse              | Complete    | 2026-08-29 |
 | Budget Calibration   | Not Started |            |
 | Affordability Check  | Not Started |            |
 | Plan                 | Not Started |            |
@@ -35,6 +35,8 @@ Confirm or override for this month.
 | Mortgage split | Proportional to net household income | Use September split: Romeo 59.5%, Kelly 40.5% | No | Based on verified September net income |
 | Bill split | Proportional to net household income | Use September split: Romeo 59.5%, Kelly 40.5% | No | Same methodology as mortgage |
 | Shared bills baseline | £767.80/month before reimbursable Spotify | Use profile baseline until Santander statement is available | Temporary source limitation | Santander activity cannot be verified yet |
+| Spotify Premium Family gross DD | £21.99/month DD; £14.66 net cost | £21.99 gross DD remains relevant; Elaine reimbursement remains £7.33 | No | User-confirmed on 2026-08-29 |
+| Shared household bills net cost | £782.46/month | £782.46/month | No | £767.80 shared bills baseline + £21.99 Spotify - £7.33 Elaine reimbursement |
 | Vehicle commitments | £472.12/month shared from Santander joint | Use profile baseline and September split; do not double count inside joint-account outflows | No | Vehicle costs remain shared household commitments |
 | Kelly current-account DD baseline | £88.14/month | £88.14/month | No | August Halifax current statement supports the expected £11.69, £65.00, and £11.45 DDs |
 | Romeo Lloyds fixed DD baseline | £454.02/month | £454.02/month | No | August Lloyds statement supports the recurring baseline including Vitality Health at £82.40 |
@@ -69,6 +71,7 @@ Confirm or override for this month.
 | Override | Normal Value | September Value | Review Date | Reason |
 | --- | --- | --- | --- | --- |
 | Santander source limitation | Use Santander statement for joint-account balance and activity | Use user-confirmed £58.77 current balance until statement is available | September position / plan | Statement is issued after the review start date |
+| Santander post-lock clarification | September assumptions originally carried £767.80 shared bills plus £472.12 vehicles, with Spotify only implicit in profile prompts | User confirmed on 2026-08-29 that Spotify and all listed Santander recurring items remain relevant for September | September position / plan | Correct Santander gross outflow to £1,261.91 and net household cost to £1,254.58 in later phases |
 | Turkey travel Plan It treatment | Amex pay-in-full default where cashflow permits | BA Holidays £448 expected as 12-month Plan It; Gatwick parking/Fast Track £102.20 treated as post-statement approved Plan It | September position / plan | User preference is to spread larger annual-trip purchases and confirmed Gatwick Plan It changed the Amex app balance |
 | Turkey cash set-aside | No standing monthly travel-cash set-aside | EUR 300 cash plus £75 Monzo TRY withdrawal float | September plan | Known September trip cash requirement |
 

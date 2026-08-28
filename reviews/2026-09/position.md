@@ -11,7 +11,7 @@
 | Assumptions          | Complete    | 2026-08-28 |
 | Position             | Complete    | 2026-08-28 |
 | Handoff              | Complete    | 2026-08-28 |
-| Analyse              | Not Started |            |
+| Analyse              | Complete    | 2026-08-29 |
 | Budget Calibration   | Not Started |            |
 | Affordability Check  | Not Started |            |
 | Plan                 | Not Started |            |
@@ -79,9 +79,12 @@
 | Liability | Amount | Due / Timing | Account | Notes |
 | --- | ---: | --- | --- | --- |
 | Mortgage | £3,069.53 | September cycle | Household | Split by September income: Romeo £1,826.37 / Kelly £1,243.16 |
-| Shared bills baseline | £767.80 | September cycle | Santander joint | Split by September income: Romeo £456.84 / Kelly £310.96; Santander statement unavailable |
+| Shared bills gross recurring outflow | £789.79 | September cycle | Santander joint | £767.80 baseline + £21.99 Spotify; split indicator Romeo £469.93 / Kelly £319.86; Santander statement unavailable |
+| Elaine Spotify reimbursement | -£7.33 | September cycle | Santander joint / household | Reduces net household cost after receipt |
+| Shared bills net household cost | £782.46 | September cycle | Santander joint | £789.79 gross less £7.33 reimbursement; split indicator Romeo £465.56 / Kelly £316.90 |
 | Shared vehicle commitments | £472.12 | September cycle | Santander joint | Split by September income: Romeo £280.91 / Kelly £191.21; do not double count if included in joint-account outflows |
-| Santander immediate funding gap against bills + vehicles | £1,181.15 | Before next Santander outflows | Santander joint | £767.80 + £472.12 less current £58.77 balance; split indicator Romeo £702.78 / Kelly £478.37 |
+| Santander immediate gross funding gap | £1,203.14 | Before next Santander outflows | Santander joint | £789.79 shared bills gross + £472.12 vehicles less current £58.77 balance; split indicator Romeo £715.87 / Kelly £487.27 |
+| Santander net household funding gap after reimbursement | £1,195.81 | After Elaine reimbursement | Santander joint | £782.46 shared bills net + £472.12 vehicles less current £58.77 balance; split indicator Romeo £711.51 / Kelly £484.30 |
 | Turkey travel cash set-aside | £335.00 | Before 19 Sep 2026 | Shared travel cash / Monzo | EUR 300 cash assumption plus £75 Monzo TRY withdrawal float; split indicator Romeo £199.32 / Kelly £135.68 |
 | Turkey euro cash items from LifeCoach | EUR 274.00 | During 19-25 Sep 2026 trip | Cash | Covered by EUR 300 assumption before discretionary extras/provider spread |
 | Kelly tithe | £316.97 | September cycle | Kelly | 10% of verified Kelly net pay |
@@ -94,14 +97,17 @@
 | Item | Total | Romeo 59.5% | Kelly 40.5% | Notes |
 | --- | ---: | ---: | ---: | --- |
 | Mortgage | £3,069.53 | £1,826.37 | £1,243.16 | Income-proportional split |
-| Shared bills baseline | £767.80 | £456.84 | £310.96 | Uses profile baseline pending Santander statement |
+| Shared bills gross recurring outflow | £789.79 | £469.93 | £319.86 | Includes £21.99 Spotify gross DD |
+| Shared bills net household cost | £782.46 | £465.56 | £316.90 | Net of £7.33 Elaine Spotify reimbursement |
 | Shared vehicle commitments | £472.12 | £280.91 | £191.21 | Paid from Santander joint; avoid double count |
 | Turkey travel cash set-aside | £335.00 | £199.32 | £135.68 | Shared household travel |
-| Combined shared position inputs above | £4,644.45 | £2,763.45 | £1,881.00 | Snapshot only; payment timing belongs in Plan |
+| Combined shared position inputs above, gross | £4,666.44 | £2,776.54 | £1,889.91 | Mortgage + gross bills + vehicles + Turkey cash |
+| Combined shared position inputs above, net of Spotify reimbursement | £4,659.11 | £2,772.17 | £1,886.94 | Mortgage + net bills + vehicles + Turkey cash |
 
 ## Position Notes
 
 - Santander joint account is the immediate weak point in the position: current balance is £58.77 and the statement is not yet available.
+- Post-lock clarification on 2026-08-29: Spotify remains relevant alongside all other Santander recurring items, so Santander recurring outflow is £1,261.91 gross and £1,254.58 net after Elaine reimbursement.
 - Chip Cash ISA is inside the £20,000-£22,000 emergency-fund target range and should be treated as restricted unless a later phase documents an override.
 - Starling remains overdrawn by £549.87 and must be carried forward into Plan while open.
 - Romeo Amex uses the user-confirmed app-adjusted balance of £1,224.84, not the PDF statement balance of £1,364.84.
