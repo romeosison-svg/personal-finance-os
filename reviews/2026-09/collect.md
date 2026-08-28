@@ -6,7 +6,7 @@
 | -------------------- | ----------- | ---------- |
 | Collect              | Complete    | 2026-08-28 |
 | Reconcile            | Complete    | 2026-08-28 |
-| Assumptions          | Not Started |            |
+| Assumptions          | Complete    | 2026-08-28 |
 | Position             | Not Started |            |
 | Handoff              | Not Started |            |
 | Analyse              | Not Started |            |
