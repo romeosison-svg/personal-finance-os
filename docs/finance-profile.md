@@ -22,7 +22,7 @@ Percentages are derived during the monthly review from current income figures.
 | Preferred cash buffer  | £1,000                   | Target month-end cash position before discretionary allocations     |
 | Buffer methodology     | Preserve liquidity first | Cashflow stability takes precedence over accelerated debt reduction |
 | Emergency fund target  | £20,000 - £22,000        | Long-term target                                                    |
-| Emergency fund current | £15,091                | Trading 212 emergency fund; updated 2026-07-07 after Tesla trim     |
+| Emergency fund current | £15,091                | Now held in Chip Cash ISA; current balance to be updated during the next review |
 
 ### Minimum Cash Buffer
 
@@ -126,7 +126,8 @@ Romeo Lloyds card / balance-transfer payments:
 
 | Assumption | Value | Notes |
 | --- | --- | --- |
-| Net monthly income | (confirm monthly) | Updated during collect/reconcile each month from payslip |
+| Net monthly income | (confirm monthly) | Updated during collect/reconcile each month from payslip or Lloyds salary receipt |
+| Salary receipt identifier | `TEKSYSTEMS GLOBAL` | Look for this transaction in Romeo Lloyds current-account statements during reconcile |
 
 ### Kelly
 
@@ -430,8 +431,8 @@ During each monthly review:
 | --------------------------------------- | ------------------- | ----------------------------------------------------------------------------- |
 | Emergency fund target                   | £20,000 - £22,000   | Long-term target based on approximately 3-4 months of core household expenses |
 | Emergency fund contribution methodology | Variable            | Determined during monthly planning phase based on available cashflow          |
-| Emergency fund account                  | Trading 212 emergency fund | Must remain accessible enough for emergency use                               |
-| Emergency fund current                  | £15,091             | Updated 2026-07-07 after Romeo trimmed Tesla position and sold £10,000        |
+| Emergency fund account                  | Chip Cash ISA       | Must remain accessible enough for emergency use                               |
+| Emergency fund current                  | £15,091             | Current balance to be updated during the next review; prior Trading 212 balance was updated 2026-07-07 after Romeo trimmed Tesla position and sold £10,000 |
 | Emergency fund minimum operating level  | £5,000              | Avoid reducing below this level unless unavoidable                            |
 | Months to target (calculated)           | £4,909 - £6,909 gap | Based on £20,000 - £22,000 target and £15,091 current balance                 |
 
@@ -475,6 +476,8 @@ Emergency fund contributions may be reduced, paused or increased during the mont
 **Kelly's priority — replenishment:** Kelly used her personal emergency fund to cover her mortgage share in May 2026 (while between jobs). Her stated priority is to replenish this from any monthly surplus once her salary is in place. This takes precedence over discretionary spending but sits below Tier 2 committed obligations in the planning hierarchy.
 
 Update 2026-07-07: Romeo trimmed Tesla exposure and sold £10,000, increasing the Trading 212 emergency fund balance to **£15,091**. This materially reduces household emergency-fund pressure but does not automatically clear Kelly's separate personal savings replenishment goal.
+
+Update 2026-08-28: The emergency fund is now held in Chip Cash ISA rather than Trading 212 Cash ISA. Future monthly reviews should request / verify Chip Cash ISA evidence for the emergency fund balance.
 
 ### Review Rules
 
@@ -761,7 +764,7 @@ FinanceOS should treat this as a known September travel cash requirement unless 
 ## Last Updated
 
 Date: 2026-08-28
-Reason: Added Kelly Halifax current-account recurring DD baseline: £11.69 on the 3rd, £65.00 on the 14th, £11.45 on the 21st, total £88.14/month; recorded Kelly payday as normally the 24th. Added Romeo Lloyds recurring DD baseline, excluding removed Barclays £12 standing order and conditional Etika charge, with Vitality Health updated to £82.40 and M&S / MBNA listed as recurring card/BT commitments.
+Reason: Updated emergency fund account from Trading 212 Cash ISA to Chip Cash ISA for current-forward reviews. Added Kelly Halifax current-account recurring DD baseline: £11.69 on the 3rd, £65.00 on the 14th, £11.45 on the 21st, total £88.14/month; recorded Kelly payday as normally the 24th. Added Romeo Lloyds recurring DD baseline, excluding removed Barclays £12 standing order and conditional Etika charge, with Vitality Health updated to £82.40 and M&S / MBNA listed as recurring card/BT commitments. Added Romeo salary receipt identifier `TEKSYSTEMS GLOBAL` for Lloyds reconcile checks.
 
 Previous: 2026-08-25 — Added September 2026 Turkey travel cash planning assumption: at least EUR 300 cash conversion, estimated at ~£260, plus £75 held in Monzo for Turkish lira withdrawal. Added one-week low-spend funding stack using pickleball pause, avoided Kelly London travel, food-out reduction, tighter groceries, and discretionary freeze. Treat Turkey travel cash as a shared household travel cost allocated by the normal household-income split.
 
