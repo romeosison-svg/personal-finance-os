@@ -81,6 +81,45 @@ Where an overdraft facility is used, monthly reviews should track the current ov
 
 ---
 
+## Current Account Recurring Direct Debits
+
+These are durable monthly current-account DD baselines. They should be surfaced during collect/reconcile and verified against current-account statements when available.
+
+### Kelly — Halifax Current
+
+| Item | Amount | Expected collection date | Notes |
+| --- | ---: | --- | --- |
+| Recurring DD 1 | £11.69 | 3rd of month | User-confirmed consistent monthly DD on 2026-08-28 |
+| Recurring DD 2 | £65.00 | 14th of month | User-confirmed consistent monthly DD on 2026-08-28 |
+| Recurring DD 3 | £11.45 | 21st of month | User-confirmed consistent monthly DD on 2026-08-28 |
+| **Total Kelly Halifax recurring DDs** | **£88.14** | Monthly | Excludes card repayments, mortgage contribution, tithe, and ad hoc transfers unless separately confirmed |
+
+Kelly payday is normally the 24th of the month.
+
+### Romeo — Lloyds Current
+
+| Item | Amount | Expected collection date | Notes |
+| --- | ---: | --- | --- |
+| L&G Insurance MI | £28.84 | 1st of month | Consistent monthly DD from prior Lloyds statements |
+| L&G Insurance MI | £53.49 | 1st of month | Consistent monthly DD from prior Lloyds statements |
+| Nuffield Health | £53.00 | 1st of month | Consistent monthly DD from prior Lloyds statements |
+| Vitality Life | £72.17 | 1st of month | Consistent monthly DD from prior Lloyds statements |
+| HMRC NDDS | £152.67 | 2nd of month | Consistent monthly DD from prior Lloyds statements |
+| Vitality Health | £82.40 | 10th of month | Updated amount user-confirmed 2026-08-28; verify against latest Lloyds statement during September reconcile |
+| NHSBSA PPC 2 | £11.45 | 28th/29th of month | Consistent monthly DD from prior Lloyds statements |
+| **Total Romeo Lloyds fixed DD baseline** | **£454.02** | Monthly | Excludes card repayments, mortgage contribution, internal transfers, ad hoc payments, and conditional Etika charge |
+
+Romeo payday is normally the last day of the month.
+
+Romeo Lloyds card / balance-transfer payments:
+
+| Item | Amount | Expected collection date | Notes |
+| --- | ---: | --- | --- |
+| M&S credit card / balance transfer DD | £190.00 | Around 9th/10th of month | Include as recurring card/BT commitment; verify against statement each review |
+| MBNA balance transfer DD | Statement-driven | Around 20th-23rd of month | Include as recurring card/BT commitment; amount varies slightly and must be updated from each MBNA statement |
+
+---
+
 ## Income
 
 ### Romeo
@@ -721,8 +760,10 @@ FinanceOS should treat this as a known September travel cash requirement unless 
 
 ## Last Updated
 
-Date: 2026-08-25
-Reason: Added September 2026 Turkey travel cash planning assumption: at least EUR 300 cash conversion, estimated at ~£260, plus £75 held in Monzo for Turkish lira withdrawal. Added one-week low-spend funding stack using pickleball pause, avoided Kelly London travel, food-out reduction, tighter groceries, and discretionary freeze. Treat Turkey travel cash as a shared household travel cost allocated by the normal household-income split.
+Date: 2026-08-28
+Reason: Added Kelly Halifax current-account recurring DD baseline: £11.69 on the 3rd, £65.00 on the 14th, £11.45 on the 21st, total £88.14/month; recorded Kelly payday as normally the 24th. Added Romeo Lloyds recurring DD baseline, excluding removed Barclays £12 standing order and conditional Etika charge, with Vitality Health updated to £82.40 and M&S / MBNA listed as recurring card/BT commitments.
+
+Previous: 2026-08-25 — Added September 2026 Turkey travel cash planning assumption: at least EUR 300 cash conversion, estimated at ~£260, plus £75 held in Monzo for Turkish lira withdrawal. Added one-week low-spend funding stack using pickleball pause, avoided Kelly London travel, food-out reduction, tighter groceries, and discretionary freeze. Treat Turkey travel cash as a shared household travel cost allocated by the normal household-income split.
 
 Previous: 2026-08-21 — Corrected recurring vehicle-cost methodology. MG PCP, MG insurance, Zoe insurance, and Zoe battery lease are shared household commitments paid from Santander joint account and allocated by household-income split. Zoe insurance verified at £62.28 from the latest available Santander statement.
 
