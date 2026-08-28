@@ -7,7 +7,7 @@
 | Phase                | Status      | Completed  |
 | -------------------- | ----------- | ---------- |
 | Collect              | Complete    | 2026-08-28 |
-| Reconcile            | Not Started |            |
+| Reconcile            | Complete    | 2026-08-28 |
 | Assumptions          | Not Started |            |
 | Position             | Not Started |            |
 | Handoff              | Not Started |            |
