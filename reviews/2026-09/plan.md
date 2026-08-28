@@ -9,7 +9,7 @@
 | Collect              | Complete    | 2026-08-28 |
 | Reconcile            | Complete    | 2026-08-28 |
 | Assumptions          | Complete    | 2026-08-28 |
-| Position             | Not Started |            |
+| Position             | Complete    | 2026-08-28 |
 | Handoff              | Not Started |            |
 | Analyse              | Not Started |            |
 | Budget Calibration   | Not Started |            |
