@@ -11,7 +11,7 @@
 | Handoff              | Complete    | 2026-08-28 |
 | Analyse              | Complete    | 2026-08-29 |
 | Budget Calibration   | Complete    | 2026-08-29 |
-| Affordability Check  | Not Started |            |
+| Affordability Check  | Complete    | 2026-08-29 |
 | Plan                 | Not Started |            |
 | Strategy             | Not Started |            |
 
