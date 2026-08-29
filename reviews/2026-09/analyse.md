@@ -47,13 +47,13 @@ Observed spend after excluding internal transfers and card/debt payments: **£4,
 
 | Category | Total | Romeo | Kelly |
 | --- | ---: | ---: | ---: |
-| Eating out / coffee / takeaway | £1,138.68 | £865.75 | £272.93 |
-| Transport / parking / charging | £640.68 | £135.90 | £504.78 |
-| Sport / fitness / therapy | £616.95 | £224.40 | £392.55 |
+| Eating out / coffee / takeaway | £1,040.88 | £800.95 | £239.93 |
+| Transport / parking / charging | £640.08 | £135.90 | £504.18 |
+| Sport / fitness / therapy | £652.00 | £259.45 | £392.55 |
 | Fixed commitments / direct debits | £552.15 | £466.02 | £86.13 |
-| Shopping / personal | £487.92 | £243.79 | £244.13 |
+| Shopping / personal | £517.67 | £273.54 | £244.13 |
 | Groceries / household shopping | £325.79 | £147.89 | £177.90 |
-| Entertainment / events | £143.38 | £54.00 | £89.38 |
+| Entertainment / events | £176.98 | £54.00 | £122.98 |
 | Travel / holiday | £142.70 | £142.70 | £0.00 |
 | Uncategorized observation | £136.28 | £62.80 | £73.48 |
 | Giving / tithe | £100.00 | £0.00 | £100.00 |
@@ -90,14 +90,15 @@ Observed spend after excluding internal transfers and card/debt payments: **£4,
 
 ### Pattern Observations
 
-- Eating out, coffee, and takeaway is the largest observed spend category at £1,138.68. Romeo accounts for £865.75 of this and Kelly £272.93.
-- Transport, parking, and charging is the second-largest observed category at £640.68. Kelly accounts for £504.78, driven mainly by TFL, Trainline, and related London travel rows.
-- Sport, fitness, and therapy totals £616.95. This includes pickleball / Everyone Active / Sharp Pickleb rows and therapy or sports medicine rows.
+- Eating out, coffee, and takeaway is the largest observed spend category at £1,040.88. Romeo accounts for £800.95 of this and Kelly £239.93.
+- Transport, parking, and charging is the second-largest observed category at £640.08. Kelly accounts for £504.18, driven mainly by TFL, Trainline, SNB Manchester, and related London travel rows.
+- Sport, fitness, and therapy totals £652.00. This includes pickleball / Everyone Active / Sharp Pickleb / Jolene Foster rows and therapy or sports medicine rows.
 - Groceries and household shopping total £325.79 in the exported rows. This is incomplete as a whole-household grocery picture because Santander joint-account activity is absent.
 - Fixed commitments / direct debits observed in the transaction export total £552.15. This includes current-account DDs already separated in Position as known September drawdowns.
 - Fees and interest total £63.35, including Kelly Amex interest of £47.93, Starling overdraft charge of £10.42, and Lloyds fee activity.
 - Travel / holiday rows visible in the statement export total £142.70, mainly Premier Inn Bolton and Gatwick/Nespresso travel-context spend. The Turkey BA Holidays £448 and Gatwick parking/Fast Track £102.20 are known position facts but not fully represented as raw statement rows in this export.
 - The uncategorised bucket is £136.28. It consists mostly of low-value people transfers or merchant names that need later interpretation rather than a material category shift.
+- User-confirmed category corrections on 2026-08-29: Drink Oshun is supplement / personal shopping, SNB Manchester is transport, Jolene Foster is pickleball / sport, and Thames River Services is an entertainment / family outing rather than transport.
 
 ### Items To Carry Forward
 

@@ -87,6 +87,8 @@ Using the September income split:
 | Settlement | Amount | Direction | Timing | Treatment |
 | --- | ---: | --- | --- | --- |
 | M&S shared BT contribution | £76.95 | Kelly -> Romeo | September cycle | Kelly share of the £190 M&S BT DD |
+| Turkey cash set-aside - Romeo share | £199.33 | Romeo -> Monzo joint | Before 19 Sep 2026 | Romeo share of the £335 Turkey cash set-aside |
+| Turkey cash set-aside - Kelly share | £135.67 | Kelly -> Monzo joint | Before 19 Sep 2026 | Kelly share of the £335 Turkey cash set-aside |
 
 No MBNA shared-BT settlement is included this month. The MBNA DD is expected to reduce the earlier-expiring Romeo-specific tranche, and the shared MBNA legacy-tranche top-up is deferred as part of the September cashflow exception.
 
@@ -123,7 +125,7 @@ The aggregate cash trace uses gross fixed cash use, not just the current-account
 | Starting operating cash excluding Chip | £7,135.17 |
 | Less gross fixed / mandatory cash use before buckets | -£5,860.44 |
 | Less constrained controllable cap | -£774.73 |
-| Less M&S BT internal settlement effect on aggregate cash | £0.00 |
+| Less M&S BT settlement and Monzo joint staging effect on aggregate cash | £0.00 |
 | **Ending operating cash before Elaine reimbursement** | **£500.00** |
 | Elaine Spotify reimbursement | £7.33 |
 | **Ending operating cash after Elaine reimbursement** | **£507.33** |
@@ -139,9 +141,10 @@ The preferred £1,000 buffer is not preserved. The minimum £500 buffer is prese
 | Romeo net current-account position | £4,177.71 | £76.95 | £4,044.77 | £209.89 |
 | Kelly Halifax current | £2,898.69 | £0.00 | £2,608.58 | £290.11 |
 | Santander joint | £58.77 | £1,210.47 | £1,261.91 | £7.33 |
-| **Household operating total** | **£7,135.17** | **£1,287.42** | **£7,915.26** | **£507.33** |
+| Monzo joint Turkey staging | £0.00 | £335.00 | £335.00 | £0.00 |
+| **Household operating total** | **£7,135.17** | **£1,622.42** | **£8,250.26** | **£507.33** |
 
-The account-location trace includes internal transfers as both outflows and inflows. It reconciles to the aggregate ending cash after Elaine's reimbursement.
+The account-location trace includes internal transfers as both outflows and inflows. The Turkey Monzo joint staging transfers are inside the existing controllable-spend shares, so they do not increase the household cap. The trace reconciles to the aggregate ending cash after Elaine's reimbursement.
 
 ## Credit Card And BT Outcome
 
@@ -184,7 +187,9 @@ The account-location trace includes internal transfers as both outflows and infl
 | 21 Sep 2026 | Ensure MBNA DD clears | £254.56 |
 | September cycle | Kelly tithe | £316.97 |
 | September cycle | Kelly -> Romeo M&S BT settlement | £76.95 |
-| Before 19 Sep 2026 | Fund Turkey cash set-aside | £335.00 |
+| Before 19 Sep 2026 | Romeo -> Monzo joint Turkey cash share | £199.33 |
+| Before 19 Sep 2026 | Kelly -> Monzo joint Turkey cash share | £135.67 |
+| Before 19 Sep 2026 | Use Monzo joint to stage Turkey cash set-aside | £335.00 |
 | On receipt | Pay Kelly work reimbursement to Kelly Amex | £400.00 |
 
 ## Plan Decision Summary
@@ -198,7 +203,7 @@ The account-location trace includes internal transfers as both outflows and infl
 7. Defer Starling overdraft repayment; keep it visible at -£549.87.
 8. Cap all September controllable spending at £774.73 including Turkey cash.
 9. Treat the budget-calibration buckets as guardrails, not fully funded cash pots, because they failed affordability.
-10. Kelly transfers £76.95 to Romeo for her share of the M&S BT DD only.
+10. Kelly transfers £76.95 to Romeo for her share of the M&S BT DD. For Turkey cash, Romeo transfers £199.33 and Kelly transfers £135.67 to the Monzo joint account before 19 Sep 2026.
 
 ---
 

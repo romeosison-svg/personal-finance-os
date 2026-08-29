@@ -33,13 +33,13 @@ It does not test affordability, allocate cash, set debt repayments, or create a 
 
 | Category | Analysis observation |
 | --- | ---: |
-| Eating out / coffee / takeaway | £1,138.68 |
-| Transport / parking / charging | £640.68 |
-| Sport / fitness / therapy | £616.95 |
+| Eating out / coffee / takeaway | £1,040.88 |
+| Transport / parking / charging | £640.08 |
+| Sport / fitness / therapy | £652.00 |
 | Fixed commitments / direct debits | £552.15 |
-| Shopping / personal | £487.92 |
+| Shopping / personal | £517.67 |
 | Groceries / household shopping | £325.79 |
-| Entertainment / events | £143.38 |
+| Entertainment / events | £176.98 |
 | Travel / holiday | £142.70 |
 | Uncategorized observation | £136.28 |
 | Giving / tithe | £100.00 |
@@ -91,10 +91,10 @@ These items remain real spending observations, but they should not set the recur
 | Bucket | Analysis reference | September calibrated limit | Calibration note |
 | --- | ---: | ---: | --- |
 | Groceries / household shopping | £325.79 visible, Santander absent | £450 | Allows realistic grocery headroom while excluding missing Santander detail |
-| Dining / restaurants / takeaway / coffee | £1,138.68 | £275 | Controlled reduction from the statement-period spike |
-| Commuting and essential transport | £640.68 combined transport | £400 | Preserves Kelly London travel pattern while recognising one Turkey week may reduce commuting |
+| Dining / restaurants / takeaway / coffee | £1,040.88 | £275 | Controlled reduction from the statement-period spike |
+| Commuting and essential transport | £640.08 combined transport | £400 | Preserves Kelly London travel pattern while recognising one Turkey week may reduce commuting |
 | Discretionary transport / parking | Included in transport | £75 | Optional parking, Uber, and ad hoc movement |
-| Entertainment / events | £143.38 | £100 | Similar to prior calibrated limit |
+| Entertainment / events | £176.98 | £100 | Controlled reduction after moving Thames River Services to entertainment / family outing |
 | Household / home contingency | Not fully visible | £125 | Small routine household buffer outside Santander fixed bills |
 | Shared health / medical | Therapy rows visible in sport/fitness | £100 | Allows routine shared health spend; large treatments stay visible |
 | Turkey travel cash set-aside | Locked assumption | £335 | EUR 300 cash plus £75 Monzo TRY float |
@@ -115,7 +115,7 @@ Personal discretionary capacity uses the locked September household-income ratio
 
 | Bucket | Analysis reference | September calibrated limit | Calibration note |
 | --- | ---: | ---: | --- |
-| Sport / pickleball / fitness | £224.40 | £180 | Below observed spend; reflects Turkey low-spend funding pressure |
+| Sport / pickleball / fitness | £259.45 | £180 | Below observed spend; reflects Turkey low-spend funding pressure |
 | Health / personal care | Included in shopping / sport rows | £60 | Routine personal care only |
 | Business / professional / subscriptions | £35.10 | £50 | Covers software/subscription baseline |
 | Personal discretionary | Mixed observations | £305 | Remaining personal allowance |
@@ -178,11 +178,11 @@ The Turkey cash set-aside remains a bucket, but September should also preserve t
 | Area | Analysis observation | Calibrated limit | Change |
 | --- | ---: | ---: | ---: |
 | Groceries / household shopping | £325.79 visible | £450 | +£124.21 |
-| Dining / takeaway / coffee | £1,138.68 | £275 | -£863.68 |
-| Sport / fitness total | £616.95 | £400 | -£216.95 |
-| Transport total | £640.68 | £475 | -£165.68 |
-| Entertainment / events | £143.38 | £100 | -£43.38 |
-| Shopping / personal | £487.92 | £375 | -£112.92 |
+| Dining / takeaway / coffee | £1,040.88 | £275 | -£765.88 |
+| Sport / fitness total | £652.00 | £400 | -£252.00 |
+| Transport total | £640.08 | £475 | -£165.08 |
+| Entertainment / events | £176.98 | £100 | -£76.98 |
+| Shopping / personal | £517.67 | £375 | -£142.67 |
 | Shared health / medical | Included in sport / shopping | £235 combined personal/shared | n/a |
 | Turkey travel cash | Position assumption | £335 | One-off September bucket |
 
@@ -198,6 +198,8 @@ If Amex or another credit card is used for points or convenience, the transactio
 | Work or business services on card | Reduces Romeo business / professional / subscriptions bucket |
 | Event tickets on card | Reduces entertainment bucket unless documented as a one-off |
 | Turkey trip costs on Amex | Reduces Turkey travel bucket or Plan It travel assumption, not ordinary food/transport buckets |
+
+Category correction note: user confirmed on 2026-08-29 that Drink Oshun is supplement / personal shopping, SNB Manchester is transport, Jolene Foster is pickleball / sport, and Thames River Services is an entertainment / family outing rather than transport. The analysis-reference totals above include those corrections.
 
 ## Budget Calibration Output
 
