@@ -15,7 +15,7 @@
 | Budget Calibration   | Complete    | 2026-08-29 |
 | Affordability Check  | Complete    | 2026-08-29 |
 | Plan                 | Complete    | 2026-08-29 |
-| Strategy             | In Progress |            |
+| Strategy             | Complete    | 2026-08-30 |
 
 ---
 
@@ -209,7 +209,7 @@ The main forward inputs are listed above as durable profile update candidates. A
 
 ## Phase Lock
 
-Status: In Progress
-Completed:
+Status: Complete
+Completed: 2026-08-30
 
-Strategic review drafted. User approval required before completion.
+Strategic review complete.
