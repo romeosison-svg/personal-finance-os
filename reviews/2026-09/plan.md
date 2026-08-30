@@ -29,8 +29,8 @@ Produce exact monthly payment allocations and cash trace after affordability is 
 | --- | ---: | --- |
 | Starting operating cash excluding Chip | £7,135.17 | Lloyds + Kelly Halifax + Santander + Starling overdraft |
 | Chip Cash ISA | £20,032.43 | Restricted emergency fund; not used in this plan |
-| Minimum cash buffer | £500.00 | Preserved |
-| Preferred cash buffer | £1,000.00 | Temporarily not preserved |
+| Operating cash buffer | £500.00 | Preserved; now durable normal buffer after 2026-08-30 profile update |
+| Elevated-risk cash buffer | £1,000.00 | Not applied; reserved for months with specific timing or risk reasons |
 | Budget-calibration controllable buckets | £2,910.00 | Not affordable as upfront funding |
 | Plan controllable-spend cap | £774.73 | Constrained September cap to preserve £500 before Elaine reimbursement |
 | Santander current balance | £58.77 | User-confirmed |
@@ -38,7 +38,7 @@ Produce exact monthly payment allocations and cash trace after affordability is 
 | Santander gross top-up required | £1,203.14 | Split by September household ratio |
 | Kelly work reimbursement receivable | £400.00 | Receivable-backed Amex carry; not cash available now |
 
-Plan constraint: September cannot fund the full calibrated bucket set or Amex pay-in-full default from operating cash. This plan preserves the minimum £500 household buffer, keeps Chip restricted, and explicitly carries Amex balances as a cashflow exception.
+Plan constraint: September cannot fund the full calibrated bucket set or Amex pay-in-full default from operating cash. This plan preserves the £500 household operating buffer, keeps Chip restricted, and explicitly carries Amex balances as a cashflow exception.
 
 ## September Payment Plan
 
@@ -66,13 +66,15 @@ The full calibrated £2,910 bucket set is not affordable. September uses a const
 | Bucket | Plan cap | Notes |
 | --- | ---: | --- |
 | Turkey cash set-aside | £335.00 | EUR 300 cash plus £75 Monzo TRY float |
-| Groceries / essentials | £180.00 | Reduced from calibrated £450 |
-| Essential transport | £85.00 | Reduced from calibrated transport allowance |
-| Dining / takeaway / coffee | £40.00 | Hard cap for the cycle |
-| Sport / pickleball | £50.00 | Pause/reduce normal play where possible |
-| Household / medical contingency | £50.00 | Small unavoidable buffer |
-| Personal discretionary combined | £34.73 | Residual only |
-| **Total constrained controllable cap** | **£774.73** | Preserves £500 minimum buffer before Elaine reimbursement |
+| Essential transport | £295.00 | Reallocated upward for Kelly work travel after transport review; assumes one lower-commute Turkey week |
+| Groceries / essentials | £115.00 | Essentials-only grocery constraint after transport reallocation |
+| Household / medical contingency | £25.00 | Minimal unavoidable buffer |
+| Dining / takeaway / coffee | £0.00 | Pause while transport and Turkey cash are funded |
+| Sport / pickleball | £0.00 | Pause while transport and Turkey cash are funded |
+| Personal discretionary combined | £4.73 | Residual only |
+| **Total constrained controllable cap** | **£774.73** | Preserves £500 operating buffer before Elaine reimbursement |
+
+Transport note: Kelly's corrected work-travel-looking reference is approximately £365-£400 per statement cycle before any office-week reduction. The £295 September cap assumes a reduced commuting week during the Turkey trip and requires non-essential travel, sport, and food-out spend to pause.
 
 Using the September income split:
 
@@ -130,7 +132,7 @@ The aggregate cash trace uses gross fixed cash use, not just the current-account
 | Elaine Spotify reimbursement | £7.33 |
 | **Ending operating cash after Elaine reimbursement** | **£507.33** |
 
-The preferred £1,000 buffer is not preserved. The minimum £500 buffer is preserved before the Elaine reimbursement and increases to £507.33 after reimbursement.
+The £500 operating buffer is preserved before the Elaine reimbursement and increases to £507.33 after reimbursement. The £1,000 elevated-risk buffer is not applied to September after the 2026-08-30 durable buffer-policy update.
 
 ## Account Location Trace
 
@@ -164,7 +166,7 @@ The account-location trace includes internal transfers as both outflows and infl
 
 | Policy / Target | Normal treatment | September treatment | Reason |
 | --- | --- | --- | --- |
-| Preferred cash buffer | Preserve £1,000 | Preserve £500 minimum only | Santander starts at £58.77 and September has Turkey cash pressure |
+| Elevated-risk cash buffer | Apply £1,000 only for months with specific risk reasons | Not applied; preserve £500 operating buffer | Durable buffer policy revised on 2026-08-30 |
 | Amex repayment | Pay in full where cashflow permits | Pay minimums only this cycle | Full or reimbursement-adjusted Amex payoff is not affordable |
 | Kelly work reimbursement | Use to clear reimbursed Amex spend | Carry £400 until reimbursement is received | Reimbursement missed payroll cut-off |
 | MBNA operational target / shared tranche | Recalculate and fund target where possible | DD only; no manual top-up | Cashflow constrained; DD protects minimum obligation |
@@ -176,25 +178,25 @@ The account-location trace includes internal transfers as both outflows and infl
 
 | Timing | Action | Amount |
 | --- | --- | ---: |
-| Immediate | Romeo transfer to Santander joint | £715.87 |
-| Immediate | Kelly transfer to Santander joint | £487.27 |
-| September cycle | Pay mortgage - Romeo share | £1,826.37 |
-| September cycle | Pay mortgage - Kelly share | £1,243.16 |
+| Done | Romeo transfer to Santander joint | £715.87 |
+| Done | Kelly transfer to Santander joint | £487.27 |
+| Done | Pay mortgage - Romeo share | £1,826.37 |
+| Done | Pay mortgage - Kelly share | £1,243.16 |
 | September cycle | Keep controllable spend within constrained cap | £774.73 |
-| By 9 Sep 2026 | Ensure Romeo Amex minimum clears | £142.99 |
+| Done | Ensure Romeo Amex minimum clears | £142.99 |
 | 10 Sep 2026 | Ensure M&S BT DD clears | £190.00 |
-| By 18 Sep 2026 | Ensure Kelly Amex minimum clears | £82.32 |
+| Done | Ensure Kelly Amex minimum clears | £82.32 |
 | 21 Sep 2026 | Ensure MBNA DD clears | £254.56 |
-| September cycle | Kelly tithe | £316.97 |
-| September cycle | Kelly -> Romeo M&S BT settlement | £76.95 |
-| Before 19 Sep 2026 | Romeo -> Monzo joint Turkey cash share | £199.33 |
-| Before 19 Sep 2026 | Kelly -> Monzo joint Turkey cash share | £135.67 |
+| Done | Kelly tithe | £316.97 |
+| Done | Kelly -> Romeo M&S BT settlement | £76.95 |
+| Done | Romeo -> Monzo joint Turkey cash share | £199.33 |
+| Done | Kelly -> Monzo joint Turkey cash share | £135.67 |
 | Before 19 Sep 2026 | Use Monzo joint to stage Turkey cash set-aside | £335.00 |
 | On receipt | Pay Kelly work reimbursement to Kelly Amex | £400.00 |
 
 ## Plan Decision Summary
 
-1. Preserve the £500 minimum operating buffer; do not preserve the preferred £1,000 buffer this month.
+1. Preserve the £500 operating buffer; do not apply the £1,000 elevated-risk buffer this month.
 2. Keep Chip Cash ISA restricted and unused.
 3. Fund Santander immediately to cover the full £1,261.91 gross recurring September outflow.
 4. Pay only minimums on Romeo and Kelly Amex this cycle.

@@ -18,15 +18,15 @@ Percentages are derived during the monthly review from current income figures.
 
 | Assumption             | Value                    | Notes                                                               |
 | ---------------------- | ------------------------ | ------------------------------------------------------------------- |
-| Minimum cash buffer    | £500 per household       | Absolute floor for available cash after all planned allocations     |
-| Preferred cash buffer  | £1,000                   | Target month-end cash position before discretionary allocations     |
+| Operating cash buffer  | £500 per household       | Normal month-end operating buffer while emergency fund is at / above target and income is stable |
+| Elevated-risk cash buffer | £1,000                | Use for months with known timing risk, major upcoming bills, travel pressure, income uncertainty, or statement gaps |
 | Buffer methodology     | Preserve liquidity first | Cashflow stability takes precedence over accelerated debt reduction |
 | Emergency fund target  | £20,000 - £22,000        | Long-term target                                                    |
-| Emergency fund current | £15,091                | Now held in Chip Cash ISA; current balance to be updated during the next review |
+| Emergency fund current | £20,032.43               | Held in Chip Cash ISA; verified in September 2026 review |
 
-### Minimum Cash Buffer
+### Operating Cash Buffer
 
-The minimum buffer is the absolute floor.
+The operating cash buffer is the normal planning floor.
 
 If a proposed plan would reduce available cash below this amount, the plan must be revised unless an explicit override is approved.
 
@@ -35,27 +35,34 @@ Examples of acceptable overrides:
 * Vehicle replacement
 * Major household emergency
 * Temporary income disruption
+* Explicit one-off social or travel commitment approved during the monthly plan
 
-### Preferred Cash Buffer
+### Elevated-Risk Cash Buffer
 
-The preferred buffer is the normal planning target.
+The elevated-risk cash buffer is a situational target, not the default month-end requirement.
 
-Monthly plans should aim to preserve this balance before:
+Monthly plans should use the elevated-risk buffer when there is a known reason to hold extra operating cash, including:
 
-* Accelerated debt repayments
-* Additional BT overpayments
-* Discretionary investments
+* Major upcoming bills
+* Travel or holiday cash pressure
+* Income uncertainty
+* Missing or delayed statements
+* Timing risk across Direct Debits or card payments
+* Santander / joint-account volatility
+
+When the emergency fund is at / above target and income is stable, do not hold £1,000 idle by default while Amex balances, overdrafts, or other interest-bearing short-term debt are being carried.
 
 ### Buffer Methodology
 
 When competing priorities exist:
 
-1. Preserve minimum buffer.
+1. Preserve the £500 operating buffer.
 2. Meet essential obligations.
 3. Maintain agreed BT targets.
-4. Maintain preferred buffer.
-5. Contribute to emergency fund.
-6. Consider accelerated repayments and optimisation activities.
+4. Clear or reduce rolling Amex balances and interest-bearing overdrafts.
+5. Use the £1,000 elevated-risk buffer only where the month has a specific timing or risk reason.
+6. Contribute to emergency fund if below target.
+7. Consider accelerated repayments and optimisation activities.
 
 ### Monthly Review Rules
 
@@ -64,7 +71,7 @@ During each monthly review:
 1. Update current cash position.
 2. Verify buffer levels remain appropriate.
 3. Document any temporary buffer override.
-4. Reassess preferred buffer following major life or financial changes.
+4. Reassess whether the elevated-risk buffer should apply following major life or financial changes.
 
 
 ---
@@ -316,7 +323,7 @@ Known August 2026 ownership note:
 5. Accelerated balance transfer repayments should only be made if:
 
    * Cashflow remains healthy
-   * Minimum cash buffer is maintained
+   * £500 operating cash buffer is maintained
    * Emergency fund objectives are not compromised
 
 ### Monthly Review Checks
@@ -456,7 +463,7 @@ Contribution priority:
    * MBNA
    * M&S
 
-3. Minimum cash buffer requirements
+3. Operating cash buffer requirements
 
 4. Emergency fund contribution
 
@@ -513,7 +520,7 @@ When there is a conflict between allocations, apply this priority order:
 
 1. Mortgage payment
 2. Essential household bills
-3. Minimum cash buffer
+3. £500 operating cash buffer
 4. Minimum credit card payments
 
 
@@ -527,14 +534,15 @@ When there is a conflict between allocations, apply this priority order:
 
 ### Tier 3 - Financial Resilience
 
-9. Preferred cash buffer maintenance
+9. Rolling Amex balance reduction and interest-bearing overdraft repayment
 10. Emergency fund contribution
+11. Elevated-risk £1,000 cash buffer where the month has a specific risk reason
 
 ### Tier 4 - Financial Optimisation
 
-11. Accelerated balance transfer repayments
-12. Additional debt overpayments
-13. Investment contributions beyond pension deductions
+12. Accelerated balance transfer repayments
+13. Additional debt overpayments
+14. Investment contributions beyond pension deductions
 
 ### Overdraft Planning Rule
 
@@ -552,8 +560,8 @@ Default priority:
 
 1. Credit card minimums and statement-balance interest risk.
 2. Balance transfer operational targets and promotional-period protection.
-3. Preferred cash buffer.
-4. Current-account overdraft repayment.
+3. Rolling Amex balance reduction and current-account overdraft repayment.
+4. Elevated-risk £1,000 cash buffer only where the month has a specific risk reason.
 
 Unless fees or interest make the overdraft urgent, overdraft repayment is normally lower priority than credit card repayment and BT promotional targets.
 
@@ -763,8 +771,10 @@ FinanceOS should treat this as a known September travel cash requirement unless 
 
 ## Last Updated
 
-Date: 2026-08-28
-Reason: Updated emergency fund account from Trading 212 Cash ISA to Chip Cash ISA for current-forward reviews. Added Kelly Halifax current-account recurring DD baseline: £11.69 on the 3rd, £65.00 on the 14th, £11.45 on the 21st, total £88.14/month; recorded Kelly payday as normally the 24th. Added Romeo Lloyds recurring DD baseline, excluding removed Barclays £12 standing order and conditional Etika charge, with Vitality Health updated to £82.40 and M&S / MBNA listed as recurring card/BT commitments. Added Romeo salary receipt identifier `TEKSYSTEMS GLOBAL` for Lloyds reconcile checks.
+Date: 2026-08-30
+Reason: Revised operating-buffer policy. Set £500 as the normal household operating buffer while the emergency fund is at / above target and income is stable; made £1,000 an elevated-risk buffer for months with specific timing risk, major bills, travel pressure, income uncertainty, statement gaps, or joint-account volatility. Updated the planning hierarchy so rolling Amex balances and interest-bearing overdrafts are not subordinated to holding £1,000 idle by default. Updated current emergency fund balance to the September-verified Chip Cash ISA balance of £20,032.43.
+
+Previous: 2026-08-28 — Updated emergency fund account from Trading 212 Cash ISA to Chip Cash ISA for current-forward reviews. Added Kelly Halifax current-account recurring DD baseline: £11.69 on the 3rd, £65.00 on the 14th, £11.45 on the 21st, total £88.14/month; recorded Kelly payday as normally the 24th. Added Romeo Lloyds recurring DD baseline, excluding removed Barclays £12 standing order and conditional Etika charge, with Vitality Health updated to £82.40 and M&S / MBNA listed as recurring card/BT commitments. Added Romeo salary receipt identifier `TEKSYSTEMS GLOBAL` for Lloyds reconcile checks.
 
 Previous: 2026-08-25 — Added September 2026 Turkey travel cash planning assumption: at least EUR 300 cash conversion, estimated at ~£260, plus £75 held in Monzo for Turkish lira withdrawal. Added one-week low-spend funding stack using pickleball pause, avoided Kelly London travel, food-out reduction, tighter groceries, and discretionary freeze. Treat Turkey travel cash as a shared household travel cost allocated by the normal household-income split.
 
