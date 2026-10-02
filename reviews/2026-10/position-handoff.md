@@ -3,228 +3,152 @@
 > Produced by Codex during the handoff phase.
 > Contains verified facts and locked assumptions only.
 > Does not contain recommendations, categorisation, or analysis.
-> Later phases use this as the primary factual input for analyse, budget-calibration, affordability-check, plan, and strategy.
 
----
+## Phase Sources
 
-## 1. Source Artefacts
-
-| File | Status |
+| Source | Status |
 | --- | --- |
-| `reviews/2026-10/reconcile.md` | Complete |
-| `reviews/2026-10/assumptions.md` | Complete |
-| `reviews/2026-10/position.md` | Complete |
-| `reviews/2026-10/handoff.md` | Complete |
-| `docs/finance-profile.md` | Reference |
+| Collect | Complete 2026-10-02 |
+| Reconcile | Complete 2026-10-02 |
+| Assumptions | Complete 2026-10-02 |
+| Position | Complete 2026-10-02 |
 
----
+## Income Facts
 
-## 2. Review Status
+| Person / receipt | Verified amount | Treatment |
+| --- | ---: | --- |
+| Romeo salary | £4,654.89 | Included in salary-only household split |
+| Kelly salary | £3,378.89 | Included in salary-only household split |
+| Household salary total | £8,033.78 | Split basis |
+| Birthday gift from Romeo's Mum | £250.00 | Excluded from split; already in Lloyds balance |
+| Bread & Butter ambassador income | £13.95 | Excluded from split; already in Lloyds balance |
+| Lloyds reimbursements | £143.55 | 13 matching credits; excluded from split and already in Lloyds balance |
+| Chip interest due 14 Oct | £71.02 | Pending; not included in current cash |
 
-| Phase | Owner | Status |
-| --- | --- | --- |
-| collect | Codex | Complete |
-| reconcile | Codex | Complete |
-| assumptions | Codex | Complete |
-| position | Codex | Complete |
-| handoff | Codex | Complete |
+## October Household Split
 
-Later phases should not reopen any of these phases unless a genuine inconsistency is found in the data below. If an inconsistency is found, flag it explicitly before proceeding.
+| Person | Share |
+| --- | ---: |
+| Romeo | 57.9% |
+| Kelly | 42.1% |
 
----
+The split is calculated from exact verified salary amounts only.
 
-## 3. Locked Planning Assumptions
+## Cash Position
 
-These assumptions are locked for 2026-10. Do not override without flagging as an exception.
+| Account | Holder | Balance | Treatment |
+| --- | --- | ---: | --- |
+| Lloyds current | Romeo | £5,310.40 | Available operating cash; balance dated 30 Sep 2026 |
+| Halifax current | Kelly | £2,617.25 | Available operating cash; balance dated 30 Sep 2026 |
+| Starling current | Romeo | -£549.87 | Overdrawn operating account; user-confirmed unchanged on 2 Oct 2026 |
+| Santander joint current | Household | £427.08 | User-confirmed on 2 Oct 2026; intervening post-statement activity is not itemised |
+| Chip Smart Cash ISA | Romeo / emergency fund | £20,052.01 | Restricted emergency fund |
 
-| Assumption | Value |
-| --- | --- |
-| Minimum cash buffer | £[amount] |
-| Preferred cash buffer | £[amount] |
-| Emergency fund target | £[amount] |
-| Emergency fund minimum operating level | £[amount] |
-| Emergency fund contribution this month | £[amount] or suspended |
-| Mortgage total | £[amount] |
-| Mortgage split | Romeo [X]% / Kelly [X]% |
-| Romeo mortgage contribution | £[amount] |
-| Kelly mortgage contribution | £[amount] |
-| Bills split | Romeo [X]% / Kelly [X]% |
-| Tithe | [methodology — e.g. 10% of Kelly net income] |
-| MBNA direct debit | £[amount] |
-| MBNA manual top-up | £[amount] |
-| M&S BT direct debit | £[amount] |
-| M&S BT manual top-up | £[amount] |
-| Romeo credit card default policy | [e.g. pay in full / flexible] |
-| Kelly credit card policy | [self-funded / household] |
+| Measure | Amount |
+| --- | ---: |
+| Operating cash excluding Chip | £7,804.86 |
+| Restricted emergency fund | £20,052.01 |
+| Total liquid position including Chip | £27,856.87 |
+| Locked operating cash buffer | £500.00 |
+| Emergency-fund target range | £20,000.00–£22,000.00 |
+| Emergency-fund minimum operating level | £5,000.00 |
 
-**Month-specific overrides:**
+Starling has a £750.00 facility limit, 35% EAR variable rate, and £200.13 remaining headroom.
 
-| Override | Normal value | This month value | Reason | Review date |
-| --- | --- | --- | --- | --- |
-| [item] | [normal] | [override] | [reason] | [date] |
+## Credit Card and Balance Transfer Facts
 
----
+| Account | Holder | Balance owed | Minimum / DD | Due date | Locked treatment |
+| --- | --- | ---: | ---: | --- | --- |
+| Amex credit | Romeo | £3,589.01 | £319.61 | 10 Oct 2026 | Total account balance: £2,680.24 closing balance plus £908.77 remaining Plan It balance; pay in full where cashflow permits |
+| Amex Platinum | Romeo | £11.25 | £11.25 | 23 Oct 2026 | Pay in full where cashflow permits |
+| Amex credit | Kelly | £2,455.90 | £95.77 | 19 Oct 2026 | Pay in full where cashflow permits |
+| Halifax Clarity credit | Romeo | £355.17 plus unstatemented activity | Statement minimum already paid | Paid 9 Sep 2026 | Flexible card |
+| Halifax Clarity credit | Kelly | £0.00 excluding post-statement activity | Statement paid in full | Paid 29 Sep 2026 | Flexible card |
+| Barclaycard credit | Romeo | £0.00 | £0.00 | n/a | User-confirmed nil balance |
+| M&S balance transfer | Romeo | £3,713.75 | £190.00 | 10 Oct 2026 | 0%; £195.00 operational target |
+| MBNA balance transfer | Romeo | £9,927.73 | £248.19 | 22 Oct 2026 | 0%; £376.00 operational target |
 
-## 4. Current Financial Position
+| Measure | Amount |
+| --- | ---: |
+| Non-BT credit-card balances | £6,411.33 |
+| Balance-transfer balances | £13,641.48 |
+| Total credit-card and BT liabilities | £20,052.81 |
+| Net position excluding emergency fund | -£12,247.95 |
+| Net position including emergency fund | £7,804.06 |
+| Romeo scheduled card minimum/DD stack | £769.05 |
+| Kelly scheduled card minimum stack | £95.77 |
+| Combined scheduled card minimum/DD stack | £864.82 |
 
-### Cash
+## Balance Transfer Tranches
 
-| Account | Holder | Balance | Available for planning? |
-| --- | --- | --- | --- |
-| [Bank] current | Romeo | £[amount] | Yes / No — [reason] |
-| [Bank] current | Romeo | £[amount] | Yes / No — [reason] |
-| [Bank] current | Kelly | £[amount] | Yes / No — [reason] |
-| **Total household cash** | | **£[amount]** | |
-| **Effective planning cash** | | **£[amount]** | [which account] |
+| Account | Tranche | Balance | Rate | Expiry |
+| --- | --- | ---: | ---: | --- |
+| M&S | Balance-transfer principal | £3,713.75 | 0.00% | Profile records Mar 2028; current statement does not state the date |
+| MBNA | Promotional balance transfer | £8,661.78 | 0.00% | 30 May 2028 |
+| MBNA | Promotional balance transfer | £1,265.95 | 0.00% | 3 Jun 2027 |
 
-### Emergency Fund
+## Known October Obligations
 
-| Item | Amount |
-| --- | --- |
-| Current balance | £[amount] |
-| Target | £[amount] |
-| Minimum operating level | £[amount] |
-| Shortfall to target | £[amount] |
+| Obligation | Gross cash requirement | Net household cost |
+| --- | ---: | ---: |
+| Mortgage | £3,069.53 | £3,069.53 |
+| Joint-account recurring outflow | £1,270.25 | £1,262.92 |
+| Kelly current-account DDs | £162.71 | £162.71 |
+| Romeo fixed current-account DDs | £454.02 | £454.02 |
+| Card minimums and BT DDs | £864.82 | £864.82 |
+| Kelly tithe | £337.89 | £337.89 |
+| **Total before buffer** | **£6,159.22** | **£6,151.89** |
 
-### Available Funds
+The net joint cost reflects a £7.33 Spotify reimbursement. Kelly's £162.71 working DD amount includes a variable Santander Cards debit at the September actual of £11.58, plus Virgin £65.00, NHSBSA £11.45, and Vitality Life £74.68.
 
-| Item | Amount |
-| --- | --- |
-| Effective planning cash | £[amount] |
-| Less: preferred cash buffer | −£[amount] |
-| Net available before commitments | **£[amount]** |
-| Less: committed liabilities (pre-[date]) | −£[amount] |
-| **Available for plan decisions (pre-[date])** | **£[amount]** |
-| Plus: [income/reimbursement] (arrives [date]) | +£[amount] |
-| **Available for plan decisions (post-[date])** | **£[amount]** |
+## Available Funds Snapshot
 
-### Known Upcoming Payments (pre-[key date])
+| Measure | Gross-cash view | Net-cost view |
+| --- | ---: | ---: |
+| Operating cash | £7,804.86 | £7,804.86 |
+| Less known October obligations | -£6,159.22 | -£6,151.89 |
+| Cash after known obligations | £1,645.64 | £1,652.97 |
+| Less locked buffer | -£500.00 | -£500.00 |
+| **Available after known obligations and buffer** | **£1,145.64** | **£1,152.97** |
 
-| Obligation | Amount | Due | Type |
-| --- | --- | --- | --- |
-| [item] | £[amount] | [date] | [Auto DD / Manual] |
-| **Total committed** | **£[amount]** | | |
+The full BT operational targets exceed scheduled DDs by £132.81: M&S £5.00 and MBNA £127.81. Reflecting both target gaps leaves £1,012.83 under the gross-cash view. No payment allocation is made in this handoff.
 
----
+The snapshot reserves the full joint-account baseline even though Santander is current to 2 Oct and its intervening activity is not itemised. Any already-posted October joint debits must not be deducted twice in a later cash trace.
 
-## 5. Balance Transfer Position
+## Joint Position and Contributions
 
-### [Card name — e.g. MBNA]
+| Measure | Amount |
+| --- | ---: |
+| Santander current balance | £427.08 |
+| Gross working October outflow | £1,270.25 |
+| Net working household cost | £1,262.92 |
+| Gross funding gap | £843.17 |
+| Net funding gap | £835.84 |
+| Romeo contribution already verified | £715.87 |
+| Kelly contribution already verified | £487.27 |
 
-| Item | Detail |
-| --- | --- |
-| Owner | Romeo / Kelly |
-| Provider | [provider] |
-| Current balance | £[amount] |
-| Promotional rate | [0% / rate] |
-| Promotional end date | [date or "verify"] |
-| Required payment to clear before expiry | £[amount] or "not calculated" |
-| Monthly operational target | £[amount] |
-| Direct debit amount | £[amount] |
-| DD date | [day of month] |
-| Manual top-up required | £[amount] or "none" |
-| On track? | Yes / No |
+The contribution amounts are locked facts. No settlement is calculated in this handoff.
 
-### [Card name — e.g. M&S Bank]
+## Shared Household Inputs
 
-| Item | Detail |
-| --- | --- |
-| Owner | Romeo / Kelly |
-| Provider | [provider] |
-| Current balance | £[amount] |
-| Promotional rate | [0% / rate] |
-| Promotional end date | [date or "verify"] |
-| Required payment to clear before expiry | £[amount] or "not calculated" |
-| Monthly operational target | £[amount] |
-| Direct debit amount | £[amount] |
-| DD date | [day of month] |
-| Manual top-up required | £[amount] or "none" |
-| On track? | Yes / No |
+| Item | Total | Romeo 57.9% | Kelly 42.1% |
+| --- | ---: | ---: | ---: |
+| Mortgage | £3,069.53 | £1,778.53 | £1,291.00 |
+| Joint-account gross recurring outflow | £1,270.25 | £736.00 | £534.25 |
+| Joint-account net household cost | £1,262.92 | £731.75 | £531.17 |
+| Vehicle commitments within joint outflow | £480.46 | £278.39 | £202.07 |
+| **Mortgage + gross joint outflow** | **£4,339.78** | **£2,514.53** | **£1,825.25** |
+| **Mortgage + net joint cost** | **£4,332.45** | **£2,510.29** | **£1,822.16** |
 
----
+## Other Locked Facts and Assumptions
 
-## 6. Credit Card Position
+- The emergency fund is restricted and is not normal monthly operating cash.
+- The £1,000 elevated-risk buffer is not active for October.
+- No October one-off or PPL fixture cost is included. The prior Turkey assumptions have expired.
+- The £250 gift, £13.95 ambassador income, and £143.55 reimbursements must not be added to cash again.
+- The Lloyds reimbursement total comprises £5.15 twice, £10.25 nine times, and £20.50 twice.
+- Exact payments, top-ups, account-to-account transfers, and household settlement are not part of Handoff.
 
-### [Card — e.g. Romeo Amex]
+## Transaction Export
 
-| Item | Detail |
-| --- | --- |
-| Owner | Romeo |
-| Provider | Amex |
-| Statement balance | £[amount] |
-| Already paid | £[amount] |
-| Remaining balance | £[amount] |
-| Minimum payment | £[amount] |
-| Due date | [date] |
-| Default repayment policy | [pay in full / flexible / minimum] |
-| Payment classification | [mandatory / flexible / pay-in-full where possible] |
-
-### [Card — e.g. Romeo Barclaycard]
-
-| Item | Detail |
-| --- | --- |
-| Owner | Romeo |
-| Provider | Barclaycard |
-| Statement balance | £[amount] |
-| Already paid | £[amount] |
-| Remaining balance | £[amount] |
-| Minimum payment | £[amount] |
-| Due date | [date] |
-| Default repayment policy | [pay in full / flexible / minimum] |
-| Payment classification | [mandatory / flexible / pay-in-full where possible] |
-
-### [Card — e.g. Kelly Amex]
-
-| Item | Detail |
-| --- | --- |
-| Owner | Kelly |
-| Provider | Amex |
-| Statement balance | £[amount] |
-| Funding source | [Kelly self-funded / household] |
-| Minimum payment | £[amount] |
-| Due date | [date] |
-| Policy | [self-funded from savings / salary] |
-
----
-
-## 7. Known Monthly Obligations
-
-| Obligation | Owner | Amount | Notes |
-| --- | --- | --- | --- |
-| Mortgage | Romeo (fronts full amount) | £[amount] | Kelly reimburses £[amount] on [date] |
-| Bills | Romeo / Kelly | ~£[amount] | [mechanism] |
-| Tithe | Kelly | ~£[amount] | [methodology] |
-| MBNA DD | Romeo | £[amount] | Auto from [account] on [date] |
-| MBNA top-up | Romeo | £[amount] | Manual, June |
-| M&S BT DD | Romeo | £[amount] | Auto from [account] on [date] |
-| M&S BT top-up | Romeo | £[amount] | Manual, June |
-| [CC minimum — card] | Romeo / Kelly | £[amount] | [mandatory / min] |
-| Kelly pre-[date] bills (Romeo covers) | Romeo | £[amount] | Transfer to Kelly Halifax |
-| [vehicle / insurance] | Romeo / Kelly | £[amount] | [notes] |
-| Expected reimbursement | Romeo | +£[amount] | Kelly reimburses on [date] |
-
----
-
-## 8. Open Questions for Later Phases
-
-1. What does spending analysis show for 2026-10? Which categories were highest? Any anomalies vs prior months?
-2. What exact payments should be made this month, in priority order?
-3. Should BT top-ups (MBNA, M&S) be maintained, increased, or reduced based on current position?
-4. Should the emergency fund contribution be maintained, paused, or adjusted?
-5. What cash buffer should be preserved after all payments?
-6. Are there any strategic risks or decisions that should be escalated for joint review?
-7. [Add any month-specific questions]
-
----
-
-## 9. Constraints for Later Phases
-
-- Do not contradict locked facts in sections 3–7 above.
-- Do not reopen collect, reconcile, assumptions, or position unless a genuine inconsistency is found. If found, flag it explicitly before proceeding.
-- Do not ask for raw statements. All transaction data is in `reviews/2026-10/transactions.csv`.
-- Use exact payment amounts, not ranges.
-- Preserve the minimum cash buffer (£[amount]) unless an explicit override is agreed and explained.
-- Explain all trade-offs clearly, especially where payments compete for limited funds.
-- Sequence payments around any cashflow timing constraints noted above.
-- Final recommendations must be suitable for writing back to `plan.md` and `strategy.md` in the repo.
-- Do not produce output that cannot be committed to the repo as a clean artefact.
+`reviews/2026-10/transactions.csv` contains 145 normalized raw credit-card and balance-transfer transaction rows from the supplied statements. The rows retain statement descriptions and are not categorised.
