@@ -9,7 +9,7 @@ Review started: 2026-09-30
 | Collect | Complete | 2026-10-02 |
 | Reconcile | Complete | 2026-10-02 |
 | Assumptions | Complete | 2026-10-02 |
-| Position | Not Started | |
+| Position | Complete | 2026-10-02 |
 | Handoff | Not Started | |
 | Analyse | Not Started | |
 | Budget Calibration | Not Started | |
