@@ -8,7 +8,7 @@
 | --- | --- | --- |
 | Collect | Complete | 2026-10-02 |
 | Reconcile | Complete | 2026-10-02 |
-| Assumptions | Not Started | |
+| Assumptions | Complete | 2026-10-02 |
 | Position | Not Started | |
 | Handoff | Not Started | |
 | Analyse | Not Started | |
