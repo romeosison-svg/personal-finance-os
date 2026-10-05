@@ -22,7 +22,7 @@ Percentages are derived during the monthly review from current income figures.
 | Elevated-risk cash buffer | £1,000                | Use for months with known timing risk, major upcoming bills, travel pressure, income uncertainty, or statement gaps |
 | Buffer methodology     | Preserve liquidity first | Cashflow stability takes precedence over accelerated debt reduction |
 | Emergency fund target  | £20,000 - £22,000        | Long-term target                                                    |
-| Emergency fund current | £20,032.43               | Held in Chip Cash ISA; verified in September 2026 review |
+| Emergency fund current | £20,052.01               | Held in Chip Smart Cash ISA; verified in October 2026 review |
 
 ### Operating Cash Buffer
 
@@ -96,10 +96,12 @@ These are durable monthly current-account DD baselines. They should be surfaced 
 
 | Item | Amount | Expected collection date | Notes |
 | --- | ---: | --- | --- |
-| Recurring DD 1 | £11.69 | 3rd of month | User-confirmed consistent monthly DD on 2026-08-28 |
-| Recurring DD 2 | £65.00 | 14th of month | User-confirmed consistent monthly DD on 2026-08-28 |
-| Recurring DD 3 | £11.45 | 21st of month | User-confirmed consistent monthly DD on 2026-08-28 |
-| **Total Kelly Halifax recurring DDs** | **£88.14** | Monthly | Excludes card repayments, mortgage contribution, tithe, and ad hoc transfers unless separately confirmed |
+| Santander Cards Ltd | Statement-driven | Around 3rd of month | £11.58 observed in September 2026; verify from each statement rather than treating as fixed |
+| Virgin Money | £65.00 | 14th of month | Verified September 2026 |
+| NHSBSA PPC 2 | £11.45 | 21st of month | Verified September 2026 |
+| Vitality Life | £74.68 | Around 25th of month | Recurring DD confirmed by user in October 2026 review |
+| **Fixed Kelly Halifax recurring DDs** | **£151.13** | Monthly | Excludes the statement-driven Santander Cards DD |
+| **October 2026 working total** | **£162.71** | Monthly | Includes Santander Cards at the September-observed £11.58; update monthly |
 
 Kelly payday is normally the 24th of the month.
 
@@ -122,8 +124,9 @@ Romeo Lloyds card / balance-transfer payments:
 
 | Item | Amount | Expected collection date | Notes |
 | --- | ---: | --- | --- |
-| M&S credit card / balance transfer DD | £190.00 | Around 9th/10th of month | Include as recurring card/BT commitment; verify against statement each review |
-| MBNA balance transfer DD | Statement-driven | Around 20th-23rd of month | Include as recurring card/BT commitment; amount varies slightly and must be updated from each MBNA statement |
+| M&S credit card / balance transfer DD | £220.00 | Around 9th/10th of month | Amended DD submitted in October 2026; verify effective collection and future statements |
+| MBNA balance transfer DD | £497.00 | Around 20th-23rd of month | Fixed DD changed in time for the 22 October 2026 collection |
+| Cynergy reserve transfer to Lloyds | £717.00 | Before both card DDs | Transfer £220 M&S plus £497 MBNA from the ring-fenced reserve from November 2026 |
 
 ---
 
@@ -155,6 +158,12 @@ Kelly's first pay period was partial (started 18 May 2026; first pay received 24
 For all household allocation calculations — mortgage contribution, bills split, tithe — use the **normalised monthly net of ~£3,272** rather than the actual payslip amount, until Kelly has received at least one full calendar-month payslip.
 
 Review: Confirm actual net from first full-month payslip (expected July 2026). Update normalised figure if materially different from £3,272.
+
+### Workplace Pension Rule — Romeo
+
+Romeo remains enrolled in his workplace pension by default. Do not reduce or stop contributions merely to increase lifestyle spending cash.
+
+Before any change, verify the employee contribution, employer contribution or match, contribution method, and resulting change in take-home pay. A temporary reduction may be considered only if monthly reviews show a structural cashflow deficit after the debt reset and cash-bucket trial, and the lost employer contribution and tax or National Insurance benefits are explicitly quantified.
 
 ---
 
@@ -210,8 +219,9 @@ a temporary override may be applied and documented in the monthly review.
 | ---------------------- | ------------------------------------ | ------------------------------------------------------------------------- |
 | Bill split methodology | Proportional to net household income | Recalculated each monthly review using current net monthly income figures |
 | Shared bills account   | Santander joint account              | Shared household bills are paid from the joint account                    |
-| Shared bills baseline  | £767.80/month                        | Current known recurring shared household bills before reimbursable Spotify |
+| Shared bills baseline  | £1,311.98/month gross                | October 2026 recurring Santander baseline, including vehicle costs, Amazon Prime, Prime Video Ad-Free, and Oshun |
 | Spotify Premium Family | £21.99/month DD; £14.66 net cost     | Elaine reimburses £7.33/month, leaving £14.66 household net cost          |
+| Net shared-account cost | £1,304.65/month                     | Gross baseline less the £7.33 Spotify reimbursement                       |
 | Fallback methodology   | Manual override                      | Used only if proportional allocation is temporarily unsuitable            |
 
 ### Bill Contribution Methodology
@@ -252,27 +262,48 @@ a temporary override may be applied and documented in the monthly review.
 
 ---
 
+## Cash-Only Spending Rails
+
+Monzo Joint and individual Starling pots are the default payment rails for controllable spending. Credit-card availability does not create additional spending capacity.
+
+The £1,900 combined allowance is approved as an October and November 2026 pilot:
+
+| Rail | Pilot amount |
+| --- | ---: |
+| Monzo Joint shared spending | £950.00 |
+| Romeo Starling personal spending | £475.00 |
+| Kelly Starling personal spending | £475.00 |
+| **Combined pilot allowance** | **£1,900.00** |
+
+Reassess the total and category mix after the November outturn before making the amounts permanent. If an unavoidable or reimbursable purchase is made on a card, reduce the matching funded cash bucket immediately.
+
+### Reimbursements
+
+Recognise a reimbursement only when it is received. On receipt, return it to the originating funded bucket or record an explicit reallocation. Do not count an expected reimbursement as both available cash and a receivable.
+
+### Pickleball
+
+During the pilot, Romeo has a £300 monthly pickleball bucket and Kelly has a £200 monthly pickleball bucket. The combined rollover sinking pot has a £200 target, is administered in Romeo Starling, and is notionally split £100 for Romeo and £100 for Kelly.
+
+The sinking pot rolls forward, but it is target-based rather than an automatic £200 monthly contribution. Restore it only after an eligible withdrawal and subject to the next monthly Plan. Any sweep into monthly pickleball spending must reduce the sinking balance by the same amount. Kelly's notional share remains available for her eligible sport costs unless she agrees otherwise.
+
+
+---
+
 ## Balance Transfers
 
-| Assumption                                  | Value       | Notes                                                               |
-| ------------------------------------------- | ----------- | ------------------------------------------------------------------- |
-| BT card 1 provider                          | MBNA        | Primary balance transfer card                                       |
-| BT card 1 balance                           | (update monthly)  | Update monthly during review                                        |
-| BT card 1 promotional end                   | 03 Jun 2027 / 30 May 2028        | MBNA has two 0% promotional balance transfer tranches; verified from July 2026 statement |
-| BT card 1 required payment to clear on time | (calculate monthly)  | Calculated monthly based on current balance and months remaining    |
-| BT card 1 operational target                | £376/month  | Increased from £349 — required to clear balance by May 2028 expiry  |
-| BT card 1 direct debit                      | £225.27/month | Confirmed actual from May 2026 statement                          |
-| BT card 1 top-up target                     | ~£151/month | Additional payment required to meet operational target              |
+| Card | Promotional end | Ongoing DD / target | Durable treatment |
+| --- | --- | ---: | --- |
+| MBNA | 3 Jun 2027 and 30 May 2028 tranches | £497/month | Fixed DD; payments apply to the earlier-expiring tranche first; verify monthly |
+| M&S Bank | Mar 2028 | £220/month | Amended DD; verify the effective collection and monthly statement |
 
-| Assumption                                  | Value                          | Notes                                                  |
-| ------------------------------------------- | ------------------------------ | ------------------------------------------------------ |
-| BT card 2 provider                          | M&S Bank                       | Secondary balance transfer card                        |
-| BT card 2 balance                           | (update monthly)               | Update during monthly review                           |
-| BT card 2 promotional end                   | Mar 2028                       | Confirmed by user during August 2026 review            |
-| BT card 2 required payment to clear on time | (calculate monthly)            | Based on current balance and months remaining          |
-| BT card 2 operational target                | £195/month                     | Current agreed repayment target                        |
-| BT card 2 direct debit                      | ~£190/month                    | Automatically collected                                |
-| BT card 2 top-up target                     | ~£5/month                      | Additional payment required to meet operational target |
+The full October 2026 opening principal of £13,641.48 was cash-backed from the SOL proceeds. The reserve and the £3,000 CGT reserve are held in the same Cynergy Online Easy Access account but must remain separate sub-ledgers.
+
+| Cynergy sub-ledger | Rule |
+| --- | --- |
+| BT reserve | Reconcile to the remaining M&S and MBNA liabilities after every payment cycle |
+| CGT reserve | Preserve £3,000 until Portfolio OS or the tax filing confirms the final liability and payment timing |
+| Interest | Track separately; interest does not reduce either reserved principal until the related liability is settled |
 
 ### Balance Transfer Repayment Methodology
 
@@ -281,29 +312,14 @@ The objective is to clear all balance transfer balances before their promotional
 For each balance transfer card:
 
 1. Calculate the required monthly payment to clear the balance before the promotional expiry date.
-2. Compare the required payment against the current operational target.
-3. Flag any variance between the two.
-4. Review and adjust targets during the monthly planning cycle if necessary.
+2. Transfer £717 from Cynergy to Lloyds before the £220 M&S and £497 MBNA DDs from November 2026.
+3. Compare each remaining card liability with its Cynergy BT sub-ledger after payment.
+4. Reduce the final transfer if an issuer reduces its last DD to avoid a credit balance.
+5. Do not invest, spend, or repurpose the matched reserve before the corresponding liability is extinguished.
 
 ### Balance Transfer Ownership and Settlement
 
-Balance transfer repayment targets must be split between:
-
-1. Shared household BT obligations.
-2. Owner-specific BT tranches.
-
-During every monthly Plan phase:
-
-* List each BT card by tranche where promotional periods or ownership differ.
-* Calculate the planned payment for each tranche or target group.
-* Calculate Kelly's reimbursement to Romeo for her share of shared BT obligations when Romeo pays the BT card from his current account.
-* Exclude owner-specific tranches from the other person's reimbursement calculation unless an explicit household-sharing override is agreed.
-* Show the BT reimbursement as a separate settlement line item, not hidden inside the main payment table.
-* Preserve the distinction between aggregate household affordability and account-to-account fairness settlements.
-
-Known August 2026 ownership note:
-
-* The MBNA Barclaycard-transfer tranche from June 2026 is Romeo-specific and must not be included in Kelly's shared BT reimbursement unless explicitly overridden.
+Romeo funded the matched BT reserve from the October 2026 SOL proceeds. Kelly owes no M&S or MBNA reimbursement under that approved settlement. Any future ownership change must be an explicit Plan override; do not infer reimbursement merely because a card was previously used for shared costs.
 
 ### Priority Rules
 
@@ -314,13 +330,9 @@ Known August 2026 ownership note:
    * Insurance
    * Other committed expenses
 
-2. Maintain agreed balance transfer operational targets wherever cashflow allows.
+2. Maintain the agreed £220 M&S and £497 MBNA DDs from the matched reserve.
 
-3. Direct debits count towards operational targets.
-
-4. Only the difference between the direct debit and operational target should be manually topped up.
-
-5. Accelerated balance transfer repayments should only be made if:
+3. Accelerated balance transfer repayments should only be made if:
 
    * Cashflow remains healthy
    * £500 operating cash buffer is maintained
@@ -334,8 +346,9 @@ During each monthly review:
 * Verify promotional expiry dates from statements.
 * Verify direct debit amounts.
 * Recalculate required monthly repayment.
-* Compare required repayment versus operational target.
-* Document any shortfall or acceleration decision.
+* Reconcile the two card balances to the Cynergy BT sub-ledger.
+* Verify the £3,000 CGT sub-ledger remains intact.
+* Document any final-DD reduction, shortfall, or acceleration decision.
 
 
 
@@ -350,7 +363,7 @@ During each monthly review:
 | MG insurance | £40.00/month | Shared household commitment |
 | Zoe insurance | £62.28/month | Shared household commitment; verified from latest available Santander statement, 2026-06 joint statement |
 | Zoe battery lease | £59.00/month | Shared household commitment; RCI Financial Services DD |
-| **Total recurring vehicle commitments** | **£472.12/month** | Allocated using the normal household-income split |
+| **Total recurring vehicle commitments** | **£472.12/month** | Latest verified component set retained by the October 2026 Strategy; allocated using the normal household-income split |
 | PCP end date | (confirm when signed) | Add balloon payment when known |
 | Balloon payment | (confirm when signed) | |
 
@@ -382,10 +395,10 @@ PCP end date and balloon payment must be reviewed 12 months before expiry to ass
 
 | Card Holder | Card Type   | Default Policy             | Notes                                                            |
 | ----------- | ----------- | -------------------------- | ---------------------------------------------------------------- |
-| Romeo       | Amex        | Pay in full                | Highest repayment priority after essential household obligations |
+| Romeo       | Amex        | No new discretionary debt; pay in full | Use only for an approved unavoidable or reimbursable purchase backed by a funded cash bucket |
 | Romeo       | Barclaycard | Clear and downgrade        | No new spend from June 2026. Clear aggressively. Downgrade to free card when balance reaches £0. |
 | Romeo       | Halifax     | Flexible                   | Payment determined during monthly planning phase                 |
-| Kelly       | Amex        | Pay in full                | Household preference is to pay statement balances in full monthly; any partial payment must be an explicit cashflow exception |
+| Kelly       | Amex        | No new discretionary debt; pay in full | Use only for an approved unavoidable or reimbursable purchase backed by a funded cash bucket |
 | Kelly       | Halifax     | Flexible                   | Payment determined during monthly planning phase                 |
 
 ### Credit Card Repayment Methodology
@@ -402,11 +415,14 @@ PCP end date and balloon payment must be reviewed 12 months before expiry to ass
    * MBNA target
    * M&S target
 
-3. Amex statement balances should be planned for payment in full by default for both Romeo and Kelly.
+3. Amex statement balances must be planned for payment in full for both Romeo and Kelly.
 
    * Minimum payments are the mandatory safety floor, not the planning default.
-   * If cashflow cannot support full Amex repayment, the monthly Plan must explicitly document the partial-payment exception, the unpaid amount, and the reason.
-   * Pending reimbursements may be netted only where the reimbursement is specific, expected, and separately tracked in the Plan.
+   * No new discretionary Amex spending is permitted while the cash-only system is in force.
+   * Any approved unavoidable or reimbursable Amex purchase reduces the matching funded cash bucket immediately.
+   * Pending reimbursements remain receivables and do not create spending capacity before receipt.
+   * Any exception requires the current monthly Plan to be reopened before the due date and must document the unpaid amount and reason.
+   * Do not use Plan It to make an unfunded purchase appear affordable.
 
 4. Flexible credit cards (Barclaycard, Halifax and similar) may receive:
 
@@ -439,9 +455,9 @@ During each monthly review:
 | Emergency fund target                   | £20,000 - £22,000   | Long-term target based on approximately 3-4 months of core household expenses |
 | Emergency fund contribution methodology | Variable            | Determined during monthly planning phase based on available cashflow          |
 | Emergency fund account                  | Chip Cash ISA       | Must remain accessible enough for emergency use                               |
-| Emergency fund current                  | £15,091             | Current balance to be updated during the next review; prior Trading 212 balance was updated 2026-07-07 after Romeo trimmed Tesla position and sold £10,000 |
+| Emergency fund current                  | £20,052.01          | Held in Chip Smart Cash ISA; verified in October 2026 review |
 | Emergency fund minimum operating level  | £5,000              | Avoid reducing below this level unless unavoidable                            |
-| Months to target (calculated)           | £4,909 - £6,909 gap | Based on £20,000 - £22,000 target and £15,091 current balance                 |
+| Current target position                 | £52.01 above lower bound; £1,947.99 below upper bound | Based on the October 2026 verified balance |
 
 ### Emergency Fund Methodology
 
@@ -469,22 +485,13 @@ Contribution priority:
 
 ### Current Strategy
 
-The emergency fund is currently above the minimum operating level but still below the long-term target.
-
-Due to:
-
-* Existing balance transfer balances
-* Vehicle replacement requirements
-* Cashflow constraints
-* Kelly's recent job transition
-
-Emergency fund contributions may be reduced, paused or increased during the monthly planning phase.
+The emergency fund is inside its £20,000–£22,000 target range. It remains restricted: ordinary timing gaps, discretionary overspend, holidays, technology purchases, and investment contributions are not emergencies. Review the target annually or after a material change in income, mortgage costs, household expenses, or risk rather than topping it up automatically while it remains in range.
 
 **Kelly's priority — replenishment:** Kelly used her personal emergency fund to cover her mortgage share in May 2026 (while between jobs). Her stated priority is to replenish this from any monthly surplus once her salary is in place. This takes precedence over discretionary spending but sits below Tier 2 committed obligations in the planning hierarchy.
 
-Update 2026-07-07: Romeo trimmed Tesla exposure and sold £10,000, increasing the Trading 212 emergency fund balance to **£15,091**. This materially reduces household emergency-fund pressure but does not automatically clear Kelly's separate personal savings replenishment goal.
-
 Update 2026-08-28: The emergency fund is now held in Chip Cash ISA rather than Trading 212 Cash ISA. Future monthly reviews should request / verify Chip Cash ISA evidence for the emergency fund balance.
+
+Update 2026-10-06: The Chip Smart Cash ISA balance was verified at **£20,052.01**, placing the emergency fund within its target range.
 
 ### Review Rules
 
@@ -529,7 +536,7 @@ When there is a conflict between allocations, apply this priority order:
 5. Balance Transfer operational targets (MBNA and M&S)
 6. Required vehicle, insurance and other committed household obligations
 7. Tithe
-8. Amex repayment in full where cashflow permits
+8. Amex repayment in full; any exception requires reopening the monthly Plan
 
 
 ### Tier 3 - Financial Resilience
@@ -543,6 +550,12 @@ When there is a conflict between allocations, apply this priority order:
 12. Accelerated balance transfer repayments
 13. Additional debt overpayments
 14. Investment contributions beyond pension deductions
+
+### Monthly Investing Rule
+
+FinanceOS determines the cash amount that is genuinely affordable to invest; Portfolio OS determines the wrapper, asset allocation, and investments.
+
+At the November 2026 review, first preserve the £500 operating floor, fund required sinking-pot restoration, and calculate the verified residual after actual outturn. Invest approximately 50% of that residual and retain 50% for variance. A first contribution of roughly £100–£200 is a working expectation, not a guaranteed allocation. A £300 monthly instruction may be considered from December only after October and November both validate the cash system; larger amounts require two or three stable reviews.
 
 ### Overdraft Planning Rule
 
@@ -663,6 +676,20 @@ Where a known large expenditure is expected within the next 6 months:
 4. Document temporary overrides.
 5. Revert to standard priorities once expenditure is complete.
 
+### Fully Funded 0% Purchase Finance
+
+A major purchase may use 0% finance only when it is affordable at the full cash price and 100% of the net purchase price is ring-fenced in accessible cash from day one.
+
+Before proceeding:
+
+1. Confirm that total repayments equal the best available cash price and identify any fees or mandatory extras.
+2. Keep the reserve in cash rather than a market-risk investment.
+3. Keep it separate from the emergency fund, BT reserve, CGT reserve, and ordinary spending cash.
+4. Pay the finance DD from the nominated current account and transfer the exact monthly amount from the purchase reserve before collection.
+5. Reconcile the reserve to the outstanding liability monthly.
+6. Do not repurpose the reserve until the liability is cleared.
+7. Consider the credit-file effect before applying, particularly ahead of mortgage borrowing or refinancing.
+
 ---
 
 ## Tithe
@@ -771,8 +798,10 @@ FinanceOS should treat this as a known September travel cash requirement unless 
 
 ## Last Updated
 
-Date: 2026-08-30
-Reason: Revised operating-buffer policy. Set £500 as the normal household operating buffer while the emergency fund is at / above target and income is stable; made £1,000 an elevated-risk buffer for months with specific timing risk, major bills, travel pressure, income uncertainty, statement gaps, or joint-account volatility. Updated the planning hierarchy so rolling Amex balances and interest-bearing overdrafts are not subordinated to holding £1,000 idle by default. Updated current emergency fund balance to the September-verified Chip Cash ISA balance of £20,032.43.
+Date: 2026-10-06
+Reason: Applied all durable policies approved in the October 2026 Strategy. Recorded Cynergy as the co-located but separately tracked BT and £3,000 CGT reserve account; updated M&S and MBNA DDs to £220 and £497 with a £717 monthly reserve transfer; recorded the £1,900 cash-rail pilot, reimbursement and pickleball rules, no-new-discretionary-Amex rule, fully funded 0% finance rule, verified-surplus investment pilot, and workplace-pension safeguard. Updated the Santander baseline to £1,311.98 gross / £1,304.65 net, Kelly's recurring DDs, and the verified £20,052.01 Chip emergency fund balance.
+
+Previous: 2026-08-30 — Revised operating-buffer policy. Set £500 as the normal household operating buffer while the emergency fund is at / above target and income is stable; made £1,000 an elevated-risk buffer for months with specific timing risk, major bills, travel pressure, income uncertainty, statement gaps, or joint-account volatility. Updated the planning hierarchy so rolling Amex balances and interest-bearing overdrafts are not subordinated to holding £1,000 idle by default. Updated current emergency fund balance to the September-verified Chip Cash ISA balance of £20,032.43.
 
 Previous: 2026-08-28 — Updated emergency fund account from Trading 212 Cash ISA to Chip Cash ISA for current-forward reviews. Added Kelly Halifax current-account recurring DD baseline: £11.69 on the 3rd, £65.00 on the 14th, £11.45 on the 21st, total £88.14/month; recorded Kelly payday as normally the 24th. Added Romeo Lloyds recurring DD baseline, excluding removed Barclays £12 standing order and conditional Etika charge, with Vitality Health updated to £82.40 and M&S / MBNA listed as recurring card/BT commitments. Added Romeo salary receipt identifier `TEKSYSTEMS GLOBAL` for Lloyds reconcile checks.
 
