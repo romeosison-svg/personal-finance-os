@@ -14,18 +14,20 @@
 | Analyse | Complete | 2026-10-02 |
 | Budget Calibration | Complete | 2026-10-02 |
 | Affordability Check | Complete | 2026-10-02 |
-| Plan | Complete | 2026-10-04 |
+| Plan | Complete | 2026-10-05 |
 | Strategy | Not Started | |
 
 ## Revision Basis
 
 The Plan was locked on 2 October 2026 and reopened with user approval on 3 October 2026 after the full SOL disposal changed the available cash and debt position. The prior locked Plan remains preserved in commit `ce05a33`.
 
+The revised Plan was locked on 4 October 2026 and reopened again with user approval on 5 October 2026 after cancelling Amex Plan It released a further £1,359.47 onto Romeo's live card balance. The 4 October version remains preserved in commit `e3802b7`.
+
 This revision incorporates the verified sale proceeds, completed short-term debt reset, ring-fenced balance-transfer principal, Portfolio OS allocations, revised card Direct Debits, revised shared-account funding, and cash-only spending system. It supersedes the pre-sale fallback instructions.
 
 ## Executed SOL Disposal and Allocation
 
-Portfolio OS records a full disposal of 595.831 SOL on 3 October 2026 for displayed net proceeds of £53,556.11. £53,556.00 was withdrawn to Lloyds after accounting for an accidental £500 Lloyds-to-Coinbase deposit and its return; £0.11 remains at Coinbase as a source-rounding residual.
+Portfolio OS records a full disposal of 595.831 SOL on 3 October 2026 for displayed net proceeds of £53,556.11. The Lloyds statement records £53,556.10 of net Coinbase cash after the accidental £500.00 Lloyds-to-Coinbase deposit and the subsequent £500.10 return; £0.01 remains at Coinbase as a source-rounding residual.
 
 | SOL allocation | Amount | Status / destination |
 | --- | ---: | --- |
@@ -34,11 +36,14 @@ Portfolio OS records a full disposal of 595.831 SOL on 3 October 2026 for displa
 | Kelly Amex payoff | £2,455.90 | Paid in full from Lloyds |
 | Romeo Halifax payoff | £593.15 | Paid in full from Lloyds |
 | Starling overdraft payoff | £549.87 | Paid in full from Lloyds |
-| **Short-term debt cleared** | **£6,318.98** | **Executed** |
+| **Previously executed short-term debt clearance** | **£6,318.98** | **Executed** |
+| Romeo Amex balance released from cancelled Plan It plans | £1,359.47 | Paid in full from Lloyds using SOL proceeds; confirmed 5 October |
+| **Total non-BT short-term debt allocation** | **£7,678.45** | **Executed** |
 | M&S and MBNA initial BT reserve | £13,641.48 | Fully transferred to Tandem; October funding subsequently withdrawn as shown below |
 | CGT reserve | £3,000.00 | Transferred to Atom; amount directed by Portfolio OS |
+| Romeo Trading 212 ISA allowance top-up | £3,533.00 | Executed on 5 October; Portfolio OS instruction confirmed by user |
 | Kelly Trading 212 S&S ISA | £20,000.00 | Planned transfer; not yet executed |
-| Trading 212 GIA | £10,595.65 | Planned allocation: £10,595.54 from Lloyds plus £0.11 Coinbase residual |
+| Trading 212 GIA | £5,703.18 | Revised planned allocation: £5,703.17 from Lloyds plus £0.01 Coinbase residual |
 | **Total SOL allocation** | **£53,556.11** | **Fully assigned** |
 
 The Finance OS Plan carries the £3,000 Portfolio OS CGT reserve without recalculating tax. The ISA and GIA investment decisions remain Portfolio OS decisions; this Plan records only their cash effect.
@@ -55,7 +60,7 @@ The full opening M&S and MBNA principal was ring-fenced in Tandem. Romeo first t
 | MBNA | £497.00 | Amended fixed DD confirmed to collect on 22 October |
 | **October BT funding** | **£692.00** | **Already transferred Tandem → Lloyds** |
 
-If M&S collects the new £220.00 fixed DD in October, do not make the £5.00 manual top-up and transfer a further £25.00 from Tandem to Lloyds. The total October funding would then be £717.00.
+The £5.00 M&S manual payment was made on 5 October. If M&S collects the existing £190.00 DD, no further action is needed and the total October payment is £195.00. If M&S instead collects the new £220.00 DD, the total October payment will be £225.00; transfer a further £30.00 from Tandem to Lloyds so total October BT funding becomes £722.00.
 
 Under the expected £195.00 M&S and £497.00 MBNA case:
 
@@ -102,7 +107,7 @@ The cumulative funding uses the exact 57.941467% / 42.058533% income ratio after
 
 ## October Cash-Only Spending System
 
-No new discretionary Amex spending is permitted. Monzo Joint and individual Starling spaces or virtual cards are the funded payment rails. The combined October cash allowance is £1,800.00.
+No new discretionary Amex spending is permitted. Monzo Joint and individual Starling spaces or virtual cards are the funded payment rails. The combined October cash allowance is £1,900.00 after reallocating £100.00 from the pickleball sinking allocation into Romeo's monthly pickleball bucket.
 
 ### Monzo Joint — Shared Spending
 
@@ -126,11 +131,11 @@ Shared funding uses the exact October income ratio. The Kelly work-commute pot i
 
 | Pot | Amount |
 | --- | ---: |
-| Sport / pickleball | £200.00 |
+| Sport / pickleball | £300.00 |
 | Health / personal care | £25.00 |
 | Takeaway | £75.00 |
 | Shopping / personal | £75.00 |
-| **Romeo spendable total** | **£375.00** |
+| **Romeo spendable total** | **£475.00** |
 
 ### Kelly Starling — Personal Spending
 
@@ -149,9 +154,9 @@ Each person owns their takeaway bucket. A shared order may be split between the 
 
 | Person | Shared Monzo share | Personal Starling | Total responsibility |
 | --- | ---: | ---: | ---: |
-| Romeo | £550.44 | £375.00 | £925.44 |
+| Romeo | £550.44 | £475.00 | £1,025.44 |
 | Kelly | £399.56 | £475.00 | £874.56 |
-| **Total** | **£950.00** | **£850.00** | **£1,800.00** |
+| **Total** | **£950.00** | **£950.00** | **£1,900.00** |
 
 ## Kelly Liquidity Support
 
@@ -173,16 +178,18 @@ The £238.75 is a cash-location transfer inside the household, not additional sp
 
 ## One-Off October Sinking Pots
 
-After fixed commitments and the £1,800 cash allowance, £783.93 remains. The user approves a one-time October operating floor of £100.00 instead of the locked £500 durable profile floor. The remaining £683.93 is funded entirely from Romeo Lloyds with no Kelly reimbursement.
+After fixed commitments and the £1,900 cash allowance, £683.93 remains. The user approves a one-time October operating floor of £100.00 instead of the locked £500 durable profile floor. The remaining £583.93 is funded entirely from Romeo Lloyds with no Kelly reimbursement.
 
 | Sinking pot | Amount | Funding / ownership |
 | --- | ---: | --- |
-| Romeo sport / pickleball rollover pot | £200.00 | Romeo Lloyds → Romeo Starling space |
-| Kelly sport / pickleball rollover pot | £200.00 | Romeo Lloyds → Kelly Starling space; no reimbursement |
-| Shared travel / experiences pot | £283.93 | Romeo Lloyds → shared Monzo pot; Romeo-funded, shared use |
-| **One-off sinking-pot allocation** | **£683.93** | **Romeo-funded** |
+| Romeo sport / pickleball rollover allocation | £100.00 | Held in Romeo Starling space |
+| Kelly-access sport / pickleball rollover allocation | £100.00 | Romeo Lloyds → the same Romeo Starling space; held and administered by Romeo, available when Kelly requests an eligible sport expense; no reimbursement |
+| Shared travel / experiences pot | £383.93 | Romeo Lloyds → shared Monzo pot; Romeo-funded, shared use |
+| **One-off sinking-pot allocation** | **£583.93** | **Romeo-funded** |
 
-The sport sinking pots are distinct from the £200 monthly spendable sport buckets and roll forward for tournament entries, coaching, equipment, shoes, or sport-related travel. The travel pot is not part of October's spendable allowance.
+The two sport allocations are grouped into one £200.00 household pickleball sinking pot in Romeo Starling, split notionally as £100.00 Romeo-access and £100.00 Kelly-access. Romeo administers the pot and releases Kelly-access funds when she asks. The combined sinking pot remains distinct from Romeo's £300.00 and Kelly's £200.00 monthly spendable sport buckets and rolls forward for tournament entries, coaching, equipment, shoes, or sport-related travel. The travel pot is not part of October's spendable allowance.
+
+The pickleball sinking pot rolls forward by default, but it is not permanently restricted. If a monthly pickleball spending bucket is insufficient, Romeo may explicitly sweep a chosen amount from the relevant notional sinking allocation into that month's spendable pickleball bucket before the purchase. The transfer must reduce the sinking-pot balance and increase the spendable bucket by the same amount so the cash is never counted twice. Kelly's notional allocation remains available for her sport expenses unless she agrees to a different use. This October operating rule is a candidate for confirmation as a durable rule in Strategy.
 
 ## Operating-Floor Exception
 
@@ -199,29 +206,26 @@ This exception does not change the durable £500 profile rule. Any durable chang
 
 ## Aggregate Cash Trace
 
-The post-reset operating-cash figure below is the household cash remaining after the executed debt payoffs, Atom CGT reserve, Tandem opening reserve, and planned T212 ISA/GIA allocations. It excludes restricted Chip and the £0.11 Coinbase residual assigned to the GIA allocation.
+The Lloyds statement requested on 5 October supersedes the earlier source-based estimate. It confirms that several operating payments had already posted before the £4,875.73 pre-SOL balance was used, so subtracting the full monthly baselines again understated remaining cash. It also confirms the previously omitted £3,533.00 Romeo T212 ISA top-up.
 
-| Operating-cash source | Amount |
+| Lloyds live trace from 5 October statement | Amount |
 | --- | ---: |
-| Romeo Lloyds after SOL allocations | £4,875.73 |
-| Kelly Halifax | £2,617.25 |
-| Santander joint | £427.08 |
-| **Post-reset household operating cash** | **£7,920.06** |
+| User-confirmed Lloyds balance after £19.74 of completed Starling corrections | £26,861.17 |
+| Remaining Starling pickleball correction while reimbursements are outstanding | +£30.75 |
+| **Lloyds after full corrective transfer** | **£26,891.92** |
+| Kelly T212 S&S ISA | -£20,000.00 |
+| Remaining T212 GIA cash transfer | -£5,703.17 |
+| **Lloyds after planned ISA and GIA transfers** | **£1,188.75** |
+| Remaining October BT payments | -£687.00 |
+| **Lloyds after reserve-funded BT payments** | **£501.75** |
+| Remaining Romeo baseline current-account commitments | -£71.47 |
+| **Provisional Lloyds residual** | **£430.28** |
 
-| October cash use | Amount |
-| --- | ---: |
-| Mortgage | £3,069.53 |
-| Santander gross recurring outflows | £1,311.98 |
-| Romeo and Kelly current-account DDs | £616.73 |
-| Kelly tithe | £337.89 |
-| **Fixed operating commitments** | **£5,336.13** |
-| Cash-only spending allowance | £1,800.00 |
-| One-off sinking pots | £683.93 |
-| **Ending unrestricted operating cash** | **£100.00** |
+The £687.00 remaining BT outflow assumes the existing £190.00 M&S DD plus the confirmed £497.00 MBNA DD, after the £5.00 M&S manual payment already made. If M&S instead collects £220.00, transfer £30.00 more from Tandem; the net Lloyds position remains the same.
 
-The £692.00 October BT card payments are excluded from fixed operating commitments because the matching £692.00 Tandem-to-Lloyds transfer funds them. They have zero net effect on ordinary operating cash.
+Before the cash pots were funded, £9.49 Burger King and two £20.50 Everyone Active court bookings had already left Lloyds. The £41.00 gross court cost relates to a booking rescheduled to Monday 12 October and has not yet been reimbursed. Romeo has returned £10.25 from his Starling monthly pickleball pot to Lloyds, representing his assumed quarter-share, and £9.49 from his Starling takeaway pot. A further £30.75 remains to be returned from the pickleball pot while the other players' reimbursements are outstanding. The full correction remains £50.49. Any later court reimbursement is recognised only when received and should then replenish Romeo's monthly pickleball pot.
 
-The expected £7.33 Spotify reimbursement raises unrestricted cash to £107.33 when received. Restricted ending cash also includes the £683.93 sinking pots and the Tandem BT reserve; neither is additional spending capacity.
+The £430.28 provisional Lloyds residual is before the expected £7.33 Spotify reimbursement or any later court reimbursements. Treat it as reconciliation headroom, not immediate investment capacity, until all remaining October debits and Kelly-side transfers have completed. The agreed £100 household operating floor remains in Kelly Halifax. Restricted cash also includes the £583.93 sinking pots and the Tandem BT reserve.
 
 ## Ongoing Monthly View
 
@@ -229,60 +233,66 @@ The expected £7.33 Spotify reimbursement raises unrestricted cash to £107.33 w
 | --- | ---: |
 | Verified combined net income | £8,033.78 |
 | Regular commitments excluding reserve-funded BT payments | -£5,336.13 |
-| Approved cash allowance | -£1,800.00 |
-| **Indicative recurring surplus** | **£897.65** |
+| Approved cash allowance | -£1,900.00 |
+| **Indicative recurring surplus** | **£797.65** |
 
-The £897.65 is an indicative future-month surplus before new savings or investment instructions. It is not added to October cash and must be reassessed with each month's actual balances and bills.
+The £797.65 is an indicative future-month surplus before new savings, investment, or recurring sinking-fund instructions. It is not added to October cash and must be reassessed with each month's actual balances and bills. Making the revised pickleball structure durable remains a Strategy decision.
 
 ## Payment and Transfer Checklist
 
 ### Completed
 
-- [x] Receive the Coinbase proceeds into Lloyds; retain the £0.11 Coinbase residual for the GIA allocation.
+- [x] Receive £53,556.10 of net Coinbase proceeds into Lloyds; retain the £0.01 Coinbase residual for the GIA allocation.
 - [x] Clear Romeo Amex: £2,708.81.
 - [x] Clear Romeo Amex Platinum: £11.25.
 - [x] Clear Kelly Amex: £2,455.90.
 - [x] Clear Romeo Halifax: £593.15.
 - [x] Clear Starling overdraft: £549.87.
+- [x] Clear the additional £1,359.47 Amex balance released by cancelling Plan It, using SOL proceeds.
 - [x] Transfer £3,000.00 CGT reserve to Atom.
+- [x] Transfer £3,533.00 to Romeo's Trading 212 ISA to finish the available ISA top-up identified by Portfolio OS.
 - [x] Complete the £13,641.48 initial BT reserve in Tandem.
 - [x] Transfer £692.00 from Tandem to Lloyds for October BT payments.
+- [x] Pay the £5.00 M&S manual top-up.
+- [x] Romeo → Santander: £795.06.
+- [x] Romeo → Kelly Halifax liquidity support: £238.75.
+- [x] Romeo → Monzo Joint: £934.37 total, comprising £550.44 spendable funding and £383.93 travel / experiences funding.
+- [x] Romeo → Romeo Starling: £675.00 total, sufficient for £475.00 spendable pots and the £200.00 combined pickleball sinking pot after internal reallocation.
+- [x] Fund Romeo's £1,778.53 mortgage share.
 - [x] Amend MBNA DD to £497.00 effective 22 October.
 - [x] Submit M&S DD amendment to £220.00; effective collection remains to be confirmed.
 
 ### Outstanding October Actions
 
 - [ ] Transfer £20,000.00 to Kelly Trading 212 S&S ISA.
-- [ ] Transfer £10,595.54 from Lloyds to the Trading 212 GIA; retain/resolve the £0.11 Coinbase residual as part of the £10,595.65 allocation.
-- [ ] Romeo → Santander: £795.06.
+- [ ] Transfer £5,703.17 from Lloyds to the Trading 212 GIA; retain/resolve the £0.01 Coinbase residual as part of the revised £5,703.18 allocation.
 - [ ] Kelly → Santander: £89.84.
-- [ ] Romeo → Kelly Halifax liquidity support: £238.75.
-- [ ] Romeo → Monzo Joint spendable funding: £550.44.
 - [ ] Kelly → Monzo Joint spendable funding: £399.56.
-- [ ] Romeo → Romeo Starling spendable pots: £375.00.
 - [ ] Kelly → Kelly Starling spendable pots: £475.00.
-- [ ] Romeo → Romeo Starling sport sinking pot: £200.00.
-- [ ] Romeo → Kelly Starling sport sinking pot: £200.00.
-- [ ] Romeo → shared Monzo travel / experiences pot: £283.93.
-- [ ] Ensure M&S collects £190.00 and pay £5.00 manually, unless the new £220.00 DD applies; if £220.00 applies, skip the manual payment and transfer £25.00 more from Tandem to Lloyds.
+- [ ] Reallocate £100.00 internally within Romeo Starling from the £300.00 pickleball-events space to the monthly pickleball spending space, leaving the combined sinking pot at £200.00.
+- [x] Return £10.25 from Romeo's Starling monthly pickleball pot to Lloyds for Romeo's assumed quarter-share of the £41.00 court booking.
+- [x] Return £9.49 from Romeo's Starling takeaway pot to Lloyds for the pre-funding Burger King purchase.
+- [ ] Return the remaining £30.75 from Romeo's Starling monthly pickleball pot to Lloyds while the other players' court reimbursements are outstanding.
+- [ ] When reimbursements for the rescheduled 12 October Everyone Active booking are actually received, transfer the received amount from Lloyds into Romeo's monthly pickleball pot.
+- [ ] Ensure M&S collects £190.00; if the new £220.00 DD applies instead, transfer £30.00 more from Tandem to Lloyds because the £5.00 manual payment has already been made.
 - [ ] Ensure MBNA collects the confirmed £497.00 DD on 22 October.
-- [ ] Fund the mortgage: Romeo £1,778.53 and Kelly £1,291.00.
-- [ ] Keep all October cash spending within the £1,800 funded allowance.
+- [ ] Fund Kelly's £1,291.00 mortgage share.
+- [ ] Keep all October cash spending within the £1,900 funded allowance.
 
 ## Plan Decision Summary
 
-1. The verified SOL proceeds are fully assigned across executed debt clearance, the Tandem BT reserve, the Atom CGT reserve, Kelly's T212 ISA, and the T212 GIA.
-2. All non-BT short-term debts are cleared; neither Amex may be used for new discretionary spending.
+1. The verified SOL proceeds are allocated across executed debt clearance, the Tandem BT reserve, the Atom CGT reserve, Romeo's £3,533.00 T212 ISA top-up, Kelly's £20,000.00 T212 ISA, and the revised £5,703.18 T212 GIA allocation.
+2. The £1,359.47 Amex balance released by cancelling Plan It has been cleared; neither Amex may be used for new discretionary spending.
 3. Tandem funds the October BT payments and transfers £717.00 monthly to Lloyds from November for the £220.00 M&S and £497.00 MBNA DDs.
 4. Santander is fully funded for the £1,311.98 gross recurring baseline, including Amazon Prime, Prime Video Ad-Free, and Oshun.
-5. October cash spending is capped at £1,800.00 across Monzo Joint and individual Starling pots.
+5. October cash spending is capped at £1,900.00 across Monzo Joint and individual Starling pots, including Romeo's revised £300.00 pickleball budget.
 6. Romeo provides £238.75 Kelly liquidity support; Kelly ends with the £100.00 October household operating floor in Halifax.
-7. Romeo funds £683.93 of one-off sinking pots with no Kelly reimbursement.
+7. Romeo funds £583.93 of one-off sinking pots with no Kelly reimbursement.
 8. The £100.00 operating floor is a one-time October Plan exception; the durable profile remains £500 pending Strategy review.
 9. Chip remains restricted and is not used.
 
 ## Phase Lock
 
 Status: Complete
-Completed: 2026-10-04
+Completed: 2026-10-05
 Locked by: Codex with user approval
