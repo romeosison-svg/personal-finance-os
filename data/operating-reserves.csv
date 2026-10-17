@@ -1,0 +1,8 @@
+reserve_key,reserve_name,owner,currency,purpose,authoritative_source,status,linked_component_key,notes
+reserve:emergency:chip,Household emergency fund,Romeo,GBP,Household emergency fund,finance_os,active,,Restricted emergency cash held across Chip and Cynergy; reserve is a designation and not an additional asset
+reserve:bt:mands-mbna,Balance-transfer payoff reserve,Romeo,GBP,Match the remaining M&S and MBNA zero-percent balances,finance_os,active,debt:mands:romeo:balance-transfer,Linked to M&S and MBNA; see target notes; monthly payments stage through Lloyds
+reserve:cgt:sol,SOL CGT reserve,Romeo,GBP,Potential tax arising from the SOL disposal,finance_os,active,,Amount directed by Portfolio OS and kept distinct within Cynergy
+reserve:cgt:iond,IOND CGT reserve,Romeo,GBP,Potential tax arising from the IOND disposal,portfolio_os,active,,Separate from the SOL CGT reserve; amount directed by Portfolio OS
+reserve:sinking:pickleball,Combined pickleball sinking pot,Household,GBP,Eligible household pickleball costs,finance_os,active,,Held and administered by Romeo in Starling; notionally GBP 100 each
+reserve:sinking:travel,Shared travel and experiences pot,Household,GBP,Shared travel and experiences,finance_os,active,,Held in Monzo Joint; no permanent monthly contribution
+reserve:operating-floor,Household operating floor,Household,GBP,Payment-timing and cashflow protection,finance_os,active,,Durable target is GBP 500; October plan temporarily funded GBP 100

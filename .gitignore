@@ -1,2 +1,9 @@
 # Statement files — kept local, never committed
 reviews/*/statements/
+__pycache__/
+*.py[cod]
+
+# Local SQLite working databases (rebuildable from migrations and locked exports)
+/private-data/*.sqlite
+/private-data/*.sqlite-shm
+/private-data/*.sqlite-wal

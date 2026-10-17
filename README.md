@@ -118,6 +118,8 @@ See [Workflow](/docs/workflow.md) for the full process reference.
 
 ## Future Roadmap
 
+FinanceOS now includes the first V3 database foundation: a local SQLite balance-history store and a dated net-worth export for PortfolioOS. The gated monthly review files remain the audit trail. See `docs/net-worth-database.md`.
+
 ### V1 — Markdown Process System *(current)*
 
 File-based. Codex-assisted. No application dependencies.

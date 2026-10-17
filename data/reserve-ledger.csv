@@ -1,0 +1,19 @@
+entry_key,reserve_key,effective_date,location_key,entry_type,amount,verification_status,source_system,source_ref,source_date,transfer_group_key,notes
+RES-BT-20261005-FUND,reserve:bt:mands-mbna,2026-10-05,cash:tandem:romeo:saver,funding,13641.48,verified,finance_os,reviews/2026-10/plan.md,2026-10-05,,Opening reserve matched the full M&S and MBNA principal
+RES-BT-20261005-TANDEM-OUT,reserve:bt:mands-mbna,2026-10-05,cash:tandem:romeo:saver,transfer,-692.00,verified,finance_os,reviews/2026-10/plan.md,2026-10-05,XFER-BT-20261005-TANDEM-LLOYDS,October payments staged to Lloyds
+RES-BT-20261005-LLOYDS-IN,reserve:bt:mands-mbna,2026-10-05,cash:lloyds:romeo:current,transfer,692.00,verified,finance_os,reviews/2026-10/plan.md,2026-10-05,XFER-BT-20261005-TANDEM-LLOYDS,October payments staged to Lloyds
+RES-BT-20261005-MANDS-MANUAL,reserve:bt:mands-mbna,2026-10-05,cash:lloyds:romeo:current,spend,-5.00,verified,finance_os,reviews/2026-10/plan.md,2026-10-05,,First M&S manual payment
+RES-BT-20261006-TANDEM-OUT,reserve:bt:mands-mbna,2026-10-06,cash:tandem:romeo:saver,transfer,-12949.48,verified,finance_os,reviews/2026-10/strategy.md,2026-10-06,XFER-BT-20261006-TANDEM-CYNERGY,Remaining BT reserve moved to Cynergy
+RES-BT-20261006-CYNERGY-IN,reserve:bt:mands-mbna,2026-10-06,cash:cynergy:romeo:easy-access,transfer,12949.48,verified,finance_os,reviews/2026-10/strategy.md,2026-10-06,XFER-BT-20261006-TANDEM-CYNERGY,Remaining BT reserve moved to Cynergy
+RES-BT-20261010-MANDS-DD,reserve:bt:mands-mbna,2026-10-10,cash:lloyds:romeo:current,spend,-190.00,verified,finance_os,user confirmation,2026-10-17,,M&S collected GBP 190
+RES-BT-20261017-MANDS-MANUAL,reserve:bt:mands-mbna,2026-10-17,cash:lloyds:romeo:current,spend,-5.00,verified,finance_os,user confirmation,2026-10-17,,Second accidental M&S manual payment
+RES-BT-20261022-MBNA-DD,reserve:bt:mands-mbna,2026-10-22,cash:lloyds:romeo:current,spend,-497.00,pending,finance_os,user confirmation,2026-10-17,,Fixed MBNA DD expected 22 October; not yet collected
+RES-SOLCGT-20261005-FUND,reserve:cgt:sol,2026-10-05,cash:atom:romeo:saver,funding,3000.00,verified,finance_os,reviews/2026-10/plan.md,2026-10-05,,SOL CGT reserve funded in Atom
+RES-SOLCGT-20261006-ATOM-OUT,reserve:cgt:sol,2026-10-06,cash:atom:romeo:saver,transfer,-3000.00,verified,finance_os,reviews/2026-10/strategy.md,2026-10-06,XFER-SOLCGT-20261006-ATOM-CYNERGY,Reserve moved from Atom
+RES-SOLCGT-20261006-CYNERGY-IN,reserve:cgt:sol,2026-10-06,cash:cynergy:romeo:easy-access,transfer,3000.00,verified,finance_os,reviews/2026-10/strategy.md,2026-10-06,XFER-SOLCGT-20261006-ATOM-CYNERGY,Reserve received in Cynergy
+RES-IONDCGT-20261017-FUND,reserve:cgt:iond,2026-10-17,cash:cynergy:romeo:easy-access,funding,2500.00,verified,portfolio_os,../portfolio-os/reviews/2026-10/transactions.csv,2026-10-17,,IOND CGT reserve confirmed received in Cynergy
+RES-EMERGENCY-20260930-OPEN,reserve:emergency:chip,2026-09-30,cash:chip:romeo:cash-isa,opening_balance,20052.01,verified,finance_os,reviews/2026-10/position-handoff.md,2026-09-30,,Verified restricted emergency-fund balance
+RES-EMERGENCY-20261017-CYNERGY-FUND,reserve:emergency:chip,2026-10-17,cash:cynergy:romeo:easy-access,funding,2500.00,verified,finance_os,user confirmation,2026-10-17,,Additional emergency-fund cash confirmed held in Cynergy; distinct from both CGT reserves
+RES-PICKLE-20261005-FUND,reserve:sinking:pickleball,2026-10-05,cash:starling:romeo:pickleball-sinking,funding,200.00,verified,finance_os,reviews/2026-10/plan.md,2026-10-05,,Combined target-based sinking pot funded
+RES-TRAVEL-20261005-FUND,reserve:sinking:travel,2026-10-05,cash:monzo:household:travel-experiences,funding,383.93,verified,finance_os,reviews/2026-10/plan.md,2026-10-05,,Shared travel and experiences pot funded
+RES-FLOOR-20261005-FUND,reserve:operating-floor,2026-10-05,cash:halifax:kelly:current,funding,100.00,verified,finance_os,reviews/2026-10/plan.md,2026-10-05,,One-time October operating-floor funding
