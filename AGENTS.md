@@ -56,9 +56,11 @@ The handoff phase is complete only when these artefacts exist, have been reviewe
 - `reviews/YYYY-MM/handoff.md`
 - `reviews/YYYY-MM/position-handoff.md`
 - `reviews/YYYY-MM/transactions.csv`
+- `reviews/YYYY-MM/net-worth-export.csv`
 
 `position-handoff.md` contains verified facts and locked assumptions only.
 `transactions.csv` contains raw transaction rows only.
+`net-worth-export.csv` contains signed, dated balance components derived only from locked Position facts. It must use stable cross-repository component keys and must not introduce new facts.
 
 Do not include categorisation, analysis, recommendations, or strategy in handoff artefacts.
 
