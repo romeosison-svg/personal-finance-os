@@ -2,7 +2,7 @@ target_key,reserve_key,as_of_date,target_amount,verification_status,source_syste
 TARGET-BT-20261017,reserve:bt:mands-mbna,2026-10-17,13441.48,estimated,finance_os,user confirmations and reviews/2026-10/plan.md,2026-10-17,Derived remaining M&S GBP 3513.75 plus MBNA GBP 9927.73 before the pending 22 October DD
 TARGET-SOLCGT-20261006,reserve:cgt:sol,2026-10-06,3000.00,verified,finance_os,reviews/2026-10/strategy.md,2026-10-06,Preserve until tax calculation and payment timing are confirmed
 TARGET-IONDCGT-20261017,reserve:cgt:iond,2026-10-17,2500.00,verified,portfolio_os,../portfolio-os/reviews/2026-10/transactions.csv,2026-10-17,Potential IOND CGT reserve directed by Portfolio OS
-TARGET-EMERGENCY-20261017,reserve:emergency:chip,2026-10-17,20000.00,verified,finance_os,reviews/2026-10/strategy.md and user confirmation,2026-10-17,Lower bound of the GBP 20000 to GBP 22000 target range; current reserve is GBP 22552.01 across Chip and Cynergy
+TARGET-EMERGENCY-20261022,reserve:emergency:chip,2026-10-22,20000.00,verified,finance_os,reviews/2026-10/strategy.md and user confirmation,2026-10-22,Lower bound of the GBP 20000 to GBP 22000 target range; current recorded reserve is GBP 22552.01 across Chip and Cynergy before any later Chip interest
 TARGET-PICKLE-20261005,reserve:sinking:pickleball,2026-10-05,200.00,verified,finance_os,reviews/2026-10/strategy.md,2026-10-05,Combined target-based pot
 TARGET-TRAVEL-20261005,reserve:sinking:travel,2026-10-05,383.93,verified,finance_os,reviews/2026-10/strategy.md,2026-10-05,Current funded pot; future contributions are plan-specific
 TARGET-FLOOR-20261005,reserve:operating-floor,2026-10-05,500.00,verified,finance_os,reviews/2026-10/strategy.md,2026-10-05,Durable household operating-floor target
