@@ -22,7 +22,7 @@ Percentages are derived during the monthly review from current income figures.
 | Elevated-risk cash buffer | £1,000                | Use for months with known timing risk, major upcoming bills, travel pressure, income uncertainty, or statement gaps |
 | Buffer methodology     | Preserve liquidity first | Cashflow stability takes precedence over accelerated debt reduction |
 | Emergency fund target  | £20,000 - £22,000        | Long-term target                                                    |
-| Emergency fund current | £20,052.01               | Held in Chip Smart Cash ISA; verified in October 2026 review |
+| Emergency fund current | £22,552.01               | £20,052.01 in Chip Smart Cash ISA plus £2,500 in the Cynergy emergency-reserve sub-ledger; Cynergy receipt confirmed 22 October 2026 |
 
 ### Operating Cash Buffer
 
@@ -218,10 +218,12 @@ a temporary override may be applied and documented in the monthly review.
 | Assumption             | Value                                | Notes                                                                     |
 | ---------------------- | ------------------------------------ | ------------------------------------------------------------------------- |
 | Bill split methodology | Proportional to net household income | Recalculated each monthly review using current net monthly income figures |
-| Shared bills account   | Santander joint account              | Shared household bills are paid from the joint account                    |
-| Shared bills baseline  | £1,311.98/month gross                | October 2026 recurring Santander baseline, including vehicle costs, Amazon Prime, Prime Video Ad-Free, and Oshun |
+| Shared bills account   | Santander joint account              | Most shared household bills are paid from the joint account; the cleaner is currently paid from Romeo Lloyds and reimbursed proportionally |
+| Santander bills baseline | £1,308.99/month gross              | October 2026 baseline after removing the cancelled £2.99 Prime Video Ad-Free charge; includes vehicle costs, Amazon Prime, and Oshun |
 | Spotify Premium Family | £21.99/month DD; £14.66 net cost     | Elaine reimburses £7.33/month, leaving £14.66 household net cost          |
-| Net shared-account cost | £1,304.65/month                     | Gross baseline less the £7.33 Spotify reimbursement                       |
+| Gladys maintenance clean | £72.00/month                       | Four hours at £18/hour; shared household cost paid from Romeo Lloyds; Kelly reimburses her current proportional share (£30.28 at the October ratio) |
+| Total shared commitments | £1,380.99/month gross              | Santander baseline plus the monthly cleaner                               |
+| Net shared-household cost | £1,373.66/month                   | Gross shared commitments less the £7.33 Spotify reimbursement             |
 | Fallback methodology   | Manual override                      | Used only if proportional allocation is temporarily unsuitable            |
 
 ### Bill Contribution Methodology
@@ -454,10 +456,10 @@ During each monthly review:
 | --------------------------------------- | ------------------- | ----------------------------------------------------------------------------- |
 | Emergency fund target                   | £20,000 - £22,000   | Long-term target based on approximately 3-4 months of core household expenses |
 | Emergency fund contribution methodology | Variable            | Determined during monthly planning phase based on available cashflow          |
-| Emergency fund account                  | Chip Cash ISA       | Must remain accessible enough for emergency use                               |
-| Emergency fund current                  | £20,052.01          | Held in Chip Smart Cash ISA; verified in October 2026 review |
+| Emergency fund account                  | Chip Cash ISA and Cynergy emergency-reserve sub-ledger | Must remain accessible enough for emergency use |
+| Emergency fund current                  | £22,552.01          | £20,052.01 recorded in Chip plus £2,500 confirmed received in Cynergy on 22 October 2026 |
 | Emergency fund minimum operating level  | £5,000              | Avoid reducing below this level unless unavoidable                            |
-| Current target position                 | £52.01 above lower bound; £1,947.99 below upper bound | Based on the October 2026 verified balance |
+| Current target position                 | £2,552.01 above lower bound; £552.01 above upper bound | Based on the recorded Chip balance and confirmed Cynergy extension; excludes any later Chip interest |
 
 ### Emergency Fund Methodology
 
@@ -485,13 +487,15 @@ Contribution priority:
 
 ### Current Strategy
 
-The emergency fund is inside its £20,000–£22,000 target range. It remains restricted: ordinary timing gaps, discretionary overspend, holidays, technology purchases, and investment contributions are not emergencies. Review the target annually or after a material change in income, mortgage costs, household expenses, or risk rather than topping it up automatically while it remains in range.
+The emergency fund is currently £552.01 above its £20,000–£22,000 target range before any later Chip interest. It remains restricted: ordinary timing gaps, discretionary overspend, holidays, technology purchases, and investment contributions are not emergencies. Any future reclassification of the Cynergy extension into a fully funded purchase reserve requires an explicit Plan decision; it is not an available purchase reserve merely because the core Chip balance remains inside the target range.
 
 **Kelly's priority — replenishment:** Kelly used her personal emergency fund to cover her mortgage share in May 2026 (while between jobs). Her stated priority is to replenish this from any monthly surplus once her salary is in place. This takes precedence over discretionary spending but sits below Tier 2 committed obligations in the planning hierarchy.
 
 Update 2026-08-28: The emergency fund is now held in Chip Cash ISA rather than Trading 212 Cash ISA. Future monthly reviews should request / verify Chip Cash ISA evidence for the emergency fund balance.
 
 Update 2026-10-06: The Chip Smart Cash ISA balance was verified at **£20,052.01**, placing the emergency fund within its target range.
+
+Update 2026-10-22: The additional **£2,500.00** Cynergy emergency-reserve funding was confirmed received. The current recorded emergency fund is therefore **£22,552.01** across Chip and Cynergy before any later Chip interest. The Cynergy amount remains designated as emergency cash unless a future approved Plan explicitly reclassifies it.
 
 ### Review Rules
 
@@ -798,8 +802,12 @@ FinanceOS should treat this as a known September travel cash requirement unless 
 
 ## Last Updated
 
-Date: 2026-10-06
-Reason: Applied all durable policies approved in the October 2026 Strategy. Recorded Cynergy as the co-located but separately tracked BT and £3,000 CGT reserve account; updated M&S and MBNA DDs to £220 and £497 with a £717 monthly reserve transfer; recorded the £1,900 cash-rail pilot, reimbursement and pickleball rules, no-new-discretionary-Amex rule, fully funded 0% finance rule, verified-surplus investment pilot, and workplace-pension safeguard. Updated the Santander baseline to £1,311.98 gross / £1,304.65 net, Kelly's recurring DDs, and the verified £20,052.01 Chip emergency fund balance.
+Date: 2026-10-22
+Reason: Added Gladys's four-hour monthly maintenance clean at £18/hour as a £72 shared household commitment for the November review. Record it outside Santander while Romeo pays from Lloyds; Kelly reimburses her proportional share, currently £30.28. Also removed the cancelled £2.99 Prime Video Ad-Free charge from the Santander baseline.
+
+Previous: 2026-10-22 — Recorded the user-confirmed receipt of the £2,500 Cynergy emergency-fund extension. Current recorded emergency cash is £22,552.01 across Chip and Cynergy before any later Chip interest; no purchase-reserve reclassification has been made.
+
+Previous: 2026-10-06 — Applied all durable policies approved in the October 2026 Strategy. Recorded Cynergy as the co-located but separately tracked BT and £3,000 CGT reserve account; updated M&S and MBNA DDs to £220 and £497 with a £717 monthly reserve transfer; recorded the £1,900 cash-rail pilot, reimbursement and pickleball rules, no-new-discretionary-Amex rule, fully funded 0% finance rule, verified-surplus investment pilot, and workplace-pension safeguard. Updated the Santander baseline to £1,311.98 gross / £1,304.65 net, Kelly's recurring DDs, and the verified £20,052.01 Chip emergency fund balance.
 
 Previous: 2026-08-30 — Revised operating-buffer policy. Set £500 as the normal household operating buffer while the emergency fund is at / above target and income is stable; made £1,000 an elevated-risk buffer for months with specific timing risk, major bills, travel pressure, income uncertainty, statement gaps, or joint-account volatility. Updated the planning hierarchy so rolling Amex balances and interest-bearing overdrafts are not subordinated to holding £1,000 idle by default. Updated current emergency fund balance to the September-verified Chip Cash ISA balance of £20,032.43.
 
