@@ -120,6 +120,12 @@ Kelly payday is normally the 24th of the month.
 
 Romeo payday is normally the last day of the month.
 
+Romeo Lloyds statement identifiers:
+
+| Statement description | Meaning | Reconcile treatment |
+| --- | --- | --- |
+| `ZAWADI NIBIGIRA` | Gladys, household cleaner | Shared household cleaning cost. For the November review treat the £144 and £90 payments as one approved £234 initial deep-clean service: the second payment covered finishing the clean plus some shirt ironing. Neither payment is a recurring clean. The separate forward monthly assumption remains up to £90 for five hours at £18/hour |
+
 Romeo Lloyds card / balance-transfer payments:
 
 | Item | Amount | Expected collection date | Notes |
@@ -221,9 +227,10 @@ a temporary override may be applied and documented in the monthly review.
 | Shared bills account   | Santander joint account              | Most shared household bills are paid from the joint account; the cleaner is currently paid from Romeo Lloyds and reimbursed proportionally |
 | Santander bills baseline | £1,308.99/month gross              | October 2026 baseline after removing the cancelled £2.99 Prime Video Ad-Free charge; includes vehicle costs, Amazon Prime, and Oshun |
 | Spotify Premium Family | £21.99/month DD; £14.66 net cost     | Elaine reimburses £7.33/month, leaving £14.66 household net cost          |
-| Gladys maintenance clean | £72.00/month                       | Four hours at £18/hour; shared household cost paid from Romeo Lloyds; Kelly reimburses her current proportional share (£30.28 at the October ratio) |
-| Total shared commitments | £1,380.99/month gross              | Santander baseline plus the monthly cleaner                               |
-| Net shared-household cost | £1,373.66/month                   | Gross shared commitments less the £7.33 Spotify reimbursement             |
+| Gladys initial deep-clean service | £234.00 one-off            | Two `ZAWADI NIBIGIRA` payments from Romeo Lloyds: £144 initial work plus £90 to finish cleaning and complete some shirt ironing; jointly approved and not part of the recurring baseline; Kelly's combined share is £98.41 at the October ratio |
+| Gladys future full-house clean | Up to £90.00/month            | Forward estimate only: five hours at £18/hour; no completed recurring clean should be inferred from the initial service payments; Kelly's expected share is £37.85 at the October ratio |
+| Total shared commitments | £1,398.99/month gross              | Santander baseline plus the monthly cleaner                               |
+| Net shared-household cost | £1,391.66/month                   | Gross shared commitments less the £7.33 Spotify reimbursement             |
 | Fallback methodology   | Manual override                      | Used only if proportional allocation is temporarily unsuitable            |
 
 ### Bill Contribution Methodology
@@ -802,8 +809,10 @@ FinanceOS should treat this as a known September travel cash requirement unless 
 
 ## Last Updated
 
-Date: 2026-10-22
-Reason: Added Gladys's four-hour monthly maintenance clean at £18/hour as a £72 shared household commitment for the November review. Record it outside Santander while Romeo pays from Lloyds; Kelly reimburses her proportional share, currently £30.28. Also removed the cancelled £2.99 Prime Video Ad-Free charge from the Santander baseline.
+Date: 2026-10-23
+Reason: Recorded `ZAWADI NIBIGIRA` as the Lloyds statement identifier for Gladys. For November reconciliation, combine the £144 and £90 payments into one approved £234 initial deep-clean service; the second payment covered completion plus some shirt ironing. Neither payment is recurring. Preserve £90 only as the forward estimate for a future five-hour monthly clean.
+
+Previous: 2026-10-22 — Added Gladys's four-hour monthly maintenance clean at £18/hour as a £72 shared household commitment for the November review. Recorded it outside Santander while Romeo pays from Lloyds; Kelly's reimbursement was £30.28 at the October ratio. Also removed the cancelled £2.99 Prime Video Ad-Free charge from the Santander baseline. Superseded on 23 October by the five-hour £90 estimate.
 
 Previous: 2026-10-22 — Recorded the user-confirmed receipt of the £2,500 Cynergy emergency-fund extension. Current recorded emergency cash is £22,552.01 across Chip and Cynergy before any later Chip interest; no purchase-reserve reclassification has been made.
 
