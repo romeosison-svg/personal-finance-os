@@ -1,1 +1,56 @@
 date,owner,account,card_provider,merchant,description,amount,type,statement_period,notes
+03 Oct 2026,Kelly,Amex credit,Amex,PAYMENT RECEIVED - THANK YOU,PAYMENT RECEIVED - THANK YOU,2455.90,credit,25 Sep 2026 to 24 Oct 2026,raw card-statement row
+25 Sep 2026,Kelly,Amex credit,Amex,SP POTIEGA FOLKESTONE,SP POTIEGA FOLKESTONE,32.00,debit,25 Sep 2026 to 24 Oct 2026,raw card-statement row
+25 Sep 2026,Kelly,Amex credit,Amex,SPOND* ADVANCED INTERM WELWYN GARDEN C,SPOND* ADVANCED INTERM WELWYN GARDEN C,14.00,debit,25 Sep 2026 to 24 Oct 2026,raw card-statement row
+25 Sep 2026,Kelly,Amex credit,Amex,AMZNMKTPLACE*N48EH24P4 AMAZON.CO.UK,AMZNMKTPLACE*N48EH24P4 AMAZON.CO.UK,29.96,debit,25 Sep 2026 to 24 Oct 2026,raw card-statement row
+25 Sep 2026,Kelly,Amex credit,Amex,NOTONTHEHIGHSTREETUK BRISTOL,NOTONTHEHIGHSTREETUK BRISTOL,23.99,debit,25 Sep 2026 to 24 Oct 2026,raw card-statement row
+26 Sep 2026,Kelly,Amex credit,Amex,AMZNMKTPLACE*N40JJ44Z4 AMAZON.CO.UK,AMZNMKTPLACE*N40JJ44Z4 AMAZON.CO.UK,11.75,debit,25 Sep 2026 to 24 Oct 2026,raw card-statement row
+27 Sep 2026,Kelly,Amex credit,Amex,AMZNMKTPLACE*N41F97TJ4 AMAZON.CO.UK,AMZNMKTPLACE*N41F97TJ4 AMAZON.CO.UK,11.58,debit,25 Sep 2026 to 24 Oct 2026,raw card-statement row
+28 Sep 2026,Kelly,Amex credit,Amex,PICKLEBALL ENGLAND SELMESTON,PICKLEBALL ENGLAND SELMESTON,22.00,debit,25 Sep 2026 to 24 Oct 2026,raw card-statement row
+28 Sep 2026,Kelly,Amex credit,Amex,SNB S200217 Manchester,SNB S200217 Manchester,16.50,debit,25 Sep 2026 to 24 Oct 2026,raw card-statement row
+28 Sep 2026,Kelly,Amex credit,Amex,TFL TRAVEL CHARGE TFL.GOV.UK/CP,TFL TRAVEL CHARGE TFL.GOV.UK/CP,21.20,debit,25 Sep 2026 to 24 Oct 2026,raw card-statement row
+29 Sep 2026,Kelly,Amex credit,Amex,NATURALCYCLES NORDIC AB STOCKHOLM,NATURALCYCLES NORDIC AB STOCKHOLM,89.99,debit,25 Sep 2026 to 24 Oct 2026,raw card-statement row
+30 Sep 2026,Kelly,Amex credit,Amex,LEMONPICKLEBALL LONDON,LEMONPICKLEBALL LONDON,14.00,debit,25 Sep 2026 to 24 Oct 2026,raw card-statement row
+30 Sep 2026,Kelly,Amex credit,Amex,SHARP PICKLEB 13727044 HEMEL HEMPSTEAD,SHARP PICKLEB 13727044 HEMEL HEMPSTEAD,8.10,debit,25 Sep 2026 to 24 Oct 2026,raw card-statement row
+30 Sep 2026,Kelly,Amex credit,Amex,BASKIN ROBBINS BASKIN R LONDON,BASKIN ROBBINS BASKIN R LONDON,3.90,debit,25 Sep 2026 to 24 Oct 2026,raw card-statement row
+30 Sep 2026,Kelly,Amex credit,Amex,TFL TRAVEL CHARGE TFL.GOV.UK/CP,TFL TRAVEL CHARGE TFL.GOV.UK/CP,21.30,debit,25 Sep 2026 to 24 Oct 2026,raw card-statement row
+30 Sep 2026,Kelly,Amex credit,Amex,SNB S200217 Manchester,SNB S200217 Manchester,16.50,debit,25 Sep 2026 to 24 Oct 2026,raw card-statement row
+01 Oct 2026,Kelly,Amex credit,Amex,DOJO*DAL FIORENTINO LONDON,DOJO*DAL FIORENTINO LONDON,4.50,debit,25 Sep 2026 to 24 Oct 2026,raw card-statement row
+01 Oct 2026,Kelly,Amex credit,Amex,SAINSBURY'S SUPERMARKET LONDON GOODS,SAINSBURY'S SUPERMARKET LONDON GOODS,1.50,debit,25 Sep 2026 to 24 Oct 2026,raw card-statement row
+02 Oct 2026,Kelly,Amex credit,Amex,ODEON CINEMAS LONDON,ODEON CINEMAS LONDON,4.00,debit,25 Sep 2026 to 24 Oct 2026,raw card-statement row
+02 Oct 2026,Kelly,Amex credit,Amex,AMAZON.CO.UK AMAZON.CO.UK,AMAZON.CO.UK AMAZON.CO.UK,21.33,debit,25 Sep 2026 to 24 Oct 2026,raw card-statement row
+02 Oct 2026,Kelly,Amex credit,Amex,AMAZON.CO.UK AMAZON.CO.UK,AMAZON.CO.UK AMAZON.CO.UK,8.53,debit,25 Sep 2026 to 24 Oct 2026,raw card-statement row
+02 Oct 2026,Kelly,Amex credit,Amex,Costco Wholesale #129 Stevenage,Costco Wholesale #129 Stevenage,26.47,debit,25 Sep 2026 to 24 Oct 2026,raw card-statement row
+04 Oct 2026,Kelly,Amex credit,Amex,AMAZON.CO.UK*NK1ZL1W64 AMAZON.CO.UK,AMAZON.CO.UK*NK1ZL1W64 AMAZON.CO.UK,25.27,debit,25 Sep 2026 to 24 Oct 2026,raw card-statement row
+07 Oct 2026,Kelly,Amex credit,Amex,PICKLEBALL ENGLAND SELMESTON,PICKLEBALL ENGLAND SELMESTON,20.50,credit,25 Sep 2026 to 24 Oct 2026,raw card-statement row
+15 Oct 2026,Kelly,Amex credit,Amex,SHARP PICKLEB 13866823 HEMEL HEMPSTEAD,SHARP PICKLEB 13866823 HEMEL HEMPSTEAD,8.10,debit,25 Sep 2026 to 24 Oct 2026,raw card-statement row
+15 Oct 2026,Kelly,Amex credit,Amex,AMZNMKTPLACE*B82VR7Q34 AMAZON.CO.UK,AMZNMKTPLACE*B82VR7Q34 AMAZON.CO.UK,20.02,debit,25 Sep 2026 to 24 Oct 2026,raw card-statement row
+24 Oct 2026,Kelly,Amex credit,Amex,INTEREST CHARGE,INTEREST CHARGE,14.74,debit,25 Sep 2026 to 24 Oct 2026,raw card-statement row
+12 Sep 2026,Kelly,Halifax credit,Halifax,RINGGO PARKING MYRINGGO.COUK GB,RINGGO PARKING MYRINGGO.COUK GB,5.48,debit,statement dated 07 Oct 2026,raw card-statement row
+13 Sep 2026,Kelly,Halifax credit,Halifax,Klarna*JJ s House London GB,Klarna*JJ s House London GB,34.33,debit,statement dated 07 Oct 2026,raw card-statement row
+19 Sep 2026,Kelly,Halifax credit,Halifax,HMSHOST ANTALYA YIYECE ANTALYA TR,HMSHOST ANTALYA YIYECE ANTALYA TR,5.27,debit,statement dated 07 Oct 2026,raw card-statement row
+20 Sep 2026,Kelly,Halifax credit,Halifax,WWW.GOV.UK/PAY-DARTFOR LEEDS GB,WWW.GOV.UK/PAY-DARTFOR LEEDS GB,3.50,debit,statement dated 07 Oct 2026,raw card-statement row
+23 Sep 2026,Kelly,Halifax credit,Halifax,SIDE ANTIK BUTIK ANTALYA TR,SIDE ANTIK BUTIK ANTALYA TR,13.87,debit,statement dated 07 Oct 2026,900.00 TRY @ 64.8882
+23 Sep 2026,Kelly,Halifax credit,Halifax,SIDE COTTON TANJU CAMD ANTALYA TR,SIDE COTTON TANJU CAMD ANTALYA TR,13.09,debit,statement dated 07 Oct 2026,850.00 TRY @ 64.9351
+25 Sep 2026,Kelly,Halifax credit,Halifax,OST BUTIK ARUM OTEL ANTALYA TR,OST BUTIK ARUM OTEL ANTALYA TR,20.13,debit,statement dated 07 Oct 2026,1300.00 TRY @ 64.5802
+25 Sep 2026,Kelly,Halifax credit,Halifax,OBA MARKET ANTALYA TR,OBA MARKET ANTALYA TR,13.94,debit,statement dated 07 Oct 2026,900.00 TRY @ 64.5624
+27 Sep 2026,Kelly,Halifax credit,Halifax,WWW.GOV.UK/PAY-DARTFOR LEEDS GB,WWW.GOV.UK/PAY-DARTFOR LEEDS GB,3.50,debit,statement dated 07 Oct 2026,raw card-statement row
+29 Sep 2026,Kelly,Halifax credit,Halifax,PAYMENT RECEIVED - THANK YOU,PAYMENT RECEIVED - THANK YOU,318.15,credit,statement dated 07 Oct 2026,raw card-statement row
+03 Sep 2026,Romeo,Halifax credit,Halifax,BURGER KING HATFIELD GB,BURGER KING HATFIELD GB,13.08,debit,statement dated 14 Oct 2026,raw card-statement row
+03 Sep 2026,Romeo,Halifax credit,Halifax,PRO WWW.PERPLEXIT CA,PRO WWW.PERPLEXIT CA,17.82,debit,statement dated 14 Oct 2026,24.00 USD @ 1.3468
+09 Sep 2026,Romeo,Halifax credit,Halifax,PAYMENT RECEIVED - THANK YOU,PAYMENT RECEIVED - THANK YOU,5.00,credit,statement dated 14 Oct 2026,raw card-statement row
+11 Sep 2026,Romeo,Halifax credit,Halifax,gigantic.com Nottingham GB,gigantic.com Nottingham GB,82.60,debit,statement dated 14 Oct 2026,raw card-statement row
+12 Sep 2026,Romeo,Halifax credit,Halifax,DOUMO LONDON GB,DOUMO LONDON GB,36.32,debit,statement dated 14 Oct 2026,raw card-statement row
+21 Sep 2026,Romeo,Halifax credit,Halifax,CARPE DIEM RESTAURANT ANTALYA TR,CARPE DIEM RESTAURANT ANTALYA TR,14.01,debit,statement dated 14 Oct 2026,912.00 TRY @ 65.0964
+22 Sep 2026,Romeo,Halifax credit,Halifax,NEVA DOGA SPOR.KUYUM.I ANTALYA TR,NEVA DOGA SPOR.KUYUM.I ANTALYA TR,25.77,debit,statement dated 14 Oct 2026,1680.00 TRY @ 65.1921
+23 Sep 2026,Romeo,Halifax credit,Halifax,SONYA BUTIK ANTALYA TR,SONYA BUTIK ANTALYA TR,34.51,debit,statement dated 14 Oct 2026,2240.00 TRY @ 64.9087
+23 Sep 2026,Romeo,Halifax credit,Halifax,SIMUS RESTORANT ANTALYA TR,SIMUS RESTORANT ANTALYA TR,13.87,debit,statement dated 14 Oct 2026,900.00 TRY @ 64.8882
+03 Oct 2026,Romeo,Halifax credit,Halifax,PAYMENT RECEIVED - THANK YOU,PAYMENT RECEIVED - THANK YOU,593.15,credit,statement dated 14 Oct 2026,raw card-statement row
+03 Oct 2026,Romeo,Halifax credit,Halifax,PRO WWW.PERPLEXIT CA,PRO WWW.PERPLEXIT CA,18.22,debit,statement dated 14 Oct 2026,24.00 USD @ 1.3172
+03 Oct 2026,Romeo,Halifax credit,Halifax,PRO SAN FRANCISCO CA,PRO SAN FRANCISCO CA,18.10,credit,statement dated 14 Oct 2026,24.00 USD @ 1.3260
+07 Oct 2026,Romeo,Halifax credit,Halifax,PAYMENT RECEIVED - THANK YOU,PAYMENT RECEIVED - THANK YOU,0.12,credit,statement dated 14 Oct 2026,raw card-statement row
+14 Oct 2026,Romeo,Halifax credit,Halifax,INTEREST,INTEREST,7.94,debit,statement dated 14 Oct 2026,raw card-statement row
+04 Oct 2026,Romeo,M&S balance transfer,M&S Bank,Payment - Thank You,Payment - Thank You,5.00,credit,statement dated 15 Oct 2026,raw balance-transfer statement row
+10 Oct 2026,Romeo,M&S balance transfer,M&S Bank,Direct Debit - Thank You,Direct Debit - Thank You,190.00,credit,statement dated 15 Oct 2026,raw balance-transfer statement row
+12 Oct 2026,Romeo,M&S balance transfer,M&S Bank,Payment - Thank You,Payment - Thank You,5.00,credit,statement dated 15 Oct 2026,raw balance-transfer statement row
+22 Oct 2026,Romeo,MBNA balance transfer,MBNA,DIRECT DEBIT PAYMENT - THANK YOU,DIRECT DEBIT PAYMENT - THANK YOU,497.00,credit,statement dated 26 Oct 2026,raw balance-transfer statement row
