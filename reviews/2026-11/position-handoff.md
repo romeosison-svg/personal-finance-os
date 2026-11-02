@@ -8,7 +8,7 @@
 
 | File | Status |
 | --- | --- |
-| `reviews/2026-11/reconcile.md` | Not Started |
+| `reviews/2026-11/reconcile.md` | Complete 2026-11-02 |
 | `reviews/2026-11/assumptions.md` | Not Started |
 | `reviews/2026-11/position.md` | Not Started |
 | `reviews/2026-11/handoff.md` | Not Started |
