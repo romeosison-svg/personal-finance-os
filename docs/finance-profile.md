@@ -18,17 +18,17 @@ Percentages are derived during the monthly review from current income figures.
 
 | Assumption             | Value                    | Notes                                                               |
 | ---------------------- | ------------------------ | ------------------------------------------------------------------- |
-| Operating cash buffer  | £500 per household       | Normal month-end operating buffer while emergency fund is at / above target and income is stable |
+| Operating cash buffer  | £500 opening test; £250 conditional floor | Start monthly affordability at £500; reduce to £250 only after the adaptive test passes |
 | Elevated-risk cash buffer | £1,000                | Use for months with known timing risk, major upcoming bills, travel pressure, income uncertainty, or statement gaps |
 | Buffer methodology     | Preserve liquidity first | Cashflow stability takes precedence over accelerated debt reduction |
 | Emergency fund target  | £20,000 - £22,000        | Long-term target                                                    |
-| Emergency fund current | £22,552.01               | £20,052.01 in Chip Smart Cash ISA plus £2,500 in the Cynergy emergency-reserve sub-ledger; Cynergy receipt confirmed 22 October 2026 |
+| Emergency fund current | £22,625.48               | £20,125.48 in Chip Smart Cash ISA plus £2,500 in the Cynergy emergency-reserve sub-ledger; verified 2 November 2026 |
 
 ### Operating Cash Buffer
 
-The operating cash buffer is the normal planning floor.
+Start each monthly affordability test with a £500 operating cash buffer. The monthly Plan may reduce the operative floor to £250 only when income is stable, the emergency fund is at or above target, all mandatory obligations and current card liabilities are funded, no elevated-risk trigger applies, and the Plan remains cash-positive at £250.
 
-If a proposed plan would reduce available cash below this amount, the plan must be revised unless an explicit override is approved.
+The selected buffer must be documented in the Affordability Check and Plan. If a proposed plan would reduce available cash below the selected amount, the plan must be revised unless an explicit override is approved.
 
 Examples of acceptable overrides:
 
@@ -56,7 +56,7 @@ When the emergency fund is at / above target and income is stable, do not hold �
 
 When competing priorities exist:
 
-1. Preserve the £500 operating buffer.
+1. Apply the buffer test: use £1,000 when elevated risk applies; otherwise test £500 and permit £250 only after the adaptive conditions pass.
 2. Meet essential obligations.
 3. Maintain agreed BT targets.
 4. Clear or reduce rolling Amex balances and interest-bearing overdrafts.
@@ -70,7 +70,7 @@ During each monthly review:
 
 1. Update current cash position.
 2. Verify buffer levels remain appropriate.
-3. Document any temporary buffer override.
+3. Document the selected buffer and the evidence supporting any reduction from £500 to £250.
 4. Reassess whether the elevated-risk buffer should apply following major life or financial changes.
 
 
@@ -96,12 +96,12 @@ These are durable monthly current-account DD baselines. They should be surfaced 
 
 | Item | Amount | Expected collection date | Notes |
 | --- | ---: | --- | --- |
-| Santander Cards Ltd | Statement-driven | Around 3rd of month | £11.58 observed in September 2026; verify from each statement rather than treating as fixed |
+| Santander Cards Ltd | Statement-driven | Around 3rd of month | £11.46 observed in the latest November review; verify from each statement rather than treating as fixed |
 | Virgin Money | £65.00 | 14th of month | Verified September 2026 |
 | NHSBSA PPC 2 | £11.45 | 21st of month | Verified September 2026 |
 | Vitality Life | £74.68 | Around 25th of month | Recurring DD confirmed by user in October 2026 review |
 | **Fixed Kelly Halifax recurring DDs** | **£151.13** | Monthly | Excludes the statement-driven Santander Cards DD |
-| **October 2026 working total** | **£162.71** | Monthly | Includes Santander Cards at the September-observed £11.58; update monthly |
+| **November 2026 working total** | **£162.59** | Monthly | Includes Santander Cards at the latest observed £11.46; update monthly |
 
 Kelly payday is normally the 24th of the month.
 
@@ -112,11 +112,11 @@ Kelly payday is normally the 24th of the month.
 | L&G Insurance MI | £28.84 | 1st of month | Consistent monthly DD from prior Lloyds statements |
 | L&G Insurance MI | £53.49 | 1st of month | Consistent monthly DD from prior Lloyds statements |
 | Nuffield Health | £53.00 | 1st of month | Consistent monthly DD from prior Lloyds statements |
-| Vitality Life | £72.17 | 1st of month | Consistent monthly DD from prior Lloyds statements |
+| Vitality Life | £80.55 | 1st of month | Ongoing amount user-confirmed 2 November 2026 |
 | HMRC NDDS | £152.67 | 2nd of month | Consistent monthly DD from prior Lloyds statements |
 | Vitality Health | £82.40 | 10th of month | Updated amount user-confirmed 2026-08-28; verify against latest Lloyds statement during September reconcile |
 | NHSBSA PPC 2 | £11.45 | 28th/29th of month | Consistent monthly DD from prior Lloyds statements |
-| **Total Romeo Lloyds fixed DD baseline** | **£454.02** | Monthly | Excludes card repayments, mortgage contribution, internal transfers, ad hoc payments, and conditional Etika charge |
+| **Total Romeo Lloyds fixed DD baseline** | **£462.40** | Monthly | Excludes card repayments, mortgage contribution, internal transfers, ad hoc payments, and conditional Etika charge |
 
 Romeo payday is normally the last day of the month.
 
@@ -124,7 +124,7 @@ Romeo Lloyds statement identifiers:
 
 | Statement description | Meaning | Reconcile treatment |
 | --- | --- | --- |
-| `ZAWADI NIBIGIRA` | Gladys, household cleaner | Shared household cleaning cost. For the November review treat the £144 and £90 payments as one approved £234 initial deep-clean service: the second payment covered finishing the clean plus some shirt ironing. Neither payment is a recurring clean. The separate forward monthly assumption remains up to £90 for five hours at £18/hour |
+| `ZAWADI NIBIGIRA` | Gladys, household cleaner | Shared household cleaning cost. Treat the £144 and £91 payments as one approved £235 initial deep-clean service: the second payment covered finishing the clean plus some shirt ironing. Neither payment is a recurring clean. The separate forward monthly assumption remains up to £90 for five hours at £18/hour |
 
 Romeo Lloyds card / balance-transfer payments:
 
@@ -227,7 +227,7 @@ a temporary override may be applied and documented in the monthly review.
 | Shared bills account   | Santander joint account              | Most shared household bills are paid from the joint account; the cleaner is currently paid from Romeo Lloyds and reimbursed proportionally |
 | Santander bills baseline | £1,308.99/month gross              | October 2026 baseline after removing the cancelled £2.99 Prime Video Ad-Free charge; includes vehicle costs, Amazon Prime, and Oshun |
 | Spotify Premium Family | £21.99/month DD; £14.66 net cost     | Elaine reimburses £7.33/month, leaving £14.66 household net cost          |
-| Gladys initial deep-clean service | £234.00 one-off            | Two `ZAWADI NIBIGIRA` payments from Romeo Lloyds: £144 initial work plus £90 to finish cleaning and complete some shirt ironing; jointly approved and not part of the recurring baseline; Kelly's combined share is £98.41 at the October ratio |
+| Gladys initial deep-clean service | £235.00 one-off            | Two `ZAWADI NIBIGIRA` payments from Romeo Lloyds: £144 initial work plus £91 to finish cleaning and complete some shirt ironing; jointly approved and not part of the recurring baseline; Kelly's combined share is £98.84 at the October ratio |
 | Gladys future full-house clean | Up to £90.00/month            | Forward estimate only: five hours at £18/hour; no completed recurring clean should be inferred from the initial service payments; Kelly's expected share is £37.85 at the October ratio |
 | Total shared commitments | £1,398.99/month gross              | Santander baseline plus the monthly cleaner                               |
 | Net shared-household cost | £1,391.66/month                   | Gross shared commitments less the £7.33 Spotify reimbursement             |
@@ -285,6 +285,8 @@ The £1,900 combined allowance is approved as an October and November 2026 pilot
 | **Combined pilot allowance** | **£1,900.00** |
 
 Reassess the total and category mix after the November outturn before making the amounts permanent. If an unavoidable or reimbursable purchase is made on a card, reduce the matching funded cash bucket immediately.
+
+Fund each monthly category by topping it up only to its approved limit. Opening pot and Space balances count toward the monthly cap and must not be funded twice. Sinking-pot balances remain separate unless the monthly Plan explicitly sweeps an amount into a monthly category and reduces the sinking balance by the same amount.
 
 ### Reimbursements
 
@@ -344,7 +346,7 @@ Romeo funded the matched BT reserve from the October 2026 SOL proceeds. Kelly ow
 3. Accelerated balance transfer repayments should only be made if:
 
    * Cashflow remains healthy
-   * £500 operating cash buffer is maintained
+   * the applicable approved operating cash buffer is maintained
    * Emergency fund objectives are not compromised
 
 ### Monthly Review Checks
@@ -464,9 +466,9 @@ During each monthly review:
 | Emergency fund target                   | £20,000 - £22,000   | Long-term target based on approximately 3-4 months of core household expenses |
 | Emergency fund contribution methodology | Variable            | Determined during monthly planning phase based on available cashflow          |
 | Emergency fund account                  | Chip Cash ISA and Cynergy emergency-reserve sub-ledger | Must remain accessible enough for emergency use |
-| Emergency fund current                  | £22,552.01          | £20,052.01 recorded in Chip plus £2,500 confirmed received in Cynergy on 22 October 2026 |
+| Emergency fund current                  | £22,625.48          | £20,125.48 verified in Chip plus £2,500 held in the Cynergy emergency sub-ledger |
 | Emergency fund minimum operating level  | £5,000              | Avoid reducing below this level unless unavoidable                            |
-| Current target position                 | £2,552.01 above lower bound; £552.01 above upper bound | Based on the recorded Chip balance and confirmed Cynergy extension; excludes any later Chip interest |
+| Current target position                 | £2,625.48 above lower bound; £625.48 above upper bound | Based on the 2 November 2026 verified balances; excludes pending Chip interest |
 
 ### Emergency Fund Methodology
 
@@ -494,7 +496,7 @@ Contribution priority:
 
 ### Current Strategy
 
-The emergency fund is currently £552.01 above its £20,000–£22,000 target range before any later Chip interest. It remains restricted: ordinary timing gaps, discretionary overspend, holidays, technology purchases, and investment contributions are not emergencies. Any future reclassification of the Cynergy extension into a fully funded purchase reserve requires an explicit Plan decision; it is not an available purchase reserve merely because the core Chip balance remains inside the target range.
+The emergency fund is currently £625.48 above its £20,000–£22,000 target range before pending Chip interest. It remains restricted: ordinary timing gaps, discretionary overspend, holidays, technology purchases, and investment contributions are not emergencies. Any future reclassification of emergency cash requires an explicit Plan or Strategy decision; it is not automatically available merely because the balance is above the target range.
 
 **Kelly's priority — replenishment:** Kelly used her personal emergency fund to cover her mortgage share in May 2026 (while between jobs). Her stated priority is to replenish this from any monthly surplus once her salary is in place. This takes precedence over discretionary spending but sits below Tier 2 committed obligations in the planning hierarchy.
 
@@ -503,6 +505,8 @@ Update 2026-08-28: The emergency fund is now held in Chip Cash ISA rather than T
 Update 2026-10-06: The Chip Smart Cash ISA balance was verified at **£20,052.01**, placing the emergency fund within its target range.
 
 Update 2026-10-22: The additional **£2,500.00** Cynergy emergency-reserve funding was confirmed received. The current recorded emergency fund is therefore **£22,552.01** across Chip and Cynergy before any later Chip interest. The Cynergy amount remains designated as emergency cash unless a future approved Plan explicitly reclassifies it.
+
+Update 2026-11-02: The Chip Smart Cash ISA was verified at **£20,125.48**. Together with the **£2,500.00** Cynergy emergency sub-ledger, current emergency cash is **£22,625.48**, which is **£625.48** above the upper target before pending Chip interest.
 
 ### Review Rules
 
@@ -538,7 +542,7 @@ When there is a conflict between allocations, apply this priority order:
 
 1. Mortgage payment
 2. Essential household bills
-3. £500 operating cash buffer
+3. Applicable approved operating cash buffer: £500 opening test, with £250 permitted only after the monthly adaptive test passes
 4. Minimum credit card payments
 
 
@@ -566,7 +570,9 @@ When there is a conflict between allocations, apply this priority order:
 
 FinanceOS determines the cash amount that is genuinely affordable to invest; Portfolio OS determines the wrapper, asset allocation, and investments.
 
-At the November 2026 review, first preserve the £500 operating floor, fund required sinking-pot restoration, and calculate the verified residual after actual outturn. Invest approximately 50% of that residual and retain 50% for variance. A first contribution of roughly £100–£200 is a working expectation, not a guaranteed allocation. A £300 monthly instruction may be considered from December only after October and November both validate the cash system; larger amounts require two or three stable reviews.
+Preserve the applicable approved monthly operating buffer, fund required sinking-pot restoration, and calculate verified residual only after actual outturn. Invest approximately 50% of that residual and retain approximately 50% for variance unless the monthly Strategy approves a more conservative amount.
+
+For November 2026, invest £100 only if all known obligations and conditional costs are posted or fully reserved and verified operating cash above the selected £250 buffer is at least £200. Otherwise make no investment transfer without reopening the Plan. Do not increase the £100 automatically if the cleaner reserve is unused or the Spotify reimbursement arrives. A £300 monthly instruction may be considered only after the November outturn validates the cash system and at least one further review confirms stable timing if volatility persists.
 
 ### Overdraft Planning Rule
 
@@ -809,8 +815,10 @@ FinanceOS should treat this as a known September travel cash requirement unless 
 
 ## Last Updated
 
-Date: 2026-10-23
-Reason: Recorded `ZAWADI NIBIGIRA` as the Lloyds statement identifier for Gladys. For November reconciliation, combine the £144 and £90 payments into one approved £234 initial deep-clean service; the second payment covered completion plus some shirt ironing. Neither payment is recurring. Preserve £90 only as the forward estimate for a future five-hour monthly clean.
+Date: 2026-11-02
+Reason: Applied the approved November Strategy updates: adaptive £500-to-£250 buffer testing, top-up-to-limit cash-rail funding, the conditional £100 investment trigger, the verified £22,625.48 emergency balance, Romeo's £80.55 Vitality Life and £462.40 fixed-DD baseline, Kelly's £162.59 November working DD total, and the corrected £235 Gladys initial service.
+
+Previous: 2026-10-23 — Recorded `ZAWADI NIBIGIRA` as the Lloyds statement identifier for Gladys. The later November reconciliation corrected the second payment from £90 to £91 and the total initial service from £234 to £235. Neither payment is recurring; preserve £90 only as the forward estimate for a future five-hour monthly clean.
 
 Previous: 2026-10-22 — Added Gladys's four-hour monthly maintenance clean at £18/hour as a £72 shared household commitment for the November review. Recorded it outside Santander while Romeo pays from Lloyds; Kelly's reimbursement was £30.28 at the October ratio. Also removed the cancelled £2.99 Prime Video Ad-Free charge from the Santander baseline. Superseded on 23 October by the five-hour £90 estimate.
 
