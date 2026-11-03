@@ -105,6 +105,14 @@ These are durable monthly current-account DD baselines. They should be surfaced 
 
 Kelly payday is normally the 24th of the month.
 
+### Kelly DD Pay-Cycle and Live-Balance Rule
+
+For each monthly review, record the date of Kelly's confirmed Halifax balance, identify which recurring DDs have already collected, and reserve only the DDs still unpaid before her next salary receipt. Do not deduct a DD again when it is already reflected in the confirmed balance.
+
+DDs due after Kelly's normal payday on the 24th should normally be funded from that salary receipt rather than reserved against the pre-payday balance, unless the monthly Affordability Check identifies a timing risk and explicitly retains them. The full recurring-DD baseline remains useful for monthly cost analysis, but it is not automatically the remaining cash requirement at the review cut-off.
+
+Execution note 2026-11-03: Kelly confirmed that the £74.68 Vitality Life DD and £11.46 Santander Cards payment had already been paid, then transferred their combined £86.14 from Kelly Halifax to Romeo Starling. Treat the £86.14 as an internal household transfer, not income, spending or a new recurring transfer. Its allocation within Romeo Starling must be confirmed from the receiving balance or user instruction rather than inferred.
+
 ### Romeo — Lloyds Current
 
 | Item | Amount | Expected collection date | Notes |
@@ -815,8 +823,10 @@ FinanceOS should treat this as a known September travel cash requirement unless 
 
 ## Last Updated
 
-Date: 2026-11-02
-Reason: Applied the approved November Strategy updates: adaptive £500-to-£250 buffer testing, top-up-to-limit cash-rail funding, the conditional £100 investment trigger, the verified £22,625.48 emergency balance, Romeo's £80.55 Vitality Life and £462.40 fixed-DD baseline, Kelly's £162.59 November working DD total, and the corrected £235 Gladys initial service.
+Date: 2026-11-03
+Reason: Added Kelly's DD pay-cycle and live-balance rule so future plans reserve only unpaid pre-payday collections and do not deduct DDs already reflected in a confirmed balance. Recorded the £86.14 Kelly Halifax to Romeo Starling execution transfer as internal and non-recurring.
+
+Previous: 2026-11-02 — Applied the approved November Strategy updates: adaptive £500-to-£250 buffer testing, top-up-to-limit cash-rail funding, the conditional £100 investment trigger, the verified £22,625.48 emergency balance, Romeo's £80.55 Vitality Life and £462.40 fixed-DD baseline, Kelly's £162.59 November working DD total, and the corrected £235 Gladys initial service.
 
 Previous: 2026-10-23 — Recorded `ZAWADI NIBIGIRA` as the Lloyds statement identifier for Gladys. The later November reconciliation corrected the second payment from £90 to £91 and the total initial service from £234 to £235. Neither payment is recurring; preserve £90 only as the forward estimate for a future five-hour monthly clean.
 
