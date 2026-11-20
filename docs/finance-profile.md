@@ -294,6 +294,20 @@ The £1,900 combined allowance is approved as an October and November 2026 pilot
 
 Reassess the total and category mix after the November outturn before making the amounts permanent. If an unavoidable or reimbursable purchase is made on a card, reduce the matching funded cash bucket immediately.
 
+### December 2026 Personal-Funding Pilot
+
+For the December 2026 review, test a self-funded personal-spending model rather than automatically repeating the November household-liquidity transfer:
+
+* Romeo funds the approved Monzo Joint shared-spending top-up; Kelly makes no Monzo Joint contribution during the pilot.
+* After Kelly's verified shared commitments, personal Direct Debits, tithe and any other locked obligations are funded, the remaining available Kelly cash may fund her Starling personal-spending allowance.
+* Do not add a separate £100 Kelly current-account buffer by assumption. Any household operating buffer is held centrally unless the December review verifies a reason to locate part of it in Kelly Halifax.
+* Do not transfer money from Romeo merely to equalise personal allowances or fill Kelly's personal bucket.
+* If Kelly cannot fully fund a desired personal allowance from verified cash, reduce or defer discretionary spending. Do not use Amex or another credit card to fill the difference.
+* Transfers to Kelly remain permitted for an exact, verified shared-obligation timing shortfall. Such a transfer is household cashflow support, not personal-spending funding.
+* The November figures illustrate, but do not lock, a December amount: removing Kelly's £312.03 Monzo contribution would have left £273.88 after her other November obligations, plus £10.17 already in Starling. December must recalculate from its own verified income, balances and obligations.
+
+This is a one-month pilot assumption to confirm during December Collect and Assumptions. It is not yet the permanent household allocation method.
+
 Fund each monthly category by topping it up only to its approved limit. Opening pot and Space balances count toward the monthly cap and must not be funded twice. Sinking-pot balances remain separate unless the monthly Plan explicitly sweeps an amount into a monthly category and reduces the sinking balance by the same amount.
 
 ### Reimbursements
@@ -823,8 +837,10 @@ FinanceOS should treat this as a known September travel cash requirement unless 
 
 ## Last Updated
 
-Date: 2026-11-03
-Reason: Added Kelly's DD pay-cycle and live-balance rule so future plans reserve only unpaid pre-payday collections and do not deduct DDs already reflected in a confirmed balance. Recorded the £86.14 Kelly Halifax to Romeo Starling execution transfer as internal and non-recurring.
+Date: 2026-11-20
+Reason: Recorded the approved December 2026 self-funded personal-spending pilot: Romeo funds the Monzo Joint top-up, Kelly funds personal spending only from cash remaining after verified obligations, no automatic personal-bucket equalisation transfer is made, and credit cannot fill a shortfall.
+
+Previous: 2026-11-03 — Added Kelly's DD pay-cycle and live-balance rule so future plans reserve only unpaid pre-payday collections and do not deduct DDs already reflected in a confirmed balance. Recorded the £86.14 Kelly Halifax to Romeo Starling execution transfer as internal and non-recurring.
 
 Previous: 2026-11-02 — Applied the approved November Strategy updates: adaptive £500-to-£250 buffer testing, top-up-to-limit cash-rail funding, the conditional £100 investment trigger, the verified £22,625.48 emergency balance, Romeo's £80.55 Vitality Life and £462.40 fixed-DD baseline, Kelly's £162.59 November working DD total, and the corrected £235 Gladys initial service.
 
